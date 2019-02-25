@@ -1,0 +1,47 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
+
+    steps:
+      - checkout
+
+      - run:
+          name: Greeting
+          command: echo Hello, world.
+
+      - run:
+          name: Print the Current Time
+          command: date
+# version: 2
+# jobs:
+#   build:
+#     working_directory: ~/src
+#     environment:
+#       THEME_DIR: ~/src
+#     steps:
+
+#       # install git
+#       - run: apk update && apk add git
+
+#       # checkout the repository
+#       - checkout
+
+#       - run:
+#           name: install AWS CLI (first install pip, the Python package manager)
+#           command: |
+#             apk add --update python python-dev py-pip build-base
+#             pip install awscli
+
+#       # `deploy` step: identical to a `run` step, but uses only one container:
+#       # https://circleci.com/docs/2.0/configuration-reference/#deploy
+#       - deploy:
+#           name: deploy to AWS
+#           command: |
+#             if [ "${CIRCLE_BRANCH}" = "master" ]; then
+#               aws s3 sync $THEME_DIR \
+#               s3://your-bucket-name/your-subfolder --delete
+#             else
+#               echo "Not master branch, dry run only"
+#             fi
