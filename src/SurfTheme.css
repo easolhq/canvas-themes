@@ -4,10 +4,10 @@
 /*FONTS*/
 
 /*H1*/
-h1 {
+h1 {  
   font-family: sourcesanspro-semibold;
   letter-spacing: 0.9rem;
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
 }
 
