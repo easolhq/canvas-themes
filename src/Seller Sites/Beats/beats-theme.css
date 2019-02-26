@@ -133,6 +133,12 @@ body{
     height: auto;
   }
 
+  /*REVIEWS*/
+.contact-review-source{
+    font-weight: bold;
+}
+
+
 /*FOOTER*/
 #footer{
     background-color: #fff !important;
@@ -148,13 +154,22 @@ body{
 
 /*MOBILE*/
 
-/*MENU*/
+/*REMOVE BORDER ON TOGGLER*/
 .navbar-light .navbar-toggler {
     border: none;
 }
 
 @media only screen and (max-width: 767px) {
+
+/*MENU*/
 .navbar-collapse .navbar-nav .nav-item{
     padding-top: 20px;
     }
+
+
+/*REVIEWS*/
+    #reviews .col{
+        min-width: 100%;
+        padding-bottom: 2rem;
+}
 }
