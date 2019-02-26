@@ -1,6 +1,9 @@
+/*ADD MARGIN TO BODY FOR NAV*/
+body{
+  margin-top: 52px !important;
+}
 
-/*HEADINGS / FONTS*/
-
+/*FONT STYLES*/
 h1, h1.mb-3{
   letter-spacing: 0.5rem;
   text-transform: uppercase;
@@ -24,4 +27,134 @@ body{
   font-family: Avenirltstd-light;
   font-size: 0.6rem;
   text-transform: uppercase;
+}
+
+/*NAV*/
+
+.nav-link, .hero-nav{
+    text-transform: uppercase;
+    font-weight: 400;
+    word-spacing: 6rem;
+    letter-spacing: 0.2rem;
+    font-size: 0.7rem;
+    font-family: Avenirnextltpro-bold;
+}
+#menu{
+    background-color: #fff !important;
+}
+
+.bg-light{
+    border-bottom: 1px solid #ECEEEF; 
+  }
+
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+
+#menu .navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*TEXT BLOCK*/
+.text-block p{
+    max-width: 700px;
+    margin: auto;
+}
+
+/*ACCORDION BLOCK*/
+.accordion-block h4{
+  font-size: 1rem;
+}
+
+/*PRODUCT BLOCK */
+@media only screen and (min-width: 768px){ 
+    .hero-product-block .btn-primary{
+      max-width: 200px;
+      position: absolute;
+      right: 30px;
+      bottom: 25px;
+    }
+    .hero-product-block .justify-content-start{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    }
+    .hero-product-block > div.block-content > div > div > div:nth-child(1){
+      padding-bottom: 50px;
+    }
+    }
+    .hero-product-block{
+      text-transform: uppercase;
+    }
+     .hero-product-block .btn h6 {
+      font-family: Avenirltstd-light;
+      font-size: 0.6rem;    
+    }
+    .hero-product-block p{
+      letter-spacing: 0.2rem;
+      font-size: 0.7rem;
+    }
+    .hero-product-block .hero-product-tagline{
+      display: none;
+    }
+/*PRODUCT PAGES*/
+.product-hero{
+    background: rgba(0, 0, 0, 0.3);
+    height: 70vh;
+  }
+  
+  hr{
+    border: none;
+  }
+  
+  .booking-bar{
+  border-top: 1px solid #ECEEEF; 
+  }  
+  
+  section#line-up{
+    padding-bottom: 48px;
+  }
+  
+  #sleep .product-hero{
+    height: 80vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: none;
+  }
+  
+  .retreat-hotel-block{
+  height: 80vh;
+  }
+  
+  /*GHOST*/
+  .post .post-body{
+    -webkit-line-clamp: 2;
+    height: auto;
+  }
+
+/*FOOTER*/
+#footer{
+    background-color: #fff !important;
+}
+
+#footer img{
+  display: none;
+}
+
+.fixers-stamp{
+  padding-top: 50px;
+}
+
+/*MOBILE*/
+
+/*MENU*/
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+@media only screen and (max-width: 767px) {
+.navbar-collapse .navbar-nav .nav-item{
+    padding-top: 20px;
+    }
 }
