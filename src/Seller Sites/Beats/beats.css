@@ -1,0 +1,392 @@
+body{
+  margin-top: 52px;
+}
+
+#footer img{
+  display: none;
+}
+
+.fixers-stamp{
+  padding-top: 50px;
+}
+
+/*PRODUCT BLOCK */
+
+@media only screen and (min-width: 768px){ 
+.hero-product-block .btn-primary{
+  max-width: 200px;
+  position: absolute;
+  right: 30px;
+  bottom: 25px;
+}
+.hero-product-block .justify-content-start{
+position: absolute;
+top: 15px;
+right: 30px;
+}
+.hero-product-block > div.block-content > div > div > div:nth-child(1){
+  padding-bottom: 50px;
+}
+}
+.hero-product-block{
+  text-transform: uppercase;
+}
+ .hero-product-block .btn h6 {
+  font-family: Avenirltstd-light;
+  font-size: 0.6rem;    
+}
+.hero-product-block p{
+  letter-spacing: 0.2rem;
+  font-size: 0.7rem;
+}
+.hero-product-block .hero-product-tagline{
+  display: none;
+} 
+
+/*TEXT BLOCK*/
+.text-block p{
+    max-width: 700px;
+    margin: auto;
+}
+
+/*ACCORDION BLOCK*/
+.accordion-block h4{
+  font-size: 1rem;
+} 
+
+/*HEADINGS / FONTS*/
+
+h1, h1.mb-3{
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+h2.mb-3, h3, h4, h5.mb-3{
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+h6, .hero-product-block .justify-content-start{
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+}
+
+body{
+  letter-spacing: 0.1rem;
+}
+
+.btn{
+  font-family: Avenirltstd-light;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+
+
+/*HERO SECTION ON THE HOME PAGE STYLING */
+.mobile-video-image{
+  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/beats/Mobile.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.video-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.video-overlay {
+  padding: 0 25px !important;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.hero-content{
+  padding-top: 20vh;
+}
+
+div.content-secondary{
+  padding-top: 30px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#block-y8s{
+  margin-top: -100px;
+  z-index: 1030;
+}
+
+#block-y8s .block-content{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+}
+
+#block-y8s video{
+  height: 100vh;
+}
+
+#block-y8s .d-sm-none{
+  height: 60vh;
+}
+
+#block-y8s .container{
+  max-width: 100%;
+}
+
+#block-y8s div.content-main h1{
+  font-size: 2rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+div.hero-logo{
+  padding-top: 60px;
+}
+
+div.hero-cta{
+  padding-top: 30px;
+}
+
+.hero-nav{
+padding-top: 40px;
+}
+
+.nav-link, .hero-nav{
+    text-transform: uppercase;
+    font-weight: 400;
+    word-spacing: 6rem;
+    letter-spacing: 0.2rem;
+    font-size: 0.7rem;
+    font-family: Avenirnextltpro-bold;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+
+#menu .navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* WHERE MUSIC AND TRAVEL COLLIDE*/
+#block-57y{
+  padding-top:60px;
+  padding-bottom: 60px;
+}
+
+/*HERO IMAGE BLOCK*/
+.hero-image-block{
+  height: 100vh !important;
+}
+
+/*OUR EXPERIENCES*/
+#block-5ff{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*VIDEO HOMEPAGE*/
+#block-sk7 .block-content{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+#block-sk7 .container{
+  max-width: 100%;
+}
+
+/*AGENCY AND B2B BLOCK*/
+#block-ooq .container{
+ position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#block-ooq{
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#block-ooq .block-content{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100vw;
+}
+.no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/*WHERE MUSIC AND TRAVEL COLIDE BLOCK */
+#block-u5q .block-content{
+  max-width: 100% !important;
+  padding-left: 15px !important;
+}
+
+/*NAV STYLING*/
+.bg-light{
+  background-color: white !important;
+  border-bottom: 1px solid #ECEEEF; 
+}
+
+/*MENU GRID */
+.navbar-expand-md>.container, .navbar-expand-md>.container-fluid{ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 576px){
+.navbar-expand-md>.container, .navbar-expand-md>.container-fluid{
+    max-width: 540px;
+}
+}
+
+@media only screen and (min-width: 768px){ 
+.navbar-expand-md>.container, .navbar-expand-md>.container-fluid{
+    max-width: 720px;
+}
+}
+
+@media only screen and (min-width: 992px){ 
+.navbar-expand-md>.container, .navbar-expand-md>.container-fluid{
+    max-width: 960px;
+}
+}
+
+@media only screen and (min-width: 1200px){ 
+.navbar-expand-md>.container, .navbar-expand-md>.container-fluid{
+    max-width: 1110px;
+}
+}
+
+
+
+
+/*MOBILE STYLES*/
+
+/*MENU*/
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+
+@media only screen and (max-width: 1021px) {
+#block-y8s > div.block-content > div > div{
+  display: block;
+}
+
+div.hero-content {
+    padding-top: 0;
+    padding-bottom:30px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  
+/*HERO*/  
+div.hero-logo, div.hero-cta, div.hero-nav{
+  display: none;
+}
+
+#block-y8s .block-content{
+  height: 600px;
+}
+
+#block-y8s div.content-main h1{
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+#block-y8s{
+  margin-top: 0;
+  z-index: -1;
+}
+
+#block-y8s div.content-main h1{
+  white-space: normal;
+}
+
+/*MENU*/
+.navbar-collapse .navbar-nav .nav-item{
+padding-top: 20px;
+}
+
+/*AGENCY & B2B*/
+#block-ooq > div.block-content > div > div{
+display: block;
+}
+/*REVIEWS*/
+  #block-9ql .col{
+  min-width: 100%;
+  padding-bottom: 2rem;
+  }
+}
+
+/*PRODUCT PAGES*/
+.product-hero{
+  background: rgba(0, 0, 0, 0.3);
+  height: 70vh;
+}
+
+hr{
+  border: none;
+}
+
+.booking-bar{
+border-top: 1px solid #ECEEEF; 
+}  
+
+section#line-up{
+  padding-bottom: 48px;
+}
+
+#sleep .product-hero{
+  height: 80vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: none;
+}
+
+.retreat-hotel-block{
+height: 80vh;
+}
+
+/*GHOST*/
+.post .post-body{
+  -webkit-line-clamp: 2;
+  height: auto;
+}
