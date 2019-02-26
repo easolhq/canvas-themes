@@ -1,0 +1,49 @@
+h1, h4, h5, h6{
+    text-transform: uppercase;
+  }
+  
+  p{
+    font-size: 0.8rem;
+  }
+  
+  .bookable-list-item:before{
+    background-color: #EB5449;
+  }
+  
+  .btn-primary:hover{
+    background-color: rgb(232, 62, 50);
+    border-color: rgb(232, 62, 50);
+  }
+      
+  .btn{
+    font-family:"Proxima nova alt bold-webfont";
+    text-transform: uppercase;
+  }
+      
+  .nav-link{
+    font-size: 12px;
+  }
+  
+  
+  nav  a{
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .navbar-main{
+      background-color: #353535;
+  }
+  
+  .navbar-main .logo{
+  -webkit-filter: invert(100%);
+  }
+  
+  .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active{
+    color: #EB5449;
+    background-color: #fff;
+  }
+  
+  .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before,
+  .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
+      border-color: #fff;
+  }
