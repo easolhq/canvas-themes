@@ -1,20 +1,10 @@
 body{
   margin-top: 52px !important;
 }
-#footer{
-    background-color: #fff !important;
-}
 
-#footer img{
-  display: none;
-}
 
-.fixers-stamp{
-  padding-top: 50px;
-}
 
 /*PRODUCT BLOCK */
-
 @media only screen and (min-width: 768px){ 
 .hero-product-block .btn-primary{
   max-width: 200px;
@@ -84,6 +74,18 @@ body{
   text-transform: uppercase;
 }
 
+/*FOOTER*/
+#footer{
+    background-color: #fff !important;
+}
+
+#footer img{
+  display: none;
+}
+
+.fixers-stamp{
+  padding-top: 50px;
+}
 
 /*HERO SECTION ON THE HOME PAGE STYLING */
 .mobile-video-image{
@@ -263,6 +265,9 @@ padding-top: 40px;
   max-width: 100% !important;
   padding-left: 15px !important;
 }
+
+
+
 
 /*NAV STYLING*/
 #menu{

@@ -1,0 +1,27 @@
+
+/*HEADINGS / FONTS*/
+
+h1, h1.mb-3{
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+h2.mb-3, h3, h4, h5.mb-3{
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+h6, .hero-product-block .justify-content-start{
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+}
+
+body{
+  letter-spacing: 0.1rem;
+}
+
+.btn{
+  font-family: Avenirltstd-light;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
