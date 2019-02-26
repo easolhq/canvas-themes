@@ -49,7 +49,7 @@ height: 3rem !important;
 
 .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active{
   color: #EB5449 !important;
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before,
