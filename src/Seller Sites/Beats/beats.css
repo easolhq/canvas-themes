@@ -263,6 +263,10 @@ padding-top: 40px;
   border-bottom: 1px solid #ECEEEF; 
 }
 
+#menu .bg-light{
+    background-color: #fff !important;
+}
+
 /*MENU GRID */
 .navbar-expand-md>.container, .navbar-expand-md>.container-fluid{ 
   margin-left: auto;
