@@ -2,7 +2,7 @@ body{
   margin-top: 52px !important;
 }
 #footer{
-    background-color: #fff;
+    background-color: #fff !important;
 }
 
 #footer img{
@@ -216,6 +216,10 @@ padding-top: 40px;
 
 #block-kcm .container{
   max-width: 100%;
+}
+
+#block-kcm .video{
+    width: 100%;
 }
 
 /*AGENCY AND B2B BLOCK*/
