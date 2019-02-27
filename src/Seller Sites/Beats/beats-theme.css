@@ -127,25 +127,6 @@ body{
   height: 80vh;
   }
 
-   
-  
-section#sleep{
-      display: inline-block;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    
-section#sleep .block-py-0{
-    float: left;
-    }
-
-  
-
-section#sleep .retreat-hotel-block{
-  float: right;
-  }
-  
   /*GHOST*/
   .post .post-body{
     -webkit-line-clamp: 2;
