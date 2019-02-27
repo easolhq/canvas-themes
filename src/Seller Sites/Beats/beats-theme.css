@@ -126,6 +126,26 @@ body{
   .retreat-hotel-block{
   height: 80vh;
   }
+
+  @media only screen and (min-width: 768px){ 
+
+    #section-sleep{
+      display: inline-block;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #block-py0{
+    float: left;
+    }
+    
+.retreat-hotel-block{
+  float: right;
+  }
+}
+
+
+
   
   /*GHOST*/
   .post .post-body{
