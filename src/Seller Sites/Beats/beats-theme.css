@@ -1,6 +1,7 @@
 /*ADD MARGIN TO BODY FOR NAV*/
 body{
   margin-top: 52px !important;
+  width: 100vw !important;
 }
 
 /*FONT STYLES*/
