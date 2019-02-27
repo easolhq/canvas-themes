@@ -128,8 +128,8 @@ body{
   }
 
   @media only screen and (min-width: 768px){ 
-
-    #section-sleep{
+  
+    #sleep{
       display: inline-block;
       position: relative;
       left: 50%;
@@ -138,7 +138,7 @@ body{
     #block-py0{
     float: left;
     }
-    
+
 .retreat-hotel-block{
   float: right;
   }
