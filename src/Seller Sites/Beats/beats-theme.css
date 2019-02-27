@@ -129,18 +129,20 @@ body{
 
   @media only screen and (min-width: 768px){ 
   
-    #sleep{
+    section#sleep{
       display: inline-block;
       position: relative;
       left: 50%;
       transform: translateX(-50%);
     }
     
-    #sleep .block-py-0{
+    section#sleep .block-py-0{
     float: left;
     }
 
-.retreat-hotel-block{
+  
+
+    section#sleep .retreat-hotel-block{
   float: right;
   }
 }
