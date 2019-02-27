@@ -135,7 +135,8 @@ body{
       left: 50%;
       transform: translateX(-50%);
     }
-    #block-py0{
+    
+    #sleep .block-py-0{
     float: left;
     }
 
