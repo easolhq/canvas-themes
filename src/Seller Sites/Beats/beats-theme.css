@@ -127,6 +127,24 @@ body{
   height: 80vh;
   }
 
+  #sleep{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+#sleep > div.block.py-0{
+  float: left;
+  width: 49%;
+  }
+  
+  
+#sleep .retreat-hotel-block{
+float: right;
+width: 49%;
+}
+
   /*GHOST*/
   .post .post-body{
     -webkit-line-clamp: 2;
