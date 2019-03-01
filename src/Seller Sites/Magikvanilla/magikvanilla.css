@@ -2,11 +2,29 @@
 
 /*MAGIKVANILLA THEME*/
 
+
+/*FONTS*/
+
+h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
+  
+  h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+  
+  /*BUTTON STYLES*/
+  .btn{
+    text-transform: uppercase;
+  }
+
 /*BLOCKS*/
 .block{
     width: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
   }
   
   /*MENU*/
