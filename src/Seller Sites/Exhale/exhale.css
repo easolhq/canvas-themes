@@ -59,7 +59,7 @@ display: none
 
 .hero-image-block{
 height: 100vh !important;
-color: #fff;
+color: #fff !important;
 }
 
 .hero-image-block:last-of-type{
