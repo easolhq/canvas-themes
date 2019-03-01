@@ -3,4 +3,29 @@
 #block-5fx{
   margin-top: -180px;
 }
+
+#block-sap .block-content, #block-abs .block-content, #block-uij .block-content{
+  max-width: 80vw !important;
+}
+#block-sap .text-center, #block-uij .text-center{
+  text-align: left !important;
+}
+
+#block-abs .text-center{
+  text-align: right !important;
+}
+
+#block-sdf{
+  background-color: #70C1C5;
+}
+
+/*MOBILE STYLES*/
+  
+@media only screen and (min-width: 769px) {
+  #block-pm2 p{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  }
   

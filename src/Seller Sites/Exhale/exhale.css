@@ -1,7 +1,22 @@
 
-/*START */
+
+
+body{
+  background: #54C3C6;
+}
+
+/*FONTS*/
+
 h1, h2, h3, p, .h1, .h2, .h3, a{
   color: #fff;
+}
+
+/*NAV*/
+
+
+.bg-dark{
+  background-color: transparent !important;
+  z-index: 1030;
 }
 
 .navbar-nav{
@@ -33,6 +48,7 @@ flex-basis: 100%;
 width: 0px;
 height: 0px;
 justify-content: space-between;
+margin-top: 50px;
 }
 
 #menu .nav-link{
@@ -56,6 +72,13 @@ height: 60vh !important;
   color: #fff;
 }
 
+li#book-now.nav-item{
+  background-color: #54c3c6;
+  border: solid 1px #fff;
+}
+
+/*BUTTONS*/
+
 .btn{
   color: #fff;
   text-transform: uppercase;
@@ -71,6 +94,8 @@ height: 60vh !important;
   color: #fff;
 }
 
+/*TEXT BLOCK*/
+
 .text-block{
   padding: 50px 0;
 }
@@ -83,19 +108,10 @@ height: 60vh !important;
   line-height: 2rem;
 }
 
-#block-sap .block-content, #block-abs .block-content, #block-uij .block-content{
-  max-width: 80vw !important;
-}
-#block-sap .text-center, #block-uij .text-center{
-  text-align: left !important;
-}
+/*REVIEWS*/
 
-#block-abs .text-center{
-  text-align: right !important;
-}
-
-#block-sdf{
-  background-color: #70C1C5;
+#reviews{
+  color: #fff;
 }
 
 .review-content{
@@ -104,6 +120,11 @@ height: 60vh !important;
 
 .review-content h2{
   margin-bottom: 2rem;
+}
+
+/*SUBSCRIPTION BLOCK*/
+.subscription-block{
+  color: white;
 }
 
 .subscription-block .btn-primary{
@@ -165,14 +186,97 @@ div#gallery img{
     vertical-align: middle;
 }
 
-  /*MOBILE STYLES*/
-  
-  @media only screen and (min-width: 769px) {
-  #block-pm2 p{
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  } 
+
+/* JUMP BAR */
+
+#jump{
+  width: 100%;
+  background-color: #fff;
+  z-index: 1030;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.jump-block{
+  width: 100%;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 1030;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.jump-block .block-content{
+ max-width: 100%;
+ padding-left: 0;
+ padding-right: 0;
+ z-index: 1030;
+}
+
+#jump .container a {
+padding: 0.5em 1em;
+color: #54c3c6;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+/*FOOTER*/
+#footer .container{
+  height: 200px;
   }
+  
+  .fixers-stamp{
+      padding-top: 25px;
+      padding-bottom: 25px;
+  }
+  
+  /*IMAGE GRID BLOCK*/
+  .image-grid-block .block-content{
+      max-width: 100%;
+  }
+  
+  .image-grid-entry-overlay {
+      opacity: 1;
+      background-color: rgba(55,58,60,0.3);
+  }
+  
+  /*HERO IMAGE BLOCK*/
+  .hero-image-block{
+      color: #fff;
+      background: rgba(0,0,0,0.1)
+  }
+  
+  /*TEXT IMAGE BLOCK*/
+  .text-and-image-block{
+  color: white;
+  padding-top: 0;
+  padding-bottom:0;
+  }
+  
+  .text-and-image-block .block-content{
+      max-width: 100%;
+  }
+  
+  .text-and-image-block .col-6{
+      padding: 0;
+  }
+  
+  /*TEXT BLOCK*/
+  .text-block{
+  color: #fff;
+  }
+
+/*MOBILE*/
+
+/*REVIEWS*/
+@media (max-width: 767px){
+  #reviews .col{
+  min-width: 100%;
+  padding-bottom: 2rem;
+  }
+}
 
 
