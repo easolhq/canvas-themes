@@ -1,6 +1,4 @@
 
-
-
 body{
   background: #54C3C6;
 }
@@ -8,7 +6,7 @@ body{
 /*FONTS*/
 
 h1, h2, h3, p, .h1, .h2, .h3, a{
-  color: #fff;
+  color: #fff !important;
 }
 
 /*NAV*/
@@ -16,7 +14,7 @@ h1, h2, h3, p, .h1, .h2, .h3, a{
 
 .bg-dark{
   background-color: transparent !important;
-  z-index: 1030;
+  z-index: 1030 !important;
 }
 
 .navbar-nav{
