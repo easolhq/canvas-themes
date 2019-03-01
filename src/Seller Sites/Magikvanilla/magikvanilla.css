@@ -174,6 +174,27 @@
   #jump .container a {
     padding: 0.5em 1em;
   }
+
+  
+/* BOOKING BAR */
+.booking-block{
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100% !important;
+    background-color: white;
+    color: white;
+    border-top: 1px solid #ECEEEF;
+    border-bottom: 1px solid #ECEEEF;
+    z-index: 1030;
+    text-align: right;
+    height: 50px;
+  }
+  
+  .booking-block a.btn.btn-primary{
+    margin-top: 5px;
+    min-width: 14rem; 
+  }
   
   
   /*MOBILE*/
