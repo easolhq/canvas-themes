@@ -231,6 +231,62 @@ h1{
     margin-top: 5px;
     min-width: 14rem; 
   }
+
+  /*REVIEWS*/
+
+  #reviews{
+    background-color: #FFB0A3;
+  }
+  #block-mdo{
+    padding-bottom: 0;  
+    }
+    
+    #block-jyi{
+      padding-bottom: 1rem;
+    }
+    
+    #block-fxy{
+        margin-bottom: 0.5rem;
+    }
+    
+    #block-yby a:hover{
+      text-decoration: none;
+    }
+    
+    #block-yby .col{
+      padding-left: 3rem;
+      padding-right: 3rem;
+      height: auto;
+    }
+    
+    .content-review-source h2, .content-main-two h2{
+      font-size: 1.5rem;
+    }
+    
+    .content-review-date h4{
+      font-size: 0.75rem;
+    }
+    
+    .flex-container {
+      display: flex !important;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+    
+    .flex-item {
+      margin: auto;
+    }
+    
+    .flex-container img{
+    max-width: 125px;
+    padding: 20px;
+    }
+    
+    #reviews{
+      padding-top: 20px;
+      padding-bottom: 48px;
+    }
+
   
   
   /*MOBILE*/
