@@ -118,7 +118,7 @@ h1{
   }
   
   .hack-block .col{
-    height: 50vh;
+    max-height: 50vh;
   }
   
   /*TEXT BLOCK*/
