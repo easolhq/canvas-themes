@@ -1,8 +1,4 @@
-
-
 /*MAGIKVANILLA THEME*/
-
-
 /*FONTS*/
 
 h1{
@@ -117,7 +113,6 @@ h1{
   }
   }
   
-
   /*TEXT BLOCK*/
 
 .text-block:first-of-type{
@@ -218,12 +213,12 @@ h1{
   
 /* BOOKING BAR */
 .booking-block{
-    position: fixed; 
+    position: fixed !important; 
     left: 0;
     bottom: 0;
     width: 100% !important;
     background-color: white;
-    color: white;
+    color: white !important;
     border-top: 1px solid #ECEEEF;
     border-bottom: 1px solid #ECEEEF;
     z-index: 1030;
