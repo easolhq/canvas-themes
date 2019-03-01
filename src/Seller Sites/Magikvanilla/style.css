@@ -1,0 +1,125 @@
+
+/*HOMEPAGE HERO*/
+#block-ids{
+    height: 70vh !important;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left:0;
+    margin-right: 0;
+  }
+  
+  #block-ids .block-content {
+      height: auto !important;
+  }
+  
+  #block-ids h1{
+    font-size: 6rem;
+  }
+  
+  /*SURF HERO*/
+  #block-eza{
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  #block-eza .block-background{
+    background-position: bottom !important;
+  }
+  
+  /*MOBILE*/
+  
+  #block-h7j .block-content, #block-mki .block-content, #block-0dp .block-content{
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  }
+  
+  
+  @media (max-width: 767px){
+  .sup::before, .village::before, .location::before {
+      top: 0rem;
+      left: 0rem;
+      bottom: 0rem;
+      right: 0rem;
+  
+  }
+  
+  .surf::before{
+    top: 1rem;
+    left: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+  }
+  }
+  
+  /*REVIEWS AND TRIPADVISOR*/
+  
+  #block-yby, #block-fxy{
+    background-color: #FFB0A3;
+  }
+  
+  #block-mdo{
+  padding-bottom: 0;  
+  }
+  
+  #block-jyi{
+    padding-bottom: 1rem;
+  }
+  
+  #block-fxy{
+      margin-bottom: 0.5rem;
+  }
+  
+  #block-yby a:hover{
+    text-decoration: none;
+  }
+  
+  #block-yby .col{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: auto;
+  }
+  
+  .content-review-source h2, .content-main-two h2{
+    font-size: 1.5rem;
+  }
+  
+  .content-review-date h4{
+    font-size: 0.75rem;
+  }
+  
+  .flex-container {
+    display: flex !important;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  .flex-item {
+    margin: auto;
+  }
+  
+  .flex-container img{
+  max-width: 125px;
+  padding: 20px;
+  }
+  
+  #reviews{
+    padding-top: 20px;
+    padding-bottom: 48px;
+  }
+  
+  @media only screen and (min-width: 768px){
+    .flex-container{
+      max-width: 70vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 767px){
+    #block-yby .col{
+    min-width: 100%;
+    padding-bottom: 2rem;
+    }
+  }
+  
