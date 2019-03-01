@@ -234,23 +234,11 @@ h1{
   #reviews{
     background-color: #FFB0A3;
   }
-  #block-mdo{
-    padding-bottom: 0;  
-    }
-    
-    #block-jyi{
-      padding-bottom: 1rem;
-    }
-    
-    #block-fxy{
-        margin-bottom: 0.5rem;
-    }
-    
-    #block-yby a:hover{
+    #reviews a:hover{
       text-decoration: none;
     }
     
-    #block-yby .col{
+    #reviews .col{
       padding-left: 3rem;
       padding-right: 3rem;
       height: auto;
@@ -292,6 +280,20 @@ h1{
   .hack-block > div.block-content > div > div{
   display: block;
   }
+
+  #reviews .col{
+    min-width: 100%;
+    padding-bottom: 2rem;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px){
+    .flex-container{
+      max-width: 70vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   
   

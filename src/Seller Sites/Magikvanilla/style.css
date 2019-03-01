@@ -17,6 +17,19 @@
   #block-eza .block-background{
     background-position: bottom !important;
   }
+
+/*REVIEWS*/
+  #block-mdo{
+    padding-bottom: 0;  
+    }
+    
+    #block-jyi{
+      padding-bottom: 1rem;
+    }
+    
+    #block-fxy{
+        margin-bottom: 0.5rem;
+    }
   
   /*MOBILE*/
   
@@ -27,35 +40,7 @@
   }
   
   
-  @media (max-width: 767px){
-  .sup::before, .village::before, .location::before {
-      top: 0rem;
-      left: 0rem;
-      bottom: 0rem;
-      right: 0rem;
-  
-  }
-  
-  .surf::before{
-    top: 1rem;
-    left: 0rem;
-    bottom: 0rem;
-    right: 0rem;
-  }
-  }
+
     
-  @media only screen and (min-width: 768px){
-    .flex-container{
-      max-width: 70vw;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  
-  @media (max-width: 767px){
-    #block-yby .col{
-    min-width: 100%;
-    padding-bottom: 2rem;
-    }
-  }
+ 
   

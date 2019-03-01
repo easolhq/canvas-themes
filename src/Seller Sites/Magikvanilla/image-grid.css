@@ -167,3 +167,20 @@
 #block-0dp .col{
     height: 50vh;
 }
+
+@media (max-width: 767px){
+  .sup::before, .village::before, .location::before {
+      top: 0rem;
+      left: 0rem;
+      bottom: 0rem;
+      right: 0rem;
+  
+  }
+  
+  .surf::before{
+    top: 1rem;
+    left: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+  }
+  }
