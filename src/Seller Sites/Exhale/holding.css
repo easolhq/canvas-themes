@@ -1,6 +1,6 @@
 /*HOLDING PAGE*/
 body {
-    background-image: url("https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/Exhale.jpg");
+    background-image: url("https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/Exhale.jpg") !important;
     margin: 0;
     min-height: 100vh;
     background-position: bottom right;
