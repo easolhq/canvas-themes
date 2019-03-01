@@ -114,7 +114,7 @@
     }
 
     @media (min-width: 992px){
-        .line-up-block{
+        .line-up-block .block-content{
           max-width: 90vh;
           margin-left: auto;
           margin-right: auto;
