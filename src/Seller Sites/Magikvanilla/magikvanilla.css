@@ -123,6 +123,16 @@ h1{
   }
   }
 
+/*COLLECTION CARD BLOCK*/
+.collection-card .card-title{
+    display: none;
+}
+
+.collection-card small{
+    display:none;
+}
+
+
   /*WHATS INCLUDED BLOCK*/
 
     @media (min-width: 992px){
