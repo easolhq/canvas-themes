@@ -1,0 +1,160 @@
+
+
+/*MAGIKVANILLA THEME*/
+
+/*BLOCKS*/
+.block{
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  
+  /*MENU*/
+  
+  #menu .navbar-nav {
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-evenly;
+  }
+  
+  a.navbar-brand img{
+    filter: brightness(0%);
+  }
+  
+  #menu .nav-link{
+    text-transform: uppercase;
+    font-family: overlock-regular;
+    color: #000;
+    text-align: center;
+  }
+  
+  .bg-light{
+    background-color: #fff !important;
+  }
+  
+  nav.open .btn-primary{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 992px){
+  #menu-social-links{
+      display: flex !important;
+      max-width: 50px;
+      position: absolute;
+      top: 10px;
+      right: 60px;
+      }
+  }
+  
+  @media (min-width: 768px){
+          a.navbar-brand img{
+          height: 90px;
+          }
+  }
+  
+  /*GRID*/
+  .content-main, .content-secondary{
+    color: #FFF;
+    text-align: center;
+  }
+  
+  /*FIXERS BADGE*/
+  .fixers-stamp{
+    padding-top: 100px;
+    margin: 0 0 0 auto;
+  }
+  
+  /*MAILCHIMP*/
+  
+  .subscription-block{
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  #mergeRow-gdpr {
+      display: none;
+  }
+  
+  /*CUSTOM HTML*/
+  .hack-block{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  @media (min-width: 992px){
+  .hack-block .block-content {
+      max-width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  }
+  
+  .hack-block .col{
+    height: 50vh;
+  }
+  
+  /*TEXT BLOCK*/
+  @media (min-width: 992px){
+  .text-block p, .text-block h2{
+    max-width: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  }
+
+  /*WHATS INCLUDED BLOCK*/
+
+  .line-up-block{
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+    @media (min-width: 992px){
+        .line-up-block{
+          max-width: 90vh;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    }
+
+  .line-up-separator{
+    display: none;
+  }
+
+  .line-up-block h1{
+    font-size: 2rem;
+}
+
+.line-up-block span {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.line-up-block span:before{
+    content:"✅";
+}
+
+
+  
+  /*INLINE*/
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /*MOBILE*/
+  /*CUSTOM HTML*/
+  @media only screen and (max-width: 767px) {
+  .hack-block > div.block-content > div > div{
+  display: block;
+  }
+  }
+  
+  
+  
