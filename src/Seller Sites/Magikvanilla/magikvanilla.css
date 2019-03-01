@@ -97,8 +97,8 @@ h1{
   
   /*CUSTOM HTML*/
   .hack-block{
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
   
   @media (min-width: 992px){
