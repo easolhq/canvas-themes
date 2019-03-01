@@ -47,9 +47,7 @@ display: none
 height: 100vh !important;
 color: #fff;
 }
-.hero-image-block:first-of-type{
-  margin-top: -180px;
-}
+
 .hero-image-block:last-of-type{
 height: 60vh !important;
 }
