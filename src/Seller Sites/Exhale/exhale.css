@@ -362,6 +362,10 @@ text-transform: uppercase;
 
 /*NAV*/
 
+.navbar-dark .navbar-toggler{
+  border: none !important;
+}
+
 @media only screen and (max-width: 767px) {
 
   /*MENU*/
