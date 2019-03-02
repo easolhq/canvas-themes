@@ -112,16 +112,16 @@ li#book-now.nav-item:hover{
   height: 100vh !important;
   color: #fff !important;
   }
+
+  .hero-image-block:first-of-type{
+    margin-top: -180px;
+  }
   
 .hero-image-block:last-of-type{
 height: 60vh !important;
 }
 
-
-
 .hero-image-block p{
-margin-left: auto;
-margin-right: auto;
 text-align: justify;
 }
 
@@ -129,6 +129,9 @@ text-align: justify;
   .hero-image-block .block-content{
     max-width: 50vh;
   }
+.hero-image-block{
+  max-width: 50vh;
+}
 }
 
 /*REVIEWS*/
