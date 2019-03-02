@@ -126,18 +126,17 @@ height: 60vh !important;
 max-width: 60vh !important;
 }
 
-.hero-image-block:first-of-type p{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-image-block .block-content{
-  max-width: 60vh;
+.hero-image-block:first-of-type h1{
+  max-width: 90vh;
 }
 
 .hero-image-block:first-of-type .block-content{
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.hero-image-block .block-content{
+  max-width: 60vh;
 }
 
 .hero-image-block:nth-of-type(2n+1) .block-content{
