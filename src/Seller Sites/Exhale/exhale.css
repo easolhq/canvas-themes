@@ -128,7 +128,7 @@ height: 60vh !important;
 
 @media (min-width: 767px){
 .hero-image-block .block-content{
-  max-width: 50vh;
+  max-width: 60vh;
 }
 
 .hero-image-block:first-of-type .block-content{
@@ -144,11 +144,13 @@ margin-right: 100px;
 margin-left: 100px;
 }
 
-.hero-image-block:last-of-type .block-content{
+.hero-image-block:nth-last-of-type(1) .block-content{
 margin-left: auto !important;
 margin-right: auto !important;
 }
 }
+
+
 
 /*REVIEWS*/
 
