@@ -5,8 +5,12 @@ body{
 
 /*FONTS*/
 
-h1, h2, h3, p, .h1, .h2, .h3, a{
+h1, h2, h3, p, .h1, .h2, .h3{
   color: #fff !important;
+}
+
+a{
+  color: #fff;
 }
 
 /*NAV*/
