@@ -196,7 +196,7 @@ margin-left: 100px;
   border-color: #fff;
   text-transform: uppercase;
   letter-spacing: 4px;
-  padding: inherit 40px;
+  padding: 6px !important;
 }
 
 #mergeRow-gdpr{
@@ -267,13 +267,12 @@ div#gallery img{
   background-color: #fff;
   z-index: 1030;
   text-align: left;
-  margin-top: 25px;
 }
 
 .jump-block{
   width: 100%;
-  position: -webkit-sticky; 
-  position: sticky;
+  position: -webkit-sticky !important; 
+  position: sticky !important;
   top: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -287,6 +286,10 @@ div#gallery img{
  padding-left: 0;
  padding-right: 0;
  z-index: 1030;
+}
+
+#jump .container{
+  text-align: center;
 }
 
 #jump .container a {
