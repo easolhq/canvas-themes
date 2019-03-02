@@ -91,6 +91,10 @@ li#book-now.nav-item{
   color: #fff;
 }
 
+.btn-outline-primary:hover {
+  color: #212529 !important;
+}
+
 /*TEXT BLOCK*/
 
 .text-block{
