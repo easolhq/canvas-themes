@@ -131,7 +131,7 @@ height: 60vh !important;
   margin-right: auto !important;
 }
 
-.hero-image-block:last-of-type .block-content{
+.hero-image-block::nth-last-child(n) .block-content{
   margin-left: auto !important;
   margin-right: auto !important;
 }
