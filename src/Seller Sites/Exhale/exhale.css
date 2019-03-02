@@ -8,6 +8,10 @@ body{
 h1, h2, h3, p, .h1, .h2, .h3, a{
   color: #fff !important;
 }
+
+p{
+  line-height: 2rem;
+}
 /*NAV*/
 
 
@@ -115,7 +119,6 @@ nav#menu{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  line-height: 2rem;
   text-align: justify;
 }
 }
@@ -332,6 +335,7 @@ text-transform: uppercase;
   /*TEXT IMAGE BLOCK*/
   .text-and-image-block{
   color: white;
+  text-align: justify;
   padding-top: 0;
   padding-bottom:0;
   }
@@ -344,6 +348,11 @@ text-transform: uppercase;
       padding: 0;
   }
   
+  .text-and-image-block .col-12{
+  padding-left: 10%;
+  padding-right: 10%;
+  }
+
   /*TEXT BLOCK*/
   .text-block{
   color: #fff;
