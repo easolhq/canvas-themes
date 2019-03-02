@@ -335,8 +335,42 @@ text-transform: uppercase;
 
 /*MOBILE*/
 
+/*NAV*/
+
+@media only screen and (max-width: 767px) {
+
+  /*MENU*/
+  div#menu-navbar{
+    padding-right: 0;
+  }
+  
+  nav.open .btn-primary{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  nav.open .navbar-brand{
+    filter: none !important;
+  }
+  
+  .navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-nav .nav-item{
+        padding-bottom: 10px;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color: #000;
+  }
+  .bg-light{
+    color: white;
+  }
+
+
 /*REVIEWS*/
-@media (max-width: 767px){
   #reviews .col{
   min-width: 100%;
   padding-bottom: 2rem;
