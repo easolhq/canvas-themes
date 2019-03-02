@@ -15,7 +15,7 @@
 }
 
 /*LAST BLOCK ON PAGES*/
-
+#block-k7n .block-content,
 #block-bmb .block-content,
 #block-gid .block-content{
   margin-left: auto !important;
