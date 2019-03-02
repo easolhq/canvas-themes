@@ -134,6 +134,15 @@ li#book-now.nav-item{
   padding: inherit 40px;
 }
 
+#mergeRow-gdpr{
+  display: none;
+}
+
+#mce-success-response{
+  color: #FFF;
+  text-align: center;
+}
+
 /*GALLERY*/
 
 .gallery-figure {
