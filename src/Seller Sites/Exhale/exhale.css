@@ -127,8 +127,7 @@ height: 60vh !important;
   max-width: 50vh;
 }
 
-.hero-image-block:first-of-type .block-content,
-.hero-image-block:last-of-type .block-content{
+.hero-image-block:first-of-type .block-content{
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -139,6 +138,11 @@ margin-right: 100px;
 
 .hero-image-block:nth-of-type(2n) .block-content{
 margin-left: 100px;
+}
+
+.hero-image-block:last-of-type .block-content{
+margin-left: auto !important;
+margin-right: auto !important;
 }
 }
 
