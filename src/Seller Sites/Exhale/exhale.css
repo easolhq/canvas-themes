@@ -134,7 +134,7 @@ li#book-now.nav-item{
 }
 
 #mergeRow-gdpr{
-  display: none;
+  display: none !important;
 }
 
 #mce-success-response{
