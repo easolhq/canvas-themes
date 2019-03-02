@@ -129,7 +129,7 @@ text-align: justify;
   .hero-image-block .block-content{
     max-width: 50vh;
   }
-.hero-image-block{
+.hero-image-block p{
   max-width: 50vh;
 }
 }
