@@ -229,7 +229,7 @@ div#gallery img{
 
 #jump .container a {
 padding: 0.5em 1em;
-color: #54c3c6;
+color: #54c3c6 !important;
 letter-spacing: 2px;
 text-transform: uppercase;
 }
