@@ -126,9 +126,6 @@ text-align: justify;
 }
 
 @media (min-width: 767px){
-  .hero-image-block .block-content{
-    max-width: 50vh;
-  }
 .hero-image-block p{
   max-width: 50vh;
 }
