@@ -51,6 +51,7 @@ margin-top: 50px;
 
 #menu .nav-link{
 text-transform: uppercase;
+letter-spacing: 4px;
 }
 
 #menu-social-links{
@@ -72,6 +73,12 @@ height: 60vh !important;
 
 li#book-now.nav-item{
   border: solid 1px #fff !important;
+}
+
+li#book-now.nav-item: hover{
+  color: #212529 !important;
+  background-color: #fff !important;
+  border-color: #fff;
 }
 
 /*BUTTONS*/
