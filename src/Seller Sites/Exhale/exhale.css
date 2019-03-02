@@ -78,6 +78,10 @@ li#book-now.nav-item:hover{
   text-transform: uppercase;
   letter-spacing: 4px;
   padding: inherit 20px;
+  padding-top: 0.3rem;
+  padding-right: 0.6rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.6rem;
 }
 
 .btn-outline-primary{
@@ -118,6 +122,10 @@ li#book-now.nav-item:hover{
   
 .hero-image-block:last-of-type{
 height: 60vh !important;
+}
+
+.hero-image-block{
+  text-align: justify !important;
 }
 
 @media (min-width: 767px){
