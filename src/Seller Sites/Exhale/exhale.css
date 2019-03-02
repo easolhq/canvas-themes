@@ -133,6 +133,7 @@ max-width: 60vh !important;
 .hero-image-block:first-of-type .block-content{
   margin-left: auto !important;
   margin-right: auto !important;
+  max-width: 100vh !important;
 }
 
 .hero-image-block .block-content{
