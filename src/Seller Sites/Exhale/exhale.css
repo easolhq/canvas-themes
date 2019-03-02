@@ -30,10 +30,6 @@ a.navbar-brand img{
 height: 100px;
 }
 
-nav#menu{
-height: 180px;
-}
-
 nav#menu .container{
 display: flex;
 flex-flow: row wrap;
@@ -74,6 +70,13 @@ li#book-now.nav-item:hover{
   background-color: #fff !important;
   border-color: #fff;
 }
+
+@media (min-width: 767px){
+nav#menu{
+  height: 180px;
+  }
+}
+
 
 /*BUTTONS*/
 
@@ -351,10 +354,6 @@ text-transform: uppercase;
   nav.open .btn-primary{
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  nav.open .navbar-brand{
-    filter: none !important;
   }
   
   .navbar-nav{
