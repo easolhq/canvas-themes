@@ -131,17 +131,17 @@ height: 60vh !important;
   margin-right: auto !important;
 }
 
+.hero-image-block:last-of-type .block-content{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .hero-image-block:nth-of-type(2n+1) .block-content{
 margin-right: 100px;
 }
 
 .hero-image-block:nth-of-type(2n) .block-content{
 margin-left: 100px;
-}
-
-.hero-image-block:last-of-type .block-content{
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 }
 
