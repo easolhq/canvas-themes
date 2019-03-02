@@ -5,14 +5,9 @@ body{
 
 /*FONTS*/
 
-h1, h2, h3, p, .h1, .h2, .h3{
+h1, h2, h3, p, .h1, .h2, .h3, a{
   color: #fff !important;
 }
-
-a{
-  color: #fff;
-}
-
 /*NAV*/
 
 
@@ -144,9 +139,9 @@ margin-right: 100px;
 margin-left: 100px;
 }
 
-.hero-image-block:nth-last-of-type(1) .block-content{
-margin-left: auto !important;
-margin-right: auto !important;
+.hero-image-block:last-of-type .block-content{
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 }
 
