@@ -124,6 +124,8 @@ height: 60vh !important;
 
 .hero-image-block:first-of-type p{
 max-width: 60vh !important;
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero-image-block:first-of-type h1{
