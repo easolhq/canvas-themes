@@ -269,8 +269,6 @@ div#gallery img{
   background-color: #fff;
   z-index: 1030;
   text-align: left;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .jump-block{
@@ -278,8 +276,8 @@ div#gallery img{
   position: -webkit-sticky !important; 
   position: sticky !important;
   top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
   z-index: 1030;
   margin-left: 0;
   margin-right: 0;
