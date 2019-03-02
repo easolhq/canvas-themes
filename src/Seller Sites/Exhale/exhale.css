@@ -279,6 +279,7 @@ text-transform: uppercase;
   .fixers-stamp{
       padding-top: 25px;
       padding-bottom: 25px;
+      filter: brightness(0) invert(1);
   }
   
   /*IMAGE GRID BLOCK*/
