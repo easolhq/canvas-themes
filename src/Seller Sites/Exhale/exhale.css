@@ -123,20 +123,20 @@ height: 60vh !important;
 
 
 @media (min-width: 767px){
-.hero-image-block p{
+.hero-image-block .block-content{
   max-width: 50vh;
 }
 
-.hero-image-block:first-of-type p{
+.hero-image-block:first-of-type .block-content{
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-.hero-image-block:nth-of-type(2n+1) p{
+.hero-image-block:nth-of-type(2n+1) .block-content{
 margin-right: 0;
 }
 
-.hero-image-block:nth-of-type(2n) p{
+.hero-image-block:nth-of-type(2n) .block-content{
 margin-left: 0;
 }
 }
