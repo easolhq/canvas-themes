@@ -58,15 +58,6 @@ letter-spacing: 4px;
 display: none
 }
 
-.hero-image-block{
-height: 100vh !important;
-color: #fff !important;
-}
-
-.hero-image-block:last-of-type{
-height: 60vh !important;
-}
-
 #menu-navbar a{
   color: #fff;
 }
@@ -114,6 +105,30 @@ li#book-now.nav-item:hover{
   margin-right: auto;
   width: 50%;
   line-height: 2rem;
+}
+
+/*HERO IMAGE BLOCK*/
+.hero-image-block{
+  height: 100vh !important;
+  color: #fff !important;
+  }
+  
+.hero-image-block:last-of-type{
+height: 60vh !important;
+}
+
+
+
+.hero-image-block p{
+margin-left: auto;
+margin-right: auto;
+text-align: justify;
+}
+
+@media (min-width: 767px){
+  .hero-image-block{
+    max-width: 50vh;
+  }
 }
 
 /*REVIEWS*/
