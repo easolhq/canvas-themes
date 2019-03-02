@@ -39,7 +39,7 @@ align-self: flex-start;
 #menu-navbar{
 flex-basis: 100%;
 width: 0px;
-height: 0px;
+height: auto;
 justify-content: space-between;
 margin-top: 50px;
 }
@@ -123,10 +123,6 @@ nav#menu{
   color: #fff !important;
   }
 
-  .hero-image-block:first-of-type{
-    margin-top: -180px;
-  }
-  
 .hero-image-block:last-of-type{
 height: 60vh !important;
 }
@@ -136,6 +132,10 @@ height: 60vh !important;
 }
 
 @media (min-width: 767px){
+
+  .hero-image-block:first-of-type{
+    margin-top: -180px;
+  }
 
 .hero-image-block:first-of-type p{
 max-width: 60vh !important;
