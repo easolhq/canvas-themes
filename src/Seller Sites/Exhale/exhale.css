@@ -136,11 +136,11 @@ height: 60vh !important;
   margin-right: auto !important;
 }
 
-.hero-image-block:nth-of-type(even) .block-content{
+.hero-image-block:nth-of-type(2n) .block-content{
 margin-right: 100px;
 }
 
-.hero-image-block:nth-of-type(odd) .block-content{
+.hero-image-block:nth-of-type(2n+1) .block-content{
 margin-left: 100px;
 }
 }
