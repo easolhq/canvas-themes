@@ -128,8 +128,8 @@ height: 60vh !important;
 }
 
 .hero-image-block:first-of-type p{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .hero-image-block p:nth-of-type(2n+1){
