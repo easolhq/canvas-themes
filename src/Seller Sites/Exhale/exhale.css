@@ -20,6 +20,10 @@ p{
   z-index: 1030 !important;
 }
 
+.bg-dark.open{
+  padding-bottom: 200px;
+}
+
 .navbar-nav{
 justify-content: space-evenly;
 width: 100%;
