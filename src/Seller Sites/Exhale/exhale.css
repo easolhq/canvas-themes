@@ -137,11 +137,11 @@ height: 60vh !important;
   text-align: justify !important;
 }
 
-@media (min-width: 767px){
+.hero-image-block:first-of-type{
+  margin-top: -180px !important;
+}
 
-  .hero-image-block:first-of-type{
-    margin-top: -180px !important;
-  }
+@media (min-width: 767px){
 
 .hero-image-block:first-of-type p{
 max-width: 60vh !important;
@@ -169,8 +169,6 @@ margin-left: 100px;
 }
 
 /*CUSTOM HTML BLOCKS*/
-
-
 
 /*REVIEWS*/
 
@@ -362,6 +360,11 @@ text-transform: uppercase;
   border: none !important;
 }
 
+bg.dark.open{
+  padding-bottom: 200px;
+  color: white !important;
+}
+
 @media only screen and (max-width: 767px) {
 
   /*MENU*/
@@ -386,10 +389,6 @@ text-transform: uppercase;
   .navbar-light .navbar-nav .nav-link{
     color: #000;
   }
-  .bg-dark{
-    color: white;
-  }
-
 
 /*REVIEWS*/
   #reviews .col{
