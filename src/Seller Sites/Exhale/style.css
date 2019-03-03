@@ -6,12 +6,16 @@
 
 
 #block-5fx h1{
-  font-size: 4.5rem;
+  font-size: 4rem;
   letter-spacing: 0.5rem;
 }
 
 #block-5fx p{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+#block-5fx .block-content{
+  padding-top: 180px;
 }
 
 /*LAST BLOCK ON PAGES*/
