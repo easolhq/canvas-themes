@@ -351,6 +351,8 @@ text-transform: uppercase;
   padding-right: 10%;
   }
 
+  @media
+
   /*TEXT BLOCK*/
   .text-block{
   color: #fff;
@@ -393,6 +395,14 @@ bg.dark.open{
   .navbar-light .navbar-nav .nav-link{
     color: #000;
   }
+
+ /*TEXT and IMAGE BLOCK*/
+ 
+ .text-and-image-block .col-12{
+   padding-top: 50px;
+   padding-left: 0;
+   padding-right: 0;
+ }
 
 /*REVIEWS*/
   #reviews .col{
