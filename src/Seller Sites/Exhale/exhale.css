@@ -79,6 +79,10 @@ li#book-now.nav-item:hover{
   border-color: #fff;
 }
 
+li#book-now.nav-item:hover a{
+  color: #000 !important;
+}
+
 @media (min-width: 767px){
 nav#menu{
   height: 180px;
