@@ -178,6 +178,13 @@ margin-left: 100px;
 
 /*CUSTOM HTML BLOCKS*/
 
+/*VIDEO*/
+@media (min-width: 767px){
+  #video > div{
+    min-height: 670px;
+  }
+  }
+
 /*REVIEWS*/
 
 #reviews{
