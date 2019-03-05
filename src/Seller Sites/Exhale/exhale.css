@@ -277,6 +277,25 @@ div#gallery img{
 }
 
 
+
+/*VIMEO EMBED*/
+.vimeo-wrapper iframe {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+ }
+ 
+ .vimeo-wrapper {
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+
+
 /* JUMP BAR */
 
 #jump{
@@ -365,7 +384,7 @@ text-transform: uppercase;
   padding-right: 10%;
   }
 
-  @media
+  
 
   /*TEXT BLOCK*/
   .text-block{
