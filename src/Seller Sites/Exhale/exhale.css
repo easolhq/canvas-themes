@@ -26,6 +26,7 @@ p{
 
 .navbar-nav{
 justify-content: space-evenly;
+justify-content: space-around;
 width: 100%;
 }
 
@@ -128,7 +129,7 @@ nav#menu{
   margin-right: auto;
   width: 50%;
   text-align: justify;
-  text-align: center !important;
+  align-items: center !important;
 }
 }
 
@@ -156,7 +157,7 @@ height: 60vh !important;
 max-width: 60vh !important;
 margin-left: auto;
 margin-right: auto;
-text-align: center !important;
+align-items: center !important;
 }
 
 .hero-image-block:first-of-type .block-content{
