@@ -226,26 +226,17 @@ h1{
     min-width: 14rem; 
   }
 
-/*PRODUCT REVIEWS*/
-#reviews-product a:hover{
-  text-decoration: none;
-}
-
-#reviews-product .col{
-  padding-left: 3rem;
-  padding-right: 3rem;
-  height: auto;
-}
 
   /*REVIEWS*/
 
   #reviews{
     background-color: #FFB0A3;
   }
+    #reviews-product a:hover,
     #reviews a:hover{
       text-decoration: none;
     }
-    
+    #reviews-product .col,
     #reviews .col{
       padding-left: 3rem;
       padding-right: 3rem;
@@ -289,6 +280,7 @@ h1{
   display: block;
   }
 
+  #reviews-product,
   #reviews .col{
     min-width: 100%;
     padding-bottom: 2rem;
