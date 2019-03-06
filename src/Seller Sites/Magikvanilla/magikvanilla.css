@@ -68,21 +68,6 @@ h1{
     margin-left: auto;
     margin-right: auto;
   }
-
-
-li#holidays.nav-item{
-  border: solid 1px #fff !important;
-}
-
-li#holidays.nav-item:hover{
-  color: #212529 !important;
-  background-color: #fff !important;
-  border-color: #fff;
-}
-
-li#holidays.nav-item:hover a{
-  color: #000 !important;
-}
   
   @media (min-width: 992px){
   #menu-social-links{
