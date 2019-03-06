@@ -139,6 +139,18 @@ h1{
   }
   }
 
+/*TEXT AND IMAGE BLOCK*/  
+.text-and-image-block .block-content{
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-and-image-block .col-12{
+border: solid #FFB0A3 10px;
+}
+
+
 /*COLLECTION CARD BLOCK*/
 .collection-card .card-title{
     display: none;
