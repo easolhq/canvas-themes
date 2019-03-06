@@ -150,6 +150,11 @@ h1{
 border: solid #FFB0A3 10px;
 }
 
+/*PRODUCT BLOCKS*/
+.hero-product-block, 
+.dual-product-block{
+  background-color: #FFB0A3;
+}
 
 /*COLLECTION CARD BLOCK*/
 .collection-card .card-title{
@@ -196,8 +201,8 @@ border: solid #FFB0A3 10px;
   /* JUMP BAR */
 .jump-block{
     width: 100%;
-    position: -webkit-sticky; 
-    position: sticky;
+    position: -webkit-sticky !important; 
+    position: sticky !important;
     top: 0;
     padding-top: 0;
     padding-bottom: 0;
