@@ -34,7 +34,16 @@ h1{
   }
   .hero-image-block:first-of-type h1{
     font-size: 6rem;
+    color: #fff !important;
   }
+
+  .hero-image-block:first-of-type h2{
+    color: #fff !important;
+  }
+
+
+
+
  
 
   /*MENU*/
