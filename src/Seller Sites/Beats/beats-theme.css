@@ -193,3 +193,21 @@ width: 49%;
         padding-bottom: 2rem;
 }
 }
+
+/*PRODUCT PAGES*/
+@media only screen and (max-width: 550px)  {
+  h1.mb-3.product-name{
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+  }
+  
+  h6.factual.product-meta.mb-3{
+      font-size: 0.5rem;
+      letter-spacing: 0.2rem;
+  }
+  
+  h4.product-tagline{
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+  }
+  }
