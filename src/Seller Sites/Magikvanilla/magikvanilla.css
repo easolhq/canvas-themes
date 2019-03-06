@@ -32,6 +32,10 @@ h1{
     margin-right: 0 !important;
     margin-bottom: 16px !important;
   }
+  .hero-image-block:first-of-type h1{
+    font-size: 6rem;
+  }
+ 
 
   /*MENU*/
   #menu .navbar-nav {
