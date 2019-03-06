@@ -148,6 +148,7 @@ h1{
           max-width: 90vh;
           margin-left: auto !important;
           margin-right: auto !important;
+          text-align: center;
         }
     }
 
@@ -160,6 +161,8 @@ h1{
 .line-up-block span {
     font-size: 1rem;
     line-height: 1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
   /*INLINE*/
