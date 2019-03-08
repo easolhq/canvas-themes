@@ -157,8 +157,8 @@ h1{
 }
 
 .dual-product-block{
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
 }
 
 /*COLLECTION CARD BLOCK*/
