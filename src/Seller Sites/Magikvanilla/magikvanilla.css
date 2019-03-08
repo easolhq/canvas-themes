@@ -153,6 +153,10 @@ h1{
 /*PRODUCT BLOCKS*/
 
 .dual-product-block{
+  background-color: #C3E2E4;
+}
+
+.dual-product-block{
   padding-top: 16px !important;
   padding-bottom: 16px !important;
 }
