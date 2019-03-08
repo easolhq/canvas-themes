@@ -158,7 +158,7 @@ h1{
 }
 
 .text-and-image-block .col-6.col-image.d-none.d-lg-block > img{
-  height: 100%;
+  height: 500px;
   object-fit: cover;
 }
 
