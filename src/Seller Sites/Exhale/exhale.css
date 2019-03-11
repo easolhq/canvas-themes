@@ -15,12 +15,12 @@ p{
 /*NAV*/
 
 
-.bg-dark{
+#menu{
   background-color: transparent !important;
   z-index: 1030 !important;
 }
 
-.bg-dark.open{
+#menu.open{
   padding-bottom: 200px;
 }
 
