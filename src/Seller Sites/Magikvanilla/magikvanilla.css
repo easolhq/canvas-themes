@@ -162,6 +162,10 @@ h1{
   object-fit: cover;
 }
 
+.text-and-image-block .col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 /*PRODUCT BLOCKS*/
 
@@ -283,11 +287,22 @@ h1{
     #reviews a:hover{
       text-decoration: none;
     }
-    #reviews-product .col,
+    
     #reviews .col{
       padding-left: 3rem;
       padding-right: 3rem;
       height: auto;
+    }
+
+    #reviews-product .col{
+      padding-left: 2rem;
+      padding-right: 2rem;
+      height: auto;
+    }
+
+    #reviews-product{
+      margin-left: 16px;
+      margin-right: 16px;
     }
     
     .content-review-source h2, .content-main-two h2{
