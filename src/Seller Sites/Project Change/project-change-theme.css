@@ -27,6 +27,27 @@
     padding-right: 10%;
     }
 
+
+    @media only screen and (min-width: 768px){ 
+        .hero-product-block .btn-primary{
+          max-width: 200px;
+          position: absolute;
+          right: 30px;
+          bottom: 25px;
+        }
+        .hero-product-block .justify-content-start{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        }
+        .hero-product-block > div.block-content > div > div > div:nth-child(1){
+          padding-bottom: 50px;
+        }
+        }
+        .hero-product-block .hero-product-tagline{
+          display: none;
+        }
+
     /*TEXT BLOCK*/
     @media only screen and (min-width: 768px){
         .text-block .block-content{
