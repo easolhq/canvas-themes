@@ -1,0 +1,6 @@
+/*NAV*/
+#menu .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
