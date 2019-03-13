@@ -26,4 +26,10 @@
     padding-left: 10%;
     padding-right: 10%;
     }
-  
+
+    /*TEXT BLOCK*/
+    @media only screen and (min-width: 768px){
+        .text-block .block-content{
+            max-width: 80vw;
+        }   
+    }
