@@ -68,6 +68,13 @@ body{
   font-size: 1rem;
 }
 
+/*IMAGE GRID*/
+.image-grid-entry-overlay {
+  opacity: 1;
+  background-color: rgba(55,58,60,0.3);
+}
+
+
 /*PRODUCT BLOCK */
 @media only screen and (min-width: 768px){ 
     .hero-product-block .btn-primary{
