@@ -6,6 +6,20 @@
     justify-content: space-evenly;
 }
 
+/*SUBSCRIBE BLOCK*/
+.subscription-block .btn-primary{
+    background: none;
+    color: #fff;
+    border-color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 6px !important;
+  }
+  
+  #mergeRow-gdpr{
+    display: none !important;
+  }
+
  /*TEXT IMAGE BLOCK*/
  .text-and-image-block{
     color: white;
@@ -27,7 +41,7 @@
     padding-right: 10%;
     }
 
-
+/*HERO PRODUCT BLOCK*/
     @media only screen and (min-width: 768px){ 
         .hero-product-block .btn-primary{
           max-width: 200px;
