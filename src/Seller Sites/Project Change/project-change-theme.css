@@ -14,6 +14,18 @@
     justify-content: space-evenly;
 }
 
+/*FOOTER*/
+
+#footer{
+    background-color: #647670;
+}
+
+#footer .navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+
 /*SUBSCRIBE BLOCK*/
 .subscription-block .btn-primary{
     background: none;
