@@ -342,7 +342,7 @@ h1{
   display: block;
   }
 
-  #reviews-product,
+  #reviews-product .col,
   #reviews .col{
     min-width: 100%;
     padding-bottom: 2rem;
