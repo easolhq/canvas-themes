@@ -124,9 +124,6 @@ body{
     background: none;
   }
   
-  #sleep .retreat-hotel-block{
-  height: 60vh;
-  }
   @media only screen and (min-width: 768px){ 
   #sleep{
     display: inline-block;
@@ -141,6 +138,7 @@ body{
   }
   
 #sleep .retreat-hotel-block{
+height: 60vh;
 float: right;
 width: 49%;
 }
