@@ -1,5 +1,7 @@
 /*HOME*/
 
+
+/*HERO IMAGE*/
 #block-ppk{
     height: 100vh !important;
 }
@@ -10,3 +12,12 @@
     display: block;
     transform: scale(.5);
   }
+
+  /*ABOUT US*/
+#block-01x{
+height: 100vh;
+}
+
+#block-01x > div.block-content > div > a{
+padding-top: 100px;
+}
