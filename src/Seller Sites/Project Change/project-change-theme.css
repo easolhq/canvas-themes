@@ -17,7 +17,7 @@
 /*FOOTER*/
 
 #footer{
-    background-color: #647670;
+    background-color: #647670 !important;
 }
 
 #footer .navbar-nav{
