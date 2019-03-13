@@ -22,3 +22,11 @@
  #block-a8t{
      height: 100vh;
  }   
+
+ /*MANIFESTO*/
+ #manifesto:after{
+    content: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Project+Change/Logos/Logo.png);
+    white-space: pre;
+    display: block;
+    transform: scale(.5);
+  }
