@@ -1,5 +1,6 @@
 /*NAV*/
 #menu .navbar-nav {
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-evenly;
