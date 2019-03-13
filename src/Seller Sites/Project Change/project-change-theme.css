@@ -42,7 +42,7 @@
 
  /*TEXT IMAGE BLOCK*/
  .text-and-image-block{
-    color: white;
+    color: #fff;
     text-align: justify;
     padding-top: 0 !important;
     padding-bottom:0 !important;
@@ -87,6 +87,11 @@
         .text-block .block-content{
             max-width: 80vw;
         }   
+    }
+
+    /*MANIFESTO*/
+    .content-main-two{
+        color: #EBD6BA;
     }
 
     /*PRODUCT PAGE*/
