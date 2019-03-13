@@ -1,5 +1,9 @@
 /*HOME*/
 
+#block-ppk{
+    height: 100vh;
+}
+
 #block-ppk h1:before{
     content: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Project+Change/Logos/Logo.png);
     white-space: pre;
