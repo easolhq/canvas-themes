@@ -92,7 +92,7 @@
     /*PRODUCT PAGE*/
 
     #overview .overview-card {
-        background-color: #647670;
+        background-color: #647670 !important;
     }
 
     .product-page-booking-bar{
