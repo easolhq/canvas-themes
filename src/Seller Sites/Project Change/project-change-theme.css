@@ -5,3 +5,25 @@
     margin-right: auto;
     justify-content: space-evenly;
 }
+
+ /*TEXT IMAGE BLOCK*/
+ .text-and-image-block{
+    color: white;
+    text-align: justify;
+    padding-top: 0 !important;
+    padding-bottom:0 !important;
+    }
+    
+    .text-and-image-block .block-content{
+        max-width: 100%;
+    }
+    
+    .text-and-image-block .col-6{
+        padding: 0;
+    }
+    
+    .text-and-image-block .col-12{
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+  
