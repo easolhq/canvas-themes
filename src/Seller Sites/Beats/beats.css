@@ -133,6 +133,19 @@ padding-top: 40px;
   margin-bottom: 10px;
 }
 
+
+@media only screen and (max-width: 767px){ 
+  #block-kcm .block-content{
+    height: 25vh;
+  }
+}
+
+@media only screen and (max-width: 568px){ 
+#block-kcm .block-content{
+height: 25vh;
+}
+}
+
 /*AGENCY AND B2B BLOCK*/
 
 #block-ooq{
