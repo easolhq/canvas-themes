@@ -55,15 +55,20 @@
 }
 
 /*SUBSCRIBE BLOCK*/
-.subscribe-block{
-    height: 100vh;
+.subscription-block{
+    height: 100vh !important;
+    display: table;
+}
+
+.subscription-block .block-content{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .subscription-block .btn-primary{
     background: none;
     color: #fff;
     border-color: #fff;
-    text-transform: uppercase;
     letter-spacing: 4px;
     padding: 6px !important;
   }

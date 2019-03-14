@@ -43,6 +43,12 @@ padding-right: 20vw;
     display: table-cell;
     vertical-align: middle;
 }
+
+#block-a8t h2{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 @media only screen and (min-width: 768px){ 
 #block-a8t .block-content{
 padding-left: 20vw;
