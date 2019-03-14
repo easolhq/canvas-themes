@@ -93,6 +93,13 @@
     padding-right: 10%;
     }
 
+
+.text-and-image-block > div.block-content > div > div.col-6.col-image.d-none.d-lg-block > img{
+    height: 100vh;
+    object-fit: cover;
+}
+
+
 /*HERO PRODUCT BLOCK*/
     @media only screen and (min-width: 768px){ 
         .hero-product-block .btn-primary{
@@ -153,7 +160,7 @@
     color: #000;    
     }
 
-    /*MOBILE STYLES*/
+/*MOBILE STYLES*/
 /*NAV*/
 .navbar-dark .navbar-toggler{
     border: none !important;
