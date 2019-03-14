@@ -23,13 +23,12 @@
     padding-bottom: 100px;
     background-color: #647670 !important;
   }
+
+  #menu.open #menu-cta{
+    margin-left: auto;
+    margin-right: auto;
+}
   
-  #menu.open .cta{
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-
 /*FOOTER*/
 
 #footer{

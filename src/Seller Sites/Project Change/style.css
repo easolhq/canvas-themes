@@ -11,7 +11,7 @@
     content: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Project+Change/Logos/Logo.png);
     white-space: pre;
     display: block;
-    transform: scale(.5);
+    transform: scale(.4);
   }
 
   /*ABOUT US*/
@@ -70,4 +70,10 @@ padding-right: 20vw;
     display: block;
     transform: scale(.5);
     text-align: center;
+  }
+
+
+  /*FOOTER IMAGE*/
+  #block-3fm{
+  height: 100vh !important;
   }
