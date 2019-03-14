@@ -24,6 +24,14 @@
             vertical-align: middle;
         }
 
+@media only screen and (min-width: 768px){ 
+#block-01x  .block-content{
+padding-left: 20vw;
+padding-right: 20vw;
+}
+}
+
+
  /*QUOTE*/
  #block-a8t{
      height: 100vh;
@@ -34,7 +42,12 @@
     display: table-cell;
     vertical-align: middle;
 }
-
+@media only screen and (min-width: 768px){ 
+#block-a8t .block-content{
+padding-left: 20vw;
+padding-right: 20vw;
+}
+}
 
 
 
