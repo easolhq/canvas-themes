@@ -78,6 +78,7 @@
     text-align: justify;
     padding-top: 0 !important;
     padding-bottom:0 !important;
+    height: 100vh !important;
     }
     
     .text-and-image-block .block-content{
