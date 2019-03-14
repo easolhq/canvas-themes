@@ -30,6 +30,13 @@ h1{
     margin-right: 1rem !important;
   }
   
+
+/*ACCORDION BLOCK*/
+.accordion-block h2{
+  text-transform: uppercase;
+}
+
+
 /*HERO IMAGE BLOCK*/
 .hero-image-block:first-of-type{
     height: 70vh !important;
