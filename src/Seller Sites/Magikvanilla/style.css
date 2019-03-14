@@ -34,6 +34,13 @@
         margin-bottom: 0.5rem;
     }
   
+
+/*ABOUT US*/
+#block-tr9 .block-background{
+  background-position: bottom center !important; 
+}
+
+
   /*MOBILE*/
   
   #block-h7j .block-content, #block-mki .block-content, #block-0dp .block-content{
