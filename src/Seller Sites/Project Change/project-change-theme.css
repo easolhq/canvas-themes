@@ -20,6 +20,10 @@
     background-color: #647670 !important;
 }
 
+#footer .container{
+    height: 200px;
+}
+
 #footer .navbar-nav{
     margin-left: auto;
     margin-right: auto;
