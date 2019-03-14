@@ -28,6 +28,7 @@ h1{
     width: auto !important;
     margin-left: 1rem !important;
     margin-right: 1rem !important;
+    margin-bottom: 1rem !important;
   }
   
 
@@ -211,32 +212,6 @@ h1{
 
 .collection-card small{
     display:none;
-}
-
-
-  /*WHATS INCLUDED BLOCK*/
-
-    @media (min-width: 992px){
-        .line-up-block .block-content{
-          max-width: 90vh;
-          margin-left: auto !important;
-          margin-right: auto !important;
-          text-align: center;
-          padding-top: 0 !important;
-        }
-    }
-
-
-  .line-up-block h1{
-    font-size: 2rem;
-    text-align: center;
-}
-
-.line-up-block span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
   /*INLINE*/
