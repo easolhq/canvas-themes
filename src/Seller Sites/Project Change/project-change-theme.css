@@ -95,6 +95,7 @@
         padding-bottom: 3rem;
     }
 
+    @media only screen and (min-width: 768px){ 
     .divider{
         position:absolute;
         left:0%;
@@ -103,6 +104,7 @@
         min-height: 100px;
         border-left:1px solid #EBD6BA;
     }
+}
 
     /*PRODUCT PAGE*/
 
