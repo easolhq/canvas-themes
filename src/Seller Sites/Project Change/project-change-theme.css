@@ -31,7 +31,10 @@
 }
 
 .fixers-stamp {
-    margin: 0 auto 0 0 !important;
+    margin-left: auto;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     filter: brightness(0) invert(1);
 }
 
