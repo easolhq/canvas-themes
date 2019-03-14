@@ -134,13 +134,17 @@ h1{
   }
 
   /*MAP BLOCK*/
+
+  .map-block{
+    padding-bottom: 16px !important;
+  }
+
   .map-block .block-content{
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 16px;
 }
 
 .mapboxgl-canvas{
