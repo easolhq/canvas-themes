@@ -68,7 +68,7 @@ padding-right: 20vw;
     content: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Project+Change/Logos/Logo.png);
     white-space: pre;
     display: block;
-    transform: scale(.5);
+    transform: scale(.4);
     text-align: center;
   }
 

@@ -140,6 +140,13 @@
     .content-main-two{
         color: #EBD6BA;
         padding-bottom: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .content-secondary-two{
+        padding-left: 2rem;
+        padding-right: 2rem;  
     }
 
     @media only screen and (min-width: 768px){ 
