@@ -52,6 +52,11 @@ padding-right: 20vw;
 
 
  /*MANIFESTO*/
+
+ #manifesto{
+     padding-top: 6rem !important;
+ }
+
  #manifesto:after{
     content: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Project+Change/Logos/Logo.png);
     white-space: pre;
