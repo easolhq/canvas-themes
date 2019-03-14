@@ -34,18 +34,11 @@
     color: #FFF !important;
 }
 
-.fixers-stamp {
-    margin-left: auto;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    filter: brightness(0) invert(1);
+/*SUBSCRIBE BLOCK*/
+.subscribe-block{
+    height: 100vh;
 }
 
-
-
-
-/*SUBSCRIBE BLOCK*/
 .subscription-block .btn-primary{
     background: none;
     color: #fff;
