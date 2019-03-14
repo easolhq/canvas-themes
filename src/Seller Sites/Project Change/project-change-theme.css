@@ -34,6 +34,10 @@
     color: #FFF !important;
 }
 
+#footer img{
+    height: 80px;
+}
+
 /*SUBSCRIBE BLOCK*/
 .subscribe-block{
     height: 100vh;
