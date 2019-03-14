@@ -83,6 +83,18 @@
         }
 
     /*TEXT BLOCK*/
+
+    .text-block{
+        display: table;
+    }
+
+    .text-block{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+
     @media only screen and (min-width: 768px){
         .text-block .block-content{
             max-width: 80vw;
