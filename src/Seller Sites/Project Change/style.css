@@ -16,12 +16,27 @@
   /*ABOUT US*/
   #block-01x{
     height: 100vh;
+    display: table;
     }
+
+    #block-01x .block-content{
+            display: table-cell;
+            vertical-align: middle;
+        }
 
  /*QUOTE*/
  #block-a8t{
      height: 100vh;
+     display: table;
  }   
+
+#block-a8t .block-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
 
  /*MANIFESTO*/
  #manifesto:after{
