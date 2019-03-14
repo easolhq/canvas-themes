@@ -26,6 +26,11 @@
     justify-content: space-evenly;
 }
 
+.fixers-stamp {
+    margin: 0 auto 0 0;
+}
+
+
 /*SUBSCRIBE BLOCK*/
 .subscription-block .btn-primary{
     background: none;
