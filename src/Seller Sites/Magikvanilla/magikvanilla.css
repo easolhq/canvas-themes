@@ -286,6 +286,24 @@ h1{
   height: auto;
 }
 
+#directions .content-main-two{
+  text-align: center;
+}
+
+#directions .content-subtitle {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#directions .download{
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+#directions .content-transport-directions{
+ text-align: justify;
+}
+
 
   /*REVIEWS*/
 
