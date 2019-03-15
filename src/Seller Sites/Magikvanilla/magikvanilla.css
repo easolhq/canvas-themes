@@ -359,8 +359,43 @@ h1{
       padding-bottom: 48px;
     }
 
-  
-  
+    /*SURF TABLE*/
+    .table-responsive{
+      display: block;
+          width: 100%;
+          overflow-x: auto;
+      }
+      
+      #block-5k9 thead{
+          text-transform: uppercase;
+          font-style: bold;
+      }
+      
+      #block-5k9 .table{
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      
+      #block-5k9 > div.block-content > div > table > thead > tr > th:nth-child(1),
+      #block-5k9 td:first-child{
+          text-align: left !important;
+      }
+      
+      th{
+          padding-left: 5px; 
+          padding-right: 5px;
+      }
+      
+      th:first-child{
+          padding-left: 0 !important;
+      }
+      
+      td{
+          padding-top: 8px;
+          padding-bottom: 8px;
+      }
+
   /*MOBILE*/
   /*CUSTOM HTML*/
   @media only screen and (max-width: 767px) {
