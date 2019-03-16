@@ -115,7 +115,7 @@ filter: brightness(0) invert(1);
   white-space: pre;
 }
 
-#footer > div.container > div.collapse.navbar-collapse > ul{
+#footer .navbar-expand-md .navbar-nav{
   flex-direction: column !important;
 }
 
