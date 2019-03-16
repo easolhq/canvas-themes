@@ -115,7 +115,7 @@ filter: brightness(0) invert(1);
   white-space: pre;
 }
 
-#footer .navbar-expand-md .navbar-nav{
+#footer .navbar-nav{
   flex-direction: column !important;
 }
 
