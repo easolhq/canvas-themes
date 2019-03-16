@@ -109,12 +109,9 @@ filter: brightness(0) invert(1);
 #footer > div.container > div.btn-group > a.fa.fa{
     color: #fff;
 }
-#footer > div.container:after{
-content:"MAGIKVANILLA SURFCAMP Rua Ribeira da Baleia, Vivenda, 2655-350 Ericeira, Portugal";
-}
 
 #footer > div.w-100.text-center:before{
-  content:"FIND US ON THE GO GPS: 38.962825, -9.412198";
+  content:"MAGIKVANILLA SURFCAMP Rua Ribeira da Baleia, Vivenda, 2655-350 Ericeira, Portugal \a FIND US ON THE GO GPS: 38.962825, -9.412198";
 }
   
   /*GRID*/
