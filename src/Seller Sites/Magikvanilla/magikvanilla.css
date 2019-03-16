@@ -99,6 +99,16 @@ h1{
           height: 90px;
           }
   }
+
+  /*FOOTER*/
+  #footer > div.w-100.text-center > a > svg,
+#footer > div.container > a > img{
+filter: brightness(0) invert(1);
+}
+
+#footer > div.container > div.btn-group > a.fa.fa{
+    color: #fff;
+}
   
   /*GRID*/
   .content-main, .content-secondary{
