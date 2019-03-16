@@ -115,7 +115,7 @@ filter: brightness(0) invert(1);
   white-space: pre;
 }
 
-#magik-footer{
+.magik-footer{
   margin-left: 0 !important;
   margin-right: 0 !important;
   margin-bottom: 0 !important;
