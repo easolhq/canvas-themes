@@ -150,6 +150,9 @@ filter: brightness(0) invert(1);
   margin-right: 0 !important;
   margin-bottom: 0 !important;
 }
+#reviews-footer img{
+  filter: brightness(0) invert(1);
+}
   
   /*GRID*/
   .content-main, .content-secondary{
