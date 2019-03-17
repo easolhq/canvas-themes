@@ -415,19 +415,19 @@ filter: brightness(0) invert(1);
   overflow-x: auto;
   }
       
-#block-5k9 thead{
+#block-bxs thead{
   text-transform: uppercase;
   font-style: bold;
 }
      
-#block-5k9 .table{
+#block-bxs .table{
 text-align: center;
 margin-left: auto;
 margin-right: auto;
 }
       
-#block-5k9 > div.block-content > div > table > thead > tr > th:nth-child(1),
-#block-5k9 td:first-child{
+#block-bxs > div.block-content > div > table > thead > tr > th:nth-child(1),
+#block-bxs td:first-child{
 text-align: left !important;
 }
       
