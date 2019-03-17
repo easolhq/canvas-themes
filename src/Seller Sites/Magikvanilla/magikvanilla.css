@@ -101,6 +101,10 @@ h1{
   }
 
   /*FOOTER*/
+#footer{
+  padding-top: 25px;
+}
+
   #footer > div.w-100.text-center > a > svg,
 #footer > div.container > a > img{
 filter: brightness(0) invert(1);
@@ -225,6 +229,11 @@ filter: brightness(0) invert(1);
   }
 
 /*IMAGE GRID OVERLAY*/
+
+.image-grid-block{
+  padding-top: 0;
+}
+
 .image-grid-entry-overlay {
   opacity: 1 !important;
   background-color: rgba(55,58,60,0.3) !important;
