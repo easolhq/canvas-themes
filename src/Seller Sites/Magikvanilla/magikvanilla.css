@@ -45,7 +45,7 @@ h1{
     width: 100%;
     margin-left:0 !important;
     margin-right: 0 !important;
-    margin-bottom: 16px !important;
+    margin-bottom: 1rem !important;
   }
   .hero-image-block:first-of-type h1{
     font-size: 6rem;
@@ -194,10 +194,6 @@ filter: brightness(0) invert(1);
 
   /*MAP BLOCK*/
 
-  .map-block{
-    padding-bottom: 16px !important;
-  }
-
   .map-block .block-content{
     max-width: 100%;
     margin-left: 0;
@@ -255,11 +251,6 @@ filter: brightness(0) invert(1);
 
 .dual-product-block{
   background-color: #C3E2E4;
-}
-
-.dual-product-block{
-  margin-top: 16px !important;
-  margin-bottom: 16px !important;
 }
 
 /*COLLECTION CARD BLOCK*/
@@ -384,8 +375,8 @@ filter: brightness(0) invert(1);
     }
 
     #reviews-product{
-      margin-left: 16px;
-      margin-right: 16px;
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
     
     .content-review-source h2, .content-main-two h2{

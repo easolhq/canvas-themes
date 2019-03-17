@@ -72,9 +72,9 @@
   url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Activities.jpg);
   background-size: cover;
   background-position: center; 
-  top: 1rem;
+  top: 0rem;
   left: 0rem;
-  bottom: 1rem;
+  bottom: 0rem;
   right: 0rem;
   position: absolute;
   z-index: -1;
@@ -92,9 +92,9 @@
   url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Location.jpg);
   background-size: cover;
   background-position: center; 
-  top: 1rem;
+  top: 0rem;
   left: 1rem;
-  bottom: 1rem;
+  bottom: 0rem;
   right: 1rem;
   position: absolute;
   z-index: -1;
@@ -112,9 +112,9 @@
   url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Hut.jpg);
   background-size: cover;
   background-position: center; 
-  top: 1rem;
+  top: 0rem;
   left: 0rem;
-  bottom: 1rem;
+  bottom: 0rem;
   right: 0rem;
   position: absolute;
   z-index: -1;
