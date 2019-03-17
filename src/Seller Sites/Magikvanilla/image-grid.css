@@ -11,9 +11,9 @@
     url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2331.jpg);
   background-size: cover;
   background-position: center; 
-  top: 1rem;
+  top: 0rem;
   left: 0rem;
-  bottom: 1rem;
+  bottom: 0rem;
   right: 0rem;
   position: absolute;
   z-index: -1;
@@ -31,9 +31,9 @@
     url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/SUP.jpg);
   background-size: cover;
   background-position: center; 
-  top: 1rem;
+  top: 0rem;
   left: 1rem;
-  bottom: 1rem;
+  bottom: 0rem;
   right: 1rem;
   position: absolute;
   z-index: -1;
@@ -51,9 +51,9 @@
   url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2342.jpg);
   background-size: cover;
   background-position: center; 
-  top: 1rem;
+  top: 0rem;
   left: 0rem;
-  bottom: 1rem;
+  bottom: 0rem;
   right: 0rem;
   position: absolute;
   z-index: -1;
