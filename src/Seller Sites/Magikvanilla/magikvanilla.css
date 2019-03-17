@@ -319,6 +319,7 @@ filter: brightness(0) invert(1);
     z-index: 1030;
     text-align: right;
     height: 50px;
+    margin-bottom: 0 !important;
   }
   
   .booking-block a.btn.btn-primary{
