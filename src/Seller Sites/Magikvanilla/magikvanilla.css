@@ -119,6 +119,26 @@ filter: brightness(0) invert(1);
   flex-direction: column !important;
   height: 200px;
   flex-wrap: wrap;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer > div.w-100.text-center{
+  padding-top: 50px;
+}
+
+#footer > div.w-100.text-center{
+  padding-top: 50px;
+}
+
+#footer .nav-link{
+  padding-right: 100px;
+}
+
+#partner-logos{
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .magik-footer{
@@ -135,7 +155,7 @@ filter: brightness(0) invert(1);
   
   /*FIXERS BADGE*/
   .fixers-stamp{
-    padding-top: 100px;
+    padding-top: 50px;
     margin: 0 0 0 auto;
   }
 
