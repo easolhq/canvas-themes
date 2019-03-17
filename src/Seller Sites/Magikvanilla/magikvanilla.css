@@ -117,6 +117,8 @@ filter: brightness(0) invert(1);
 
 #footer .navbar-nav{
   flex-direction: column !important;
+  height: 200px;
+  flex-wrap: wrap;
 }
 
 .magik-footer{
