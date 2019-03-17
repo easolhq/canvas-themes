@@ -224,6 +224,12 @@ filter: brightness(0) invert(1);
   }
   }
 
+/*IMAGE GRID OVERLAY*/
+.image-grid-entry-overlay {
+  opacity: 1;
+  background-color: rgba(55,58,60,0.3);
+}
+
 /*TEXT AND IMAGE BLOCK*/  
 .text-and-image-block .block-content{
   max-width: 100%;
