@@ -231,11 +231,6 @@ filter: brightness(0) invert(1);
   padding-right: 15px;
 }
 
-.text-and-image-block .col-6.col-image.d-none.d-lg-block > img{
-  height: 100%;
-  object-fit: cover;
-}
-
 .text-and-image-block .col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text{
   padding-left: 2rem;
   padding-right: 2rem;
