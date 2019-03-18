@@ -162,18 +162,9 @@ filter: brightness(0) invert(1);
   background: transparent !important;
 }
     /*PRODUCT PAGE*/
-
-    #overview .overview-card {
-        background-color: #647670 !important;
-    }
-
     .product-page-booking-bar{
         padding-top: 0 !important;
         padding-bottom: 0 !important;
-    }
-
-    body > nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.navbar-text{
-    color: #000;    
     }
 
 /*MOBILE STYLES*/
