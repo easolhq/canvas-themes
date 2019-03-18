@@ -157,6 +157,11 @@ filter: brightness(0) invert(1);
     }
 }
 
+/*ACCORDION BLOCK*/
+.accordion-entry{
+  background: transparent;
+}
+
     /*PRODUCT PAGE*/
 
     #overview .overview-card {
