@@ -159,9 +159,8 @@ filter: brightness(0) invert(1);
 
 /*ACCORDION BLOCK*/
 .accordion-entry{
-  background: transparent;
+  background: transparent !important;
 }
-
     /*PRODUCT PAGE*/
 
     #overview .overview-card {
