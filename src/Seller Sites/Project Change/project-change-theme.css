@@ -60,16 +60,6 @@ filter: brightness(0) invert(1);
 }
 
 /*SUBSCRIBE BLOCK*/
-.subscription-block{
-    height: 100vh !important;
-    display: table;
-}
-
-.subscription-block .block-content{
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .subscription-block .btn-primary{
     background: none;
     color: #fff;
