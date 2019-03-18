@@ -1,6 +1,5 @@
 /*HOME*/
 
-
 /*HERO IMAGE*/
 #block-ppk{
     margin-top: -60px !important;
@@ -11,24 +10,22 @@
     content: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Project+Change/Logos/Logo-small.png);
     white-space: pre;
     display: block;
-    transform: scale(.4);
   }
 
+  #block-ppk h1{
+    font-size: 90px;
+}
+
+#block-ppk p{
+    font-size: 20px;
+}
+
   /*ABOUT US*/
-  #block-01x{
-    height: 100vh;
-    display: table;
-    }
-
-    #block-01x .block-content{
-            display: table-cell;
-            vertical-align: middle;
-        }
-
 @media only screen and (min-width: 768px){ 
 #block-01x  .block-content{
-padding-left: 20vw;
-padding-right: 20vw;
+margin-left: auto;
+margin-right: auto;
+width: 50vw;
 }
 }
 
