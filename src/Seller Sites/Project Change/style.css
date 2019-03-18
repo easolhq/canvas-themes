@@ -30,6 +30,10 @@ width: 50vw;
 }
 }
 
+#block-01x{
+    padding-top: 5rem !important;
+}
+
 /*CHARLIE*/
 #block-fg9 a{
     color: #647670 !important;
@@ -59,22 +63,15 @@ padding-right: 20vw;
 }
 }
 
-
-
  /*MANIFESTO*/
-
- #manifesto{
-     padding-top: 6rem !important;
- }
 
  #manifesto:after{
     content: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Project+Change/Logos/Logo-small.png);
     white-space: pre;
     display: block;
-    transform: scale(.4);
+    transform: scale(.8);
     text-align: center;
   }
-
 
   /*FOOTER IMAGE*/
   #block-3fm{
