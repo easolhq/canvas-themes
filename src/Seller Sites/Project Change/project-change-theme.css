@@ -167,6 +167,17 @@ filter: brightness(0) invert(1);
         padding-bottom: 0 !important;
     }
 
+    .product-hero{
+      height: 100vh;
+    }
+
+    #sleep .product-hero{
+      height: 80vh;
+      padding-left: 15px;
+      padding-right: 15px;
+      background: none;
+    }
+    
 /*MOBILE STYLES*/
 /*NAV*/
 .navbar-dark .navbar-toggler{
