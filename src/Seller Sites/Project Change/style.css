@@ -73,6 +73,13 @@ padding-right: 20vw;
     transform: scale(.8);
     text-align: center;
   }
+#block-mns{
+  background-color: #647670;
+}
+
+#block-mns p{    
+  color: #fff !important;
+}
 
   /*FOOTER IMAGE*/
   #block-3fm{
