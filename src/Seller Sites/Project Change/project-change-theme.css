@@ -172,14 +172,11 @@ filter: brightness(0) invert(1);
     }
 
     .product-hero{
-      height: 100vh;
+      height: 100vh !important;
     }
 
-    #sleep .product-hero{
+    .retreat-hotel-block{
       height: 80vh;
-      padding-left: 15px;
-      padding-right: 15px;
-      background: none;
     }
 
     #includes > article > ul{
