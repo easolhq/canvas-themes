@@ -175,9 +175,9 @@ filter: brightness(0) invert(1);
       height: 100vh !important;
     }
 
-    .retreat-hotel-block{
+    #sleep > div.block.container.retreat-hotel-block{
       height: 80vh !important;
-    }
+  }
 
     #includes > article > ul{
       display: flex !important;
