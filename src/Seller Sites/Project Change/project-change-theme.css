@@ -1,5 +1,9 @@
 /*FONTS*/
 
+h4, h5{
+  font-family: Geomanist-regular !important;
+}
+
 /*ICONS*/
 
 .fa{
@@ -177,7 +181,7 @@ filter: brightness(0) invert(1);
       padding-right: 15px;
       background: none;
     }
-    
+
 /*MOBILE STYLES*/
 /*NAV*/
 .navbar-dark .navbar-toggler{
