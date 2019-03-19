@@ -182,6 +182,15 @@ filter: brightness(0) invert(1);
       background: none;
     }
 
+    #includes > article > ul{
+      display: flex;
+      flex-direction: column !important;
+      height: 100px;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
 /*MOBILE STYLES*/
 /*NAV*/
 .navbar-dark .navbar-toggler{
