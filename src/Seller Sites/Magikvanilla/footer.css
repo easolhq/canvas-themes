@@ -1,0 +1,52 @@
+#footer{
+    display: none;
+}
+
+#reviews-footer{
+    min-height: 550px;
+}
+
+.fa{
+    color: white;
+}
+
+#reviews-footer > div.container > div.btn-group{
+    display:inline-block;
+}
+
+.navbar-nav{ 
+    flex-direction: row !important;
+     justify-content: center;
+}
+    
+.fixers-stamp{
+    filter: brightness(0) invert(1);
+}
+
+@media (min-width: 768px){
+#reviews-footer > div.container > div.collapse.navbar-collapse{
+    display: inline-block;
+    flex-basis: auto;
+    min-width: 60%;
+}
+}
+
+@media (min-width: 768px){
+#reviews-footer > div.container > div.collapse.navbar-collapse > ul > li a {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #fff !important;
+}
+}
+@media (min-width: 768px){
+#reviews-footer > div.container{
+flex-wrap: nowrap;
+}
+}
+
+#reviews-footer > div.address,
+#reviews-footer > div.contact{
+    text-align: center;
+    color: white;
+    
+}
