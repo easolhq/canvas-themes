@@ -100,45 +100,7 @@ h1{
           }
   }
 
-  /*FOOTER*/
-#footer{
-  padding-top: 25px;
-}
-
-  #footer > div.w-100.text-center > a > svg,
-#footer > div.container > a > img{
-filter: brightness(0) invert(1);
-}
-
-#footer > div.container > div.btn-group > a.fa.fa{
-    color: #fff;
-}
-
-#footer > div.w-100.text-center:before{
-  content:"MAGIKVANILLA SURFCAMP Rua Ribeira da Baleia, Vivenda, 2655-350 Ericeira, Portugal \a FIND US ON THE GO GPS: 38.962825, -9.412198";
-  white-space: pre;
-}
-
-#footer .navbar-nav{
-  flex-direction: column !important;
-  height: 200px;
-  flex-wrap: wrap;
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#footer > div.w-100.text-center{
-  padding-top: 50px;
-}
-
-#footer > div.w-100.text-center{
-  padding-top: 50px;
-}
-
-#footer .nav-link{
-  padding-right: 100px;
-}
+/*FOOTER*/
 
 #partner-logos{
   padding-top: 25px;
