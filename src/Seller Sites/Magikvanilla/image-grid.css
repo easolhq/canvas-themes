@@ -168,6 +168,75 @@
     height: 50vh;
 }
 
+/*EXPERIENCES PAGE*/
+#block-yuc .col{
+  height: 50vh;
+}
+
+/*LOCATION GRID*/
+.extra-surf::before {
+  content: "";
+  background: 
+   /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.1)
+    ),
+    /* bottom, image */
+  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Activities.jpg);
+  background-size: cover;
+  background-position: center; 
+  top: 0rem;
+  left: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.extra-yoga::before {
+  content: "";
+  background: 
+   /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.1)
+    ),
+    /* bottom, image */
+  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Location.jpg);
+  background-size: cover;
+  background-position: center; 
+  top: 0rem;
+  left: 1rem;
+  bottom: 0rem;
+  right: 1rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.extra-sup::before {
+  content: "";
+  background: 
+   /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.1)
+    ),
+    /* bottom, image */
+  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Hut.jpg);
+  background-size: cover;
+  background-position: center; 
+  top: 0rem;
+  left: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  position: absolute;
+  z-index: -1;
+}
+
+
+/*MOBILE*/
+
 @media (max-width: 767px){
   .sup::before, .village::before, .location::before {
       top: 0rem;
@@ -184,3 +253,13 @@
     right: 0rem;
   }
   }
+
+  /*EXPERIENCES PAGE MOBILE*/
+  @media (max-width: 767px){
+    .sup::before, .village::before, .location::before {
+        top: 0rem;
+        left: 0rem;
+        bottom: 0rem;
+        right: 0rem;
+    
+    }
