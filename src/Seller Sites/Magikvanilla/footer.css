@@ -2,6 +2,11 @@
     display: none;
 }
 
+#reviews-footer > div.contact > a
+#reviews-footer > div.contact > a:hover{
+    color: #fff; 
+}
+
 #reviews-footer{
     min-height: 550px;
 }
