@@ -30,6 +30,7 @@
     
 .fixers-stamp{
     filter: brightness(0) invert(1);
+    padding-bottom: 20px;
 }
 
 @media (min-width: 768px){
