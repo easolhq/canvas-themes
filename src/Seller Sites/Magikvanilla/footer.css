@@ -7,6 +7,10 @@
     color: #fff; 
 }
 
+#reviews-footer .flex-container img{
+        max-width: 150px;
+}
+
 #reviews-footer{
     min-height: 550px;
 }
