@@ -52,6 +52,10 @@
     max-width: 150px !important;
 }
 
+#partner-logos > div > div > a > img{
+    max-width: 150px;
+}
+
 
 
 @media (min-width: 768px){
