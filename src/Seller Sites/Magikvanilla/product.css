@@ -4,3 +4,13 @@
     margin-left: auto !important;
     margin-right: auto !important;
     }
+
+    #includes hr{
+        border-top-color: #FFB0A3 !important;
+    }
+    
+    #overview > article > div.row.no-gutters > div.col-12.col-md-5.p-3.overview-card.offset-md-7 > h5,
+    #includes > article > h2{
+    font-size: 1.75em;
+    text-transform: uppercase;
+    }   
