@@ -363,11 +363,16 @@ h1{
       margin: auto;
     }
     
-    .flex-container img{
-    max-width: 125px;
-    padding: 20px;
-    }
-    
+    #reviews > div > div > a > img{
+      max-width: 200px;
+      padding: 20px;
+  }
+  
+  #reviews > div > div:nth-child(5) > a > img{
+      max-width: 150px !important;
+  }
+
+
     #reviews{
       padding-top: 20px;
       padding-bottom: 48px;
