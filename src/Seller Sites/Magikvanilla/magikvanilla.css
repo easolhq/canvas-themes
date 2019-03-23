@@ -99,22 +99,6 @@ h1{
           height: 90px;
           }
   }
-
-/*FOOTER*/
-
-#partner-logos{
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.magik-footer{
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  margin-bottom: 0 !important;
-}
-#reviews-footer img{
-  filter: brightness(0) invert(1);
-}
   
   /*GRID*/
   .content-main, .content-secondary{

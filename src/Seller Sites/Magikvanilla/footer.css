@@ -2,13 +2,23 @@
     display: none;
 }
 
+#partner-logos{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .magik-footer{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  #reviews-footer img{
+    filter: brightness(0) invert(1);
+  }
+
 #reviews-footer > div.contact > a,
 #reviews-footer > div.contact > a:hover{
     color: #fff; 
-}
-
-#reviews-footer .flex-container img{
-        max-width: 150px;
 }
 
 #reviews-footer{
@@ -32,6 +42,17 @@
     filter: brightness(0) invert(1);
     padding-bottom: 20px;
 }
+
+#reviews-footer > div > div > a > img{
+    max-width: 200px;
+    padding: 20px;
+}
+
+#reviews-footer > div > div:nth-child(5) > a > img{
+    max-width: 150px !important;
+}
+
+
 
 @media (min-width: 768px){
 #reviews-footer > div.container > div.collapse.navbar-collapse{
