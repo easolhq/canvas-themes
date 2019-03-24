@@ -50,6 +50,13 @@ width: 50vw;
   border-radius: 100%;
 }
 
+#block-fg9 .col-6, 
+#block-3uz .col-6{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
