@@ -68,11 +68,6 @@ visibility: visible;
 
   
 /*FOOTER*/
-
-#footer{
-    background-color: #647670 !important;
-}
-
 #footer .container{
     height: 200px;
 }
