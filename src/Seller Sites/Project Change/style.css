@@ -22,6 +22,14 @@
     color: #fff;
 }
 
+#block-ppk .block-content{
+  height: 80% !important;
+}
+
+#block-ppk > div.block-content > div > a{
+  padding-top: 20vh;
+}
+
   /*ABOUT US*/
 @media only screen and (min-width: 768px){ 
 #block-01x  .block-content{
@@ -79,6 +87,7 @@ padding-right: 20vw;
 
 #block-nns p{    
   color: #fff !important;
+  text-align: center;
 }
 
   /*FOOTER IMAGE*/
