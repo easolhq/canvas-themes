@@ -51,11 +51,13 @@ width: 50vw;
   max-height: 60vh;
 }
 
+@media only screen and (min-width: 768px){ 
 #block-fg9 .col-6, 
 #block-3uz .col-6{
     display: flex !important;
     justify-content: center;
     align-items: center;
+}
 }
 
 
@@ -112,3 +114,16 @@ padding-right: 20vw;
   #block-3fm{
   height: 100vh !important;
   }
+    /*MOBILE*/
+    
+    @media only screen and (max-width: 767px) {
+      .text-and-image-block .col-12{
+      padding-bottom: 10%;
+      padding-top: 10%;
+      }
+    }
+  
+      #block-fg9 > div.block-content > div > div.col-12.d-md-none > img,
+      #block-3uz > div.block-content > div > div.col-12.d-md-none > img{
+          border-radius: 100%;
+      }
