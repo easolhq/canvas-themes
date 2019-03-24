@@ -43,6 +43,16 @@ width: 50vw;
     padding-top: 5rem !important;
 }
 
+
+/*TEAM*/
+#block-fg9 .text-and-image-block .col-6, 
+#block-3uz .text-and-image-block .col-6{
+  border-radius: 100%;
+}
+
+
+
+
 /*CHARLIE*/
 #block-fg9 a{
     color: #647670 !important;

@@ -130,9 +130,10 @@ visibility: visible;
     }
 
 
+
 .text-and-image-block > div.block-content > div > div.col-6.col-image.d-none.d-lg-block > img{
-    border-radius: 100%;
-    max-height: 50%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 
