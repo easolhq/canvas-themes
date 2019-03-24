@@ -38,6 +38,34 @@ h4, h5{
 filter: brightness(0) invert(1);
 }
 
+
+#menu .nav-link,
+#menu .navbar-brand{
+  visibility: hidden;
+}
+
+#menu.scrolled {
+  background-color: #647670 !important;
+  transition: background-color 200ms linear;
+}
+
+#menu.open .nav-link,
+#menu.scrolled .nav-link,
+#menu.scrolled .navbar-brand{
+  visibility: visible;
+}
+
+@media only screen and (max-width: 767px) {
+#menu .navbar-brand{
+  visibility: hidden;
+}
+  
+#menu.scrolled .navbar-brand{
+visibility: visible;
+}
+}
+
+
   
 /*FOOTER*/
 
