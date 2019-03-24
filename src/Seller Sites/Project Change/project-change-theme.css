@@ -131,8 +131,7 @@ visibility: visible;
 
 
 .text-and-image-block > div.block-content > div > div.col-6.col-image.d-none.d-lg-block > img{
-    height: 100vh;
-    object-fit: cover;
+    border-radius: 100%;
 }
 
 
