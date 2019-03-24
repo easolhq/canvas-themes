@@ -48,6 +48,7 @@ width: 50vw;
 #block-fg9 > div.block-content > div > div.col-6.col-image.d-none.d-lg-block > img, 
 #block-3uz > div.block-content > div > div.col-6.col-image.d-none.d-lg-block > img{
   border-radius: 100%;
+  max-height: 50%;
 }
 
 #block-fg9 .col-6, 
