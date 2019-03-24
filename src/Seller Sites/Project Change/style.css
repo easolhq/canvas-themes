@@ -45,8 +45,8 @@ width: 50vw;
 
 
 /*TEAM*/
-#block-fg9 .text-and-image-block .col-6, 
-#block-3uz .text-and-image-block .col-6{
+#block-fg9 > div.block-content > div > div.col-6.col-image.d-none.d-lg-block > img, 
+#block-3uz > div.block-content > div > div.col-6.col-image.d-none.d-lg-block > img{
   border-radius: 100%;
 }
 
