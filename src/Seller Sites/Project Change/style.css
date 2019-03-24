@@ -83,11 +83,11 @@ padding-right: 20vw;
   }
 #block-nns{
   background-color: #647670;
+  text-align: center;
 }
 
 #block-nns p{    
   color: #fff !important;
-  text-align: center;
 }
 
   /*FOOTER IMAGE*/
