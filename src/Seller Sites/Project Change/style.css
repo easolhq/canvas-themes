@@ -23,11 +23,11 @@
 }
 
 #block-ppk .block-content{
-  height: 80% !important;
+  height: 90% !important;
 }
 
 #block-ppk > div.block-content > div{
-  padding-top: 20vh;
+  padding-top: 10vh;
 }
 
   /*ABOUT US*/
