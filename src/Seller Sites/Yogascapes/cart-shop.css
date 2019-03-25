@@ -59,7 +59,7 @@ height: 5rem !important;
 .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
     border-color: #fff !important;
 }
-
+ul.list-inline.footer-social-list.my-4,
 .footer-list a,
 .footer-list,
 .logo-mark.x2, 
