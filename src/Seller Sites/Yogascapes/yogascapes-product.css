@@ -1,0 +1,188 @@
+p {
+    font-size: 1.25rem;
+}
+
+/*PRODUCT HERO*/
+.product-hero{
+    height: 100vh;
+    background-color: rgba(0,0,0,.4);
+}
+
+#hero > article > header > h6{
+font-family: "Proxima N W01 Cd Smbd",sans-serif;
+}
+
+@media (min-width: 60em){
+#hero > article > header > h1 {
+    font-size: 65px;
+    letter-spacing: .125em;
+}
+#hero > article > header > h6{
+    font-size: 40px;
+}
+}
+
+/*RETREAT HERO*/
+.retreat-hotel-block{
+    height: 80vh;
+}
+
+#sleep > div.block.py-0 > article{
+    text-align: center;
+}
+
+#sleep > div.block.py-0 > article > h3{
+    text-transform: uppercase;
+}
+
+#sleep > div.block.py-0 > article > h3:before{
+    content: "Your Home";
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+/*OVERVIEW*/
+
+#overview p{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+#overview > article > div.row.no-gutters > div.col-12.col-md-5.p-3.overview-card.offset-md-7 h5{
+    display: none;
+}
+
+#overview > article > div.row.no-gutters > div.col-12.col-md-5.p-3.overview-card.offset-md-7:before{
+content: "The Magic";
+text-transform: uppercase;
+display: block;
+text-align: center;
+font-size: 42px;
+letter-spacing: .125em;
+}
+
+#overview > article > div.row.no-gutters{
+    flex-wrap: wrap-reverse;
+}
+
+#overview
+#overview .block-content,
+#overview .overview-card{
+    height: auto;
+}
+
+#overview .block-content{
+    width:  100%;
+}
+
+#overview > article > div.block-background.d-none.d-md-block > div{
+    max-width: 100%;
+}
+
+/* WHATS INCLUDED */
+#includes{
+    text-align: center;
+}
+
+#includes h2{
+    text-transform: uppercase;
+}
+
+#includes ul.included-list{
+    font-size: 1.25rem;
+}
+
+#includes > article > h2 > hr{
+ display: none;
+}
+
+/*THE PLAN*/
+
+#plan > article > div > div.col-12.col-md-4 > h3{
+    display: none;
+}
+#plan > article > div > div.col-12.col-md-4:after{
+    content:"The Life on Retreat";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div:after{
+    content:"The Schedule";
+    font-size: 30px;
+    display: block;
+    white-space: pre;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+#plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2{
+    text-align: center;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div{
+    font-size: 1.25rem;
+}
+#plan > article > div > div.col-12.col-md-4{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+#plan > article > div > div.col-12.col-md-4{
+    width: 100%;
+    text-align: center ;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li{
+    justify-content: start !important;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li > div.col-7.col-md-8{
+    padding-left: 30px;
+}
+
+
+@media (min-width: 768px){
+#plan .offset-md-4 {
+    margin-left: 0px;
+}
+
+#plan .col-md-8 {
+    flex: 66.6%; 
+    max-width: 100%; 
+}
+}
+
+/*TEACHER*/
+#seller-profile > article > div.row.no-gutters > div.col-12.col-md-5.offset-md-7.p-3 > h3{
+    text-transform: uppercase;
+}
+#seller-profile{
+    text-align: center;
+}
+
+/*FOOTER*/
+#footer{
+    background-color: #595958;
+    height: 200px;
+}
+
+#footer a.navbar-brand img{
+    height: 42px;
+}
+
+#footer .nav-link{
+text-transform: uppercase;
+}
+
+#footer .text-center{
+    padding-top: 100px;
+}
