@@ -92,7 +92,7 @@ letter-spacing: .125em;
 }
 
 #includes ul.included-list{
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
 }
 
 #includes > article > h2 > hr{
@@ -114,7 +114,7 @@ letter-spacing: .125em;
 
 #plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div:after{
     content:"The Schedule";
-    font-size: 30px;
+    font-size: 30px !important;
     display: block;
     white-space: pre;
     margin-left: auto;
@@ -129,7 +129,7 @@ letter-spacing: .125em;
 }
 
 #plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div{
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
 }
 #plan > article > div > div.col-12.col-md-4{
     flex: 0 0 100%;
