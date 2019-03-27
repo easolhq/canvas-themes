@@ -3,8 +3,8 @@ p {
 }
 
 /*PRODUCT HERO*/
-#hero block.product-hero{
-    height: 100vh;
+.product-hero{
+    height: 100vh !important;
     background-color: rgba(0,0,0,.4);
 }
 
