@@ -24,7 +24,7 @@ font-family: "Proxima N W01 Cd Smbd",sans-serif;
 
 /*RETREAT HERO*/
 .retreat-hotel-block{
-    height: 80vh;
+    height: 80vh !important;
 }
 
 #sleep > div.block.py-0 > article{
