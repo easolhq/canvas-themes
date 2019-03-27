@@ -3,7 +3,7 @@ p {
 }
 
 /*PRODUCT HERO*/
-#hero.product-hero{
+#hero .product-hero{
     height: 100vh;
     background-color: rgba(0,0,0,.4);
 }
