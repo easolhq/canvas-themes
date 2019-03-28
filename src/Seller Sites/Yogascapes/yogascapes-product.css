@@ -130,6 +130,7 @@ letter-spacing: .125em;
 
 #plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div{
     font-size: 1.25rem !important;
+    white-space: pre-line;
 }
 #plan > article > div > div.col-12.col-md-4{
     flex: 0 0 100%;
