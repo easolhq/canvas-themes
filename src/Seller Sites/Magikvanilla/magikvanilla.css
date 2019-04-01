@@ -403,11 +403,21 @@ td{
   }
 
   /*MOBILE*/
+
+  /*NAV TOGGLER*/
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
     color: black;
   }
-  /*CUSTOM HTML*/
+
+  
+  
   @media only screen and (max-width: 767px) {
+/*NAV*/
+    #menu .navbar-nav{
+      flex-direction: column !important;
+      }
+
+/*CUSTOM HTML*/
   .hack-block > div.block-content > div > div{
   display: block;
   }
