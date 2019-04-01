@@ -422,6 +422,11 @@ td{
     font-size: 3rem;
   }
 
+  /* REVIEWS */
+  #reviews-tripadvisor{
+    display: none;
+  }
+
   #directions .col, 
   #reviews-product .col,
   #reviews .col{
