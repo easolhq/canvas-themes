@@ -10,3 +10,109 @@
     font-size: 1.75em;
     text-transform: uppercase;
     }   
+
+    #overview > article > div.row.no-gutters > div.col-12.col-md-7.d-md-none > img,
+#overview > article > div.block-background.d-none.d-md-block > div > div > div > div{
+    display: none;
+}
+
+#includes > article > h2 {
+	visibility: hidden;
+	position: relative;
+}
+
+
+#includes > article > h2:after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "What's Included";
+}
+
+@media only screen and (min-width: 768px){
+#includes{
+    width: 40% !important;
+}
+
+#overview{
+    width: 50% !important;
+}
+
+#overview{
+display: inline-block;
+float: left;
+padding-left: 10%;
+}
+
+#includes {
+display: inline-block;
+padding-top: 16px !important;
+padding-right: 10%;
+}
+
+#overview .col-md-5 {
+    flex: 100%;
+    max-width: 100%;
+}
+
+#overview .offset-md-7 {
+    margin-left: 0;
+}
+
+#sleep {
+    text-align: center;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 990px){
+#sleep {
+    margin-top: 200px;
+}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1219px){
+#sleep {
+    margin-top: 150px;
+}
+}
+
+@media only screen and (min-width: 1220px){
+#sleep {
+    margin-top: 100px;
+}
+}
+
+#plan > article > div{
+        width: 100%;
+    }
+    
+#plan > article > div > div.col-12.col-md-4{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+#plan > article > div > div.col-12.col-md-4{
+    width: 100%;
+    text-align: center ;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li{
+    justify-content: start !important;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li > div.col-7.col-md-8{
+    padding-left: 30px;
+}
+
+@media (min-width: 768px){
+#plan .offset-md-4 {
+    margin-left: 0px;
+}
+
+#plan .col-md-8 {
+    flex: 66.6%; 
+    max-width: 100%; 
+}
+}
