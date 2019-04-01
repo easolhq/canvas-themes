@@ -1,4 +1,8 @@
 /*PRODUCT PAGE*/
+#beds{
+    display: none;
+}
+
 .retreat-hotel-block{
     height: 50vh !important;
     margin-left: auto !important;
