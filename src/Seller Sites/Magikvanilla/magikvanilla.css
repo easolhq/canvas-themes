@@ -439,6 +439,20 @@ td{
   padding-right: 0;
 }
 
+/*PRODUCT ROW*/
+.product-row-block .block-content,
+.product-row-block .block-content .container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*HERO PRODUCT*/
+.hero-product-block .block-content,
+.hero-product-block .block-content .container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
   /*PAGE HERO*/
 
   .hero-image-block:first-of-type h1 {
