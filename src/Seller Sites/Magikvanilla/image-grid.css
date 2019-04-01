@@ -238,7 +238,7 @@
 /*MOBILE*/
 
 @media (max-width: 767px){
-  .sup::before, .village::before, .location::before {
+  .village::before {
       top: 0rem;
       left: 0rem;
       bottom: 0rem;
@@ -252,6 +252,13 @@
     bottom: 0rem;
     right: 0rem;
   }
+
+  .sup::before,
+  .location::before{ 
+    top: 1rem;
+      left: 0rem;
+      bottom: 1rem;
+      right: 0rem;
   }
 
   /*EXPERIENCES PAGE MOBILE*/
@@ -263,3 +270,4 @@
         right: 0rem;
     
     }
+

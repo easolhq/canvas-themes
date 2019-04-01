@@ -422,6 +422,10 @@ td{
       margin-right: auto;
     }
   }
+
+  .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+    color: black;
+  }
   
   
   
