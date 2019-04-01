@@ -428,8 +428,8 @@ td{
 }
 
 .text-and-image-block .col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text{
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 .text-and-image-block{
