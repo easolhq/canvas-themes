@@ -427,11 +427,6 @@ td{
   padding-top: 2rem;
 }
 
-.text-and-image-block .col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text{
-  padding-left: 0rem;
-  padding-right: 0rem;
-}
-
 .text-and-image-block{
   margin-left: 0 !important;
   margin-right: 0 !important;
