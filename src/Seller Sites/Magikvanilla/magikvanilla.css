@@ -427,6 +427,16 @@ td{
   padding-top: 2rem;
 }
 
+.text-and-image-block .col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.text-and-image-block{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /*DUAL PRODUCT BLOCK*/
 .dual-product-block .block-content,
 .dual-product-block .block-content .container{
