@@ -426,6 +426,11 @@ td{
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
     color: black;
   }
+  @media only screen and (max-width: 768px){
+  .hero-image-block:first-of-type h1 {
+    font-size: 3rem;
+  }
+}
   
   
   
