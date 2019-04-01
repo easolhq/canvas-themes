@@ -33,11 +33,9 @@ h4, h5, h6{
     margin-right: auto;
 }
 
-.navbar-brand,
-#block-ppk h1:before{
+#block-ppk h1:before .navbar-brand{
 filter: brightness(0) invert(1);
 }
-
 
 #menu .nav-link{
   visibility: hidden;
@@ -63,8 +61,6 @@ filter: brightness(0) invert(1);
 visibility: visible;
 }
 }
-
-
   
 /*FOOTER*/
 #footer .container{
@@ -75,7 +71,7 @@ visibility: visible;
     position: absolute;
     left: 50%;
     left: 50%;
-    margin-left: -64px;orta
+    margin-left: -64px;
     justify-content: space-evenly;
 }
 
