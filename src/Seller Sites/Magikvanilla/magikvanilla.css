@@ -422,6 +422,18 @@ td{
   display: block;
   }
 
+/*TEXT AND IMAGE BLOCK*/
+.text-and-image-block .col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text{
+  padding-top: 2rem;
+}
+
+/*DUAL PRODUCT BLOCK*/
+.dual-product-block .block-content,
+.dual-product-block .block-content .container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
   /*PAGE HERO*/
 
   .hero-image-block:first-of-type h1 {
