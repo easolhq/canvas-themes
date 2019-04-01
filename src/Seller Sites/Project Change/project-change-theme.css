@@ -39,8 +39,7 @@ filter: brightness(0) invert(1);
 }
 
 
-#menu .nav-link,
-#menu .navbar-brand{
+#menu .nav-link{
   visibility: hidden;
 }
 
