@@ -133,13 +133,12 @@ h1{
     padding-bottom: 0 !important;
   }
   
-  @media (min-width: 992px){
   .hack-block .block-content {
       max-width: 100%;
       padding-left: 0;
       padding-right: 0;
   }
-  }
+  
 
   /*MAP BLOCK*/
 
@@ -411,12 +410,6 @@ td{
   @media only screen and (max-width: 767px) {
   .hack-block > div.block-content > div > div{
   display: block;
-  }
-
-  .hack-block .block-content{
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 100%;
   }
 
   /*PAGE HERO*/
