@@ -453,7 +453,15 @@ td{
   padding-right: 0;
 }
 
+/*JUMP BAR*/
+.jump-block .block-content{
+  font-size: 15px;
+}
+
   /*PAGE HERO*/
+  .hero-image-block:first-of-type{
+    margin-bottom: 0 !important;
+  }
 
   .hero-image-block:first-of-type h1 {
     font-size: 3rem;
