@@ -401,10 +401,24 @@ td{
   }
 
   /*MOBILE*/
+  .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+    color: black;
+  }
   /*CUSTOM HTML*/
   @media only screen and (max-width: 767px) {
   .hack-block > div.block-content > div > div{
   display: block;
+  }
+
+  .hack-block .block-content{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /*PAGE HERO*/
+
+  .hero-image-block:first-of-type h1 {
+    font-size: 3rem;
   }
 
   #directions .col, 
@@ -423,14 +437,6 @@ td{
     }
   }
 
-  .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
-    color: black;
-  }
-  @media only screen and (max-width: 768px){
-  .hero-image-block:first-of-type h1 {
-    font-size: 3rem;
-  }
-}
   
-  
+
   
