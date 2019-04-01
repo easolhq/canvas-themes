@@ -32,8 +32,8 @@ h4, h5, h6{
     margin-left: auto;
     margin-right: auto;
 }
-
-#block-ppk h1:before .navbar-brand{
+.navbar-brand,
+#block-ppk h1:before{
 filter: brightness(0) invert(1);
 }
 
