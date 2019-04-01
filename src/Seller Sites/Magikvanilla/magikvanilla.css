@@ -428,13 +428,13 @@ td{
 }
 
 .text-and-image-block .col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text{
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-and-image-block{
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /*DUAL PRODUCT BLOCK*/
