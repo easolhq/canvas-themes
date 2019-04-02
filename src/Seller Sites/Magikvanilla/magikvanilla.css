@@ -369,6 +369,14 @@ h1{
       padding-bottom: 48px;
     }
 
+#mobile-tripadvisor{
+  margin-top: -1px;
+}
+
+    #mobile-tripadvisor img{
+      max-width: 100%;
+    }
+
     /*SURF TABLE*/
 .table-responsive{
   display: block;
