@@ -302,6 +302,12 @@ h1{
  text-align: justify;
 }
 
+/*MAPBOX*/
+.map-block > div.block-content > div > div > div > div.mapboxgl-canvas-container.mapboxgl-interactive.mapboxgl-touch-drag-pan.mapboxgl-touch-zoom-rotate > canvas{
+  width: 100%;
+}
+
+
   /*REVIEWS*/
 
   #mobile-tripadvisor,
