@@ -35,7 +35,7 @@
 /*MOBILE*/
 
 /* SURF TABLE */
-@media screen and (max-width: 1045px) and (min-width: 835px) {
+@media screen and (max-width: 1045px) and (min-width: 565px) {
   .priority-7{
     display:none;
   }
