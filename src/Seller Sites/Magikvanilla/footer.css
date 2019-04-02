@@ -85,3 +85,31 @@ flex-wrap: nowrap;
     color: white;
     
 }
+
+/*MOBILE*/
+@media only screen and (max-width: 767px) {
+#magik-footer .navbar-brand img{
+    height: 100px;
+}
+
+#reviews-footer > div.flex-container{
+    display: none !important;
+}
+
+#magik-footer  div.btn-group {
+    display: inline-block;
+    float: right;
+    padding-top: 50px;
+}
+
+#mobile-footer-tripadvisor {
+    text-align: center;
+}
+#mobile-footer-tripadvisor img{
+max-width: 100% !important;
+}
+
+#partner-logos > div > div > a > img{
+    max-width: 100px;
+}
+}

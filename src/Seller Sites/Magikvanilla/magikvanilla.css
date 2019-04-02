@@ -304,7 +304,7 @@ h1{
 
 /*MAPBOX*/
 .map-block{
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 
 .map-block > div.block-content > div > div > div > div.mapboxgl-canvas-container.mapboxgl-interactive.mapboxgl-touch-drag-pan.mapboxgl-touch-zoom-rotate > canvas{
@@ -430,8 +430,6 @@ td{
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
     color: black;
   }
-
-  
   
   @media only screen and (max-width: 767px) {
 /*NAV*/
