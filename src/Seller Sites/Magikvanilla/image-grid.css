@@ -260,6 +260,14 @@
       bottom: 1rem;
       right: 0rem;
   }
+
+/*EXPERIENCE PAGE*/
+.extra-yoga::before{
+  top: 1rem;
+  left: 0rem;
+  bottom: 1rem;
+  right: 0rem;
+}
 }
 
 
