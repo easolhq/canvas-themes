@@ -32,9 +32,56 @@
   background-position: bottom center !important; 
 }
 
+/*MOBILE*/
 
+/* SURF TABLE */
+@media screen and (max-width: 1045px) and (min-width: 835px) {
+  .priority-7{
+    display:none;
+  }
+  
+  .priority-6{
+    display:none;
+  }
 
-  /*MOBILE*/
+  .priority-5{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 565px) and (min-width: 300px) {
+  .priority-7{
+    display:none;
+  }
+  
+  .priority-6{
+    display:none;
+  }
+
+  .priority-5{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  
+  .priority-7{
+    display:none;
+  }
+  
+  .priority-6{
+    display:none;
+  }
+
+  .priority-5{
+    display:none;
+  }
+  .priority-4{
+    display:none;
+  }
+}
+
+  
   
   #block-h7j .block-content, #block-mki .block-content, #block-0dp .block-content{
   max-width: 100%;
