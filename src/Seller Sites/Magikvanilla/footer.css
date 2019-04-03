@@ -44,6 +44,10 @@
     max-width: 150px;
 }
 
+#reviews-footer a {
+    color: white;
+  }
+
 @media only screen and (min-width: 768px){
     #reviews-footer > div.container > div.collapse.navbar-collapse{
         display: inline-block;
