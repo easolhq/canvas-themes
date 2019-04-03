@@ -38,7 +38,7 @@
   }
   
   #menu .nav-link{
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 4px;
   padding-top: 0.3rem !important;
   padding-right: 0.6rem !important;
@@ -69,10 +69,12 @@
   }
   
   @media only screen and (min-width: 767px) {
+ .navbar-nav{
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
+}
 
   /*CUSTOM HTML*/
   .hack-block{
