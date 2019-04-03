@@ -130,6 +130,14 @@
   .hero-product-block > div.block-content > div > div > div.col-12.d-flex.flex-column.justify-content-center > div.d-flex.justify-content-between > p{
   visibility: hidden;
   }
+
+
+@media only screen and (min-width: 767px) {
+.hero-product-block .img-fluid{
+    height: 650px;
+    object-fit: cover;
+}
+}
   
   /*MAILCHIMP BLOCK*/
   #mergeRow-gdpr{
