@@ -1,0 +1,196 @@
+/*NAV*/
+#menu{
+    background-color: transparent !important;
+    z-index: 1030 !important;
+  }
+  
+  #menu.open{
+    padding-bottom: 50px;
+  }
+  
+  .navbar-nav{
+  justify-content: space-evenly;
+  width: 100%;
+  }
+  
+  a.navbar-brand{
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  a.navbar-brand img{
+  height: 60px;
+  }
+  
+  nav#menu .container{
+  display: flex;
+  flex-flow: row wrap;
+  align-self: flex-start;
+  }
+  
+  #menu-navbar{
+  flex-basis: 100%;
+  width: 0px;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+  }
+  
+  #menu .nav-link{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-top: 0.3rem !important;
+  padding-right: 0.6rem !important;
+  padding-bottom: 0.3rem !important;
+  padding-left: 0.6rem !important;
+  }
+  
+  #menu-social-links{
+  display: none
+  }
+  
+  #menu-navbar a{
+    color: #fff;
+  }
+  
+  li#book-now.nav-item{
+    border: solid 1px #000 !important;
+  }
+  
+  li#book-now.nav-item:hover{
+    color: #212529 !important;
+    background-color: #000 !important;
+    border-color: #000;
+  }
+  
+  li#book-now.nav-item:hover a{
+    color: #fff !important;
+  }
+  
+  /*CUSTOM HTML*/
+  .hack-block{
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  /*HERO IMAGE BLOCK */
+  
+  .hero-image-block{
+      height: 110vh !important;
+  }
+  
+  .hero-image-block h1,
+  .hero-image-block h2,
+  .hero-image-block p{
+      color: white !important;
+  }
+  
+  @media only screen and (min-width: 992px){
+   .block.hero-image-block {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+  
+  }
+  
+  /*HERO PRODUCT BLOCK*/
+  
+   .block.hero-product-block {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  
+   .block.hero-product-block > div.block-content > div > div > div{
+       padding-left: 0;
+       padding-right: 0;
+   }
+   
+   .hero-product-block .btn-primary {
+      max-width: 200px;
+      position: absolute;
+      right: 30px;
+      bottom: 25px;
+   }
+  
+  /*TEXT BLOCK */
+  .text-block .block-content{
+      max-width: 720px !important;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  }
+  
+  /*HERO PRODUCT BLOCK */
+  .hero-product-block > div.block-content > div > div > div.col-12.d-flex.flex-column.justify-content-center > div.d-flex.justify-content-between > p{
+  visibility: hidden;
+  }
+  
+  /*MAILCHIMP BLOCK*/
+  #mergeRow-gdpr{
+      display: none;
+  }
+  
+  /*TEXT AND IMAGE BLOCK*/
+  .text-and-image-block{
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+  
+  .text-and-image-block .block-content{
+      max-width: 100%;
+  }
+  
+  .text-and-image-block .btn{
+    margin-top: 40px;
+  }
+  
+  .image-position-left.text-and-image-block .col-6.col-image.d-none.d-lg-block{
+  padding-left: 0px;
+  padding-right: 0;
+  }
+  
+  .image-position-right.text-and-image-block .col-6.col-image.d-none.d-lg-block{
+  padding-left: 0;
+  padding-right: 0px;
+  }
+  
+  
+  @media only screen and (min-width: 769px) {
+  .text-and-image-block .col-6.col-image.d-none.d-lg-block{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  }
+  }
+  
+  /*REVIEWS*/
+  #reviews .col{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        height: auto;
+      }
+  
+  #reviews a:hover{
+      text-decoration: none;
+  }
+  
+  /*STYLES*/
+  #block-3h3,
+  #block-8ut,
+  #block-py2,
+  #block-b8l{
+      max-width: 100% !important;
+      height: 60vh !important;
+  }
+  
+  /*MOBILE*/
+  @media only screen and (max-width: 767px) {
+  #reviews .col{
+  min-width: 100%;
+  padding-bottom: 2rem;
+  }
+  }
