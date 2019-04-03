@@ -72,7 +72,9 @@ flex-wrap: nowrap;
 
 
 #reviews-footer > div > div.address,
-#reviews-footer > div > div.contact{
+#reviews-footer > div > div.contact,
+#reviews-footer > div > div.address a,
+#reviews-footer > div > div.contact a{
     text-align: center;
     color: white;  
 }
