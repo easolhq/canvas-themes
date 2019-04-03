@@ -21,7 +21,7 @@
     min-height: 550px;
 }
 
-#reviews-footer > div.container > div.btn-group{
+#reviews-footer > div > div.collapse.navbar-collapse > div.btn-group{
     display:inline-block;
 }
 
@@ -69,7 +69,6 @@ flex-wrap: nowrap;
     display: none !important;
 }
 }
-
 
 #reviews-footer > div > div.address,
 #reviews-footer > div > div.contact,
