@@ -68,18 +68,17 @@
     padding-left: .5rem;
     color: #fff !important;
 }
-}
-@media (min-width: 768px){
 #reviews-footer > div.container{
 flex-wrap: nowrap;
 }
+#mobile-footer-tripadvisor{
+    display: none;
 }
-
+}
 #reviews-footer > div.address,
 #reviews-footer > div.contact{
     text-align: center;
-    color: white;
-    
+    color: white;  
 }
 
 /*MOBILE*/
@@ -109,3 +108,4 @@ max-width: 100% !important;
     max-width: 100px;
 }
 }
+
