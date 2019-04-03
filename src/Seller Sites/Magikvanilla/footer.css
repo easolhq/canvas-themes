@@ -69,8 +69,10 @@ flex-wrap: nowrap;
     display: none !important;
 }
 }
-#reviews-footer > div.address,
-#reviews-footer > div.contact{
+
+
+#reviews-footer > div > div.address,
+#reviews-footer > div > div.contact{
     text-align: center;
     color: white;  
 }
