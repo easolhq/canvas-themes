@@ -72,7 +72,7 @@
 flex-wrap: nowrap;
 }
 #mobile-footer-tripadvisor{
-    display: none;
+    display: none !important;
 }
 }
 #reviews-footer > div.address,
