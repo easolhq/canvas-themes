@@ -21,10 +21,6 @@
     min-height: 550px;
 }
 
-#reviews-footer > div > div.collapse.navbar-collapse > div.btn-group{
-    display:inline-block;
-}
-
 .navbar-nav{ 
     flex-direction: row !important;
      justify-content: center;
