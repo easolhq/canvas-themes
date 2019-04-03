@@ -73,6 +73,11 @@ flex-wrap: nowrap;
     color: white;  
 }
 
+#reviews-footer > div > div.collapse.navbar-collapse > div > a.fa.fa-instagram.mx-1,
+#reviews-footer > div > div.collapse.navbar-collapse > div > a.fa.fa-facebook.mx-1{
+    color: white;
+}
+
 /*MOBILE*/
 @media only screen and (max-width: 767px) {
 #magik-footer .navbar-brand img{
