@@ -44,20 +44,19 @@
     max-width: 150px;
 }
 
-@media (min-width: 768px){
-#reviews-footer > div.container > div.collapse.navbar-collapse{
-    display: inline-block;
-    flex-basis: auto;
-    min-width: 60%;
-}
-}
-
 @media only screen and (min-width: 768px){
+    #reviews-footer > div.container > div.collapse.navbar-collapse{
+        display: inline-block;
+        flex-basis: auto;
+        min-width: 60%;
+    }
+
 #reviews-footer > div.container > div.collapse.navbar-collapse > ul > li a {
     padding-right: .5rem;
     padding-left: .5rem;
     color: #fff !important;
 }
+
 #reviews-footer > div.container{
 flex-wrap: nowrap;
 }
