@@ -9,6 +9,22 @@
     font-family: 'Larsseit light', sans-serif;    
     }
 
+   #app .navbar .nav-item>.nav-link{
+        font-family: 'Larsseit light', sans-serif;    
+        text-transform: capitalize;
+    }
+    
+    
+    #trips-card > article > div.row.justify-content-center p{
+         font-family: 'Larsseit light', sans-serif !important;
+         text-transform: capitalize !important;
+    }
+    
+    #group-tickets > div > div > p,
+    #single-tickets > div > div > p{
+        text-transform: capitalize !important;
+    }
+
 /*BUTTONS*/
 
 #trips-card .btn,
@@ -17,12 +33,6 @@
     background-color: transparent;
     border-color: #00aa82 !important;
 }
-
-.btn-primary:hover{
-    background-color: rgb(0, 170, 130);
-  border-color: rgb(0, 170, 130);
-}
-
 
 /*NAV STYLING*/
 .navbar-main .logo{
