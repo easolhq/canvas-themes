@@ -1,0 +1,120 @@
+/*FONT STYLES*/
+#app h1, #app h2, #app h3, #app h4, #app h5{
+    text-transform: capitalize;    
+    }
+
+/*BUTTONS*/
+
+#trips-card .btn,
+#app .cart-container .btn{
+    color: #00aa82;
+    background-color: transparent;
+    border-color: #00aa82 !important;
+}
+
+.btn-primary:hover{
+    background-color: rgb(0, 170, 130);
+  border-color: rgb(0, 170, 130);
+}
+
+
+/*NAV STYLING*/
+.navbar-main .logo{
+    margin-bottom: -10px;
+}
+
+body > nav > a > span:after{
+    content: "Atlas Electronic";
+    display: inline-block;
+    font-family: 'Larsseit light', sans-serif;
+    font-size: 2.1rem !important;
+    font-weight: 100 !important;
+    position: absolute;
+    bottom: 0;
+    color: #00aa82;
+}
+
+nav a{
+margin-left: auto;
+margin-right: auto;
+width: 330px;
+}
+
+#navbar-brand{
+position: relative;
+}
+
+body > nav > a > span > img{
+    height: 62px !important;
+}
+
+nav  a{
+margin-left: auto;
+margin-right: auto;
+}
+
+/*HEADING CARD*/
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section{
+    display: none;
+}
+
+/*SUB NAV STYLING*/
+
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover{
+    background-color: white !important;
+    color: #00aa82;
+  }
+  
+  .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active{
+    color: #00aa82 !important;
+    background-color: #fff !important;
+  
+  }
+
+/*CHANGING EMPTY STATE TEXT IN CART */
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-5.cart-container > div > div > div.cart-body-wrapper.d-flex.flex-column > div.d-flex.p-3.w-100.text-center > h5{
+    display: none;
+}
+
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-5.cart-container > div > div > div.cart-body-wrapper.d-flex.flex-column > div.d-flex.p-3.w-100.text-center:after{
+content: "Book your Atlas Festival Experience";
+display: block !important;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*STYLING AVAILABILITY TABLE*/
+.availability-table .table-body >.row:before{
+    background: #00aa82;
+} 
+.segment-collapse > i{
+    color: #00aa82;
+}
+
+#app hr{
+    display: none;
+}
+
+/*TRIPS CARD STYLING*/
+#app #trips-card .col-md-3{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+#app #trips{
+    padding-top: 20px !important;
+}
+
+/*FOOTER*/
+
+.footer-main{
+    background-color: black !important;
+}
+
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
+  display: none;
+}
