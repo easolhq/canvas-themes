@@ -1,6 +1,12 @@
 /*FONT STYLES*/
+
+#app p{
+    font-family: 'Larsseit light', sans-serif;
+}
+
 #app h1, #app h2, #app h3, #app h4, #app h5{
-    text-transform: capitalize;    
+    text-transform: capitalize;
+    font-family: 'Larsseit light', sans-serif;    
     }
 
 /*BUTTONS*/
@@ -77,7 +83,7 @@ margin-right: auto;
 }
 
 #app > div.container.pb-4 > div.row > div.col-14.col-lg-5.cart-container > div > div > div.cart-body-wrapper.d-flex.flex-column > div.d-flex.p-3.w-100.text-center:after{
-content: "Book your Atlas Festival Experience";
+content: "Add items and book your Atlas Festival Experience";
 display: block !important;
 margin-left: auto;
 margin-right: auto;
