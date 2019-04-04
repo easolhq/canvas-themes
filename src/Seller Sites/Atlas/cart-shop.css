@@ -34,6 +34,10 @@
     border-color: #00aa82 !important;
 }
 
+#app .cart .btn-primary {
+    background:#00aa82;
+    color: #fff;
+   }
 /*NAV STYLING*/
 .navbar-main .logo{
     margin-bottom: -10px;
@@ -68,6 +72,19 @@ nav  a{
 margin-left: auto;
 margin-right: auto;
 }
+
+/*CHEVRONS*/
+#app .cart-shop-navbar .nav.nav-chevrons {
+    background:#fff;
+   }
+   
+   .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after {
+      border-color:#fff !important;
+      background-color:#fff !important;
+   }
+   
+   .availability-table .table-body >.row:before { 
+       background:#00AA81 !important }
 
 /*HEADING CARD*/
 #app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section{
