@@ -160,11 +160,11 @@ div#jump{
 /*PRODUCT*/
 
 .product-hero{
-  height: 100vh;
+  height: 100vh !important;
 }
 
 .retreat-hotel-block{
-  height: 80vh;
+  height: 80vh !important;
 }
   
   /*MOBILE*/
