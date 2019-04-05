@@ -74,6 +74,31 @@
     height: 250px;
     }
   }
+
+  /*HERO IMAGE BLOCKS */
+.hero-image-block h1,
+.hero-image-block p{
+text-transform: uppercase;
+}
+
+.hero-image-block{
+    background: rgba(0,0,0,0.3);
+}
+
+.hero-image-block{
+    color: #fff;
+}
+
+/*TEXT BLOCK*/
+
+@media (min-width: 767px){
+.text-block{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
   
   /*MOBILE*/
   
