@@ -99,6 +99,14 @@ text-transform: uppercase;
 }
 }
 
+/*HERO PRODUCT BLOCK*/
+@media only screen and (min-width: 767px){
+  .hero-product-block .img-fluid {
+      height: 650px;
+      object-fit: cover;
+  }
+  }
+
   
   /*MOBILE*/
   
