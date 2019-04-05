@@ -1,5 +1,18 @@
+#menu-navbar {
+  padding-top: 12px;
+  font-size: 1.3rem;
+  justify-content: flex-end;
+}
+
+/* Added by BK */
+
 /* General Stuff */
 
+#menu-cta {
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
 .btn-outline-secondary {
     color: #fff;
     border-color: #fff;
@@ -9,7 +22,6 @@
     color:#fff !important;
     border-color:#fff !important;
 }
-
 #menu.navbar {
     position:fixed;
     top:0;
@@ -27,7 +39,7 @@
 /* Top Section Video BG */
 
 #block-seb {
-    padding:5rem 0 0;
+    padding:6rem 0 0 0;
     z-index:0;
 }
 #block-seb .block-content {
@@ -204,6 +216,15 @@
     transform: translateX(-50%);
 }
 
+/* Blog */
+
+.blog-img {
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    margin: 2em 0;
+}
+
 /* Instagram Feed */
 
 #block-vpy {
@@ -281,4 +302,42 @@
 }
 #block-awu img {
   width:250px;
+}
+
+/* Shop Page */
+#block-u8t {
+  padding-top:6rem;
+}
+
+.product-row-block .collection-card {
+  display:block;
+  border: 1px solid #ececec;
+  transition:0.5s all;
+}
+.product-row-block p {
+  padding:0 15px 10px;
+}
+.product-row-block small {
+  display:none;
+}
+.product-row-block .collection-card:hover, .dual-product-block .col-12:hover {
+  box-shadow: 5px 5px 5px 0px rgba(236,236,236,1);
+  text-decoration:none;
+}
+.dual-product-block .col-12 {
+  text-align: left !important;
+  border: 1px solid #ececec;
+  padding: 0;
+  flex: 0 0 48%;
+  width: 48%;
+  transition:0.5s all;
+}
+.dual-product-block .col-12:first-child {
+  margin-right:2% !important;
+}
+.dual-product-block .d-flex, .dual-product-block p {
+  padding:0 15px;
+}
+.dual-product-block .btn {
+  margin:15px !important;
 }
