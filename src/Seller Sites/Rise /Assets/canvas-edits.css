@@ -1,17 +1,20 @@
-#menu-navbar {
-  padding-top: 12px;
-  font-size: 1.3rem;
-  justify-content: flex-end;
-}
-
-/* Added by BK */
-
 /* General Stuff */
 
+#menu {
+  background-color:transparent;
+  transition:0.5s all;
+}
+#menu.solid-bg {
+  background-color:#fff;
+}
 #menu-cta {
   position: relative;
   top: 3px;
   left: 10px;
+  font-weight:bold;
+}
+.nav-item {
+  margin-right:30px;
 }
 .btn-outline-secondary {
     color: #fff;
@@ -39,7 +42,7 @@
 /* Top Section Video BG */
 
 #block-seb {
-    padding:6rem 0 0 0;
+    padding:0;
     z-index:0;
 }
 #block-seb .block-content {
@@ -132,6 +135,10 @@
 
 /* Snow Music Adventure */
 
+#block-xou, #block-zdv, #block-ec6, #block-utk {
+  height:90vh !important;
+}
+
 #block-xou .block-content, #block-zdv .block-content, #block-ec6 .block-content {
     width: 30%;
     min-width: 300px;
@@ -158,7 +165,7 @@
 }
 .book-step {
   color:#64c5e1;
-  margin-bottom:5px;
+  margin:10px 0 5px;
 }
 .book-title {
   font-weight:bold;
@@ -186,14 +193,14 @@
 
 #block-1mu {
   padding-top:6rem;
-  padding-bottom:1rem;
+  padding-bottom:2rem;
 }
 #block-1mu .image-grid-entry-overlay {
     opacity: 1;
     color: #000 !important;
     background: transparent;
     text-align: center;
-    height: 130%;
+    height: 135%;
     top: -14%;
 }
 #block-1mu .image-grid-entry-overlay .d-flex {
@@ -244,25 +251,25 @@
   background:#fff;
   border-color:#fff;
 }
-#block-9wd ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+#block-9wd ::-webkit-input-placeholder { 
     color:    #fff;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
    color:    #fff;
    opacity:  1;
 }
-#block-9wd ::-moz-placeholder { /* Mozilla Firefox 19+ */
+#block-9wd ::-moz-placeholder { 
    color:    #fff;
    opacity:  1;
 }
-#block-9wd :-ms-input-placeholder { /* Internet Explorer 10-11 */
+#block-9wd :-ms-input-placeholder { 
    color:    #fff;
 }
-#block-9wd ::-ms-input-placeholder { /* Microsoft Edge */
+#block-9wd ::-ms-input-placeholder { 
    color:    #fff;
 }
 
-#block-9wd ::placeholder { /* Most modern browsers support this now. */
+#block-9wd ::placeholder { 
    color:    #fff;
 }
 #block-9wd #mergeRow-gdpr {
@@ -311,8 +318,9 @@
 
 .product-row-block .collection-card {
   display:block;
-  border: 1px solid #ececec;
+  border: 4px solid #d3f1da;
   transition:0.5s all;
+  min-height:240px;
 }
 .product-row-block p {
   padding:0 15px 10px;
@@ -320,13 +328,13 @@
 .product-row-block small {
   display:none;
 }
-.product-row-block .collection-card:hover, .dual-product-block .col-12:hover {
+.product-row-block .collection-card:hover, .dual-product-block .col-12:hover, #block-wgf .block-content:hover {
   box-shadow: 5px 5px 5px 0px rgba(236,236,236,1);
   text-decoration:none;
 }
 .dual-product-block .col-12 {
   text-align: left !important;
-  border: 1px solid #ececec;
+  border: 4px solid #d3f1da;
   padding: 0;
   flex: 0 0 48%;
   width: 48%;
@@ -340,4 +348,18 @@
 }
 .dual-product-block .btn {
   margin:15px !important;
+}
+#block-wgf .block-content {
+    border: 4px solid #d3f1da;
+    padding-left: 0;
+    transition:0.5s all;
+}
+#block-wgf .col-12:first-child {
+  padding-left:0;
+}
+#block-wgf .text-center {
+  text-align:left !important;
+}
+#block-bkn {
+  color:#fff;
 }
