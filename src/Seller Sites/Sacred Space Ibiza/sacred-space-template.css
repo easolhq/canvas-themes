@@ -1,0 +1,104 @@
+/*NAV*/
+
+#menu{
+    background-color: transparent !important;
+    z-index: 1030 !important;
+  }
+  
+  #menu.open{
+    padding-bottom: 200px;
+  }
+  
+  .navbar-nav{
+  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 100%;
+  }
+  
+  a.navbar-brand{
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  a.navbar-brand img{
+  height: 100px;
+  }
+  
+  nav#menu .container{
+  display: flex;
+  flex-flow: row wrap;
+  align-self: flex-start;
+  }
+  
+  #menu-navbar{
+  flex-basis: 100%;
+  width: 0px;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+  }
+  
+  #menu .nav-link{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-top: 0.3rem !important;
+  padding-right: 0.6rem !important;
+  padding-bottom: 0.3rem !important;
+  padding-left: 0.6rem !important;
+  }
+  
+  #menu-social-links{
+  display: none
+  }
+  
+  #menu-navbar a{
+    color: #fff;
+  }
+  
+  li#book-now.nav-item{
+    border: solid 1px #444444 !important;
+  }
+  
+  li#book-now.nav-item:hover{
+    color: white !important;
+    background-color: #444444 !important;
+    border-color: #444444;
+  }
+  
+  li#book-now.nav-item:hover a{
+    color: #fff !important;
+  }
+  
+  @media (min-width: 767px){
+  nav#menu{
+    height: 250px;
+    }
+  }
+  
+  /*MOBILE*/
+  
+  @media only screen and (max-width: 767px) {
+  
+    /*MENU*/
+    div#menu-navbar{
+      padding-right: 0;
+    }
+    
+    nav.open .btn-primary{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .navbar-nav{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .navbar-nav .nav-item{
+          padding-bottom: 10px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+      color: #000;
+    }
+  }
