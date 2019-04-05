@@ -86,7 +86,7 @@ text-transform: uppercase;
 }
 
 .hero-image-block{
-    color: #fff;
+    color: #fff !important;
 }
 
 /*TEXT BLOCK*/
