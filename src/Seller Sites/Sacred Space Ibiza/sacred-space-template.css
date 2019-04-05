@@ -107,6 +107,55 @@ text-transform: uppercase;
   }
   }
 
+  /*BOOKING BAR*/
+.booking{
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #444444;
+  border-top: 1px solid #ECEEEF;
+  border-bottom: 1px solid #ECEEEF;
+  z-index: 1030;
+  text-align: right;
+  height: 50px;
+}
+
+.booking a.btn.btn-primary{
+  margin-top: 5px;
+  min-width: 14rem; 
+}
+
+/*JUMP BAR*/
+/* JUMP MENU*/
+#block-rhh{
+  width: 100%;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 1030;
+}
+
+#block-rhh .block-content{
+ max-width: 100%;
+ padding-left: 0;
+ padding-right: 0;
+ z-index: 1030;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+div#jump{
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #ECEEEF;
+  border-bottom: 1px solid #ECEEEF;
+  z-index: 1030;
+  text-align: left;
+}
   
   /*MOBILE*/
   
@@ -134,4 +183,9 @@ text-transform: uppercase;
     .navbar-light .navbar-nav .nav-link{
       color: #000;
     }
-  }
+/*BOOKING BAR*/
+.booking .booking-text{
+  display: none;
+}
+
+}
