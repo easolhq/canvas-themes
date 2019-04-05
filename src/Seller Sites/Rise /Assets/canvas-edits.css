@@ -1,0 +1,284 @@
+/* General Stuff */
+
+.btn-outline-secondary {
+    color: #fff;
+    border-color: #fff;
+}
+.btn-outline-secondary:hover {
+    background-color:transparent !important;
+    color:#fff !important;
+    border-color:#fff !important;
+}
+
+#menu.navbar {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:99;
+}
+#menu .navbar-brand {
+    width:140px;
+}
+.navbar-brand img {
+    width:100%;
+    height:auto;
+}
+
+/* Top Section Video BG */
+
+#block-seb {
+    padding:5rem 0 0;
+    z-index:0;
+}
+#block-seb .block-content {
+    width:100%;
+    max-width:100%;
+    padding:0;
+    margin-bottom:-10px;
+}
+#block-seb video {
+    width:100%;
+}
+#block-seb .intro-content {
+    width: 30%;
+    min-width: 300px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform:translateY(-50%);
+    font-size:1.4rem;
+}
+
+/* Promo Bar */
+
+#block-k8f {
+    color:#fff;
+    padding:1rem 0;
+}
+#block-k8f .block-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#block-k8f p {
+    margin:0 30px 0 0;
+}
+
+#block-k8f {
+    color:#fff;
+    padding:1rem 0;
+}
+#block-k8f .block-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#block-k8f p {
+    margin:0 30px 0 0;
+}
+
+/* Party on top of the world */
+
+#block-i2h {
+    color:#fff;
+    padding-bottom:10px;
+}
+#block-i2h .block-content {
+    max-width:550px;
+}
+#block-taq .block-content {
+  max-width:550px;
+  display:flex;
+  align-items:center;
+}
+#block-taq img {
+  width:220px;
+}
+#block-taq .text-right {
+  flex-grow:1;
+}
+#block-taq h2 {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+}
+
+/* Press Images */
+
+#block-ydr {
+  background:#f3f3f3;
+}
+#block-ydr img {
+  flex: 10%;
+  width: 10%;
+}
+#block-ydr p {
+  font-size:2rem;
+  font-weight:bold;
+}
+
+/* Snow Music Adventure */
+
+#block-xou .block-content, #block-zdv .block-content, #block-ec6 .block-content {
+    width: 30%;
+    min-width: 300px;
+    position: absolute;
+    height: auto !important;
+    color:#fff;
+}
+#block-xou .block-content, #block-ec6 .block-content {
+  top:5%;
+  left:1%;
+}
+#block-xou .text-center {
+  text-align:left!important;
+}
+#block-zdv .block-content {
+  bottom:5%;
+  right:1%;
+}
+
+/* How to Book */
+
+.how-to-book img {
+  width: 70px;
+}
+.book-step {
+  color:#64c5e1;
+  margin-bottom:5px;
+}
+.book-title {
+  font-weight:bold;
+  font-size:1.1rem;
+  min-height:60px;
+}
+.book-content {
+  font-size:0.8rem;
+  margin-bottom:50px;
+}
+#block-zac .image-grid-entry-overlay {
+  opacity:1 !important;
+  background:rgba(0,0,0,0);
+  text-align:center;
+}
+#block-zac .image-grid-entry:hover .image-grid-entry-overlay
+ {
+  background:rgba(0,0,0,0.3) !important;
+ }
+#block-zac .image-grid-entry h2 {
+  font-size:3rem;
+}
+
+/* Reviews Section */
+
+#block-1mu {
+  padding-top:6rem;
+  padding-bottom:1rem;
+}
+#block-1mu .image-grid-entry-overlay {
+    opacity: 1;
+    color: #000 !important;
+    background: transparent;
+    text-align: center;
+    height: 130%;
+    top: -14%;
+}
+#block-1mu .image-grid-entry-overlay .d-flex {
+  position:relative;
+}
+#block-1mu .image-grid-entry-overlay h2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    width: 100%;
+}
+#block-1mu .image-grid-entry-overlay p {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Instagram Feed */
+
+#block-vpy {
+  padding-top:0;
+}
+
+/* Mailchimp Signup Form */
+
+#block-9wd {
+  color:#fff;
+}
+#block-9wd #mce-EMAIL {
+  background: transparent;
+  border: 1px solid #fff !important;
+}
+#block-9wd #mc-embedded-subscribe {
+  background:#fff;
+  border-color:#fff;
+}
+#block-9wd ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+#block-9wd ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+#block-9wd :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+#block-9wd ::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+
+#block-9wd ::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+}
+#block-9wd #mergeRow-gdpr {
+  margin: 20px 15% 0;
+}
+
+/* Footer */
+
+#footer {
+  background:#c7f1da;
+}
+#footer .navbar-brand {
+  width:75px;
+}
+#footer .text-center {
+  text-align: left !important;
+  padding: 75px 0 150px 5%;
+}
+#footer .fixers-stamp {
+  margin:0;
+}
+#footer .fixers-stamp svg * {
+  fill:#fff
+}
+
+/* Floating CTA Tickets running low */
+
+#block-awu {
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 98;
+}
+#block-awu .block-content {
+  max-width:100%;
+  padding:0;
+}
+#block-awu img {
+  width:250px;
+}
