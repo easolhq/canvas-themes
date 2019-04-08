@@ -1,25 +1,18 @@
-#block-eza, 
-.yoga::before,
-.sup::before, 
-.aerial-yoga::before,
-.activities::before,
-.location::before,
-.amenities::before,
-.village::before, 
-.surf::before,
-.extra-surf::before,
-.extra-yoga::before, 
-.extra-sup::before{
+#block-eza{
 background-color: rgba(0, 0, 0, 0.3) !important;
 }
-
-
 
 /*EXPERIENCES GRID*/
 .yoga::before {
   content: "";
   /* bottom, image */
-  background: url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2331.jpg);
+  background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+  url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2331.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
