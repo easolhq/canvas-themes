@@ -7,7 +7,7 @@ background-color: rgba(0, 0, 0, 0.3) !important;
   content: "";
   /* bottom, image */
   background: 
-      /* top, transparent red, faked with gradient */ 
+      /* top, transparent grey, faked with gradient */ 
       linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
@@ -25,7 +25,13 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 
 .sup::before {
   content: "";
-  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/SUP.jpg);
+  background: 
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/SUP.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -38,7 +44,13 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 
 .aerial-yoga::before {
   content: "";
-  background: url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2342.jpg);
+  background: 
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+  url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2342.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -52,7 +64,13 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 /*LOCATION GRID*/
 .activities::before {
   content: "";
-  background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Skateboard.jpg);
+  background: 
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+  url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Skateboard.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -65,7 +83,13 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 
 .location::before {
   content: "";
-  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Location.jpg);
+  background: 
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Location.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -78,7 +102,13 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 
 .amenities::before {
   content: "";
-  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Hut.jpg);
+  background: 
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Hut.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -92,7 +122,13 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 /*THE VILLAGE GRID*/
 .village::before {
   content: "";
-  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Village.jpg);
+  background: 
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Village.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -105,7 +141,13 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 
 .surf::before {
   content: "";
-  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Surf.jpg);
+  background: 
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Surf.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -114,7 +156,6 @@ background-color: rgba(0, 0, 0, 0.3) !important;
   right: 0rem;
   position: absolute;
   z-index: -1;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 #block-h7j .col,
@@ -132,6 +173,11 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 .extra-surf::before {
   content: "";
   background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-surf.jpg);
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -145,6 +191,11 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 .extra-yoga::before {
   content: "";
   background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-Yoga.jpg);
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -158,6 +209,11 @@ background-color: rgba(0, 0, 0, 0.3) !important;
 .extra-sup::before {
   content: "";
   background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-Sup.jpg);
+       /* top, transparent grey, faked with gradient */ 
+       linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
   background-size: cover;
   background-position: center; 
   top: 0rem;
