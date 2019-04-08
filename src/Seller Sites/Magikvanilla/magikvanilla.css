@@ -463,6 +463,10 @@ td{
   padding-right: 0;
 }
 
+.dual-product-block .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  }
+
 /*PRODUCT ROW*/
 .product-row-block .block-content,
 .product-row-block .block-content .container{
@@ -470,8 +474,8 @@ td{
   padding-right: 0;
 }
 
-.product-row-block .lead{
-  font-size: 1em !important;
+.product-row-block > div.block-content > div > p{
+  font-size: 1rem !important;
 }
 
 /*HERO PRODUCT*/
