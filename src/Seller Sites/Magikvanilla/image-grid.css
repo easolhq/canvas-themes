@@ -10,7 +10,7 @@
 .extra-surf::before,
 .extra-yoga::before, 
 .extra-sup::before{
-background-color: rgba(0, 0, 0, 0.3);
+background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 
