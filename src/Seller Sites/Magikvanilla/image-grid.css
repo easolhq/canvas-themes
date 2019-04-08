@@ -10,7 +10,7 @@
 .extra-surf::before,
 .extra-yoga::before, 
 .extra-sup::before{
-background: rgba(0, 0, 0, 0.3);
+background-color: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -18,14 +18,8 @@ background: rgba(0, 0, 0, 0.3);
 /*EXPERIENCES GRID*/
 .yoga::before {
   content: "";
-    background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-    url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2331.jpg);
+  /* bottom, image */
+  background: url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2331.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -38,14 +32,7 @@ background: rgba(0, 0, 0, 0.3);
 
 .sup::before {
   content: "";
-  background: 
-  /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-    url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/SUP.jpg);
+  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/SUP.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -58,14 +45,7 @@ background: rgba(0, 0, 0, 0.3);
 
 .aerial-yoga::before {
   content: "";
-  background: 
-  /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2342.jpg);
+  background: url(https://s3-eu-west-1.amazonaws.com/fixers-marketplace-assets/magik_vanilla/_DSC2342.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -79,14 +59,7 @@ background: rgba(0, 0, 0, 0.3);
 /*LOCATION GRID*/
 .activities::before {
   content: "";
-  background: 
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Skateboard.jpg);
+  background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Skateboard.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -99,14 +72,7 @@ background: rgba(0, 0, 0, 0.3);
 
 .location::before {
   content: "";
-  background: 
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Location.jpg);
+  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Location.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -119,14 +85,7 @@ background: rgba(0, 0, 0, 0.3);
 
 .amenities::before {
   content: "";
-  background: 
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Hut.jpg);
+  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Hut.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -140,14 +99,7 @@ background: rgba(0, 0, 0, 0.3);
 /*THE VILLAGE GRID*/
 .village::before {
   content: "";
-  background: 
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Village.jpg);
+  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Village.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -160,14 +112,7 @@ background: rgba(0, 0, 0, 0.3);
 
 .surf::before {
   content: "";
-  background: 
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Surf.jpg);
+  background: url(https://s3-us-west-1.amazonaws.com/fixers-canvas/Magikvanilla/Surf.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -193,14 +138,7 @@ background: rgba(0, 0, 0, 0.3);
 /*LOCATION GRID*/
 .extra-surf::before {
   content: "";
-  background: 
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-surf.jpg);
+  background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-surf.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -213,14 +151,7 @@ background: rgba(0, 0, 0, 0.3);
 
 .extra-yoga::before {
   content: "";
-  background: 
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-Yoga.jpg);
+  background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-Yoga.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
@@ -233,14 +164,7 @@ background: rgba(0, 0, 0, 0.3);
 
 .extra-sup::before {
   content: "";
-  background: 
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.1), 
-      rgba(0, 0, 0, 0.1)
-    ),
-    /* bottom, image */
-  url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-Sup.jpg);
+  background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Magikvanilla/Images/Extra-Sup.jpg);
   background-size: cover;
   background-position: center; 
   top: 0rem;
