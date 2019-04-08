@@ -1,6 +1,6 @@
 /* General Stuff */
 
-#menu {
+#menu.navbar {
   background-color:transparent;
   transition:0.5s all;
 }
