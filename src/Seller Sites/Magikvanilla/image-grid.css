@@ -1,3 +1,20 @@
+#block-eza, 
+.yoga::before,
+.sup::before, 
+.aerial-yoga::before,
+.activities::before,
+.location::before,
+.amenities::before,
+.village::before, 
+.surf::before,
+.extra-surf::before,
+.extra-yoga::before, 
+.extra-sup::before{
+background: rgba(0, 0, 0, 0.3);
+}
+
+
+
 /*EXPERIENCES GRID*/
 .yoga::before {
   content: "";
