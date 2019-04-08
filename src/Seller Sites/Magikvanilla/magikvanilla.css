@@ -470,6 +470,10 @@ td{
   padding-right: 0;
 }
 
+.product-row-block .lead{
+  font-size: 1em !important;
+}
+
 /*HERO PRODUCT*/
 .hero-product-block .block-content,
 .hero-product-block .block-content .container{
