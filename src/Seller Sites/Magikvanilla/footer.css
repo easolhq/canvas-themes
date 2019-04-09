@@ -44,6 +44,10 @@
     max-width: 150px;
 }
 
+#partner-logos > div > div:nth-child(3) > a > img{
+    max-width: 150px;
+}
+
 #reviews-footer a {
     color: white;
   }
