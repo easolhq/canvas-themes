@@ -1,7 +1,17 @@
 /*PRODUCT PAGE*/
+
+.product-hero{
+    height: 80vh !important;
+    background: rgba(0,0,0,0.3);
+}
 #beds{
     display: none;
 }
+
+#sleep > div.block.py-0{
+    background-color: #FFB0A3;
+}
+
 
 .retreat-hotel-block{
     height: 50vh !important;
