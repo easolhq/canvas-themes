@@ -277,41 +277,6 @@
   margin: 20px 15% 0;
 }
 
-/* Footer */
-
-#footer {
-  background:#c7f1da;
-}
-#footer .navbar-brand {
-  width:75px;
-}
-#footer .text-center {
-  text-align: left !important;
-  padding: 75px 0 150px 5%;
-}
-#footer .fixers-stamp {
-  margin:0;
-}
-#footer .fixers-stamp svg * {
-  fill:#fff
-}
-
-/* Floating CTA Tickets running low */
-
-#block-awu {
-    padding: 0;
-    position: fixed;
-    bottom: 0;
-    z-index: 98;
-}
-#block-awu .block-content {
-  max-width:100%;
-  padding:0;
-}
-#block-awu img {
-  width:250px;
-}
-
 /* Shop Page */
 #block-u8t {
   padding-top:6rem;
@@ -379,4 +344,33 @@
 }
 .accordion-entry:first-child {
   border-top:4px solid #d3f1da;
+}
+
+/* Footer */
+
+#footer-navbar {
+  justify-content:flex-end;
+  font-size:1.5rem;
+}
+#footer-navbar .navbar-nav {
+  border-bottom:2px solid #fff;
+}
+#footer-navbar #terms {
+  margin-right:0;
+}
+#footer-navbar a, #footer .text-left a {
+  color:#fff;
+}
+
+#footer {
+  background:#c7f1da;
+}
+#footer .navbar-brand {
+  width:150px;
+}
+#footer .text-left {
+  padding: 75px 0 150px 5%;
+}
+#footer .fixers-stamp {
+  margin:0;
 }
