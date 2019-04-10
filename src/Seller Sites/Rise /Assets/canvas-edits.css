@@ -47,6 +47,7 @@
 
 #block-vio .block-content, #block-ch0 .block-content, #block-urm .block-content, #block-ntc .block-content {
   max-width:unset;
+  padding:0 5%;
 }
 
 /* Top Section Video BG */
@@ -404,5 +405,6 @@
 @media (max-width:500px) {
   #menu-cta {
     position:static;
+    margin-bottom:30px;
   }
 }
