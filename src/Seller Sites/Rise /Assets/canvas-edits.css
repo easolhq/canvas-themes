@@ -1,11 +1,17 @@
 /* General Stuff */
 
+.text-block .block-content {
+    max-width:550px;
+}
+#menu .nav-link {
+  font-weight: bold;
+}
 #menu.navbar {
   background-color:transparent;
   transition:0.5s all;
 }
 #menu.solid-bg {
-  background-color:#fff;
+  background-color:#dbf1da;
 }
 #menu-cta {
   position: relative;
@@ -42,7 +48,7 @@
 /* Top Section Video BG */
 
 #block-seb {
-    padding:0;
+    padding:6rem 0 0 0;
     z-index:0;
 }
 #block-seb .block-content {
@@ -99,11 +105,7 @@
     color:#fff;
     padding-bottom:10px;
 }
-#block-i2h .block-content {
-    max-width:550px;
-}
 #block-taq .block-content {
-  max-width:550px;
   display:flex;
   align-items:center;
 }
@@ -115,7 +117,6 @@
 }
 #block-taq h2 {
   font-size: 1rem;
-  color: #fff;
   margin: 0;
 }
 
@@ -147,7 +148,7 @@
     color:#fff;
 }
 #block-xou .block-content, #block-ec6 .block-content {
-  top:5%;
+  top:10%;
   left:1%;
 }
 #block-xou .text-center {
@@ -193,7 +194,7 @@
 
 #block-1mu {
   padding-top:6rem;
-  padding-bottom:2rem;
+  padding-bottom:10rem;
 }
 #block-1mu .image-grid-entry-overlay {
     opacity: 1;
@@ -251,25 +252,25 @@
   background:#fff;
   border-color:#fff;
 }
-#block-9wd ::-webkit-input-placeholder { 
+#block-9wd ::-webkit-input-placeholder {
     color:    #fff;
 }
-:-moz-placeholder { 
+:-moz-placeholder {
    color:    #fff;
    opacity:  1;
 }
-#block-9wd ::-moz-placeholder { 
+#block-9wd ::-moz-placeholder {
    color:    #fff;
    opacity:  1;
 }
-#block-9wd :-ms-input-placeholder { 
+#block-9wd :-ms-input-placeholder {
    color:    #fff;
 }
-#block-9wd ::-ms-input-placeholder { 
+#block-9wd ::-ms-input-placeholder {
    color:    #fff;
 }
 
-#block-9wd ::placeholder { 
+#block-9wd ::placeholder {
    color:    #fff;
 }
 #block-9wd #mergeRow-gdpr {
@@ -362,4 +363,20 @@
 }
 #block-bkn {
   color:#fff;
+}
+
+/* Ambassadors Page */
+
+#block-us5 .block-background {
+  background-position:top center
+}
+
+/* FAQ */
+
+.accordion-entry {
+  border:4px solid #d3f1da;
+  border-top:none;
+}
+.accordion-entry:first-child {
+  border-top:4px solid #d3f1da;
 }
