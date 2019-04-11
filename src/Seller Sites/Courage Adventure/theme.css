@@ -27,6 +27,9 @@
 #block-pib {
   padding:0;
 }
+#block-pib video {
+  width:100%;
+}
 #block-pib .block-content {
   width: 100%;
   max-width: unset;
