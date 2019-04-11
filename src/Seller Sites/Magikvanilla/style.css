@@ -31,6 +31,10 @@
   background-position: bottom center !important; 
 }
 
+#block-ekl .block-content, #block-cz0 .block-content {
+  justify-content:flex-end !important;
+}
+
 /*MOBILE*/
 
 /* SURF TABLE */
@@ -49,15 +53,7 @@
 }
 
 @media screen and (max-width: 565px) and (min-width: 300px) {
-  .priority-7{
-    display:none;
-  }
-  
-  .priority-6{
-    display:none;
-  }
-
-  .priority-5{
+  .priority-7, .priority-6, .priority-5, .priority-2{
     display:none;
   }
 }
