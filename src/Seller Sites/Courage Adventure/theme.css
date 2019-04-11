@@ -130,8 +130,11 @@
   background-position-y: 25% !important;
 }
 #footer {
-  background:#fff !important;
-  color:#000 !important;
+  background:#000 !important;
+  color:#fff !important;
+}
+#footer .container {
+  margin-bottom:150px;
 }
 #footer .navbar-brand {
   font-family:Fierce-vector-webfont;
@@ -139,7 +142,7 @@
   font-size:2rem;
 }
 #footer .nav-link {
-  color:#000 !important;
+  color:#fff !important;
 }
 #footer .nav-item {
   margin-left:0;
@@ -150,6 +153,8 @@
   position: relative;
   top: 2px;
 }
+.fixers-stamp {
+  margin:0 !important
 
 
 @media (max-width:500px) {
