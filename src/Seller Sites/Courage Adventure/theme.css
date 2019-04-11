@@ -154,7 +154,11 @@
   top: 2px;
 }
 .fixers-stamp {
-  margin:0 !important
+  margin:0 !important;
+}
+.fixers-stamp svg * {
+  fill:#fff;
+}
 
 
 @media (max-width:500px) {
