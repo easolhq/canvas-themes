@@ -96,12 +96,6 @@ flex-wrap: nowrap;
     display: none !important;
 }
 
-#magik-footer  div.btn-group {
-    display: inline-block;
-    float: right;
-    padding-top: 50px;
-}
-
 #mobile-footer-tripadvisor {
     text-align: center;
 }
