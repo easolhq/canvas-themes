@@ -77,8 +77,8 @@
   display:none;
 }
 #footer {
-  background:#fff;
-  color:#000;
+  background:#fff !important;
+  color:#000 !important;
 }
 #footer .navbar-brand {
   font-family:Fierce-vector-webfont;
