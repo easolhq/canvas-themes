@@ -6,22 +6,45 @@
   font-size:0.9rem;
   letter-spacing:0.3rem;
 }
-.btn, .btn h6 {
+.btn {
   background: #000;
   font-family:'Value-regular' !important;
   text-transform:uppercase;
   color: #fff;
   letter-spacing: 0.3rem;
   border-color: #000;
+  font-size:0.8rem !important;
+  padding:2px 5px !important;
 }
-#block-8yd, #block-oci, #block-tgy, #block-8ew {
+.btn h6 {
+  background: #000;
+  font-family:'Value-regular' !important;
+  text-transform:uppercase;
+  color: #fff;
+  letter-spacing: 0.3rem;
+  border-color: #000;
+  font-size:0.8rem !important;
+  padding:0 !important;
+  line-height:1.5;
+}
+#block-8yd, #block-oci, #block-tgy, #block-8ew, #block-tcs {
   color:#fff;
 }
-#block-qz8 .block-content {
+#block-8yd h1, #block-oci h1, #block-tgy h1, #block-8ew h1 {
+ font-size:2rem; 
+}  
+#block-8yd .btn {
+  margin-top:30px
+}
+#block-8yd h1 span {
+  margin-bottom:100px;
+  display:block;
+}
+#block-qz8 .block-content, #block-2kh .block-content {
   display:flex;
   align-items:center;
 }
-#block-qz8 p {
+#block-qz8 p, block-2kh p {
   width:75%;
 }
 #block-pib {
@@ -52,21 +75,26 @@
 #block-iqn .col-12:first-child {
   text-align:center;
 }
+#block-iqn .col-12.d-flex {
+ padding:0 16%
+}
 #block-lc3 img {
   width:100%;
 }
 #block-lc3 .image-caption {
-  text-align:center;
-  position:relative;
-  top:5px;
+  position: relative;
+  top: 5px;
+  font-family: Fierce-vector-webfont;
+  font-size: 1.4rem;
 }
 #block-hiv .block-content, #block-lwk .block-content, #block-bog .block-content, #block-3zf .block-content {
   max-width:800px;
 }
+.image-grid-block {
+  margin-top:40px;
+}
 .image-grid-block .image-grid-entry-overlay {
-  padding: 10px 2rem;
-  color: #fff !important;
-  background-color: rgba(55,58,60,0.98);
+  padding: 10px 0;
   opacity: 1;
   min-height: 105px;
   display: flex;
@@ -75,9 +103,31 @@
   margin:0;
   height:auto;
 }
-
+.image-grid-entry-overlay .mb-2.hidden-sm-down {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#block-oci h4 {
+  font-size:1.3rem;
+  margin-bottom:100px;
+}
+#mc-embedded-subscribe.btn-primary {
+  padding:9px 10px !important;
+}
 .gdprRequired {
   display:none;
+}
+.form-control {
+  border:none;
+}
+#block-8ew .block-background {
+  background-position-x: 50% !important;
+  background-position-y: 25% !important;
 }
 #footer {
   background:#fff !important;
@@ -111,5 +161,11 @@
   }
   #block-iqn .card-img {
     width:100%;
+  }
+  #block-iqn .col-12.d-flex {
+    padding:0 5%
+  }
+  #block-iqn .col-12.d-flex .d-flex {
+    display:block !important;
   }
 }
