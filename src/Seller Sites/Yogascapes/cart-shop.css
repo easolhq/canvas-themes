@@ -68,7 +68,7 @@ ul.list-inline.footer-social-list.my-4,
 }
 
 @media only screen and (min-width: 992px){
-  .navbar{
+  nav.navbar{
       position: fixed !important;
       width: 100%;
   }
