@@ -216,6 +216,12 @@ h1{
     display:none;
 }
 
+/*DUAL PRODUCT BLOCK*/
+.dual-product-block .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  }
+
+
   /*INLINE*/
   .centered {
     position: absolute;
@@ -463,10 +469,6 @@ td{
   padding-left: 0;
   padding-right: 0;
 }
-
-.dual-product-block .card-img-overlay {
-  background-color: rgba(0, 0, 0, 0.3);
-  }
 
 /*PRODUCT ROW*/
 .product-row-block .block-content,
