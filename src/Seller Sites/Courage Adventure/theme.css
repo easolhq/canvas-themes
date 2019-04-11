@@ -94,14 +94,16 @@
   margin-top:40px;
 }
 .image-grid-block .image-grid-entry-overlay {
-  padding: 10px 0;
-  opacity: 1;
-  min-height: 105px;
-  display: flex;
-  align-items: center;
-  position:static;
-  margin:0;
-  height:auto;
+    padding: 10px 0;
+    opacity: 1;
+    min-height: 105px;
+    display: flex;
+    align-items: center;
+    position: static;
+    margin: 0;
+    height: auto;
+    background-color: #fff;
+    color: #000 !important;
 }
 .image-grid-entry-overlay .mb-2.hidden-sm-down {
   position: absolute;
