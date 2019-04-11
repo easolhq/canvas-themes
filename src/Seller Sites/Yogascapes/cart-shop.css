@@ -66,3 +66,14 @@ ul.list-inline.footer-social-list.my-4,
 .footer-list{
   display: none;
 }
+
+@media only screen and (min-width: 992px){
+  .navbar{
+      position: fixed !important;
+      width: 100%;
+  }
+  
+  .cart-container{
+      top: 6rem !important;
+  }
+  }
