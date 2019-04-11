@@ -129,6 +129,15 @@
   background-position-x: 50% !important;
   background-position-y: 25% !important;
 }
+#block-8ew .block-content {
+  margin-top:50px;
+}
+#block-8ew .text-center {
+  margin-top:30px;
+}
+#block-2kh h1 {
+  font-size:1.5rem;
+}
 #footer {
   background:#000 !important;
   color:#fff !important;
@@ -159,6 +168,9 @@
 .fixers-stamp svg * {
   fill:#fff;
 }
+#footer .fa {
+  color:#fff !important;
+}
 
 
 @media (max-width:500px) {
@@ -176,5 +188,8 @@
   }
   #block-iqn .col-12.d-flex .d-flex {
     display:block !important;
+  }
+  .image-grid-block .image-grid-entry-overlay {
+    margin-bottom:20px;
   }
 }
