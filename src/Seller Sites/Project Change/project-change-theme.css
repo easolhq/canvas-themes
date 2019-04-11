@@ -269,3 +269,23 @@ visibility: visible;
         padding-bottom: 2rem;
         }
     }
+
+/* Added by BK */
+
+#block-ppk .block-background {
+  background-position:65% !important;
+}
+.nav-link {
+  padding:0.2rem 1rem;
+}
+#book-now.nav-item {
+  padding:0 10px;
+}
+#footer .navbar-collapse {
+  order:-1;
+  flex-grow:0;
+}
+#footer .navbar-nav {
+  position:static;
+  margin-left:0;
+}
