@@ -79,4 +79,7 @@ ul.list-inline.footer-social-list.my-4,
   .cart-container{
       top: 8rem !important;
   }
+  #app .container.pb-4{
+    margin-top: 105px;
+  }
   }
