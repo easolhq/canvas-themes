@@ -14,7 +14,6 @@
   letter-spacing: 0.3rem;
   border-color: #000;
   font-size:0.8rem !important;
-  padding:2px 5px !important;
 }
 .btn h6 {
   background: #000;
@@ -37,7 +36,6 @@
   margin-top:30px
 }
 #block-8yd h1 span {
-  margin-bottom:100px;
   display:block;
 }
 #block-qz8 .block-content, #block-2kh .block-content {
@@ -117,7 +115,7 @@
 }
 #block-oci h4 {
   font-size:1.3rem;
-  margin-bottom:100px;
+  margin-bottom:50px;
 }
 #mc-embedded-subscribe.btn-primary {
   padding:9px 10px !important;
@@ -126,7 +124,9 @@
   display:none;
 }
 .form-control {
-  border:none;
+  border:none !important;
+  position:relative;
+  top:-1px;
 }
 #block-8ew .block-background {
   background-position-x: 50% !important;
@@ -139,11 +139,11 @@
   margin-top:30px;
 }
 #block-2kh h1 {
-  font-size:1.5rem;
+  flex-basis:150%
 }
 #footer {
-  background:#000 !important;
-  color:#fff !important;
+  background:#fff !important;
+  color:#000 !important;
 }
 #footer .container {
   margin-bottom:150px;
@@ -154,7 +154,7 @@
   font-size:2rem;
 }
 #footer .nav-link {
-  color:#fff !important;
+  color:#000 !important;
 }
 #footer .nav-item {
   margin-left:0;
@@ -167,12 +167,6 @@
 }
 .fixers-stamp {
   margin:0 !important;
-}
-.fixers-stamp svg * {
-  fill:#fff;
-}
-#footer .fa {
-  color:#fff !important;
 }
 
 
