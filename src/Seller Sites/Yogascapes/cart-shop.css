@@ -73,7 +73,10 @@ ul.list-inline.footer-social-list.my-4,
       width: 100%;
   }
   
+  .cart-shop-navbar{
+    top: 105px !important;
+}
   .cart-container{
-      top: 6rem !important;
+      top: 8rem !important;
   }
   }
