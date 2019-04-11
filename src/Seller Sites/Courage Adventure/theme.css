@@ -168,6 +168,9 @@
 .fixers-stamp {
   margin:0 !important;
 }
+.fixers-stamp:hover {
+  text-decoration:none;
+}
 
 
 @media (max-width:500px) {
