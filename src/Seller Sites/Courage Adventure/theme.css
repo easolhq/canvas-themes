@@ -86,7 +86,7 @@
   font-size:2rem;
 }
 #footer .nav-link {
-  color:#000;
+  color:#000 !important;
 }
 #footer .nav-item {
   margin-left:0;
