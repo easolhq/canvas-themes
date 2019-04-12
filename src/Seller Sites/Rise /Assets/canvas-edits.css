@@ -66,9 +66,11 @@
 }
 .text-and-image-block .col-12.d-flex * {
     display: block;
-    max-width: 400px;
-    text-align: justify;
+    max-width: 475px;
     width:100%;
+}
+.text-and-image-block .col-12.d-flex p {
+    text-align:justify;
 }
 .text-and-image-block h1:first-child {
     font-size: 0.6rem;
@@ -78,9 +80,21 @@
     top: 12px;
     left: 2px;
 }
-.text-and-image-block .btn {
-    width:fit-content;
+.text-and-image-block h1:only-of-type {
+    font-size: 2.5rem;
+    position: static;
+    text-align: left;
 }
+.text-and-image-block .btn {
+    width:fit-content !important;
+}
+.text-and-image-block img {
+    width: 100%;
+}
+.text-and-image-block, .text-and-image-block .col-12, .text-and-image-block .col-6 {
+    padding: 0;
+}
+
 
 /* Top Section Video BG */
 
