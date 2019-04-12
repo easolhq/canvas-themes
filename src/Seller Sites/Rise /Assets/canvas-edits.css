@@ -54,7 +54,7 @@
   max-width:unset;
   padding:0 5%;
 }
-.text-and-image-block {
+.text-and-image-block .block-content {
    max-width:100%;
    padding:0;
 }
@@ -77,6 +77,9 @@
     position: relative;
     top: 12px;
     left: 2px;
+}
+.text-and-image-block .btn {
+    width:fit-content;
 }
 
 /* Top Section Video BG */
