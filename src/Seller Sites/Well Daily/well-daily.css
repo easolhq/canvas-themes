@@ -116,6 +116,12 @@ display: block;
 text-align: center;     
 }
 
+/*SUBSCRIBE*/
+
+#block-ekq .form-inline{
+    flex-flow: column !important;
+}
+
 /*FIXERS STAMP*/
 #footer > div.w-100.text-center{
     position:absolute;
