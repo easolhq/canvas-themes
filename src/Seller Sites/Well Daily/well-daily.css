@@ -115,3 +115,10 @@ content: ("Vancouver, BC");
 display: block;
 text-align: center;     
 }
+
+/*FIXERS STAMP*/
+#footer > div.w-100.text-center{
+    position:absolute;
+    bottom: -200px;
+    margin-bottom: 20px;
+}
