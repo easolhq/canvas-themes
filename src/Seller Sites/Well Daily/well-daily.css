@@ -185,6 +185,12 @@ text-align: center;
   display: none;
 }
 
+#mc-embedded-subscribe:hover{
+  color: white;
+  background-color: black;
+  border-color: black;    
+}
+
 /*FIXERS STAMP*/
 #footer > div.w-100.text-center{
     position:absolute;
