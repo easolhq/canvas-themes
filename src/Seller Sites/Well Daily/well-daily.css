@@ -69,3 +69,49 @@ a.navbar-brand img{
     padding-top: 20px;
 }
 }
+
+/*FOOTER*/
+#footer .container{
+    height: 200px;
+}
+
+#footer .navbar-brand{
+    position: absolute;
+    right: 50%;
+    left: 50%;
+}
+
+#footer .navbar-brand img{
+    width: 75px;
+    height: 75px;
+    margin-left: -32.5px;
+}
+
+#footer .navbar-brand:after{
+content: ("Your guide to everyday well-being.");
+display: block;
+font-size: 14px;
+margin-left: -115px;
+}
+
+#footer .btn-group{
+    text-align: center;
+}
+
+#footer .btn-group:before{
+content: ("CONNECT WITH US");
+display: block;
+text-align: center;  
+}
+
+#footer .nav-link:before{
+content: ("CONTACT US");
+display: block;
+text-align: center;   
+}
+
+#footer .nav-link:after{
+content: ("Vancouver, BC");
+display: block;
+text-align: center;     
+}
