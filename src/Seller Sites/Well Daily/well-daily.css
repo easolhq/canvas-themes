@@ -53,7 +53,7 @@ a.navbar-brand img{
   }
   
   #menu-social-links{
-  display: none
+  display: none;
   }
   
   #menu-navbar a{
@@ -179,6 +179,10 @@ text-align: center;
 
 #block-ekq .form-inline{
     flex-flow: column !important;
+}
+
+#mergeRow-gdpr{
+  display: none;
 }
 
 /*FIXERS STAMP*/
