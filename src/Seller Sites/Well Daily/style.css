@@ -1,0 +1,33 @@
+/*EXPERIENCES PAGE*/
+
+/*HERO*/
+#block-kcn > .block-background{
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    @media only screen and (min-width: 576px){
+    #block-kcn > .block-background {
+        max-width: 540px;
+    }
+    }
+    
+    @media only screen and (min-width: 768px){
+    #block-kcn  > .block-background {
+        max-width: 720px;
+    }
+    }
+    
+    @media only screen and (min-width: 992px){
+    #block-kcn > .block-background {
+        max-width: 960px;
+    }
+    }
+    
+    @media  only screen and (min-width: 1200px){
+    #block-kcn > .block-background {
+        max-width: 1140px;
+    }
+    }
+
+    
