@@ -102,6 +102,14 @@ a.navbar-brand img{
     height: 84px;
 }
 
+nav#menu .container{
+  align-self: center !important;
+}
+
+.navbar-toggler{
+  color: #363638;
+}
+
 #menu .navbar-brand{
     position: absolute;
     left: 50%;
@@ -176,11 +184,14 @@ text-align: center;
 margin-bottom: 25px;   
 }
 
+#footer .nav-link{
+  margin-bottom: 10px;
+}
+
 #footer .nav-link:after{
 content: "Vancouver, BC";
 display: block;
-text-align: center;
-margin-top: 10px;     
+text-align: center; 
 }
 
 /*SUBSCRIBE*/
