@@ -1,3 +1,79 @@
+
+/*HERO*/
+/*PRODUCT HERO*/
+.product-hero{
+    height: 100vh !important;
+    background-color: rgba(0,0,0,.4);
+}
+
+
+/*SLEEP*/
+
 .retreat-hotel-block{
     height: 80vh !important;
 }
+
+
+/*THE PLAN*/
+
+#plan > article > div > div.col-12.col-md-4 > h3{
+    display: none;
+}
+#plan > article > div > div.col-12.col-md-4:after{
+    content:"The Life on Retreat";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div:after{
+    content:"The Schedule";
+    font-size: 30px !important;
+    display: block;
+    white-space: pre;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+#plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2{
+    text-align: center;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div{
+    font-size: 1.25rem !important;
+    white-space: pre-line;
+}
+#plan > article > div > div.col-12.col-md-4{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+#plan > article > div > div.col-12.col-md-4{
+    width: 100%;
+    text-align: center ;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li{
+    justify-content: start !important;
+}
+
+#plan > article > div > div.col-12.col-md-8 > ul > li > div.col-7.col-md-8{
+    padding-left: 30px;
+}
+
+
+@media (min-width: 768px){
+#plan .offset-md-4 {
+    margin-left: 0px;
+}
+
+#plan .col-md-8 {
+    flex: 66.6%; 
+    max-width: 100%; 
+}
+}
+
