@@ -9,6 +9,10 @@
 
 /*SLEEP*/
 
+#sleep{
+    text-align: center;
+}
+
 .retreat-hotel-block{
     height: 80vh !important;
 }
