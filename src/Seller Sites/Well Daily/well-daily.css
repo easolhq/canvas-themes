@@ -52,6 +52,10 @@ a.navbar-brand img{
     letter-spacing: 1px;
   }
   
+#menu .nav-link:hover{
+  color: #e6a49b;
+}
+
   #menu-social-links{
   display: none;
   }
@@ -195,9 +199,13 @@ margin-top: 10px;
   border-color: black;    
 }
 
+#mc-embedded-subscribe{
+  margin-top: 20px;
+}
+
 /*FIXERS STAMP*/
 #footer > div.w-100.text-center{
     position:absolute;
-    bottom: -200px;
+    bottom: -230px;
     margin-bottom: 20px;
 }
