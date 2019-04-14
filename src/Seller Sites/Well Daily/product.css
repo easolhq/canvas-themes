@@ -13,32 +13,26 @@
     height: 80vh !important;
 }
 
+/*WHATS INCLUDED*/
+#includes{
+    text-align: center;
+}
+
+#includes h2{
+    text-transform: uppercase;
+}
+
+#includes ul.included-list{
+    font-size: 1.25rem !important;
+}
+
+#includes > article > h2 > hr{
+ display: none;
+}
+
+
 
 /*THE PLAN*/
-
-#plan > article > div > div.col-12.col-md-4 > h3{
-    display: none;
-}
-#plan > article > div > div.col-12.col-md-4:after{
-    content:"The Life on Retreat";
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    text-transform: uppercase;
-}
-
-#plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div:after{
-    content:"The Schedule";
-    font-size: 30px !important;
-    display: block;
-    white-space: pre;
-    margin-left: auto;
-    margin-right: auto;
-    text-transform: uppercase;
-    margin-top: 20px;
-}
-
-
 #plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2{
     text-align: center;
 }
