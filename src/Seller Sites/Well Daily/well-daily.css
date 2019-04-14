@@ -151,6 +151,7 @@ content: "Your guide to everyday well-being.";
 display: block;
 font-size: 14px;
 margin-left: -115px;
+maring-top: 10px;
 }
 
 #footer .btn-group{
@@ -160,19 +161,22 @@ margin-left: -115px;
 #footer .btn-group:before{
 content: "CONNECT WITH US";
 display: block;
-text-align: center;  
+text-align: center;
+margin-bottom: 25px;    
 }
 
 #footer .nav-link:before{
 content: "CONTACT US";
 display: block;
-text-align: center;   
+text-align: center;
+margin-bottom: 25px;   
 }
 
 #footer .nav-link:after{
 content: "Vancouver, BC";
 display: block;
-text-align: center;     
+text-align: center;
+margin-top: 10px;     
 }
 
 /*SUBSCRIBE*/
