@@ -10,7 +10,7 @@
   }
   
   #menu.open{
-    padding-bottom: 200px;
+    padding-bottom: 300px;
   }
   
   #menu .navbar-nav{
@@ -108,6 +108,19 @@ nav#menu .container{
 
 .navbar-toggler{
   color: #363638;
+}
+
+#menu.open .nav-link{
+  padding-top: 9px !important;
+  border-bottom: 1px solid #d4d4d4
+}
+
+#menu.open .navbar-brand{
+  top: 5px;
+}
+
+#menu-navbar{
+  padding-top: 20px;
 }
 
 #menu .navbar-brand{
