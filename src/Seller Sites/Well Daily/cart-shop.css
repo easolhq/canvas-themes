@@ -16,6 +16,10 @@ nav a{
     #navbar-brand{
     position: relative;
     }
+
+    .navbar-main .logo{
+        height: 150px;
+    }    
     
 /*BUTTON PRIMARY*/
 #app .cart-container .btn{
