@@ -1,4 +1,6 @@
 
+/*FONTS*/
+
 #app h6{
     text-transform: capitalize;
 }
@@ -14,6 +16,11 @@
 #private-accommodation > div > h4,
 #shared-accommodation > div > h4{
     text-transform: capitalize;
+}
+
+/*BODY*/
+body[data-target='#cart-shop-nav'] {
+    background: #f7f7f7;
 }
 
 /*NAV*/
