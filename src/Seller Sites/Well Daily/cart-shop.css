@@ -7,6 +7,16 @@
     text-transform: uppercase;
 }
 
+/*NAV*/
+nav a{
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    #navbar-brand{
+    position: relative;
+    }
+    
 /*BUTTON PRIMARY*/
 #app .cart-container .btn{
     color: #363638;
@@ -63,15 +73,15 @@
     background-color: #e6a49b !important;
 }
 
-#app .footer-main{
+.footer-main{
     background-color:#fff !important;
 }
 
 
-#app ul.list-inline.footer-social-list.my-4,
-#app .footer-list a,
-#app .footer-list,
-#app .logo-mark.x2, 
-#app .footer-list{
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
   display: none;
 }
