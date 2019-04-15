@@ -22,3 +22,72 @@ left: 0;
 #app > div.container.pb-4 > div.row > div.col-14.col-lg-5.cart-container > div > div > div.cart-body-wrapper.d-flex.flex-column > div.d-flex.p-3.w-100.text-center > h5{
     text-transform: uppercase;
 }
+
+/*BUTTON PRIMARY*/
+#app .cart-container .btn{
+    color: #363638;
+    background-color: transparent;
+    border-color: #363638 !important;
+}
+
+#app .cart .btn-primary {
+    background:#e6a49b;
+    border-color: #e6a49b !important;
+    color: #fff;
+   }
+   
+/*CHEVRONS*/
+#app .cart-shop-navbar .nav.nav-chevrons {
+    background:#fff;
+   }
+   
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after {
+      border-color:#fff !important;
+      background-color:#fff !important;
+   }
+   
+   .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before{
+          border-color:#fff !important;
+      background-color:#fff !important;  
+   }
+   
+ .availability-table .table-body >.row:before { 
+       background:#e6a49b !important }
+
+
+/*SUB NAV STYLING*/
+
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover{
+    background-color: white !important;
+    color: #e6a49b;
+  }
+  
+  .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active{
+    color: #e6a49b !important;
+    background-color: #fff !important;
+  
+  }
+
+/*STYLING AVAILABILITY TABLE*/
+.availability-table .table-body >.row:before{
+    background: #e6a49b;
+}
+
+
+#app .bookable-list-item:before,
+#app .retreat-bed-list:before{
+    background-color: #e6a49b !important;
+}
+
+#app .footer-main{
+    background-color:#fff !important;
+}
+
+
+#app ul.list-inline.footer-social-list.my-4,
+#app .footer-list a,
+#app .footer-list,
+#app .logo-mark.x2, 
+#app .footer-list{
+  display: none;
+}
