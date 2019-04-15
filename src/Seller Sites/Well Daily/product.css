@@ -3,9 +3,14 @@
 /*PRODUCT HERO*/
 .product-hero{
     height: 100vh !important;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.2);
 }
 
+/*BOOKING BAR*/
+.product-page-booking-bar .btn-primary{
+    background-color: #e6a49b;
+    border-color: #e6a49b;
+}
 
 /*SLEEP*/
 
