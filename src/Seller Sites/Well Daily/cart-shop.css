@@ -1,0 +1,24 @@
+#app{
+    background-color: #f7f6f1;
+}
+
+#app .push-md-8{
+left: 0;    
+}
+#app .col-md-6{
+    flex: 100%;
+    max-width: 100%;
+}
+
+#app .my-4{
+    margin-top: 0 !important;
+    text-transform: capitalize;
+}
+
+#app h6{
+    text-transform: capitalize;
+}
+
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-5.cart-container > div > div > div.cart-body-wrapper.d-flex.flex-column > div.d-flex.p-3.w-100.text-center > h5{
+    text-transform: uppercase;
+}
