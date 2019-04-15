@@ -49,6 +49,12 @@ nav a{
     border-color: #e6a49b !important;
     color: #fff;
    }
+
+/* decrease btn-group padding to make room for price 1000's */ 
+
+.input-group-btn .btn {
+    padding:0.5rem;
+}
    
 /*CHEVRONS*/
 #app .cart-shop-navbar .nav.nav-chevrons {
