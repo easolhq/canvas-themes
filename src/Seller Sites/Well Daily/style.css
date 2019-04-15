@@ -30,4 +30,44 @@
     }
     }
 
+/* Added by BK */
+
+/* Home Page */ 
+
+body {
+    line-height:1.8;
+}
+h1, h2, .h1, .h2 {
+    text-transform:uppercase;
+    letter-spacing:0.3rem;
+}
+h1, .h1 {
+    font-size:2.3rem;
+}
+h2, .h2 {
+    font-size:1.8rem;
+}
+#block-ekq {
+    padding-top:0;
+}
+#block-ekq .block-content {
+    position:relative;
+    top:-40px;
+}
+#footer a {
+    color:#545558;
+}
+#mc-embedded-subscribe {
+    padding:10px 20px;
+}
+.fixers-stamp {
+    position:relative;
+    top:150px;
+}
+@media (max-width:576px) {
+    #footer .btn-group {
+        display:none;
+    }
+}
+
     
