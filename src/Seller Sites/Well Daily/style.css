@@ -32,8 +32,6 @@
 
 /* Added by BK */
 
-/* Home Page */ 
-
 body {
     line-height:1.8;
 }
@@ -47,6 +45,9 @@ h1, .h1 {
 h2, .h2 {
     font-size:1.8rem;
 }
+
+/* Home Page */ 
+
 #block-ekq {
     padding-top:0;
 }
@@ -54,8 +55,11 @@ h2, .h2 {
     position:relative;
     top:-40px;
 }
-#footer a {
+#footer a, .product-row-block a {
     color:#545558;
+}
+.product-row-block a:hover {
+    text-decoration:none;
 }
 #mc-embedded-subscribe {
     padding:10px 20px;
