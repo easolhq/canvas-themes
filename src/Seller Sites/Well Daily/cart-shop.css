@@ -2,19 +2,6 @@
     background-color: #f7f6f1;
 }
 
-#app .push-md-8{
-left: 0;    
-}
-#app .col-md-6{
-    flex: 100%;
-    max-width: 100%;
-}
-
-#app .my-4{
-    margin-top: 0 !important;
-    text-transform: capitalize;
-}
-
 #app h6{
     text-transform: capitalize;
 }
