@@ -236,10 +236,3 @@ display: block;
 #mc-embedded-subscribe{
   margin-top: 20px;
 }
-
-/*FIXERS STAMP*/
-#footer > div.w-100.text-center{
-    position:absolute;
-    bottom: -230px;
-    margin-bottom: 20px;
-}
