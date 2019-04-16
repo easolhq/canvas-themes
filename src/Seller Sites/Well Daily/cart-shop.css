@@ -111,3 +111,15 @@ ul.list-inline.footer-social-list.my-4,
 .footer-list{
   display: none;
 }
+
+/* Fix room card height so text isn't cut off */
+
+.bookable-list-item-text {
+    max-height:none;
+    line-height:1.4;
+    font-size:0.8rem;
+}
+.bookable-list-item {
+    height:auto
+}
+
