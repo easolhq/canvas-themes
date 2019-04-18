@@ -19,8 +19,8 @@ body {
       background: rgba(0,0,0,.2);
     }
     
+    #block-nat,
     #block-9ik{
-      padding-top: 6em;
       padding-bottom: 0;
     }
     
@@ -29,7 +29,7 @@ body {
     }
     
     /*SOCIAL ICONS*/
-    
+
     .social-icon{
       font-size: 2rem !important;
       padding-bottom: 0;
