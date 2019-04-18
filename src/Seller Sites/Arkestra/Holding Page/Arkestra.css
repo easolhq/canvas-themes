@@ -1,5 +1,5 @@
 /*HOLDING PAGE*/
-body {
+.holding-page {
     background-image: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Arkestra/Holding+Page/Assets/aAGGkQtaQ41SiUzhaPzx2QcB.jpeg);
       margin: 0;
       min-height: 100vh;
@@ -9,7 +9,7 @@ body {
       background-position: center;
     }
     
-    body:before{
+    .holding-page:before{
       content: "";
       position: fixed;
       height: 100%;
