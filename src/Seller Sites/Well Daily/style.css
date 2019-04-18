@@ -79,4 +79,24 @@ h2, .h2 {
     }
 }
 
+.card-img {
+  height:100%;
+  object-fit:cover
+}
+.hero-product-block .justify-content-center {
+  justify-content:flex-start!important;
+}
+.hero-product-block .justify-content-center .mb-5 {
+  margin-bottom:0 !important;
+}
+.hero-product-block .col-12 {
+  max-height: 350px;
+}
+.block .hero-product-block {
+  padding-bottom:0 !important;
+}
+.block .text-block {
+  padding-top:0!important;
+}
+
     
