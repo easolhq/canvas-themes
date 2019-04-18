@@ -24,6 +24,20 @@ body {
       padding-bottom: 0;
     }
     
+    #logo{
+        text-align: center;
+      }
+      #logo img {
+        max-width:100%;
+      }
+      
+      @media only screen and (min-width: 768px){ 
+      #logo > img{
+        width: 450px;
+      }
+      }
+      
+
     #footer{
       display: none;
     }
@@ -35,11 +49,4 @@ body {
       padding-bottom: 0;
     }
     
-    .col-md-2{
-      max-width: 10%;
-    }
-    
-    #block-0m8{
-      padding-bottom: 0;
-    }
     
