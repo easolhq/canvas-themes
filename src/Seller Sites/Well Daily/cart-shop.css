@@ -122,4 +122,7 @@ ul.list-inline.footer-social-list.my-4,
 .bookable-list-item {
     height:auto
 }
+.bookable-list-item > .col {
+    max-width:75%;
+}
 
