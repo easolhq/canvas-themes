@@ -6,6 +6,7 @@ body {
       background-position: bottom right;
       background-repeat: no-repeat; 
       background-size: cover; 
+      background-position: center;
     }
     
     body:before{
@@ -18,61 +19,19 @@ body {
       background: rgba(0,0,0,.2);
     }
     
-    #block-wh7 p{
-    max-width: 50vh;
-    margin-left: auto;
-    margin-right: auto;
-    }
     
-    #block-wh7 {
-    paddin-top: 0;
-    }
     
-    #block-z7k{
+    
+    #block-9ik{
       padding-top: 6em;
       padding-bottom: 0;
-    }
-    
-    
-    /*MAILCHIMP*/
-    
-    #block-ggk{
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    
-    #mergeRow-gdpr{
-      display: none;
-    }
-    
-    #mce-success-response{
-      color: #FFF;
-      text-align: center;
-    }
-    
-    .form-control{
-      font-family: helvetica;
     }
     
     #footer{
       display: none;
     }
     
-    #logo{
-      text-align: center;
-      mix-blend-mode: difference
-    }
-    #logo img {
-      max-width:100%;
-    }
-    
-    @media only screen and (min-width: 768px){ 
-    #logo > img{
-      width: 450px;
-    }
-    }
-    
-    
+
     /*SOCIAL ICONS*/
     .social-icon{
       font-size: 2rem !important;
