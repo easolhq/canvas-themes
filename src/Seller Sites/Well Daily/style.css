@@ -90,13 +90,19 @@ h2, .h2 {
   margin-bottom:0 !important;
 }
 .hero-product-block .col-12 {
-  max-height: 350px;
+  max-height: 275px;
 }
 .block .hero-product-block {
   padding-bottom:0 !important;
 }
 .block .text-block {
   padding-top:0!important;
+}
+.hero-product-block .justify-content-center .mb-5 .mb-2, .hero-product-block .justify-content-center .mb-5 .mb-4 {
+  display:none !important;
+}
+.product-dates, .separator {
+  display:none;
 }
 
     
