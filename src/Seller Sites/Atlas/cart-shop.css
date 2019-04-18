@@ -152,6 +152,14 @@ margin-right: auto;
     font-weight: bold;
 }
 
+/*REMOVE PP ON GROUP TICKETS */
+
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-9 > article > div:nth-child(4) > div > div > div > div:nth-child(1) > div.col-4.col-md-3.text-center > sub,
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-9 > article > div:nth-child(4) > div > div > div > div:nth-child(2) > div.col-4.col-md-3.text-center > sub,
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-9 > article > div:nth-child(4) > div > div > div > div:nth-child(3) > div.col-4.col-md-3.text-center > sub{
+    display: none;
+}
+
 /*FOOTER*/
 
 .footer-main{
