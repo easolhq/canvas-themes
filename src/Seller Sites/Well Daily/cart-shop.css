@@ -125,4 +125,8 @@ ul.list-inline.footer-social-list.my-4,
 .bookable-list-item > .col {
     max-width:75%;
 }
-
+@media (max-width:767px) {
+  .bookable-list-item > .col {
+    max-width:75%;
+  }
+}
