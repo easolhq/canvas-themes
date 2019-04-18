@@ -19,9 +19,6 @@ body {
       background: rgba(0,0,0,.2);
     }
     
-    
-    
-    
     #block-9ik{
       padding-top: 6em;
       padding-bottom: 0;
@@ -31,7 +28,6 @@ body {
       display: none;
     }
     
-
     /*SOCIAL ICONS*/
     .social-icon{
       font-size: 2rem !important;
@@ -42,31 +38,7 @@ body {
       max-width: 10%;
     }
     
-    #block-f2g{
+    #block-0m8{
       padding-bottom: 0;
     }
     
-    
-    /*FOOTER*/
-    .bg-light{
-      background-color: transparent !important;
-    }
-    
-    .navbar-light .navbar-brand{
-      display: none;
-    }
-    .fixers-stamp{
-    fill: #FFF !important;
-    margin: 0 0 0 auto;
-    }
-    
-    .btn-group{
-      display: none;
-    }
-    #footer{
-    position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-    /*MOBILE STYLES*/
