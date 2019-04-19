@@ -6,6 +6,16 @@
     background-color: rgba(0,0,0,.2);
 }
 
+#overview > article > div.row.no-gutters > div.col-12.col-md-5.p-3.overview-card.offset-md-7 h5{
+    display: none;
+}
+
+#overview > article > div.row.no-gutters > div.col-12.col-md-5.p-3.overview-card.offset-md-7:before{
+content: "The Magic // What's Unique ";
+display: block;
+text-align: center;
+}
+
 /*SLEEP*/
 
 #sleep{
@@ -36,6 +46,18 @@
 
 
 /*THE PLAN*/
+#plan > article > div > div.col-12.col-md-4 > h3{
+    display: none;
+}
+#plan > article > div > div.col-12.col-md-4:after{
+    content:"Life On The Mat";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+
 #plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2{
     text-align: center;
 }
@@ -74,3 +96,15 @@
 }
 }
 
+/*CTA*/
+
+nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.navbar-nav.ml-auto > a > span{
+        display: none;
+    }
+nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.navbar-nav.ml-auto > a > span:after{
+        content:"View Availability and Book";
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+    }
