@@ -477,7 +477,7 @@ td{
   padding-right: 0;
 }
 
-.product-row-block > div.block-content > div > p{
+.product-row-block .lead{
   font-size: 1rem !important;
 }
 
