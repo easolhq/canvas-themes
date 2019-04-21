@@ -84,19 +84,19 @@ padding-right: 10%;
 
 @media only screen and (min-width: 768px) and (max-width: 990px){
 #sleep {
-    margin-top: 200px;
+    margin-top: 120px;
 }
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1219px){
 #sleep {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 }
 
 @media only screen and (min-width: 1220px){
 #sleep {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 }
 
