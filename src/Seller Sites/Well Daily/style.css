@@ -73,6 +73,7 @@ h2, .h2 {
 #block-ekq .block-content {
     position:relative;
     top:-40px;
+    z-index:999;
 }
 #footer a, .product-row-block a {
     color:#545558;
