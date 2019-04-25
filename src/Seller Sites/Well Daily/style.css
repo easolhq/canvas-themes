@@ -106,7 +106,7 @@ h2, .h2 {
   margin-bottom:0 !important;
 }
 .hero-product-block .col-12 {
-  max-height: 275px;
+  max-height: 230px;
 }
 .block .hero-product-block {
   padding-bottom:0 !important;
@@ -119,6 +119,16 @@ h2, .h2 {
 }
 .product-dates, .separator {
   display:none;
+}
+@media (min-width:768px) {
+    .hero-product-block .col-12:first-child {
+        max-width:40%;
+        flex:0 0 40%;
+    }
+    .hero-product-block .col-12:last-child {
+        max-width:60%;
+        flex:0 0 60%
+    }
 }
 
     
