@@ -53,7 +53,7 @@ font-family: Playfairdisplay;
 #plan > article > div > div.col-12.col-md-4 > h3{
     display: none;
 }
-#plan > article > div > div.col-12.col-md-4:after{
+#plan > article > div > div.col-12.col-md-4:before{
     content:"Life On The Mat";
     font-size: 2rem;
     letter-spacing: 0.3rem;
@@ -61,6 +61,11 @@ font-family: Playfairdisplay;
     margin-right: auto;
     text-transform: uppercase;
     font-family: Playfairdisplay;
+}
+#plan > article > div > div.col-12.col-md-4:after{
+    content:"A 28DAY TRANSFORMATIVE EXPERIENCE";
+    font-family:Playfairdisplay;
+    color:#e6a49b;
 }
 
 
