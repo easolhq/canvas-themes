@@ -80,6 +80,7 @@ a.navbar-brand img{
   height: 80px;
   position: fixed;
   width: 100%;
+  top:0;
 }
 
 #menu.scrolled {
