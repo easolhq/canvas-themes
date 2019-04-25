@@ -117,6 +117,9 @@ h2, .h2 {
 .hero-product-block .justify-content-center .mb-5 .mb-2{
   display:none !important;
 }
+.hero-product-block h3 {
+    text-transform:uppercase;
+}
 .product-dates, .separator {
   display:none;
 }
