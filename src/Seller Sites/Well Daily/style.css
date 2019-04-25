@@ -114,7 +114,7 @@ h2, .h2 {
 .block .text-block {
   padding-top:0!important;
 }
-.hero-product-block .justify-content-center .mb-5 .mb-2, .hero-product-block .justify-content-center .mb-5 .mb-4 {
+.hero-product-block .justify-content-center .mb-5 .mb-2{
   display:none !important;
 }
 .product-dates, .separator {
