@@ -120,3 +120,38 @@ nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.na
         margin-right: auto;
         display: block;
     }
+
+/* Schedule and Accom */
+
+#sleep h3:before {
+    content:"Your Home";
+    display:block;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin:0 auto 10px;
+    text-transform: uppercase;
+    font-family: Playfairdisplay;
+    color:#545558;
+}
+#sleep > div.block.py-0 > article > h3 {
+    font-size:1em;
+    color:#e6a49b;
+}
+#plan > article > div > div.col-12.col-md-8 > ul > li:nth-child(2) > div.col-4.col-md-3:before {
+    content: "How We Will Flow";
+    position: absolute;
+    top: -55px;
+    font-family: Playfairdisplay;
+    color: #e6a49b;
+    width: 300px;
+}
+#plan > article > div > div.col-12.col-md-8 > ul > li:nth-child(2):before {
+    content: "Schedule";
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-family: Playfairdisplay;
+    margin: 0 15px 50px;
+}
