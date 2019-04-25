@@ -90,6 +90,7 @@ font-family: Playfairdisplay;
 
 #plan > article > div > div.col-12.col-md-8 > ul > li{
     justify-content: start !important;
+    position:relative;
 }
 
 #plan > article > div > div.col-12.col-md-8 > ul > li > div.col-7.col-md-8{
@@ -137,13 +138,15 @@ nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.na
     font-size:1em;
     color:#e6a49b;
 }
-#plan > article > div > div.col-12.col-md-8 > ul > li:nth-child(2) > div.col-4.col-md-3:before {
+#plan > article > div > div.col-12.col-md-8 > ul > li:nth-child(2):after {
     content: "How We Will Flow";
     position: absolute;
-    top: -55px;
+    top: 50px;
     font-family: Playfairdisplay;
     color: #e6a49b;
-    width: 300px;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 #plan > article > div > div.col-12.col-md-8 > ul > li:nth-child(2):before {
     content: "Schedule";
@@ -154,4 +157,4 @@ nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.na
     text-transform: uppercase;
     font-family: Playfairdisplay;
     margin: 0 15px 50px;
-}
+    text-align: center;
