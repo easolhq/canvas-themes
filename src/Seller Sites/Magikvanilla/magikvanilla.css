@@ -273,18 +273,21 @@ h1{
     bottom: 0;
     width: 100% !important;
     background-color: white;
-    color: white !important;
     border-top: 1px solid #ECEEEF;
     border-bottom: 1px solid #ECEEEF;
     z-index: 1030;
     text-align: right;
     height: 50px;
-    margin-bottom: 0 !important;
+    margin: 0 !important;
   }
-  
+  .booking-block .navbar-text {
+      float:left;
+  }
   .booking-block a.btn.btn-primary{
     margin-top: 5px;
     min-width: 14rem; 
+    float:right;
+    margin-top:16px;
   }
 
 /*DIRECTIONS*/
