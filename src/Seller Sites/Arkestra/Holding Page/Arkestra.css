@@ -49,5 +49,64 @@
       font-size: 2rem !important;
       padding-bottom: 0;
     }
+
+.social-icon{
+  font-size: 2rem !important;
+  padding-bottom: 0;
+}
+
+.col-md-2{
+  max-width: 10%;
+}
+
+/* Product Page */
+
+.product-hero {
+  height:75vh;
+}
+#hero .faux-image {
+  background-position:top center;
+}
+
+/* Cart Shop */
+
+#app {
+  background:#f7f7f9;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .availability-table {
+  font-family:Gillsans condensed;
+}
+.navbar-main .navbar-brand {
+  width:100vw;
+  float:none;
+  text-align:center;
+}
+.navbar-main .logo {
+  height:4rem;
+}
+#app .cart .btn-primary {
+    background:#fcb570;
+    border-color:#fcb570;
+    color: #fff;
+   }
+.number-stepper-round .btn {
+  color:#fcb570;
+  border-color:#fcb570 !important;
+}
+.number-stepper-round .btn:hover {
+  background:#fcb570;
+  border-color:#fcb570 !important;
+}
+.block-background {
+  z-index:1;
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > div.row.justify-content-center {
+  display:none;
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h1 {
+  margin-top:65px;
+  text-transform:uppercase;
+}
+
     
     
