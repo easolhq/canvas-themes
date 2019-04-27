@@ -1,3 +1,28 @@
+#app{
+    background-color:#F7F7F9;
+}
+
+.block.footer-main{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.package-modal .modal-content h2,
+.package-modal .modal-content h4,
+.package-modal .modal-content h6{
+    text-transform: uppercase;
+}
+
+#app h4, #app h5, #app h6{
+text-transform: uppercase;    
+}
+
+#app .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before,
+#app .bookable-list-item:before{
+    background-color: #000 !important;
+}
+
 .btn-primary{
     background-color: black !important;
     border-color: black !important;
