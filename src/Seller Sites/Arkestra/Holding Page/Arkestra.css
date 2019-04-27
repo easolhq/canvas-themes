@@ -82,7 +82,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .availability-table 
   text-align:center;
 }
 .navbar-main .logo {
-  height:4rem;
+  height:4rem !important;
 }
 #app .cart .btn-primary {
     background:#fcb570;
