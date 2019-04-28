@@ -130,6 +130,10 @@ h1{
   #mergeRow-gdpr {
       display: none;
   }
+
+  #mce-success-response{
+    text-align: center;
+  }
   
   /*CUSTOM HTML*/
   .hack-block{
