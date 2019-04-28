@@ -173,6 +173,12 @@ div#jump{
 .retreat-hotel-block{
   height: 80vh !important;
 }
+
+/*FOOTER*/
+#footer > div.w-100.text-center{
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
   
   /*MOBILE*/
   
