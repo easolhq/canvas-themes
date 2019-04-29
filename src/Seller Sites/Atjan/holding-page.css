@@ -139,6 +139,9 @@
 #footer {
   padding:3rem 0 0;
 }
+#footer .navbar-brand {
+  display:none;
+}
 .fixers-stamp {
   margin:100px 0 15px 25px !important;
 }
