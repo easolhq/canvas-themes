@@ -145,6 +145,13 @@
 
 /* Media Queries */
 
+@media (min-width:768px) {
+  #block-qrz .col-md-4 {
+    flex:0 0 50%;
+    max-width:50%;
+  }
+}
+
 @media (max-width:769px) {
   #block-pff {
     height:90vh !important
@@ -154,10 +161,6 @@
     padding: 0;
     height: 80vh !important;
     background-size: cover;
-  }
-  #block-qrz .col-md-4 {
-    flex:0 0 50%;
-    max-width:50%;
   }
   .text-and-image-block h4 {
     margin-top:15px;
