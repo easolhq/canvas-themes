@@ -5,10 +5,12 @@
 }
 #block-s4k {
   padding:1rem 0;
+  position:absolute;
 }
 #block-s4k .btn {
-  font-size:1rem !important;
+  font-size:0.8rem !important;
   color:#fff;
+  font-weight:bold;
 }
 .btn {
   font-family: Avenirltstd-light;
