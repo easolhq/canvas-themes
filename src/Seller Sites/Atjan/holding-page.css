@@ -9,8 +9,8 @@
   text-transform: uppercase;
 }
 .accordion-entry {
-  background:transparent;
-  border:1px solid #fff;
+  background:transparent !important;
+  border:1px solid #fff !important;
   max-width:540px;
   margin:auto;
 }
