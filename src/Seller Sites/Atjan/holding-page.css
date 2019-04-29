@@ -102,6 +102,8 @@
 }
 #block-pff p {
   font-family:Avenirnextltpro-bold;
+  max-width:600px;
+  margin:auto;
 }
 #block-pff h1:before {
   content: '';
