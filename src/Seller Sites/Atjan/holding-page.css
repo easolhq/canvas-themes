@@ -106,7 +106,7 @@
 #block-pff p {
   font-family:Avenirnextltpro-bold;
 }
-#block-pff h1:before {
+#block-pff p:before {
   content: '';
   background-image: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Atjan/atjan-header-logo-dates.png);
   background-size: cover;
