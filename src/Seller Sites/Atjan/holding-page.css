@@ -8,18 +8,14 @@
   position:absolute;
   z-index:999;
 }
-.btn {
-  font-family:Avenirnextltpro-bold;
-}
 #block-s4k .btn {
   font-size:0.8rem !important;
   color:#fff;
-  font-family:Avenirnextltpro-bold;
   letter-spacing:0.05rem;
   margin:0 2rem;
 }
 .btn {
-  font-family: Avenirltstd-light;
+  font-family: Avenirnextltpro-bold;
   font-size: 0.6rem !important;
   text-transform: uppercase;
 }
@@ -177,7 +173,7 @@
    height: 36px;
    background-color: #f1e033;
 }
-#block-d52, #block-ls2, #block-2jc {
+#block-d5w, #block-ls2, #block-2jc, #block-zm4 {
   color:#fff;
 }
 #block-2jc {
@@ -192,6 +188,7 @@
 }
 #footer img {
   margin:0 20px 50px 0;
+  height:50px;
 }
 #footer a i.fa {
   margin:0 10px;
