@@ -94,18 +94,18 @@
   margin:0;
 }
 #block-pff {
-  height:75vh !important;
+  height:80vh !important;
 }
 #block-pff h1:before {
   content: '';
   background-image: url(https://github.com/fixershq/canvas-themes/raw/master/src/Seller%20Sites/Atjan/atjan-header-logo.png);
   background-size: cover;
-  width: 500px;
-  height: 218px;
+  width: 400px;
+  height: 180px;
   display: block;
   margin: auto;
   position: relative;
-  top: -25px;
+  top: -15px;
 }
 #block-7zh {
   height:100vh !important;
