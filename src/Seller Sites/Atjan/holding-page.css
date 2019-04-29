@@ -180,6 +180,12 @@
   padding:3rem 0 0;
   background-color:#61c089 !important;
 }
+#footer img {
+  margin:0 20px 50px 0;
+}
+#footer i {
+  margin:0 10px;
+}
 #footer .navbar-brand {
   display:none;
 }
