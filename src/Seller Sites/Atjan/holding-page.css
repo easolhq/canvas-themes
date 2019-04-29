@@ -140,7 +140,7 @@
   padding:3rem 0 0;
 }
 .fixers-stamp {
-  margin:100px 0 15px 25px;
+  margin:100px 0 15px 25px !important;
 }
 
 /* Media Queries */
