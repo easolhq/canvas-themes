@@ -6,6 +6,7 @@
 #block-s4k {
   padding:1rem 0;
   position:absolute;
+  z-index:999;
 }
 #block-s4k .btn {
   font-size:0.8rem !important;
