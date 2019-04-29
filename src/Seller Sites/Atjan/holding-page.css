@@ -186,6 +186,9 @@
 #footer i {
   margin:0 10px;
 }
+#footer a {
+  color:#fff;
+}
 #footer .navbar-brand {
   display:none;
 }
