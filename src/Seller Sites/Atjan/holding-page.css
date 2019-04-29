@@ -1,5 +1,8 @@
 /* Global */
 
+body, html {
+  overflow-x:hidden;
+}
 #menu {
   display:none;
 }
