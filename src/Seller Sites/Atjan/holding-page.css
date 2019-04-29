@@ -3,6 +3,13 @@
 #menu {
   display:none;
 }
+#block-s4k {
+  padding:1rem 0;
+}
+#block-s4k .btn {
+  font-size:1rem !important;
+  color:#fff;
+}
 .btn {
   font-family: Avenirltstd-light;
   font-size: 0.6rem !important;
