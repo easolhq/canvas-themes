@@ -185,6 +185,16 @@ body, html {
 #block-2jc {
   height:75vh !important;
 }
+#block-4vr {
+  margin-top:3rem;
+}
+#block-7zh:after {
+  content:'';
+  width:100%;
+  background:#88d2d5;
+  height:3rem;
+  margin-top:3rem;
+}
 
 /* Footer */
 
