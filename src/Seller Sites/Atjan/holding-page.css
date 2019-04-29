@@ -146,6 +146,9 @@
 /* Media Queries */
 
 @media (max-width:769px) {
+  #block-pff {
+    height:90vh !important
+  }
   #block-7zh {
     margin: 0;
     padding: 0;
