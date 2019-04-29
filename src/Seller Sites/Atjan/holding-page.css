@@ -183,8 +183,9 @@
 #footer img {
   margin:0 20px 50px 0;
 }
-#footer i {
+#footer .fa {
   margin:0 10px;
+  font-size:50px !important;
 }
 #footer a {
   color:#fff;
