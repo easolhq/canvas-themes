@@ -224,6 +224,10 @@ body, html {
   #block-pff {
     height:100vh !important
   }
+  #block-pff p:before {
+    width:300px;;
+    height:110px;
+  }
   #block-7zh {
     margin: 0;
     padding: 0;
