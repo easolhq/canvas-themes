@@ -98,10 +98,10 @@
 }
 #block-pff h1:before {
   content: '';
-  background-image: url(https://github.com/fixershq/canvas-themes/raw/master/src/Seller%20Sites/Atjan/atjan-logo.png);
+  background-image: url(https://github.com/fixershq/canvas-themes/raw/master/src/Seller%20Sites/Atjan/atjan-header-logo.png);
   background-size: cover;
-  width: 100px;
-  height: 135px;
+  width: 500px;
+  height: 218px;
   display: block;
   margin: auto;
   position: relative;
