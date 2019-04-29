@@ -1,0 +1,22 @@
+/* Global */
+
+#menu {
+  display:none;
+}
+.btn {
+  font-family: Avenirltstd-light;
+  font-size: 0.6rem !important;
+  text-transform: uppercase;
+}
+
+/* Individual Blocks */
+
+#block-ffe {
+  padding:1rem 0;
+}
+#block-ffe p {
+  margin:0;
+}
+#block-pff {
+  height:75vh !important;
+}
