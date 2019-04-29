@@ -173,6 +173,9 @@
    height: 36px;
    background-color: #f1e033;
 }
+#block-zm4 a {
+  color:#fff;
+}
 #block-d5w, #block-ls2, #block-2jc, #block-zm4 {
   color:#fff;
 }
@@ -201,8 +204,10 @@
   display:none;
 }
 .fixers-stamp {
-  margin:100px 0 15px 25px !important;
-  color:#fff !important;
+  margin: 100px 0 15px 25px !important;
+  color: #fff !important;
+  display: inline-block !important;
+  width: 100vw !important;
 }
 
 /* Media Queries */
