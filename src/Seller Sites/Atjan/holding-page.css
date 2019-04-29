@@ -8,6 +8,9 @@
   position:absolute;
   z-index:999;
 }
+.btn {
+  font-family:Avenirnextltpro-bold;
+}
 #block-s4k .btn {
   font-size:0.8rem !important;
   color:#fff;
