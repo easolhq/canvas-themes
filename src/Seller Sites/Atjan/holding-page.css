@@ -170,9 +170,11 @@
   border:2px solid #fff;
   height:35px;
 }
-#block-d52, #block-ls2 {
+#block-d52, #block-ls2, #block-2jc {
   color:#fff;
 }
+#block-2jc {
+  height:75vh !important;
 
 /* Footer */
 
