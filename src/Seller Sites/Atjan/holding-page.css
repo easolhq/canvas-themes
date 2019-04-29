@@ -170,14 +170,16 @@
   display:none;
 }
 #mc-embedded-subscribe {
-  border:2px solid #fff;
-  height:35px;
+   border: 2px solid #f1e033;
+   height: 36px;
+   background-color: #f1e033;
 }
 #block-d52, #block-ls2, #block-2jc {
   color:#fff;
 }
 #block-2jc {
   height:75vh !important;
+}
 
 /* Footer */
 
