@@ -209,8 +209,6 @@ body, html {
 .fixers-stamp {
   margin: 100px 0 15px 25px !important;
   color: #fff !important;
-  display: inline-block !important;
-  width: 100vw !important;
 }
 
 /* Media Queries */
