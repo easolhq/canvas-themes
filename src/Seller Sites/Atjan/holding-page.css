@@ -3,6 +3,9 @@
 body, html {
   overflow-x:hidden;
 }
+.block-content a.btn {
+  border-color:#f1e033 !important;
+}
 #menu {
   display:none;
 }
@@ -16,6 +19,7 @@ body, html {
   color:#fff;
   letter-spacing:0.05rem;
   margin:0 2rem;
+  border:none;
 }
 .btn {
   font-family: Avenirnextltpro-bold;
