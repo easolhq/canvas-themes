@@ -138,6 +138,7 @@
 
 #footer {
   padding:3rem 0 0;
+  background-color:#ebdf48 !important;
 }
 #footer .navbar-brand {
   display:none;
