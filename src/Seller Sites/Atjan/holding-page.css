@@ -8,6 +8,70 @@
   font-size: 0.6rem !important;
   text-transform: uppercase;
 }
+.accordion-entry {
+  background:transparent;
+  border:1px solid #fff;
+  max-width:540px;
+  margin:auto;
+}
+.accordion-entry .my-4.ml-4 {
+  text-align:center;
+  padding-left:30px;
+}
+.accordion-entry .collapse-container {
+  border-top:1px solid #fff;
+}
+.accordion-entry .fa-chevron-right:before {
+  content:'\f067';
+}
+
+/* Text and Image Block Checkerboard */
+
+@media (min-width:800px) {
+  .text-and-image-block {
+    overflow-x:hidden;
+  }
+  .text-and-image-block .block-content {
+   max-width:100%;
+   padding:0;
+  }
+  .text-and-image-block h1 {
+    text-transform:uppercase;
+  }
+  .text-and-image-block .col-12.d-flex {
+    align-items:center;
+  }
+  .text-and-image-block .col-12.d-flex * {
+    display: block;
+    max-width: 475px;
+    width:100%;
+  }
+  .text-and-image-block .col-12.d-flex p {
+    text-align:justify;
+  }
+  .text-and-image-block h1:first-child {
+    font-size: 0.6rem;
+    font-weight: normal;
+    display: block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+  }
+  .text-and-image-block h1:only-of-type {
+    font-size: 2.5rem;
+    position: static;
+    text-align: left;
+  }
+  .text-and-image-block .btn {
+    width:fit-content !important;
+  }
+  .text-and-image-block img {
+    width: 100%;
+  }
+  .text-and-image-block, .text-and-image-block .col-12, .text-and-image-block .col-6 {
+    padding: 0 !important;
+  }
+}
 
 /* Individual Blocks */
 
@@ -19,4 +83,80 @@
 }
 #block-pff {
   height:75vh !important;
+}
+#block-pff h1:before {
+  content: '';
+  background-image: url(https://github.com/fixershq/canvas-themes/raw/master/src/Seller%20Sites/Atjan/atjan-logo.png);
+  background-size: cover;
+  width: 150px;
+  height: 208px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -50px;
+}
+#block-7zh {
+  height:100vh !important;
+  margin:3rem 0;
+}
+#block-7zh .block-background {
+  background-size:contain !important;
+}
+#block-saw .image-grid-entry-overlay {
+  position: static;
+  opacity: 1;
+  width: 100%;
+  margin: 0;
+  background: transparent;
+  height: auto;
+  text-align: center;
+  padding: 1rem 0;
+}
+#block-saw .image-grid-entry-overlay h2 {
+  font-size:2rem;
+  margin:0;
+  line-height:1;
+}
+#block-qrz .image-grid-entry-overlay {
+  opacity:1;
+  text-align: center;
+  background:transparent;
+}
+#block-qrz .image-grid-entry-overlay h2 {
+  font-size:2rem;
+  margin:0;
+  line-height:1;
+}
+#block-qrz .aspect-1-1::before {
+  padding-top:70%;
+}
+#mergeRow-gdpr {
+  display:none;
+}
+
+/* Footer */
+
+#footer {
+  padding:3rem 0 0;
+}
+.fixers-stamp {
+  margin:100px 0 15px 25px;
+}
+
+/* Media Queries */
+
+@media (max-width:769px) {
+  #block-7zh {
+    margin: 0;
+    padding: 0;
+    height: 80vh !important;
+    background-size: cover;
+  }
+  #block-qrz .col-md-4 {
+    flex:0 0 50%;
+    max-width:50%;
+  }
+  .text-and-image-block h4 {
+    margin-top:15px;
+  }
 }
