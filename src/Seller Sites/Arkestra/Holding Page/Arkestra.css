@@ -30,6 +30,7 @@
       }
       #logo img {
         max-width:100%;
+          width:50%;
       }
       
       @media only screen and (min-width: 768px){ 
@@ -73,8 +74,11 @@
 #app {
   background:#f7f7f9;
 }
+.availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
+    background:#b99825;
+}
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .availability-table {
-  font-family:Gillsans condensed;
+  font-family:'Gillsans condensed', sans-serif;
 }
 .navbar-main .navbar-brand {
   width:100vw;
@@ -85,17 +89,17 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .availability-table 
   height:4rem !important;
 }
 #app .cart .btn-primary {
-    background:#fcb570;
-    border-color:#fcb570;
+    background:#b99825;
+    border-color:#eceeef !important
     color: #fff;
    }
 .number-stepper-round .btn {
-  color:#fcb570;
-  border-color:#fcb570 !important;
+  color:#b99825;
+  border-color:#eceeef !important
 }
 .number-stepper-round .btn:hover {
   background:#fcb570;
-  border-color:#fcb570 !important;
+  border-color:#eceeef !important
 }
 .block-background {
   z-index:1;
