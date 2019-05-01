@@ -5,14 +5,16 @@
 #block-kcn{
 margin-top: 40px;
 }
-#block-kcn .block-content {
+#block-kcn .block-content, #block-kcn .block-background {
     max-width:100%
 }
 
 .hero-image-block {
     margin:3rem auto 0 auto;
-    }
-
+}
+.hero-image-block .block-background {
+    margin:auto;
+}
     #block-kcn h1{
         color: #fff;
     }
