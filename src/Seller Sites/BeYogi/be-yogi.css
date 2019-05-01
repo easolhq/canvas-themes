@@ -27,3 +27,12 @@ nav#menu .navbar-nav{
     justify-content: space-between;
     margin-top: 50px;
     }
+
+    /*BLOCKS*/
+
+    /*HERO IMAGE BLOCK*/
+    .hero-image-block{
+        color: #fff;
+    }
+
+    

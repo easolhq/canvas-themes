@@ -1,0 +1,12 @@
+
+
+@media only screen and (min-width: 768px){
+#block-q2m .block-content{
+        max-width: 70%;
+    }
+}
+
+#block-q2m .text-center{
+    text-align: left;
+}
+
