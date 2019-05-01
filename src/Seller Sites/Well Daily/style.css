@@ -5,10 +5,12 @@
 #block-kcn{
 margin-top: 40px;
 }
+#block-kcn .block-content {
+    max-width:100%
+}
 
 .hero-image-block {
-    margin-left: auto;
-    margin-right: auto;
+    margin:3rem auto 0 auto;
     }
 
     #block-kcn h1{
@@ -16,25 +18,25 @@ margin-top: 40px;
     }
     
     @media only screen and (min-width: 576px){
-      .hero-image-block{
+      .hero-image-block .block-content {
         max-width: 540px;
     }
     }
     
     @media only screen and (min-width: 768px){
-      .hero-image-block {
+      .hero-image-block .block-content {
         max-width: 720px;
     }
     }
     
     @media only screen and (min-width: 992px){
-      .hero-image-block {
+      .hero-image-block .block-content {
         max-width: 960px;
     }
     }
     
     @media  only screen and (min-width: 1200px){
-      .hero-image-block{
+      .hero-image-block .block-content {
         max-width: 1140px;
     }
     }
