@@ -6,10 +6,7 @@
 margin-top: 40px;
 }
 
-#block-cf4 > .block-background,
-#block-bdf > .block-background,
-#block-h51 > .block-background,
-#block-rvq > .block-background{
+.hero-image-block {
     margin-left: auto;
     margin-right: auto;
     }
@@ -19,37 +16,25 @@ margin-top: 40px;
     }
     
     @media only screen and (min-width: 576px){
-      #block-cf4 > .block-background,
-      #block-bdf > .block-background,
-      #block-h51 > .block-background,
-      #block-rvq > .block-background{
+      .hero-image-block{
         max-width: 540px;
     }
     }
     
     @media only screen and (min-width: 768px){
-      #block-cf4 > .block-background,
-      #block-bdf > .block-background,
-      #block-h51 > .block-background,
-      #block-rvq > .block-background{
+      .hero-image-block {
         max-width: 720px;
     }
     }
     
     @media only screen and (min-width: 992px){
-      #block-cf4 > .block-background,
-      #block-bdf > .block-background,
-      #block-h51 > .block-background,
-      #block-rvq > .block-background{
+      .hero-image-block {
         max-width: 960px;
     }
     }
     
     @media  only screen and (min-width: 1200px){
-      #block-cf4 > .block-background,
-      #block-bdf > .block-background,
-      #block-h51 > .block-background,
-      #block-rvq > .block-background{
+      .hero-image-block{
         max-width: 1140px;
     }
     }
