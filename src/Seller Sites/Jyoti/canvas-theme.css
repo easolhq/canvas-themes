@@ -104,9 +104,18 @@
 
 /* Cart */
 
+@media (max-width:769px) {
+  .product-hero {
+  padding-top:1rem;
+  }
+}
+
 #app h1, #app h4 {
   font-family:Playfairdisplay-regular;
   text-transform:capitalize;
+}
+.bookable-list-item:before {
+  background:#f7a98c;
 }
 .site-shop-nav:after {
   content: 'Jyoti Well Being';
@@ -116,6 +125,9 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.5rem;
+}
+.navbar-brand img {
+  opacity:0;
 }
 .btn {
   border-color:#f7a98c !important;
