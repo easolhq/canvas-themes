@@ -31,7 +31,9 @@ nav#menu .navbar-nav{
     /*BLOCKS*/
 
     /*HERO IMAGE BLOCK*/
-    .hero-image-block{
+    .hero-image-block h1,
+    .hero-image-block h2,
+    .hero-image-block p{
         color: #fff;
     }
 
