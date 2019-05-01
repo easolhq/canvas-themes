@@ -37,15 +37,21 @@ nav#menu .navbar-nav{
         color: #fff;
     }
 
+  
     /*SUBSCRIBE*/
     #mergeRow-gdpr{
-        display: none;
+        display: none !important;
     }
 
     /*FOOTER*/
 
     #footer{
         height: 250px;
+        background-color: #081359 !important;
+    }
+
+    #footer .nav-link{
+        color: #fff !important;
     }
 
     .fixers-stamp,
