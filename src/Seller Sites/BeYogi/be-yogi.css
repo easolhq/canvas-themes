@@ -38,8 +38,8 @@ nav#menu .navbar-nav{
     /*FOOTER*/
 
     #footer{
-        height: 500px;
-        background-color: #081359;
+        height: 250px;
+        background-color: #081359 !important;
         color: #fff;
     }
 
