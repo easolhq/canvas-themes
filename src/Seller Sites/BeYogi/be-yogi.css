@@ -43,6 +43,11 @@ nav#menu .navbar-nav{
         display: none !important;
     }
 
+    /*YOUTUBE*/
+    .youtube-container{
+        text-align: center;
+    }
+
     /*FOOTER*/
 
     #footer{
@@ -67,4 +72,17 @@ nav#menu .navbar-nav{
         position: absolute;
         bottom: 10px;
     }
+
+    #footer .navbar-nav{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+#footer .w-100:after{
+    content:"+34-611 20 53 67 • APARTADO CORREOS 418, 07800 IBIZA, ESPANA";
+    display: block;
+    color: white;
+    margin-top: 50px;
+}
 
