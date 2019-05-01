@@ -35,4 +35,19 @@ nav#menu .navbar-nav{
         color: #fff;
     }
 
-    
+    /*FOOTER*/
+
+    #footer{
+        height: 500px;
+        background-color: #081359;
+        color: #fff;
+    }
+
+    #footer .navbar-brand{
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+    }
+
+    #footer .fa{
+        color: #fff;
+    }
