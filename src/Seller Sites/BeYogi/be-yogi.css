@@ -37,6 +37,11 @@ nav#menu .navbar-nav{
         color: #fff;
     }
 
+    /*TEXT BLOCK*/
+    @media only screen and (min-width: 768px){
+    .text-block{
+        max-width: 50vw;
+    }
   
     /*SUBSCRIBE*/
     #mergeRow-gdpr{
