@@ -37,17 +37,28 @@ nav#menu .navbar-nav{
         color: #fff;
     }
 
+    /*SUBSCRIBE*/
+    #mergeRow-gdpr{
+        display: none;
+    }
+
     /*FOOTER*/
 
     #footer{
         height: 250px;
     }
 
+    .fixers-stamp,
     #footer .navbar-brand{
         -webkit-filter: invert(100%) !important;
     }
 
     #footer .fa{
         color: #fff;
+    }
+
+    .fixers-stamp{
+        position: absolute;
+        bottom: 10px;
     }
 
