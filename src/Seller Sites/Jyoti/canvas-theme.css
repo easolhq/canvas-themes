@@ -105,7 +105,7 @@
 /* Cart */
 
 @media (max-width:769px) {
-  .product-hero {
+  #hero.product-hero {
   padding-top:1rem;
   }
 }
