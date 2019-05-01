@@ -39,15 +39,13 @@ nav#menu .navbar-nav{
 
     #footer{
         height: 250px;
-        background-color: #081359 !important;
-        color: #fff;
     }
 
     #footer .navbar-brand{
-            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-            filter: grayscale(100%);
+        -webkit-filter: invert(100%) !important;
     }
 
     #footer .fa{
         color: #fff;
     }
+
