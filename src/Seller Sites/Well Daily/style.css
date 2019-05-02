@@ -5,6 +5,9 @@
 #block-kcn{
 margin-top: 40px;
 }
+#block-kcn .block-content p {
+    margin-bottom:1em;
+}
 #block-kcn .block-content, #block-kcn .block-background {
     max-width:100%
 }
@@ -134,6 +137,9 @@ h2, .h2 {
     color:#fff !important;
     text-transform:uppercase;
 }
+.hero-image-block .block-content p {
+    margin-bottom:0;
+}
 #block-kcn .block-content:before {
     top:155px;
 }
@@ -153,7 +159,7 @@ a.btn.btn-primary {
     border-bottom:2px solid #fff;
     margin:auto;
     position:relative;
-    top:20px;
+    top:55px;
 }
 .hero-image-block .block-content:after {
     content:'';
@@ -161,7 +167,7 @@ a.btn.btn-primary {
     margin:auto;
     border-bottom:2px solid #fff;
     position:relative;
-    top:-80px;
+    top:-60px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family:Muli;
