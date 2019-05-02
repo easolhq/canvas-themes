@@ -1,4 +1,11 @@
 /*HOLDING PAGE*/
+.hack-block h2, .hack-block h3 {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+#block-9ik > div.block-content > div {
+    margin-top:15px;
+}
 #block-nat {
     background-image: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Arkestra/Holding+Page/Assets/aAGGkQtaQ41SiUzhaPzx2QcB.jpeg);
       margin: 0;
@@ -35,7 +42,7 @@
       
       @media only screen and (min-width: 768px){ 
       #logo > img{
-        width: 45vh;
+        width: 35vh;
       }
       }
       
