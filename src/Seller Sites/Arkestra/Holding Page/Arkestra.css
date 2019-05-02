@@ -6,6 +6,11 @@
 #block-9ik > div.block-content > div {
     margin-top:15px;
 }
+@media (max-width:768px) {
+    .text-block .block-content {
+        zoom:0.8;
+    }
+}
 #block-nat {
     background-image: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Arkestra/Holding+Page/Assets/aAGGkQtaQ41SiUzhaPzx2QcB.jpeg);
       margin: 0;
