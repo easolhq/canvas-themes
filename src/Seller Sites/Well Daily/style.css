@@ -147,7 +147,7 @@ h2, .h2 {
 #block-kcn .block-content:after {
     top:-165px;
 }
-a.btn.btn-primary {
+.hero-image-block a.btn.btn-primary {
     background: #e6a49b;
     border-color: #e6a49b;
     border-radius: 10px;
