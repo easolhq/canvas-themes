@@ -152,6 +152,8 @@ a.btn.btn-primary {
     border-radius: 10px;
     color: #fff;
     padding: .375rem 1.5rem;
+    position:relative;
+    top:35px;
 }
 .hero-image-block .block-content:before {
     content:'';
