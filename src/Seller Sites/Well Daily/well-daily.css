@@ -148,8 +148,8 @@ padding-top: 0;
      display: block;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Well+Daily/Assets/logo-yoga.png) no-repeat;
-  width: 150px; /* Width of new image */
+  background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Well+Daily/Assets/Logo.png) no-repeat;
+  width: 75px; /* Width of new image */
   height: 75px; /* Height of new image */
   padding-left: 75px; /* Equal to width of new image */
 }
@@ -209,13 +209,15 @@ text-align: center;
 }
 
 #footer .navbar-brand img{
-display: block;
+    display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Well+Daily/Assets/Logo.png) no-repeat;
-    width: 75px;
+    background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Well+Daily/Assets/logo-yoga.png) no-repeat;
+    width: 150px;
     height: 75px;
-    padding-left: 75px;
+    padding-left: 150px;
+    position: relative;
+    left: -45px;
 }
 
 /*SUBSCRIBE*/
