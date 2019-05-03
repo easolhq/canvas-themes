@@ -4,6 +4,9 @@
 #app h6{
     text-transform: capitalize;
 }
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h6 {
+    text-transform:uppercase;
+}
 
 #app > div.container.pb-4 > div.row > div.col-14.col-lg-5.cart-container > div > div > div.cart-body-wrapper.d-flex.flex-column > div.d-flex.p-3.w-100.text-center > h5{
     text-transform: uppercase;
