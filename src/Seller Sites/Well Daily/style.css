@@ -15,6 +15,12 @@ margin-top: 0;
 .hero-image-block {
     margin:3rem auto 0 auto;
 }
+.hero-image-block h1 span, .hero-image-block h1 {
+    font-size: 4rem !important;
+}
+.hero-image-block h1, .hero-image-block h3 {
+    font-weight: 700;
+}
 .hero-image-block .block-background {
     margin:auto;
 }
