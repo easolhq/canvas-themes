@@ -158,3 +158,9 @@ nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.na
     font-family: Playfairdisplay;
     margin: 0 15px 50px;
     text-align: center;
+}
+.accommodation_information .factual {
+    text-transform:uppercase;
+    font-weight:bold;
+    margin;top:30px;
+}
