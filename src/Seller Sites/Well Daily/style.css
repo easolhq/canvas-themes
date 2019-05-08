@@ -150,7 +150,7 @@ h2, .h2 {
     margin-bottom:0;
 }
 #block-kcn .block-content:before {
-    top:120px;
+    top:110px;
     position:relative;
 }
 #block-kcn .block-content:after {
@@ -163,7 +163,7 @@ h2, .h2 {
     color: #fff;
     padding: .375rem 1.5rem;
     position:relative;
-    top:35px;
+    top:50px;
     letter-spacing:0.1rem
 }
 .hero-image-block .block-content:before {
@@ -171,6 +171,8 @@ h2, .h2 {
     width:50%;
     border-bottom:2px solid #fff;
     margin:auto;
+    position:relative;
+    top:-10px;
 }
 .hero-image-block .block-content:after {
     content:'';
@@ -178,7 +180,7 @@ h2, .h2 {
     margin:auto;
     border-bottom:2px solid #fff;
     position:relative;
-    top:-65px;
+    top:-50px;
 }
 #block-zda.block {
     height:30vh;
