@@ -14,6 +14,10 @@
 
 #app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h1{
     text-transform: capitalize;
+    font-size:2rem !important;
+}
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-9 > article > header > div > div > label > h4, #shared-accommodation > h4 {
+    text-transform:uppercase;
 }
 
 #private-accommodation > div > h4,
