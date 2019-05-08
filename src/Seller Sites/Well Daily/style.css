@@ -3,7 +3,7 @@
 /*HERO*/
 
 #block-kcn{
-margin-top: 40px;
+margin-top: 0;
 }
 #block-kcn .block-content p {
     margin-bottom:1em;
@@ -158,6 +158,7 @@ h2, .h2 {
     padding: .375rem 1.5rem;
     position:relative;
     top:35px;
+    letter-spacing:0.1rem
 }
 .hero-image-block .block-content:before {
     content:'';
@@ -172,6 +173,26 @@ h2, .h2 {
     border-bottom:2px solid #fff;
     position:relative;
     top:-65px;
+}
+#block-zda .block-content:after {
+    content: '';
+    width: 10%;
+    margin: auto;
+    border-bottom: 10px solid #fff;
+    position: relative;
+    top: 0px;
+}
+#block-zda .block-content:before {
+    border:none !important;
+}
+#block-zda h1 {
+    font-weight:700;
+}
+#block-zda .block-background {
+    max-width:100%;
+}
+#block-ryl {
+    padding-bottom:0;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family:Muli;
