@@ -150,11 +150,11 @@ h2, .h2 {
     margin-bottom:0;
 }
 #block-kcn .block-content:before {
-    top:155px;
+    top:120px;
     position:relative;
 }
 #block-kcn .block-content:after {
-    top:-165px;
+    top:-120px;
 }
 .hero-image-block a.btn.btn-primary {
     background: #e6a49b;
