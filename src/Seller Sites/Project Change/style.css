@@ -1,6 +1,8 @@
 /*HOME*/
 
-
+#block-teq {
+    display:none;
+}
 
 /*HERO IMAGE*/
 #block-ppk{
@@ -62,10 +64,6 @@ width: 50vw;
 }
 }
 
-#block-uia .block-content{
-  border-top: 1px solid #C6D2D2 !important;
-  max-width: 50%
-}
 
 /*CHARLIE*/
 #block-fg9 a{
