@@ -13,13 +13,13 @@ h3{
 h4{
     font-family:"Campton-lightdemo";
     letter-spacing: 2px;
-    font-size: 0.7em;
+    font-size: 0.7em !important;
 }
 
 h6{
   font-family:"Campton-bolddemo 2";
   letter-spacing: 2px;
-  font-size: 0.7em;
+  font-size: 0.7em !important;
 }
 .product-page-booking-bar h5.factual {
  font-family:arial, sans-serif;
@@ -31,7 +31,7 @@ h6{
 .btn-secondary{
     font-family:"Campton-bolddemo 2";
     letter-spacing: 2px;
-    font-size: 0.7em;
+    font-size: 0.7em !important;
     text-transform: uppercase;
 }
 
@@ -71,8 +71,8 @@ div#menu-navbar{
 }
 
 .text-and-image-block{
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .text-and-image-block .block-content{
@@ -402,6 +402,11 @@ text-align: left !important;
 
 #block-g46{
   padding-top:0;
+}
+
+#block-g46 .block-content{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 #block-g46 .col{
