@@ -1,0 +1,681 @@
+/*FONTS*/
+
+h1{
+  font-family:"Campton-bolddemo 2";
+  letter-spacing: 0.3rem;
+}
+
+h3{
+    font-family:"Campton-lightdemo";
+    letter-spacing: 2px;
+}
+  
+h4{
+    font-family:"Campton-lightdemo";
+    letter-spacing: 2px;
+    font-size: 0.7em;
+}
+
+h6{
+  font-family:"Campton-bolddemo 2";
+  letter-spacing: 2px;
+  font-size: 0.7em;
+}
+.product-page-booking-bar h5.factual {
+ font-family:arial, sans-serif;
+}
+
+/*BUTTON STYLING*/
+.btn-primary, 
+.btn-outline-secondary, 
+.btn-secondary{
+    font-family:"Campton-bolddemo 2";
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+/*NAVIGATION  STYLING */
+
+.bg-light{
+  background-color: #fff !important;
+}
+
+div#menu-navbar{
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #000;
+  display: inline;
+}
+
+.nav-link{ 
+    font-family:"Campton-bolddemo 2";
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px){
+  .navbar-expand-md .navbar-nav .nav-link{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    }
+}
+
+/*TEXT AND IMAGE BLOCK*/
+.text-and-image-block .row{
+    height:100%;
+}
+
+.text-and-image-block{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.text-and-image-block .block-content{
+    max-width: 100%;
+}
+
+.text-and-image-block .col-12.col-md-6{
+  background-color: white;
+  height: 100vh;
+}
+
+.text-and-image-block .btn{
+  margin-top: 40px;
+}
+
+.image-position-left.text-and-image-block .col-6.col-image.d-none.d-lg-block{
+padding-left: 0px;
+padding-right: 50px;
+}
+
+.image-position-right.text-and-image-block .col-6.col-image.d-none.d-lg-block{
+padding-left: 50px;
+padding-right: 0px;
+}
+/*Button position*/
+.image-position-right.text-and-image-block .text-center{
+text-align: left !important;
+padding-right: 20%;
+} 
+
+.image-position-left.text-and-image-block .text-center{
+  text-align: left !important;
+}  
+
+.image-position-left.text-and-image-block .col-12.col-md-6,
+.image-position-right.text-and-image-block .col-12.col-md-6{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left !important;
+}
+
+@media only screen and (min-width: 769px) {
+.text-and-image-block .col-6.col-image.d-none.d-lg-block{
+display: flex !important;
+align-items: center;
+justify-content: center;
+}
+}
+
+/*IMAGE GRID*/
+.image-grid-entry-overlay{
+  opacity: 1;
+  background-color: rgba(55,58,60,0.30);
+}
+
+.image-grid-entry h2{
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Campton-lightdemo";
+}
+
+
+/*LINE UP BLOCK STYLING*/
+.line-up-element {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/*TEXT BLOCK*/
+.text-block p{
+  max-width: 700px;
+  margin: auto;
+}
+
+/*HERO IMAGE BLOCK*/
+
+.block.hero-image-block{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*HERO PRODUCT BLOCK*/
+.hero-product-tagline, .mt-2{
+  text-align: center;
+}
+
+.mt-2{
+  text-transform: uppercase;
+}
+
+.hero-product-block p.mb-2{
+  display:none;  
+}
+
+.hero-product-block{
+  padding-top: 0;
+}
+
+.hero-product-block .col-12{
+  padding-bottom: 30px;
+}
+
+#block-rxa .justify-content-start{
+  display: none !important;
+}
+
+/*GRID ON HERO AND CUSTOM HTML BLOCK */
+.block.hack-block,
+.block.hero-image-block{ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 576px){
+.block.hack-block,
+.block.hero-image-block{
+    max-width: 540px;
+}
+}
+
+@media only screen and (min-width: 768px){ 
+.block.hack-block,
+.block.hero-image-block{
+    max-width: 720px;
+}
+}
+
+@media only screen and (min-width: 992px){ 
+.block.hack-block,
+.block.hero-image-block{
+    max-width: 960px;
+}
+}
+
+@media only screen and (min-width: 1200px){ 
+.block.hack-block,
+.block.hero-image-block{
+    max-width: 1140px;
+}
+}
+
+
+/*FOOTER*/
+
+#footer .nav-link{ 
+    font-family:"Campton-lightdemo";
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+/*FIXERS STAMP POSITION*/
+.fixers-stamp{
+    margin: 0 0 0 auto;
+    padding-top: 50px;
+}
+
+/*PARTNERS*/
+
+#block-tzd, #block-9im, #block-apb, #block-nws, #block-llw, #block-cyj{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    background-color: #A4C3CD;
+}
+
+#block-9im .block-container, 
+#block-apb .block-container, 
+#block-nws .block-container, 
+#block-llw .block-container, 
+#block-cyj .block-container,
+#block-tzd .block-container{
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  margin: auto;
+}
+
+.flex-container img{
+max-width: 125px;
+padding: 20px;
+}
+
+/*MAILCHIMP*/
+.subscription-block .btn-primary{
+  height: 38px;
+}
+#mce-EMAIL{
+border: none;
+}
+
+#mergeRow-gdpr {
+    display: none;
+}
+
+/*FOOTER*/
+#footer{
+  background-color: #A4C3CD !important;
+}
+
+#footer>div.container>a>img{
+  display: none;
+}
+
+/*INLINE STYLES*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*JUMP BAR*/
+/* JUMP MENU*/
+#block-qml, #block-ey5{
+  max-width: 100%;
+  width: 100%;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 1030;
+}
+
+#block-qml .block-content,
+#block-ey5 .block-content{
+ max-width: 100%;
+ padding-left: 0;
+ padding-right: 0;
+ z-index: 1030;
+  letter-spacing: 2px;
+  height: 30px;
+}
+
+#block-qml h4,
+#block-ey5 h4{
+    font-size: 14px !important;
+}
+  
+
+div#jump{
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #ECEEEF;
+  border-bottom: 1px solid #ECEEEF;
+  z-index: 1030;
+  text-align: left;
+  height: 30px;
+    color: #FFF;
+}
+
+div#jump .container {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div#jump .container a {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #000;
+}
+
+
+
+/*HOMEPAGE HERO BLOCK*/
+#block-der{
+  height: 90vh !important;
+  background: rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  margin-top: 0;
+}
+
+#block-der .block-content .text-center{
+text-align: left !important;
+}  
+
+#block-der .block-content{
+  justify-content: flex-end !important;
+  padding-bottom: 150px;
+}
+
+#block-der h1{
+  margin-bottom: 0;
+}
+  
+#block-der .btn-primary{
+  width: 144px;
+  margin-top: 20px;
+}
+
+/* HOME PAGE ABOUT BLOCK*/
+#block-to0{
+  margin-top: 30px !important;
+}
+
+#block-to0 .block-content{
+  background: rgba(211,209,214, 0.6);
+  max-width: 70%;
+}
+
+#block-to0 p{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/*HOMEPAGE BY DAY BY NIGHT*/
+
+#block-g46{
+  padding-top:0;
+}
+
+#block-g46 .col{
+  height: 90vh;
+}
+
+#block-g46 .content-intro, 
+#block-g46 .content-main{
+  text-transform: uppercase;
+}
+
+.by-day {
+  background-color: rgba(249, 213, 210, 0.5);
+}
+
+.by-night {
+  background-color: rgba(154, 188, 199, 0.5);
+  color: #FFF;
+}
+
+.by-night .btn-outline-secondary{
+    color: #FFF;
+    background-color: transparent;
+    background-image: none;
+    border-color: #FFF;
+}
+
+.by-night .btn-outline-secondary:hover{
+    color: #000;
+    background-color: #FFF;
+    background-image: none;
+    border-color: #FFF;
+}
+
+.by-day::before {
+  content: "";
+  background: url(https://s3-eu-west-1.amazonaws.com/fixers-email-assets/Copy+of+Soul+Circus+2018+-+Lydia+Thomas+-18+-_DSC1218.jpg);
+  background-size: cover;
+  background-position: center; 
+  top: 1rem;
+  left: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.by-night::before {
+  content: "";
+  background: url(https://s3-eu-west-1.amazonaws.com/fixers-email-assets/SC+2018_4.jpeg);
+  background-size: cover;
+  background-position: center; 
+  top: 1rem;
+  left: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+  position: absolute;
+  z-index: -1;
+}
+@media only screen and (min-width: 768px){ 
+#block-g46 > div.block-content > div > div > div.col.poster-image.by-night{
+  margin-left: 20px;
+}
+
+#block-g46 > div.block-content > div > div > div.col.poster-image.by-day{
+  margin-right: 20px;
+}
+}
+
+/*HOME PAGE VIDEO*/
+.video-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.video-overlay {
+  padding: 0 25px !important;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#block-8ti .block-content{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+#block-8ti .container{
+  max-width: 100%;
+}
+#block-8ti > div.block-content > div.block-content.video-overlay > a{
+    max-width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*HOMEPAGE FOOD & DRINK */
+#block-nhg{
+  margin-bottom: 60px !important;
+}
+
+/* HOMEPAGE REVIEWS */
+
+#block-pic > div.block-content > p{
+  max-width: 100% !important;
+}
+
+/*END PAGE BLOCK*/
+#block-rzs{
+  margin-bottom: 60px !important;
+}
+
+/*GALLERY*/
+
+.gallery-figure {
+  display: block;
+  box-sizing: content-box;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.gallery-figure img {
+  width: 100%;
+  height: auto;
+}
+  
+.gallery-figure-row {
+padding-left: 30px ;
+}
+
+.gallery-figure {
+  margin: 0;
+}
+
+.gallery-figure:first-child{
+      padding-left: 0;
+      margin-left: -30px;
+    }
+
+.gallery-figure:last-child { 
+  padding-right: 0; 
+}
+.full-image {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.gallery-figure-row::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+div#gallery{
+  overflow: auto;
+}
+
+div#gallery img{
+    vertical-align: middle;
+}
+
+/*VIMEO EMBED*/
+ .vimeo-wrapper iframe {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+ }
+ 
+ .vimeo-wrapper {
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+
+
+/*MOBILE STYLES*/
+/*MENU*/
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+
+@media only screen and (min-width: 768px){
+.navbar-expand-md .navbar-nav .nav-link {
+padding-right: .5rem !important;
+padding-left: .5rem !important;
+}
+}
+
+@media only screen and (max-width: 767px) {
+
+/*MENU*/
+div#menu-navbar{
+  padding-right: 0;
+}
+
+nav.open .btn-primary{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-nav .nav-item{
+      padding-bottom: 10px;
+}
+
+/*TEXT AND IMAGE BLOCK*/
+.text-and-image-block .col-12.col-md-6{
+  background-color: white;
+  height:  80vh;
+}
+
+.text-and-image-block .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.image-position-left.text-and-image-block .col-6.col-image.d-none.d-lg-block{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.image-position-right.text-and-image-block .col-6.col-image.d-none.d-lg-block{
+padding-left: 0px;
+padding-right: 0px;
+}
+}
+
+/*ABOUT*/
+#block-to0 {
+    height: 90vh !important;
+}
+
+#block-to0 .block-content {
+    max-width: 90%;
+}
+
+/*BY DAY BY NIGHT*/
+
+@media only screen and (max-width: 767px) {
+#block-g46 > div.block-content > div > div{
+display: block;
+}
+
+.by-night{
+  margin-top: 20px;
+}
+}
+@media only screen and (max-width: 535px) {
+  div#jump{
+    height: auto;
+  }
+div#jump .container a{
+  padding-top: 10px;
+  display: inline-flex;
+
+  }
+}
