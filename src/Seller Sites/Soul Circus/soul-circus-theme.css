@@ -129,7 +129,7 @@ justify-content: center;
 }
 
 .image-grid-entry h2{
-  font-size: 2rem;
+  font-size: 2rem !important;
   text-align: center;
   font-family: "Campton-lightdemo";
 }
