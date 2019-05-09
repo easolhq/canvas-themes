@@ -27,6 +27,12 @@
 #mergeRow-gdpr {
   display:none;
 }
+
+#mce-success-response{
+  text-align: center;
+}
+
+
 @media (min-width:800px) {
   #mc-embedded-subscribe {
     position: relative;
