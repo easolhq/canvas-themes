@@ -124,8 +124,8 @@ justify-content: center;
 
 /*IMAGE GRID*/
 .image-grid-entry-overlay{
-  opacity: 1;
-  background-color: rgba(55,58,60,0.30);
+  opacity: 1 !important;
+  background-color: rgba(55,58,60,0.30) !important;
 }
 
 .image-grid-entry h2{
@@ -137,8 +137,8 @@ justify-content: center;
 
 /*LINE UP BLOCK STYLING*/
 .line-up-element {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 20px !important;
+    line-height: 20px !important;
 }
 
 /*TEXT BLOCK*/
@@ -413,9 +413,9 @@ text-align: left !important;
   height: 90vh;
 }
 
-#block-g46 .content-intro, 
-#block-g46 .content-main{
-  text-transform: uppercase;
+#block-g46 .content-intro h4, 
+#block-g46 .content-main h1{
+  text-transform: uppercase !important;
 }
 
 .by-day {
