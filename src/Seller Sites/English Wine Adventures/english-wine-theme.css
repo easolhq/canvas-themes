@@ -2,7 +2,7 @@
 #menu{
     background-color: transparent !important;
     z-index: 1030 !important;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
   }
   
   #menu.open{
