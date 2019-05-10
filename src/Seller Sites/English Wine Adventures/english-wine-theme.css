@@ -2,7 +2,7 @@
 #menu{
     background-color: transparent !important;
     z-index: 1030 !important;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
   }
   
   #menu.open{
@@ -15,7 +15,7 @@
   }
   
   a.navbar-brand img{
-  height: 60px;
+  height: 50px;
   }
   
   nav#menu .container{
