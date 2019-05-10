@@ -208,3 +208,16 @@
   padding-bottom: 2rem;
   }
   }
+
+#block-cni, #block-cni .block-content {
+  max-width:100%;
+  margin:0;
+  padding:0;
+}
+#block-cni {
+  margin-bottom:3rem;
+}
+.fixers-stamp {
+  width: 100%;
+  margin: 50px 15px 0;
+}
