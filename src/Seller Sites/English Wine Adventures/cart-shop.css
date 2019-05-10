@@ -1,0 +1,86 @@
+/*BODY*/
+body[data-target='#cart-shop-nav'] {
+    background: #f8f3e7;
+}
+#app {
+  font-family:'futura';
+}
+/*NAV*/
+nav a{
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #navbar-brand{
+    position: relative;
+    }
+
+    .navbar-main .logo{
+        height: 150px !important;
+    }
+
+/*BUTTON PRIMARY*/
+#app .cart-container .btn{
+    color: #363638;
+    background-color: transparent;
+    border-color: #363638 !important;
+}
+
+#app .cart .btn-primary {
+    background:#000;
+    border-color: #000 !important;
+    color: #fff;
+   }
+
+/* decrease btn-group padding to make room for price 1000's */
+
+.input-group-btn .btn {
+    padding:0.5rem;
+}
+
+/*CHEVRONS*/
+#app .cart-shop-navbar .nav.nav-chevrons {
+    background:#fff;
+   }
+
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after {
+      border-color:#fff !important;
+      background-color:#fff !important;
+   }
+
+   .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before{
+          border-color:#fff !important;
+      background-color:#fff !important;
+   }
+
+ .availability-table .table-body >.row:before {
+       background:#000 !important }
+
+
+/*SUB NAV STYLING*/
+
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover{
+    background-color: white !important;
+    color: #000;
+  }
+
+  .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active{
+    color: #000 !important;
+    background-color: #fff !important;
+
+  }
+
+/*STYLING AVAILABILITY TABLE*/
+.availability-table .table-body >.row:before{
+    background: #000;
+}
+
+
+#app .bookable-list-item:before,
+#app .retreat-bed-list:before{
+    background-color: #000 !important;
+}
+
+.footer-main{
+    background-color:#fff !important;
+}
