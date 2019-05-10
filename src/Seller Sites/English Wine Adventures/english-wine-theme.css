@@ -14,11 +14,6 @@
   width: 100%;
   }
   
-  a.navbar-brand{
-  margin-left: auto;
-  margin-right: auto;
-  }
-  
   a.navbar-brand img{
   height: 60px;
   }
@@ -30,11 +25,15 @@
   }
   
   #menu-navbar{
-  flex-basis: 100%;
-  width: 0px;
-  height: auto;
-  justify-content: space-between;
-  margin-top: 50px;
+    position: absolute;
+    width: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @media (max-width:769px) {
+      a.navbar-brand img {
+          height:30px;
+      }
   }
   
   #menu .nav-link{
@@ -95,7 +94,7 @@
       max-width: 900px;
       margin-left: auto;
       margin-right: auto;
-  
+      height:450px !important;
   }
   
   /*HERO PRODUCT BLOCK*/
@@ -136,7 +135,7 @@
 
 @media only screen and (min-width: 767px) {
 .hero-product-block .img-fluid{
-    height: 650px;
+    height: 450px;
     object-fit: cover;
 }
 }
