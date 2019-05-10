@@ -216,7 +216,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         height:90vh !important;
     }
 }
-
+#block-kcn.block {
+    height:65vh
+}
 #block-kcn .block-content p span {
   display: block;
   line-height: 1;
@@ -227,6 +229,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #block-kcn > div.block-content > p:nth-child(5) > span:nth-child(3) {
     font-size:48px !important;
     font-family:'Muli-black';
+    letter-spacing:0.2rem;
 }
 #block-kcn > div.block-content > p:nth-child(5) > span:nth-child(5) {
     font-size:32px !important;
@@ -234,6 +237,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #block-kcn > div.block-content > p:nth-child(5) > strong > span {
     font-size:18px !important;
     font-family:'Muli-black';
+    letter-spacing:0.1rem;
 }
 #block-kcn > div.block-content > p:nth-child(5) > span:nth-child(9) {
     font-size:27px !important;
