@@ -6,7 +6,7 @@ body[data-target='#cart-shop-nav'] {
   font-family:'futura';
 }
 /*NAV*/
-nav a{
+.site-shop-nav a{
     margin-left: auto;
     margin-right: auto;
     }
