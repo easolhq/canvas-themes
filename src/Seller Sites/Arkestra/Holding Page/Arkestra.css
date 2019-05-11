@@ -9,7 +9,7 @@
     font-size:1.2rem;
   }
 }
-.hack-block h2, .hack-block h3 {
+.custom-block h2, .custom-block h3 {
     margin-bottom: 0;
     line-height: 1.2;
 }

@@ -180,35 +180,35 @@ justify-content: center;
 }
 
 /*GRID ON HERO AND CUSTOM HTML BLOCK */
-.block.hack-block,
+.block.custom-block,
 .block.hero-image-block{ 
   margin-left: auto;
   margin-right: auto;
 }
 
 @media only screen and (min-width: 576px){
-.block.hack-block,
+.block.custom-block,
 .block.hero-image-block{
     max-width: 540px;
 }
 }
 
 @media only screen and (min-width: 768px){ 
-.block.hack-block,
+.block.custom-block,
 .block.hero-image-block{
     max-width: 720px;
 }
 }
 
 @media only screen and (min-width: 992px){ 
-.block.hack-block,
+.block.custom-block,
 .block.hero-image-block{
     max-width: 960px;
 }
 }
 
 @media only screen and (min-width: 1200px){ 
-.block.hack-block,
+.block.custom-block,
 .block.hero-image-block{
     max-width: 1140px;
 }

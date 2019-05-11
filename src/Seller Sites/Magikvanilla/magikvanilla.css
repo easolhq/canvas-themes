@@ -136,12 +136,12 @@ h1{
   }
   
   /*CUSTOM HTML*/
-  .hack-block{
+  .custom-block{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
   
-  .hack-block .block-content {
+  .custom-block .block-content {
       max-width: 100%;
       padding-left: 0;
       padding-right: 0;
@@ -456,7 +456,7 @@ td{
       }
 
 /*CUSTOM HTML*/
-  .hack-block > div.block-content > div > div{
+  .custom-block > div.block-content > div > div{
   display: block;
   }
 
