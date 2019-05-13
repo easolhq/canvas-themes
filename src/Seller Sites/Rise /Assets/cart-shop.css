@@ -1,0 +1,31 @@
+#app, .site-shop-nav, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family:Gt-walsheim-pro-regular !important;
+}
+#app hr {
+    display:none;
+}
+.site-shop-nav .navbar-brand img {
+    display:none;
+}
+#app .btn-secondary, #app .btn-primary, .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before, .number-stepper-round .btn {
+    background-color:#ec696e;
+    border:none !important;
+    color:#fff;
+}
+
+#app .segment-collapse {
+    color:#ec696e;
+}
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+    background-color:#64c5e1 !important;
+}
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
+    border-left-color:#64c5e1 !important;
+}
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
+    border-color:#64c5e1 !important;
+    border-left-color:transparent !important;
+}
+#app .btn-secondary:hover {
+    background-color:#000;
+}
