@@ -6,7 +6,7 @@
     background-color:#ec696e !important;
 }
 .site-shop-nav .logo {
-    height:4rem;
+    height:4rem !important;
 }
 #app hr {
     display:none;
@@ -31,4 +31,13 @@
 }
 #app .btn-secondary:hover {
     background-color:#000;
+}
+#cart-shop-nav-mobile .nav-item {
+  float:left !important;
+  width:100%;
+}
+#cart-shop-nav-mobile .nav-link {
+  padding:0 !important;
+  margin-right:0 !important;
+  font-size:0.9rem !important;
 }
