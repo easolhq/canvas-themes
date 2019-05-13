@@ -41,3 +41,8 @@
   margin-right:0 !important;
   font-size:0.9rem !important;
 }
+@media (max-width:600px) {
+  .cart-shop-navbar.sticky {
+    position:static;
+  }
+}
