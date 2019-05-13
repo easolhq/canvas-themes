@@ -1,10 +1,14 @@
 #app, .site-shop-nav, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family:Gt-walsheim-pro-regular !important;
 }
-#app hr {
-    display:none;
+.site-shop-nav {
+    justify-content:center;
+    background-color:#ec696e !important;
 }
-.site-shop-nav .navbar-brand img {
+.site-shop-nav .logo {
+    height:4rem;
+}
+#app hr {
     display:none;
 }
 #app .btn-secondary, #app .btn-primary, .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before, .number-stepper-round .btn {
@@ -12,7 +16,6 @@
     border:none !important;
     color:#fff;
 }
-
 #app .segment-collapse {
     color:#ec696e;
 }
