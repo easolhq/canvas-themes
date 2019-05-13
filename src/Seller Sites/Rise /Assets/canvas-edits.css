@@ -379,13 +379,15 @@
   box-shadow: 5px 5px 5px 0px rgba(236,236,236,1);
   text-decoration:none;
 }
-.dual-product-block .col-12 {
-  text-align: left !important;
-  border: 1px solid #ececec;
-  padding: 0;
-  flex: 0 0 48%;
-  width: 48%;
-  transition:0.5s all;
+@media (min-width:800px) {
+  .dual-product-block .col-12 {
+    text-align: left !important;
+    border: 1px solid #ececec;
+    padding: 0;
+    flex: 0 0 48%;
+    width: 48%;
+    transition:0.5s all;
+    }
 }
 .dual-product-block .col-12:first-child {
   margin-right:2% !important;
