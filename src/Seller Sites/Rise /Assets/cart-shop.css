@@ -6,7 +6,6 @@
 }
 .site-shop-nav {
     justify-content:center;
-    background-color:#ec696e !important;
 }
 .site-shop-nav .logo {
    display:none
@@ -24,6 +23,10 @@
 }
 #app .block-background {
   z-index:0;
+}
+#app .text-center .btn-secondary {
+    color:red;
+    border-color:red;
 }
 #app hr {
     display:none;
