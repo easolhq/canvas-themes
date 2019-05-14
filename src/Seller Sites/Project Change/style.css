@@ -33,6 +33,9 @@
 #block-ppk > div.block-content > div{
   padding-top: 10vh;
 }
+#block-ksa {
+    padding-bottom:0;
+}
 
   /*ABOUT US*/
 @media only screen and (min-width: 768px){ 
