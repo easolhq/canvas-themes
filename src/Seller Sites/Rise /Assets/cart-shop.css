@@ -1,4 +1,4 @@
-#app, .site-shop-nav, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+#app, .site-shop-nav, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, #app .availability-table {
   font-family:Gt-walsheim-pro-regular !important;
 }
 #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
@@ -36,6 +36,7 @@
 .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
   border:2px solid #ec696e;
   color:#ec696e;
+  background-color:#ec696e;
 }
 #app .segment-collapse {
     color:#ec696e;
