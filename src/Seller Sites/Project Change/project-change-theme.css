@@ -145,7 +145,8 @@ visibility: visible;
 
 
 .text-and-image-block > div.block-content > div > div.col-6.col-image.d-none.d-lg-block > img{
-    height: 100vh;
+    height: 75vh;
+    width: 50vw;
     object-fit: cover;
 }
 
