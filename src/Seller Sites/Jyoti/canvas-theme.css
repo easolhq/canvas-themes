@@ -151,6 +151,9 @@
 .input-group-btn .btn {
   padding:0 10px;
 }
+.bookable-list-item .bookable-list-item-text {
+    max-height:150px;
+}
 @media (min-width: 768px) {
 .bookable-list-item {
     height: auto;
