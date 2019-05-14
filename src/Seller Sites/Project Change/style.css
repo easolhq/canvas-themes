@@ -33,7 +33,7 @@
 #block-ppk > div.block-content > div{
   padding-top: 10vh;
 }
-#block-ksa {
+#block-ksa, #block-uia {
     padding-bottom:0;
 }
 
@@ -76,7 +76,7 @@ width: 50vw;
 
  /*QUOTE*/
  #block-a8t{
-     height: 100vh;
+     height: 75vh;
      display: table;
  }   
 
@@ -117,7 +117,7 @@ padding-right: 20vw;
 
   /*FOOTER IMAGE*/
   #block-3fm{
-  height: 100vh !important;
+  height: 70vh !important;
   }
     /*MOBILE*/
     
