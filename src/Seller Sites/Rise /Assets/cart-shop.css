@@ -1,23 +1,48 @@
 #app, .site-shop-nav, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family:Gt-walsheim-pro-regular !important;
 }
+#app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+  text-transform:uppercase;
+}
 .site-shop-nav {
     justify-content:center;
     background-color:#ec696e !important;
 }
 .site-shop-nav .logo {
-    height:4rem !important;
+   display:none
+}
+.site-shop-nav .navbar-brand:before {
+  content:'';
+  width:4rem;
+  height:4rem;
+  background-image:url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Rise+/Assets/Rise_logo_red.png');
+  background-size:contain;
+  display:block;
+}
+#app {
+  background:#f7f7f9;
+}
+#app .block-background {
+  z-index:0;
 }
 #app hr {
     display:none;
 }
-#app .btn-secondary, #app .btn-primary, .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before, .number-stepper-round .btn {
+#app .cart-footer .btn {
     background-color:#ec696e;
     border:none !important;
     color:#fff;
 }
+.availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
+  border:2px solid #ec696e;
+  color:#ec696e;
+}
 #app .segment-collapse {
     color:#ec696e;
+}
+#app .number-stepper-round .btn {
+  border:1px solid #000 !important;
+  color:#000;
 }
 .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
     background-color:#64c5e1 !important;
