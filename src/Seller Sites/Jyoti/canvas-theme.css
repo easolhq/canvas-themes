@@ -83,6 +83,16 @@
   line-height: 1.3;
   margin-top:20px;
 }
+@media (max-width:768px) {
+    #block-1h0.block .block-content {
+        justify-content:flex-end;
+    }
+    #block-1h0 .btn {
+        color:#fff;
+        background:transparent;
+        border-color:#fff !important;
+    }
+}
 #block-mce {
   height:72vh !important;
 }
