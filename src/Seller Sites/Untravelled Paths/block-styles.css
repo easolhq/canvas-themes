@@ -397,6 +397,9 @@ img {
   overflow:hidden;
   margin-bottom:50px;
 }
+.offers-info {
+  min-height:110px;
+}
 
 /* About */
 
