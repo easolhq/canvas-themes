@@ -1,31 +1,8 @@
 /* Fonts */
 
-@font-face {
-  font-family: 'Droid';
-  src: url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Untravelled+Paths/fonts/DroidSerif.woff') format(woff);
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Droid';
-  src: url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Untravelled+Paths/fonts/DroidSerif-Italic.woff') format(woff);
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'UTP';
-  src:  url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Untravelled+Paths/fonts/UTP.eot?yv1gf0');
-  src:  url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Untravelled+Paths/fonts/UTP.eot?yv1gf0#iefix') format('embedded-opentype'),
-    url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Untravelled+Paths/fonts/UTP.woff2?yv1gf0') format('woff2'),
-    url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Untravelled+Paths/fonts/UTP.ttf?yv1gf0') format('truetype'),
-    url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Untravelled+Paths/fonts/UTP.woff?yv1gf0') format('woff'),
-    url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Untravelled+Paths/fonts/UTP.svg?yv1gf0#UTP') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 [class^="icon"], [class*=" icon"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'UTP' !important;
+  font-family: 'Utp' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -156,7 +133,7 @@
 /* General */
 
 body {
-  font-family:'Droid', serif;
+  font-family:'Droidserif', serif;
 }
 a {
   color:#000;
