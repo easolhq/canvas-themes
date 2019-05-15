@@ -224,13 +224,27 @@ img {
 
 /* Header / Nav */
 
+#menu {
+  background-color:transparent;
+  position:absolute;
+  z-index:99;
+  width:100%;
+}
+#menu .nav-link {
+  color:#fff;
+}
+#menu-navbar {
+  justify-content:flex-end;
+}
 .nav-item {
-  margin:0 20px;
+  margin:0 50px;
   letter-spacing:0.2em;
   font-family:'Open Sans', sans-serif;
+  text-transform:uppercase;
+  font-weight:bold;
 }
-.navbar-brand {
-  width:300px;
+.navbar-brand img {
+  height:60px;
 }
 .header-content > * {
   flex-basis:100%;
