@@ -378,9 +378,9 @@ img {
   padding:0;
   height:80vh;
 }
-#block-lfr .block-content {
+#block-lfr .block-content, #block-syx .block-content {
   max-width:100%;
-  height:80vh;
+  min-height:80vh;
   padding:0;
 }
 .swiper-container.top-trips img {
