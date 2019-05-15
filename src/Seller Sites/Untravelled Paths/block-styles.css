@@ -183,17 +183,24 @@ a {
 /* Swipers */
 
 .swiper-button-next, .swiper-button-prev {
-  background-color: #000;
+  background-color: transparent;
   width: 50px;
   height: 50px;
   background-size: 30%;
   top:30%;
+  background-image:none !important;
+}
+.swiper-button-next {
+  right:26px;
+}
+.swiper-button-prev {
+  left:26px;
+}
+.top-trips .swiper-button-next, .top-trips .swiper-button-prev {
+  top:30%;
 }
 .team .swiper-button-next, .team .swiper-button-prev {
   top:18%;
-}
-.reviews .swiper-button-next, .reviews .swiper-button-prev {
-  top:50%;
 }
 .swiper-button-prev:before, .swiper-button-next:before {
   position: absolute;
@@ -205,21 +212,17 @@ a {
   font-family: 'UTP';
   font-size: 1.6rem;
   color: #fff;
-  line-height: 1;
-}
-.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-  background-image: none;
-  left: 0;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  background: #000;
+  text-align: center;
 }
 .swiper-button-prev:before {
   content: "\E908";
 }
 .swiper-button-next:before {
   content: "\E909";
-}
-.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-  background-image: none;
-  right: 0;
 }
 
 
