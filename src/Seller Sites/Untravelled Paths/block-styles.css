@@ -191,10 +191,10 @@ a {
   background-image:none !important;
 }
 .swiper-button-next {
-  right:26px;
+  right:26px !important;
 }
 .swiper-button-prev {
-  left:26px;
+  left:26px !important;
 }
 .top-trips .swiper-button-next, .top-trips .swiper-button-prev {
   top:30%;
