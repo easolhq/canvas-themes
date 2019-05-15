@@ -191,7 +191,7 @@ a {
   background-image:none !important;
 }
 .swiper-button-next {
-  right:26px !important;
+  right:1px !important;
 }
 .swiper-button-prev {
   left:26px !important;
@@ -220,9 +220,11 @@ a {
 }
 .swiper-button-prev:before {
   content: "\E908";
+  padding-right:8px;
 }
 .swiper-button-next:before {
   content: "\E909";
+  padding-left:8px;
 }
 
 
@@ -380,6 +382,15 @@ img {
   max-width:100%;
   height:80vh;
   padding:0;
+}
+.swiper-container.top-trips img {
+  height:300px;
+  object-fit:cover;
+}
+.swiper-container.top-trips .trip-desc {
+  height: 245px;
+  overflow: hidden;
+  margin-bottom: 50px;
 }
 
 /* About */
