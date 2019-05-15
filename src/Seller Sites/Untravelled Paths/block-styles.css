@@ -171,6 +171,7 @@ a {
   border: 1px solid #c5c5c5 !important;
   background-color: #f0f0f0;
   font-style:italic;
+  width:15rem;
 }
 .social a:hover {
   opacity:0.8;
