@@ -378,7 +378,7 @@ img {
   padding:0;
   height:80vh;
 }
-#block-lfr .block-content, #block-syx .block-content {
+#block-lfr .block-content, #block-syx .block-content, #block-5ez .block-content, #block-bxw .block-content {
   max-width:100%;
   min-height:80vh;
   padding:0;
@@ -399,6 +399,10 @@ img {
 }
 .offers-info {
   min-height:110px;
+}
+
+#different i:before {
+  font-size:3rem
 }
 
 /* About */
