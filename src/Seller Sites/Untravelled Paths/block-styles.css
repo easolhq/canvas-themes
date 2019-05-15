@@ -392,6 +392,11 @@ img {
   overflow: hidden;
   margin-bottom: 50px;
 }
+.offers-text {
+  max-height:267px;
+  overflow:hidden;
+  margin-bottom:50px;
+}
 
 /* About */
 
