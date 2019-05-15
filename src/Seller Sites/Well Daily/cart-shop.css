@@ -1,0 +1,139 @@
+
+/*FONTS*/
+
+#app h6{
+    text-transform: capitalize;
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h6 {
+    text-transform:uppercase;
+}
+
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-5.cart-container > div > div > div.cart-body-wrapper.d-flex.flex-column > div.d-flex.p-3.w-100.text-center > h5{
+    text-transform: uppercase;
+}
+
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h1{
+    text-transform: capitalize;
+    font-size:2rem !important;
+}
+#app > div.container.pb-4 > div.row > div.col-14.col-lg-9 > article > header > div > div > label > h4, #shared-accommodation > h4 {
+    text-transform:uppercase;
+}
+
+#private-accommodation > div > h4,
+#shared-accommodation > div > h4{
+    text-transform: capitalize;
+}
+
+/*BODY*/
+body[data-target='#cart-shop-nav'] {
+    background: #f7f7f7;
+}
+
+/*NAV*/
+nav a{
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    #navbar-brand{
+    position: relative;
+    }
+
+    .navbar-main .logo{
+        height: 150px !important;
+    }    
+    
+/*BUTTON PRIMARY*/
+#app .cart-container .btn{
+    color: #363638;
+    background-color: transparent;
+    border-color: #363638 !important;
+}
+
+#app .cart .btn-primary {
+    background:#e6a49b;
+    border-color: #e6a49b !important;
+    color: #fff;
+   }
+
+/* decrease btn-group padding to make room for price 1000's */ 
+
+.input-group-btn .btn {
+    padding:0.5rem;
+}
+   
+/*CHEVRONS*/
+#app .cart-shop-navbar .nav.nav-chevrons {
+    background:#fff;
+   }
+   
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after {
+      border-color:#fff !important;
+      background-color:#fff !important;
+   }
+   
+   .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before{
+          border-color:#fff !important;
+      background-color:#fff !important;  
+   }
+   
+ .availability-table .table-body >.row:before { 
+       background:#e6a49b !important }
+
+
+/*SUB NAV STYLING*/
+
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover{
+    background-color: white !important;
+    color: #e6a49b;
+  }
+  
+  .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active{
+    color: #e6a49b !important;
+    background-color: #fff !important;
+  
+  }
+
+/*STYLING AVAILABILITY TABLE*/
+.availability-table .table-body >.row:before{
+    background: #e6a49b;
+}
+
+
+#app .bookable-list-item:before,
+#app .retreat-bed-list:before{
+    background-color: #e6a49b !important;
+}
+
+.footer-main{
+    background-color:#fff !important;
+}
+
+
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
+  display: none;
+}
+
+/* Fix room card height so text isn't cut off */
+
+.bookable-list-item-text {
+    max-height:none;
+    line-height:1.4;
+    font-size:0.8rem;
+}
+.bookable-list-item {
+    height:auto
+}
+.bookable-list-item > .col {
+    max-width:75%;
+}
+@media (max-width:767px) {
+  .bookable-list-item > .col {
+    max-width:100%;
+  }
+}
