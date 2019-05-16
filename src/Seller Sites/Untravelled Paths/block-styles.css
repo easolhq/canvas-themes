@@ -198,6 +198,9 @@ img {
 .bg-cover {
   background-size:cover;
 }
+.block.custom-block .text-secondary {
+  color:#6c757d!important
+}
 
 /* Swipers */
 
