@@ -186,7 +186,6 @@ img {
   max-width:100%;
   min-height:80vh;
   padding:0;
-  height:1px;
 }
 .block.custom-block {
   padding-top:0;
@@ -200,6 +199,9 @@ img {
 }
 .block.custom-block .text-secondary {
   color:#6c757d!important
+}
+.bg-cover.h-80vh {
+  height:80vh !important;
 }
 
 /* Swipers */
@@ -222,7 +224,7 @@ img {
   top:30%;
 }
 .team .swiper-button-next, .team .swiper-button-prev {
-  top:18%;
+  top:21%;
 }
 .swiper-button-prev:before, .swiper-button-next:before {
   position: absolute;
@@ -394,7 +396,7 @@ img {
   min-height:110px;
 }
 
-#different i:before {
+#different i:before, #how i:before {
   font-size:3rem
 }
 
