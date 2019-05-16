@@ -130,7 +130,7 @@
   content: "\e91c";
 }
 
-/* General */
+/* Global Rules */
 
 body {
   font-family:'Droidserif', serif;
@@ -176,11 +176,29 @@ a {
 .social a:hover {
   opacity:0.8;
 }
+img {
+  max-width:100%;
+}
+#block-obz, #block-24e {
+  display:none;
+}
+#block-lfr .block-content, #block-syx .block-content, #block-5ez .block-content, #block-bxw .block-content, #block-zbu .block-content {
+  max-width:100%;
+  min-height:80vh;
+  padding:0;
+}
+.block.custom-block {
+  padding-top:0;
+  padding-bottom:0
+}
+.bg-white {
+  background: #fff;
+}
 .bg-cover {
   background-size:cover;
 }
-img {
-  max-width:100%;
+.h-80vh {
+  height:80vh;
 }
 
 /* Swipers */
@@ -228,31 +246,6 @@ img {
 .swiper-button-next:before {
   content: "\E909";
   padding-left:8px;
-}
-
-
-/* Global Rules */
-
-#block-obz, #block-24e {
-  display:none;
-}
-#block-lfr .block-content, #block-syx .block-content, #block-5ez .block-content, #block-bxw .block-content, #block-zbu .block-content {
-  max-width:100%;
-  min-height:80vh;
-  padding:0;
-}
-.block.custom-block {
-  padding-top:0;
-  padding-bottom:0
-}
-.bg-white {
-  background: #fff;
-}
-.bg-cover {
-  background-size:cover;
-}
-.h-80vh {
-  height:80vh;
 }
 
 /* Header / Nav */
