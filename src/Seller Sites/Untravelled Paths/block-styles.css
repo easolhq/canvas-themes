@@ -186,6 +186,7 @@ img {
   max-width:100%;
   min-height:80vh;
   padding:0;
+  height:1px;
 }
 .block.custom-block {
   padding-top:0;
@@ -196,9 +197,6 @@ img {
 }
 .bg-cover {
   background-size:cover;
-}
-.h-80vh {
-  height:80vh;
 }
 
 /* Swipers */
