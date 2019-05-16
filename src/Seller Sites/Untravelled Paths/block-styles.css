@@ -179,6 +179,9 @@ a {
 .bg-cover {
   background-size:cover;
 }
+img {
+  max-width:100%;
+}
 
 /* Swipers */
 
@@ -233,12 +236,14 @@ a {
 #block-obz, #block-24e {
   display:none;
 }
+#block-lfr .block-content, #block-syx .block-content, #block-5ez .block-content, #block-bxw .block-content, #block-zbu .block-content {
+  max-width:100%;
+  min-height:80vh;
+  padding:0;
+}
 .block.custom-block {
   padding-top:0;
   padding-bottom:0
-}
-img {
-  max-width:100%;
 }
 .bg-white {
   background: #fff;
@@ -283,7 +288,6 @@ img {
 }
 
 /* Home Page */
-
 
 .block-p {
   width: fit-content;
@@ -377,11 +381,6 @@ img {
 #block-lfr {
   padding:0;
   height:80vh;
-}
-#block-lfr .block-content, #block-syx .block-content, #block-5ez .block-content, #block-bxw .block-content {
-  max-width:100%;
-  min-height:80vh;
-  padding:0;
 }
 .swiper-container.top-trips img {
   height:300px;
