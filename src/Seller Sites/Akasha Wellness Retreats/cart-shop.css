@@ -25,6 +25,12 @@
   background-color:#000;
   color:#fff;
 }
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
+  border-color:#000;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
+  border-left-color:#000;
+}
 .navbar-full {
     justify-content:center;
 }
