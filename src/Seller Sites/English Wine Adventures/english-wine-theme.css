@@ -233,3 +233,18 @@ body {
   width: 100%;
   margin: 50px 15px 0;
 }
+
+/* Products */
+
+.product-hero {
+  height:65vh;
+}
+#beds h4.mb-4 {
+  display:none
+}
+.retreat-hotel-block {
+  height:50vh;
+}
+.product-page-booking-bar .navbar-nav.ml-auto {
+  margin-right:unset !important
+}
