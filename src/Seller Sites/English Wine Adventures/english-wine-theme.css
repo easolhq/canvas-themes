@@ -45,7 +45,7 @@
   padding-bottom: 0.3rem !important;
   padding-left: 0.6rem !important;
   }
-  #book-now {
+  #book-now a.nav-link {
     width:max-content;
     text-align:center;
   }
