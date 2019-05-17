@@ -1,0 +1,42 @@
+/* Style Changes */
+
+#app, .site-shop-nav, #app .availability-table {
+  font-family:'AGaramondPro-Regular', serif !important;
+}
+#app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+  text-transform:uppercase;
+  font-family:'AGaramondPro-Bold', serif !important
+}
+.site-shop-nav {
+    justify-content:center;
+}
+.site-shop-nav .logo {
+   display:none
+}
+.site-shop-nav .navbar-brand:before {
+  content:'';
+  width:4rem;
+  height:4rem;
+  background-image:url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Akasha+Wellness+Retreats/img/Akasha_Logo.png');
+  background-size:contain;
+  display:block;
+}
+#app {
+  background:#f7f7f9;
+}
+#app .block-background {
+  z-index:0;
+}
+
+/* Fix Nav on Mobile */
+
+#cart-shop-nav-mobile .nav-link {
+  padding:0 !important;
+  margin-right:0 !important;
+  font-size:0.9rem !important;
+}
+@media (max-width:600px) {
+  .cart-shop-navbar.sticky {
+    position:static;
+  }
+}
