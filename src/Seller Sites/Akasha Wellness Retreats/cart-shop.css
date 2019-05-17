@@ -9,11 +9,13 @@
 }
 #app .bookable-list-item * {
   font-family:'DINCondensed-Bold', sans-serif !important;
+  font-weight:bold;
 }
 #app .cart-footer .btn {
   color:#fff !important;
   background:#000 !important;
   border-color:#000 !important;
+  font-family:'DINCondensed-Bold', sans-serif !important;
 }
 .navbar-full {
     justify-content:center;
