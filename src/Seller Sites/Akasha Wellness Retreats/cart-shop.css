@@ -7,9 +7,10 @@
   text-transform:uppercase;
   font-family:'AGaramondPro-Bold', serif;
 }
-#app .bookable-list-item * {
+#app .bookable-list-item *, #app .factual {
   font-family:'DINCondensed-Bold', sans-serif !important;
   font-weight:bold;
+  color:#000;
 }
 #app .bookable-list-item i:before {
   font-family:'Fixers Icons';
@@ -41,11 +42,32 @@
 #app .block-background {
   z-index:0;
 }
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover {
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover {
   background-color:#000;
   color:#fff;
 }
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
+  background-color:#fff;
+  border-color:#000;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after {
+  border-left-color:#000;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
+  border-left-color:transparent
+}
+#app .bookable-list-item:before {
+  background-color:#000;
+}
 
+/* Fix /room being cut off */
+
+@media (min-width:768px) {
+  #app .cart-body .col-10 {
+    flex:0 0 38%;
+    max-width:38%
+  }
+}
 
 /* Fix Nav on Mobile */
 
@@ -53,6 +75,10 @@
   padding:0 !important;
   margin-right:0 !important;
   font-size:0.9rem !important;
+}
+#cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+  float:left !important;
+  width:100%;
 }
 @media (max-width:600px) {
   .cart-shop-navbar.sticky {
