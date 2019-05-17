@@ -1,25 +1,34 @@
 /* Style Changes */
 
-#app, .site-shop-nav, #app .availability-table {
-  font-family:'AGaramondPro-Regular', serif !important;
+#app, .site-shop-nav {
+  font-family:'AGaramondPro-Regular', serif;
 }
 #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
   text-transform:uppercase;
-  font-family:'AGaramondPro-Bold', serif !important
+  font-family:'AGaramondPro-Bold', serif;
 }
-.site-shop-nav {
+#app .bookable-list-item * {
+  font-family:'DINCondensed-Bold', sans-serif !important;
+}
+#app .cart-footer .btn {
+  color:#fff !important;
+  background:#000 !important;
+  border-color:#000 !important;
+}
+.navbar-full {
     justify-content:center;
 }
-.site-shop-nav .logo {
-   display:none
+.navbar-full .logo {
+   display:none !important
 }
-.site-shop-nav .navbar-brand:before {
-  content:'';
-  width:4rem;
-  height:4rem;
-  background-image:url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Akasha+Wellness+Retreats/img/Akasha_Logo.png');
-  background-size:contain;
-  display:block;
+.navbar-full .navbar-brand:before {
+  content: '';
+  width: 8rem;
+  height: 4rem;
+  background-image: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Akasha+Wellness+Retreats/img/Akasha_Logo.png);
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
 }
 #app {
   background:#f7f7f9;
