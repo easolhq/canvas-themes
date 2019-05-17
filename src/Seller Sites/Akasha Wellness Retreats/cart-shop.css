@@ -21,6 +21,10 @@
   border-color:#000 !important;
   font-family:'DINCondensed-Bold', sans-serif !important;
 }
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+  background-color:#000;
+  color:#fff;
+}
 .navbar-full {
     justify-content:center;
 }
