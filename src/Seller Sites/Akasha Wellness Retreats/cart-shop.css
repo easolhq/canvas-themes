@@ -41,6 +41,11 @@
 #app .block-background {
   z-index:0;
 }
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover {
+  background-color:#000;
+  color:#fff;
+}
+
 
 /* Fix Nav on Mobile */
 
