@@ -1,9 +1,13 @@
 /*NAV*/
+body {
+  padding-top:3rem;
+}
 #menu{
     z-index: 1030 !important;
     padding-bottom: 3vh;
     position:fixed;
     width:100vw;
+    top:0
   }
 
   #menu.open{
@@ -25,16 +29,19 @@
   align-self: flex-start;
   }
 
-  #menu-navbar{
-    position: absolute;
-    width: 700px;
-    left: 50%;
-    transform: translateX(-50%);
+  @media (min-width:769px) {
+    #menu-navbar{
+      position: absolute;
+      width: 700px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
   @media (max-width:769px) {
       a.navbar-brand img {
           height:30px;
       }
+
   }
 
   #menu .nav-link{
