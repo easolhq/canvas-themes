@@ -213,7 +213,8 @@ body {
   .image-grid-block .image-grid-entry h2 {
     font-size:2rem;
     margin:45% 0 165px !important;
-    min-height:76px
+    min-height:76px;
+    text-align:center;
   }
   .image-grid-block .image-grid-entry p {
     color:#000 !important
