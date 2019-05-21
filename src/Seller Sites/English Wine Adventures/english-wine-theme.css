@@ -263,3 +263,13 @@ body {
 .product-page-booking-bar .navbar-nav.ml-auto {
   margin-right:unset !important
 }
+
+/*FAQS*/
+#block-rpj {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#block-hoo {
+  padding-top:10px;
+}
