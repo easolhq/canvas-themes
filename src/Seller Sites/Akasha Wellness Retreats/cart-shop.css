@@ -1,5 +1,7 @@
 /* Style Changes */
 
+/* Set fonts for entire shop including ones forced in other CSS files */
+
 #app, .site-shop-nav {
   font-family:'AGaramondPro-Regular', serif;
 }
@@ -21,6 +23,9 @@
   border-color:#000 !important;
   font-family:'DINCondensed-Bold', sans-serif !important;
 }
+
+/* Set button colors */
+
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
   background-color:#000;
   color:#fff;
@@ -31,6 +36,9 @@
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
   border-left-color:#000;
 }
+
+/* Hide default logo and add one centered in middle of nav */
+
 .navbar-full {
     justify-content:center;
 }
@@ -46,12 +54,18 @@
   display: block;
   background-repeat: no-repeat;
 }
+
+/* Set background color and fix tile hidden by that */
+
 #app {
   background:#f7f7f9;
 }
 #app .block-background {
   z-index:0;
 }
+
+/* Chevron Colors */
+
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover {
   background-color:#000;
   color:#fff;
@@ -70,7 +84,7 @@
   background-color:#000;
 }
 
-/* Fix /room being cut off */
+/* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
 
 @media (min-width:768px) {
   #app .cart-body .col-10 {
