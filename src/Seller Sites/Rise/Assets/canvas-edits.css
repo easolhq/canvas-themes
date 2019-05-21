@@ -253,9 +253,8 @@
 
 /* Reviews Section */
 
-#block-1mu {
-  padding-top:6rem;
-  padding-bottom:10rem;
+#block-1mu .image-grid-entry {
+  margin:4rem 0 !important;
 }
 #block-1mu .image-grid-entry-overlay {
     opacity: 1;
@@ -479,5 +478,12 @@
   #menu-cta {
     position:static;
     margin-bottom:30px;
+  }
+  #block-seb video {
+    height:450px;
+    object-fit:cover
+  }
+  #block-seb .btn {
+    margin:5px 0 !important;
   }
 }
