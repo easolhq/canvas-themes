@@ -63,8 +63,15 @@ height: 70vh;
     margin-right: 2rem;
 }
 
-.col{
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
+#reviews .col{
+    flex-basis: 0 !important;
+    flex-grow: 1 !important;
+    max-width: 100% !important;
+}
+
+@media only screen and (max-width: 767px){
+    #reviews .col {
+        min-width: 100%;
+        padding-bottom: 2rem;
+}
 }
