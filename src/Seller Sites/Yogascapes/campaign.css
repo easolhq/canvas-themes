@@ -56,6 +56,7 @@ height: 70vh;
     background-color: #f0f0f0 !important;
     font-style: italic;
     width: 15rem !important;
+    height: 38px;
 }
 
 .subscribe-copy{
@@ -67,6 +68,12 @@ height: 70vh;
     flex-basis: 0 !important;
     flex-grow: 1 !important;
     max-width: 100% !important;
+}
+
+.teacher-content{
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
 }
 
 @media only screen and (max-width: 767px){
