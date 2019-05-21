@@ -1,0 +1,65 @@
+#block-9lu {
+    margin-top: 135px;
+}
+
+
+#block-t3d,
+#block-9lu{
+    padding-top: 0;
+    text-align:center;
+}
+
+#block-9lu .row{
+height: 70vh;
+    
+}
+ 
+#block-t3d .row{
+    height: 90vh;
+}
+#block-tsk .block-content,
+#block-t3d .block-content,
+#block-9lu .block-content{
+    max-width: 100%;
+}
+
+#block-tsk .block-content,
+#block-t3d .container,
+#block-9lu .container{
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hero-logo{
+    margin-top:30%;
+}
+
+.hero-subscribe{
+    margin-top: 3rem;
+}
+
+#reviews{
+    text-align: center;
+}
+
+
+#signup{
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 50vh;
+min-height: 50vh;
+}
+
+#mce-EMAIL{
+    border: 1px solid #c5c5c5 !important;
+    background-color: #f0f0f0 !important;
+    font-style: italic;
+    width: 15rem !important;
+}
+
+.subscribe-copy{
+    color: #fff;
+    margin-right: 2rem;
+}
