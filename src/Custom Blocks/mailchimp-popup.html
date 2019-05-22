@@ -1,0 +1,180 @@
+---
+Popup_Box_Title:
+  type: String
+Popup_Box_Text:
+  type: String
+Signup_Button_Text:
+  type: String
+  default: "Sign Up"
+Privacy_Text:
+  type: String
+  default: "We respect your privacy"
+Form_Placeholder:
+  type: String
+  default: "Email Address"
+Background_Image:
+  type: Image
+Mailchimp_Subscribe_URL:
+  type: String
+Mailchimp_User_ID:
+  type: String
+Mailchimp_List_ID:
+  type: String
+Seconds_Until_Popup:
+  type: String
+  default: "5"
+Use_Cookies:
+  type: String
+  default: "yes"
+---
+<style>
+  #email-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+  }
+  #popup-inner {
+    position:relative;
+    padding:30px;
+    min-width:300px;
+    max-width:90%;
+    background-color:#fff;
+    text-align:center;
+    box-shadow:10px 10px 5px 0px rgba(0,0,0,0.5);
+  }
+  #popup-inner * {
+    position:relative;
+  }
+  #closepop {
+    cursor:pointer;
+    position:absolute;
+    top:10px;
+    right:10px;
+    padding:5px 10px
+  }
+  .popup-text {
+    margin:20px 15%;
+  }
+  #mce-EMAIL {
+    width: 15rem;
+    height: 50px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid #000;
+  }
+  #mce-EMAIL:focus, #mc-embedded-subscribe:focus {
+    outline:none
+  }
+  .signup.button {
+    height: 50px;
+    padding: 10px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+  }
+  {% if Background_Image %}
+    #popup-inner {
+      color:#fff;
+    }
+    #popup-inner:before {
+      content:'';
+      position:absolute;
+      top:0; left:0;
+      width:100%; height:100%;
+      background-image:url('{{Background_Image.medium_url}}');
+      filter:brightness(50%);
+      background-size:cover;
+    }
+    #mce-EMAIL {
+      color:#fff;
+      border:1px solid #fff
+    }
+    #mce-EMAIL::placeholder {
+      color:#fff;
+    }
+    .signup.button {
+      color:#fff;
+      border: 1px solid #fff;
+    }
+  {% endif %}
+</style>
+<div id="email-popup">
+  <div id="popup-inner">
+    <div id="closepop" onclick="closepop()"><i class="fa fa-2x fa-times"></i></div>
+      <p class="h1 mx-5">{{Popup_Box_Title}}</p>
+      <p class="popup-text">{{Popup_Box_Text}}</p>
+      <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="{{Mailchimp_Subscribe_URL}}?u={{Mailchimp_User_ID}}&amp;id={{Mailchimp_List_ID}}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{Form_Placeholder}}" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_466ef3951dab9bc05ab480f37_589e64572b" tabindex="-1" value=""></div>
+              <input type="submit" value="{{Signup_Button_Text}}" name="subscribe" id="mc-embedded-subscribe" class="button signup">
+            </div>
+          </form>
+        </div>
+        <!--End mc_embed_signup-->
+        <p class="popup-text">{{Privacy_Text}}</p>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script>
+  var popupTime = {{Seconds_Until_Popup}} * 1000;
+
+  {% if Use_Cookies == 'yes' %}
+    function setCookie(cname, cvalue, exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays*24*60*60*1000));
+      var expires = "expires="+ d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    function closepop() {
+      jQuery('#email-popup').css('display', 'none');
+      setCookie('popupshown', 'yes', 7);
+    }
+
+    setTimeout(function(){
+      var popupShown = getCookie('popupshown');
+      if(popupShown != 'yes') {
+        jQuery('#email-popup').css('display', 'flex');
+        jQuery('#email-popup #mce-EMAIL').focus();
+      }
+    }, popupTime);
+  {% else %}
+    function closepop() {
+      jQuery('#email-popup').css('display', 'none');
+    }
+
+    setTimeout(function(){
+      jQuery('#email-popup').css('display', 'flex');
+      jQuery('#email-popup #mce-EMAIL').focus();
+    }, popupTime);
+  {% endif %}
+
+</script>
