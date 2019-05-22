@@ -190,3 +190,47 @@ body {
     text-align:center !important;
   }
 }
+
+/* REVIEWS */
+
+@media (min-width:768px) {
+  #block-3ra {
+    padding-bottom:12rem;
+  }
+  #block-3ra .image-grid-entry-overlay .d-flex {
+    display:block !important;
+  }
+  #block-3ra .image-grid-entry-overlay {
+    background:transparent;
+    opacity:1;
+  }
+  #block-3ra .image-grid-entry h2 {
+    font-size:1.2rem;
+    padding-top: 150%;
+    color: #000;
+    margin:0% 0 10px;
+    min-height:0px;
+    text-align:center;
+  }
+  #block-3ra .image-grid-entry p {
+    color:#000;
+    font-size:0.8rem;
+    text-align:center;
+  }
+}
+
+@media (min-width:992px) {
+  #block-3ra .image-grid-entry h2 {
+    font-size:1.2rem;
+    padding-top: 135%;
+    color: #000;
+    margin:0% 0 10px;
+    min-height:0px;
+    text-align:center;
+  }
+    #block-3ra .image-grid-entry p {
+    color:#000;
+    font-size:1.0rem ;
+    text-align:center
+  }
+}
