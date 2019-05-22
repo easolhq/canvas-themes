@@ -102,13 +102,13 @@
     margin: 0;
     height: auto;
     background-color: #fff;
-    color: #000 !important;
+    color: #492D27 !important;
 }
 .image-grid-entry-overlay .mb-2.hidden-sm-down {
   position: absolute;
   top: -40px;
   left: 0;
-  color: #000;
+  color: #492D27;
   width: 100%;
   text-align: center;
   font-size: 1.5rem;
