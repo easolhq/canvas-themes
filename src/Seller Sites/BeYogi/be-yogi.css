@@ -28,6 +28,43 @@ nav#menu .navbar-nav{
     margin-top: 50px;
     }
 
+    /*NAV AMENDS*/
+@media (min-width: 768px) {
+    
+    li#yoga-in-ibiza.nav-item {
+        margin-right: 20%;
+    }
+    
+    li#retreats.nav-item {
+        margin-right: 1%
+    }
+    
+    li#online.nav-item {
+        margin-right: 1%;
+    }
+    
+    a.navbar-brand {
+        position: fixed;
+        left: 44.5%;
+    }
+
+    #menu-navbar {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #menu {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    body {
+        margin-top: 100px !important;
+    }
+}
+
     /*BLOCKS*/
 
     /*HERO IMAGE BLOCK*/
@@ -90,4 +127,3 @@ nav#menu .navbar-nav{
     color: white;
     margin-top: 50px;
 }
-
