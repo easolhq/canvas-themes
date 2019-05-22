@@ -171,6 +171,13 @@
 .fixers-stamp:hover {
   text-decoration:none;
 }
+.factual {
+  font-family: Value-regular;
+}
+
+#block-hwd {
+  padding-top: 0px;
+}
 
 
 @media (max-width:500px) {
