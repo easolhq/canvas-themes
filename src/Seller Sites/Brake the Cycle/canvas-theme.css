@@ -132,6 +132,10 @@ body {
   max-width:50%;
 }
 
+#block-3qi h2 {
+  font-size: 2rem;
+}
+
 #block-axm .accordion-entry {
   border:1px solid #5fa3f3;
 }
