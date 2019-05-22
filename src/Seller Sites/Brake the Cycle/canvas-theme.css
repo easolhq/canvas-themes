@@ -191,7 +191,11 @@ body {
   }
 }
 
-/* REVIEWS */
+/* MEET THE CREATORS */
+
+#block-izj {
+  padding-bottom:0px;
+}
 
 @media (min-width:768px) {
   #block-3ra {
@@ -232,5 +236,47 @@ body {
     color:#000;
     font-size:1.0rem ;
     text-align:center
+  }
+}
+
+@media (min-width:768px) {
+  #block-yoh {
+    padding-bottom:12rem;
+    height: 900px;
+  }
+  #block-yoh .image-grid-entry-overlay .d-flex {
+    display:block !important;
+  }
+  #block-yoh .image-grid-entry-overlay {
+    background:transparent;
+    opacity:1;
+  }
+  #block-yoh .image-grid-entry h2 {
+    font-size:1.2rem;
+    padding-top: 15rem;
+    color: #000;
+    margin:0% 0 10px;
+    min-height:0px;
+    text-align:center;
+  }
+  #block-yoh .image-grid-entry p {
+    color:#000;
+    font-size:0.8rem;
+    text-align:center;
+  }
+}
+
+@media (min-width:992px) {
+  #block-yoh .image-grid-entry h2 {
+    font-size:1.2rem;
+    padding-top: 360px;
+    color: #000;
+    min-height:0px;
+    text-align:center;
+  }
+    #block-yoh .image-grid-entry p {
+    color:#000;
+    font-size:1.0rem ;
+    text-align:center;
   }
 }
