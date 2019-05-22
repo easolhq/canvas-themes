@@ -171,6 +171,9 @@
 .fixers-stamp:hover {
   text-decoration:none;
 }
+.factual {
+  font-family: Value-regular;
+}
 
 
 @media (max-width:500px) {
