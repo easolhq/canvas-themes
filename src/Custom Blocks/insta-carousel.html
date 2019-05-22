@@ -1,0 +1,104 @@
+---
+Instagram_Access_Token:
+  type: String
+---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+<style>
+  #instafeed {
+    opacity:0;
+    height:400px;
+    overflow:hidden;
+  }
+  #instafeed.onscreen {
+    height:auto;
+    opacity:1;
+    overflow:visible;
+  }
+  #instafeed .insta-img {
+    margin: 15px 0;
+    width: 100%;
+    padding-top: 100%;
+    background-size:cover;
+    position:relative;
+  }
+  #instafeed .insta-hover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    opacity:0;
+    transition:0.5s opacity;
+  }
+  #instafeed .insta-img:hover .insta-hover {
+    opacity:1
+  }
+  #instafeed i {
+    padding-right:10px;
+  }
+</style>
+<div class="swiper-container">
+    <div class="swiper-wrapper" id="instafeed"></div>
+</div>
+<script type="text/javascript">
+
+    // User Parameters
+    var access_token = '{{Instagram_Access_Token}}',
+        no_of_images = 20;
+    // End user parameters, do not edit below this line
+
+    let url = 'https://api.instagram.com/v1/users/self/?access_token=' + access_token;
+    var profile_id;
+    var instaSwiper;
+    fetch(url)
+        .then(res => res.json())
+        .then(function(data) {
+          profile_id = data.data.id;
+          var feed = new Instafeed({
+              get: 'user',
+              userId: profile_id,
+              accessToken: access_token,
+              sortBy: 'most-recent',
+              limit: no_of_images,
+              resolution: 'standard_resolution',
+              template: '<div class="swiper-slide"><a href="{{link}}" target="_blank"><div class="insta-img" style="background-image:url({{image}})"><div class="insta-hover"><i class="fa fa-heart"></i> {{likes}}</div></div></a></div>'
+          });
+          feed.run();
+        })
+        .then(function() {
+            instaSwiper = new Swiper ('.swiper-container', {
+              direction: 'horizontal',
+              slidesPerView: 3,
+              loop: true,
+              spaceBetween: 15,
+              loopAdditionalSlides: 3,
+              breakpoints: {
+                480: {
+                  slidesPerView: 1,
+                  spaceBetween: 0
+                },
+                640: {
+                  slidesPerView: 2,
+                }
+              },
+              autoplay: {
+                delay: 5000,
+              },
+            });
+          })
+          .then(function() {
+            setTimeout(function() {
+             instaSwiper.update();
+             jQuery('#instafeed').addClass('onscreen');
+           }, 2000);
+          })
+
+</script>

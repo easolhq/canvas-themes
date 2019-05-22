@@ -1,0 +1,32 @@
+---
+Ghost_URL:
+  type: String
+Ghost_API_Key:
+  type: String
+---
+<script src="https://unpkg.com/@tryghost/content-api@1.1.0/umd/content-api.min.js"></script>
+<h2 class="text-center mb-5">Blog</h2>
+<div class="container-fluid">
+  <div class="row" id="blog">
+  </div>
+</div>
+
+<script>
+const ghostapi = new GhostContentAPI({
+  url: '{{Ghost_URL}}',
+  key: '{{Ghost_API_Key}}',
+  version: 'v2'
+});
+
+var blogSection = document.getElementById('blog');
+ghostapi.posts
+    .browse({limit: 2})
+    .then((posts) => {
+        posts.forEach((post) => {
+          blogSection.innerHTML += '<div class="col-12 col-md-6"><div class="blog-img" style="background-image:url(' +post.feature_image+ ')"></div><p>' +post.excerpt+ '</p><div class="text-center"><a class="btn btn-secondary" href="' +post.url+ '">Read Article</a></div></div>'
+        });
+    })
+    .catch((err) => {
+        console.error(err);
+    });
+</script>

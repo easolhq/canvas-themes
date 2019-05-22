@@ -1,0 +1,68 @@
+---
+Access_Token:
+  type: String
+---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+
+<style>
+  #instafeed .insta-img {
+    margin: 15px 0;
+    width: 100%;
+    padding-top: 100%;
+    background-size:cover;
+    position:relative;
+  }
+  #instafeed .insta-hover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    opacity:0;
+    transition:0.5s opacity;
+  }
+  #instafeed .insta-img:hover .insta-hover {
+    opacity:1
+  }
+  #instafeed i {
+    padding-right:10px;
+  }
+  @media (max-width:576px) {
+    #instafeed .col-6:last-child {
+      display:none;
+    }
+  }
+</style>
+<div class="container-fluid" style="padding-right:0">
+  <div id="instafeed" class="row"></div>
+</div>
+<script type="text/javascript">
+
+    // User Parameters
+    var access_token = '{{Access_Token}}',
+        no_of_images = 9;
+    // End user parameters, do not edit below this line
+
+    let url = 'https://api.instagram.com/v1/users/self/?access_token=' + access_token;
+    var profile_id;
+    fetch(url)
+        .then(res => res.json())
+        .then(function(data) {
+          profile_id = data.data.id;
+          var feed = new Instafeed({
+              get: 'user',
+              userId: profile_id,
+              accessToken: access_token,
+              sortBy: 'most-recent',
+              limit: no_of_images,
+              resolution: 'standard_resolution',
+              template: '<div class="col-6 col-md-4"><a href="{{link}}" target="_blank"><div class="insta-img" style="background-image:url({{image}})"><div class="insta-hover"><i class="fa fa-heart"></i> {{likes}}</div></div></a></div>'
+          });
+          feed.run();
+        })
+</script>
