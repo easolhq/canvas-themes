@@ -75,37 +75,37 @@
   
   /* Single Blocks */
   
-  #block-1h0 {
+  #block-skc {
     height:90vh !important;
   }
-  #block-1h0 p {
+  #block-skc p {
     font-size: 1.3rem;
     line-height: 1.3;
     margin-top:20px;
   }
   @media (max-width:768px) {
-      #block-1h0.block .block-content {
+      #block-skc.block .block-content {
           justify-content:flex-end;
       }
-      #block-1h0.block h1 {
+      #block-skc.block h1 {
         margin:20vh 0;
       }
-      #block-1h0 .btn {
+      #block-skc .btn {
           color:#fff;
           background:transparent;
           border-color:#fff !important;
       }
   }
-  #block-mce {
+  #block-etl {
     height:72vh !important;
   }
-  #block-1gy {
+  #block-pzy {
     padding:4rem 0 5rem;
   }
-  #block-1gy, #block-o9g {
+  #block-pzy, #block-o9g {
     color:#fff;
   }
-  #block-1gy h1 {
+  #block-pzyy h1 {
     margin-bottom:2rem;
   }
   
@@ -137,7 +137,7 @@
     background:#925c58;
   }
   .site-shop-nav:after {
-    content: 'Jyoti Well Being';
+    content: 'Rewilding Retreats';
     color: #925c58;
     font-family: Circular-std-bold;
     position: absolute;
