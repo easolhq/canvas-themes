@@ -48,7 +48,7 @@ font-family: Playfairdisplay;
 }
 
 #includes > article > ul {
-    text-transform: capitalize !important;
+    text-transform: uppercase !important;
 }
 
 
