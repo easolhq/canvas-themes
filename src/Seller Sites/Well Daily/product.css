@@ -75,8 +75,9 @@ font-family: Playfairdisplay;
 }
 
 #plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div{
-    font-size: 1.25rem !important;
+    font-size: 1.rem !important;
     white-space: pre-line;
+    margin: 0 10%;
 }
 #plan > article > div > div.col-12.col-md-4{
     flex: 0 0 100%;
@@ -163,4 +164,64 @@ nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.na
     text-transform:uppercase;
     font-weight:bold;
     margin-top:30px;
+}
+
+/* Paulina Updates */
+
+#hero h1 {
+    font-size: 35px !important;
+    font-weight: bold
+}
+
+#hero span {
+    font-size: 25px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#hero h4 {
+    font-size: 16px !important;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#hero {
+    height: 65vh !important;
+    overflow: hidden;;
+}
+
+#hero .block-content {
+    max-width: 650px;
+}
+
+#hero .block-content:before {
+    content: '';
+    width: 50%;
+    border-bottom: 2px solid #fff;
+    margin: auto;
+    position: relative;
+    top: -10px;
+}
+
+#hero .block-content:after {
+    content: '';
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px solid #fff;
+    position: relative;
+}
+
+.product-overview a {
+    color: #E29A90;
+}
+
+article.block-content h4 {
+    text-transform: uppercase;
+    font-family: Muli;
+    color: #E29A90;
+}
+
+article.block-content h6 {
+    text-transform: uppercase;
+    font-size: 18px;
 }
