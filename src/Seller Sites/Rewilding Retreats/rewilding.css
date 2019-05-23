@@ -174,7 +174,7 @@
 #block-skc h3 {
     font-family: Silver-south-script-alt;
     font-size: 5rem;
-    margin-top: -50px;
+    margin-top: -30px;
     padding-top: 0px;
     padding-bottom: 2%;
     letter-spacing: 1.5pt;
@@ -184,21 +184,11 @@
    letter-spacing: 1pt;
 }
 
-#block-vqz {
-    background-color: #925c58;
-}
-
-#block-vqz h3 {
+#block-uvh p {
     font-family: Circular-std-book;
     text-align: center;
     font-size: 2.5rem;
     color: white;
-}
-
-#block-vqz h3 span {
-    font-family: Silver-south-script-alt;
-    text-align: center;
-    font-size: 4rem;
 }
 
 .text-and-image-block h1 {
@@ -210,11 +200,19 @@
 }
 
 #block-etl h1 {
-    font-family: Circular-std-book;
+    font-family: Silver-south-script-alt;
 }
 
 #block-skc a:hover {
   text-decoration: none;
   color: white;
   cursor: text;
+}
+
+h6 {
+  font-family: Circular-std-book;
+}
+
+#block-3di h1, #block-bcb h1, #block-zkh h1 {
+  font-family: Bebasneue-bold;
 }
