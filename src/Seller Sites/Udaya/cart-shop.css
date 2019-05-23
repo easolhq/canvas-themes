@@ -9,6 +9,7 @@
 #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
     background-color:#cd513f !important;
     border-color:#cd513f;
+    color:#fff;
 }
 #app .cart .input-group-btn .btn {
     border-color:#cd513f !important;
