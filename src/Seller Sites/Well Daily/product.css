@@ -11,7 +11,7 @@
 }
 
 #overview > article > div.row.no-gutters > div.col-12.col-md-5.p-3.overview-card.offset-md-7:before{
-content: "The Magic";
+content: "Overview";
 display: block;
 text-align: center;
 font-size: 2rem;
@@ -54,7 +54,7 @@ font-family: Playfairdisplay;
     display: none;
 }
 #plan > article > div > div.col-12.col-md-4:before{
-    content:"Life On The Mat";
+    content:"The Course";
     font-size: 2rem;
     letter-spacing: 0.3rem;
     margin-left: auto;
