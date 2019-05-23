@@ -163,3 +163,51 @@
   }
   }
   
+
+  /* to consolidate */
+
+  #block-skc h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+#block-skc h3 {
+    font-family: Silver-south-script-alt;
+    font-size: 5rem;
+    padding-top: 0px;
+    padding-bottom: 2%;
+    letter-spacing: 1.5pt;
+}
+
+#block-skc .btn {
+   letter-spacing: 1pt;
+}
+
+#block-vqz {
+    background-color: #925c58;
+}
+
+#block-vqz h3 {
+    font-family: Circular-std-book;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#block-vqz h3 span {
+    font-family: Silver-south-script-alt;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.text-and-image-block h1 {
+    letter-spacing: 0.5pt;
+}
+
+#block-pzy h1 {
+    font-family: Circular-std-book;
+}
+
+#block-etl h1 {
+    font-family: Circular-std-book;
+}
