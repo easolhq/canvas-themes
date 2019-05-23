@@ -216,3 +216,7 @@ h6 {
 #block-3di h1, #block-bcb h1, #block-zkh h1 {
   font-family: Bebasneue-bold;
 }
+
+#block-zfb .btn {
+  letter-spacing: 1pt;
+}
