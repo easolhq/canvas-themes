@@ -47,6 +47,10 @@ font-family: Playfairdisplay;
  display: none;
 }
 
+#includes > article > ul {
+    text-transform: capitalize !important;
+}
+
 
 
 /*THE PLAN*/
