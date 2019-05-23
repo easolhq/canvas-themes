@@ -121,49 +121,6 @@
     margin:100px 0 0 0 !important;
   }
   
-  /* Cart */
-  
-  @media (max-width:769px) {
-    #hero.product-hero {
-    padding-top:1rem;
-    }
-  }
-  
-  #app h1, #app h4 {
-    font-family:Circular-std-book;
-    text-transform:capitalize;
-  }
-  .bookable-list-item:before {
-    background:#925c58;
-  }
-  .site-shop-nav:after {
-    content: 'Rewilding Retreats';
-    color: #925c58;
-    font-family: Circular-std-bold;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.5rem;
-  }
-  .navbar-brand img {
-    opacity:0;
-  }
-  .btn {
-    border-color:#925c58 !important;
-  }
-  .input-group-btn .btn {
-    padding:0 10px;
-  }
-  .bookable-list-item .bookable-list-item-text {
-      max-height:150px;
-  }
-  @media (min-width: 768px) {
-  .bookable-list-item {
-      height: auto;
-  }
-  }
-  
-
   /* to consolidate */
 
   #block-skc h1 {
