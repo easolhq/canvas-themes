@@ -95,6 +95,10 @@ nav a{
   }
 
 /*STYLING AVAILABILITY TABLE*/
+.cart-shop-hint {
+    background: #fff !important;
+}
+
 .availability-table .table-body >.row:before{
     background: #e6a49b;
 }
