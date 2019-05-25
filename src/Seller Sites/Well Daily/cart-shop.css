@@ -1,4 +1,3 @@
-
 /*FONTS*/
 
 #app h6{
@@ -35,15 +34,15 @@ nav a{
     margin-left: auto;
     margin-right: auto;
     }
-    
+
     #navbar-brand{
     position: relative;
     }
 
     .navbar-main .logo{
         height: 150px !important;
-    }    
-    
+    }
+
 /*BUTTON PRIMARY*/
 #app .cart-container .btn{
     color: #363638;
@@ -57,28 +56,28 @@ nav a{
     color: #fff;
    }
 
-/* decrease btn-group padding to make room for price 1000's */ 
+/* decrease btn-group padding to make room for price 1000's */
 
 .input-group-btn .btn {
     padding:0.5rem;
 }
-   
+
 /*CHEVRONS*/
 #app .cart-shop-navbar .nav.nav-chevrons {
     background:#fff;
    }
-   
+
 .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after {
       border-color:#fff !important;
       background-color:#fff !important;
    }
-   
+
    .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before{
           border-color:#fff !important;
-      background-color:#fff !important;  
+      background-color:#fff !important;
    }
-   
- .availability-table .table-body >.row:before { 
+
+ .availability-table .table-body >.row:before {
        background:#e6a49b !important }
 
 
@@ -88,11 +87,11 @@ nav a{
     background-color: white !important;
     color: #e6a49b;
   }
-  
+
   .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active{
     color: #e6a49b !important;
     background-color: #fff !important;
-  
+
   }
 
 /*STYLING AVAILABILITY TABLE*/
@@ -114,7 +113,7 @@ nav a{
 ul.list-inline.footer-social-list.my-4,
 .footer-list a,
 .footer-list,
-.logo-mark.x2, 
+.logo-mark.x2,
 .footer-list{
   display: none;
 }
@@ -136,4 +135,10 @@ ul.list-inline.footer-social-list.my-4,
   .bookable-list-item > .col {
     max-width:100%;
   }
+}
+
+/* Hide Tagline */
+
+.cart-shop-hero-tag-line {
+  display:none;
 }

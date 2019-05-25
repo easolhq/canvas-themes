@@ -105,8 +105,8 @@ font-family: Playfairdisplay;
 }
 
 #plan .col-md-8 {
-    flex: 66.6%; 
-    max-width: 100%; 
+    flex: 66.6%;
+    max-width: 100%;
 }
 }
 
@@ -164,6 +164,30 @@ nav.navbar.booking-bar.fixed-bottom.px-0.product-page-booking-bar > div > div.na
     text-transform:uppercase;
     font-weight:bold;
     margin-top:30px;
+}
+
+/* Teachers */
+
+#seller-profile .block-content {
+  margin-top:6rem;
+}
+#seller-profile .block-content:before {
+  content: 'Your Teachers';
+  text-transform: uppercase;
+  font-family: Muli;
+  color: #E29A90;
+  position: absolute;
+  top: -6rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#seller-profile .block-content:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(-3rem - 5px);
+  width: 3rem;
+  border-top: .1875rem solid rgba(0,0,0,0.1);
 }
 
 /* Paulina Updates */
