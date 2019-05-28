@@ -1,0 +1,74 @@
+---
+Slider_Image_1:
+  type: Image
+Slider_Image_2:
+  type: Image
+Slider_Image_3:
+  type: Image
+Slider_Title:
+  type: String
+Slider_Content:
+  type: String;
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
+<style>
+  .swiper-slide {
+    background-size:cover;
+    height:90vh;
+  }
+  .hover-content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    z-index:99;
+    text-align:center
+  }
+  .scrolldown {
+    position:absolute;
+    left:50%;
+    bottom:2%;
+    transform:translateX(-50%);
+    z-index:99;
+    width:60px;
+  }
+</style>
+
+<div class="swiper-container">
+    <div class="hover-content">
+      {% if Slider_Title %}<h2>{{Slider_Title}}</h2>{% endif %}
+      {% if Slider_Content %}<p>{{Slider_Content}}</p>{% endif %}
+      <div class="text-center">
+        <a class="btn btn-secondary" href="/shop">Book Now</a>
+      </div>
+    </div>
+    <svg version="1.1" class="scrolldown" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 407.437 407.437" xml:space="preserve">
+   <polygon style="fill:#fff" points="386.258,91.567 203.718,273.512 21.179,91.567 0,112.815 203.718,315.87 407.437,112.815 "/>
+  </svg>
+
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url('{{Slider_Image_1.large_url}}')">
+        </div>
+        <div class="swiper-slide" style="background-image:url('{{Slider_Image_2.large_url}}')"></div>
+        <div class="swiper-slide" style="background-image:url('{{Slider_Image_3.large_url}}')"></div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+<script>
+var blockSwiper = new Swiper ('.swiper-container', {
+  autoplay: {
+    delay: 5000,
+  },
+  loop: true,
+  effect: 'fade',
+  speed: 1200,
+  fadeEffect: {
+    crossFade: true,
+  },
+})
+</script>
