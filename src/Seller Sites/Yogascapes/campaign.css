@@ -76,6 +76,35 @@ margin-left: auto;
 margin-right: auto;
 }
 
+#block-4jd{
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#block-4jd h1, 
+#block-4jd p{ 
+color: white;
+}
+
+
+#block-4jd .block-content{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+}
+
+#block-4jd > div.block-content > div,
+#block-4jd > div.block-content > div > div{
+    max-width: 100%;
+    width: 100%;
+}
+
+#mergeRow-gdpr{
+    display: none;
+}
+
 @media only screen and (max-width: 767px){
     #reviews .col {
         min-width: 100%;
