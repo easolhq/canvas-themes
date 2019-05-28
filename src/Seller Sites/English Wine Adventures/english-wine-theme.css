@@ -206,7 +206,6 @@ body {
 
   /* IMAGE GRID BLOCK */
 
-@media (min-width:1025px) {
   .image-grid-block {
     padding-bottom:6rem !important;
   }
@@ -225,6 +224,15 @@ body {
   }
   .image-grid-block .image-grid-entry p {
     color:#000 !important
+  }
+
+@media (max-width:769px) {
+  .image-grid-block .image-grid-entry h2 {
+    min-height:115px;
+    margin:45% 0 !important;
+  }
+  .image-grid-block .image-grid-entry {
+    margin-bottom:8rem !important
   }
 }
 

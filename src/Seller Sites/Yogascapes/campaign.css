@@ -81,14 +81,14 @@ margin-right: auto;
     background: rgba(0, 0, 0, 0.3);
 }
 
-#block-4jd h1, 
-#block-4jd p{ 
+#block-4jd h1,
+#block-4jd p{
 color: white;
 }
 
 
 #block-4jd .block-content{
-  display: flex;  
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -305,3 +305,35 @@ color: white;
 			float:none;
 		}
 	}
+
+  .thisblock .column {
+    width:100%;
+}
+
+@media (max-width:769px) {
+    .thisblock .swiper-slide {
+        margin-top:50px;
+        background-size:contain;
+        background-repeat:no-repeat;
+    }
+    .thisblock .swiper-slide .instagram-teacher {
+        display:none;
+    }
+    #block-tsk .container.d-flex {
+        flex-wrap:wrap;
+    }
+    #block-tsk .subscribe-copy, #block-tsk #mc_embed_signup {
+        flex-basis:100%;
+        text-align:center;
+        margin:0;
+    }
+}
+@media (max-width:576px) {
+    #newsletterAndSearchFooter, #newsletterAndSearchFooter form {
+        max-width:100%;
+        width:100%;
+    }
+    #newsletterAndSearchFooter input {
+        float:right;
+    }
+}
