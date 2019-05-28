@@ -1,4 +1,4 @@
-#app, .site-shop-nav, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, #app .availability-table {
+#app, .site-shop-nav, #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6, #app .availability-table {
   font-family:Gt-walsheim-pro-regular !important;
 }
 #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
