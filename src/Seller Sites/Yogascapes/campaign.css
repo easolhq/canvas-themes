@@ -55,7 +55,7 @@ height: 90vh;
     border: 1px solid #c5c5c5 !important;
     background-color: #f0f0f0 !important;
     font-style: italic;
-    width: 15rem !important;
+    min-width: 15rem !important;
     height: 38px;
 }
 
