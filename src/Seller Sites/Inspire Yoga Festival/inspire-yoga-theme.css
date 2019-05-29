@@ -67,3 +67,23 @@
   .btn-outline-primary {
       border-radius: 20px;
   }
+
+  /* SECTION STYLING */
+
+#block-nac > .block-content, #block-g63 > .block-content {
+    width: 400px;
+    background-color: #f4f1ea;
+    border: solid 2px black;
+    margin-left: 55%;
+}
+
+#block-9to > .block-content, #block-olk > .block-content {
+    width: 400px;
+    background-color: #f4f1ea;
+    border: solid 2px black;
+    margin-right: 55%;
+}
+
+#block-nac, #block-9to, #block-g63, #block-olk {
+    height: 25rem !important;
+}
