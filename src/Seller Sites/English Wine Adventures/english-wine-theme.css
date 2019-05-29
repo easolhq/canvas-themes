@@ -304,3 +304,8 @@ a[href^="tel:"]:before {
 #includes > article > ul {
   text-transform: capitalize;
 }
+
+/* PRODUCT BLOCK HEADERS POINTER STYLING. LINKED WITH JS TO PRODUCT PAGE*/
+#block-ka6 h3.mt-2, #block-tlr h3.mt-2, #block-cdo h3.mt-2 {
+  cursor: pointer;
+}
