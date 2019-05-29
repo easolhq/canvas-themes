@@ -299,3 +299,8 @@ a[href^="tel:"]:before {
   display: inline;
   margin-right: 0.5em;
 }
+
+/* PRODUCT PAGE INCLUDES CAPITALIZATION FIX */
+#includes > article > ul {
+  text-transform: capitalize;
+}
