@@ -281,3 +281,11 @@ body {
 #block-hoo {
   padding-top:10px;
 }
+
+/* PHONE NUMBER FOOTER */
+
+a[href^="tel:"]:before {
+  content: "\260E";
+  display: inline;
+  margin-right: 0.5em;
+}
