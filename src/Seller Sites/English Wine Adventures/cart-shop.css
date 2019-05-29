@@ -1,3 +1,7 @@
+#shared-accommodation > h4 {
+    display: none;
+}
+
 /*BODY*/
 /* body[data-target='#cart-shop-nav'] {
     background: #f8f3e7;
@@ -86,7 +90,3 @@
 } */
 
 /* REMOVE SHARED ACCCOMODATION HEADER */
-
-#shared-accommodation > h4 {
-    display: none;
-}
