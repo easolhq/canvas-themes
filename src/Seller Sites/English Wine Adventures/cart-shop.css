@@ -84,3 +84,9 @@ body[data-target='#cart-shop-nav'] {
 .footer-main{
     background-color:#fff !important;
 }
+
+/* REMOVE SHARED ACCCOMODATION HEADER */
+
+#shared-accommodation > h4 {
+    display: none;
+}
