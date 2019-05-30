@@ -13,6 +13,7 @@
       font-family:"Ostrich regular";
       font-size: 1em;
       text-transform: uppercase;
+      color: #446655
   }
   
   .nav-link:hover {
@@ -65,27 +66,49 @@
   
   /* BUTTONS */
   .btn-outline-primary {
-      border-radius: 20px;
+    border-radius: 20px;
+    letter-spacing: 3px;
   }
 
   /* SECTION STYLING */
 
-#block-nac > .block-content, #block-g63 > .block-content {
+#block-g63 > .block-content {
     width: 400px;
     background-color: #f4f1ea;
-    border: solid 2px black;
+    border: none;
+    opacity: 0.8;
     margin-left: 60%;
+}
+
+#block-nac > .block-content {
+  width: 400px;
+  margin-left: 60%;
+  background: none;
+  border: none;
+}
+
+#block-nac > .block-content > p, #block-nac > .block-content > h4, #block-nac > .block-content > p, #block-nac > .block-content > div > a  {
+  color: white;
+}
+
+#block-nac > .block-content > div > a  {
+  border: solid 1px white;
 }
 
 #block-9to > .block-content, #block-olk > .block-content {
     width: 400px;
     background-color: #f4f1ea;
-    border: solid 2px black;
+    border: none;
+    opacity: 0.8;
     margin-right: 60%;
 }
 
 #block-nac, #block-9to, #block-g63, #block-olk {
-    height: 25rem !important;
+    height: 35rem !important;
+}
+
+#block-6di > div.block-content {
+  max-width: 600px;
 }
 
 /*FOOTER*/
@@ -101,4 +124,15 @@
 #custom-header > div {
   margin-top: 50px;
   margin-left: 80px;
+}
+
+p {
+  font-family: Brandon-grotesque-light;
+  color: #446655;
+}
+
+h4 {
+  font-size: 2rem;
+  padding-bottom: 2%;
+  color: #446655;
 }
