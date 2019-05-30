@@ -92,3 +92,13 @@
 #footer{
   background-color: #f4f1ea;
 }
+
+/*HERO IMAGE*/
+#block-slu {
+  height: 600px;
+}
+
+#custom-header > div {
+  margin-top: 50px;
+  margin-left: 80px;
+}
