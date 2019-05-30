@@ -206,3 +206,7 @@ h6 {
 #block-zfb {
   padding-top: 30px;
 }
+
+#block-uvh > div.block-content {
+  max-width: 600px;
+}
