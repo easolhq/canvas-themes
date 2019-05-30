@@ -210,3 +210,43 @@ h6 {
 #block-uvh > div.block-content {
   max-width: 600px;
 }
+
+/*CUSTOM HEADER */
+
+#block-ns7 {
+  height:90vh !important;
+  text-align: center;
+}
+#block-ns7 p {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin-top:20px;
+}
+@media (max-width:768px) {
+    #block-ns7.block .block-content {
+        justify-content:flex-end;
+    }
+    #block-ns7.block h1 {
+      margin:20vh 0;
+    }
+    #block-ns7 .btn {
+        color:#fff;
+        background:transparent;
+        border-color:#fff !important;
+    }
+}
+
+#block-ns7 .btn {
+ letter-spacing: 1pt;
+}
+
+#block-ns7 a:hover {
+  text-decoration: none;
+  color: white;
+  cursor: text;
+}
+
+#custom-header > div > div > button:hover {
+  background-color: #FCCD0D;
+border: solid 1px #FCCD0D;
+}
