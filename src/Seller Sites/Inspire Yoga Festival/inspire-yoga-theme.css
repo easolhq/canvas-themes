@@ -141,6 +141,10 @@
   background-color: #f4f1ea !important;
 }
 
+#mergeRow-gdpr > div {
+  display: none;
+}
+
 /*HERO IMAGE*/
 #block-slu {
   height: 600px;
