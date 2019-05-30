@@ -123,7 +123,8 @@
 
 #custom-header > div {
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 33%;
+  text-align: center;
 }
 
 p {
