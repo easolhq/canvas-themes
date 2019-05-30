@@ -126,6 +126,10 @@
   border: none !important;
 }
 
+#block-g63 > div.block-content, #block-olk > div.block-content {
+  margin-top: 70px;
+  height: 300px;
+}
 
 /*FOOTER*/
 #footer{
