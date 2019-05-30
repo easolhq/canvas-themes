@@ -68,6 +68,7 @@
   .btn-outline-primary {
     border-radius: 20px !important;
     letter-spacing: 3px;
+    font-family: Ostrich-regular;
   }
 
   /* SECTION STYLING */
@@ -116,7 +117,7 @@
   text-align: center !important;
 }
 
-#block-aga p, #block-aga h4{
+#block-aga p, #block-aga h1{
   text-align: center;
   color: white;
   margin-bottom: 3px;
