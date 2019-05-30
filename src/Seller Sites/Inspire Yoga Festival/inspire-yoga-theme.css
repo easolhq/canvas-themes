@@ -87,3 +87,8 @@
 #block-nac, #block-9to, #block-g63, #block-olk {
     height: 25rem !important;
 }
+
+/*FOOTER*/
+#footer{
+  background-color: #f4f1ea;
+}
