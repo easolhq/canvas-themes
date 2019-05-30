@@ -237,3 +237,15 @@
 #custom-header > div > h4 {
   color: white;
 }
+
+#block-45a, #block-45a.block-content {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+
+.swiper-container {
+  max-width:100% !important
+}
