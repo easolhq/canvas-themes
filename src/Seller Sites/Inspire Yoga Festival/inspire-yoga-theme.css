@@ -74,14 +74,14 @@
     width: 400px;
     background-color: #f4f1ea;
     border: solid 2px black;
-    margin-left: 55%;
+    margin-left: 60%;
 }
 
 #block-9to > .block-content, #block-olk > .block-content {
     width: 400px;
     background-color: #f4f1ea;
     border: solid 2px black;
-    margin-right: 55%;
+    margin-right: 60%;
 }
 
 #block-nac, #block-9to, #block-g63, #block-olk {
