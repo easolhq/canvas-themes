@@ -144,7 +144,6 @@
 
 #block-nac > .block-content, #block-g63 > .block-content, #block-9to > .block-content, #block-olk > .block-content {
   width: 400px;
-  margin-left: 60%;
   background: none;
   border: none;
   color: white;
@@ -158,8 +157,9 @@
   margin-right: 60%;
 }
 
-#block-nac > .block-content > div > a, #block-g63 > .block-content > div > a  {
+#block-nac > .block-content > div > a, #block-g63 > .block-content > div > a, #block-olk > .block-content > div > a  {
   border: solid 1px white;
+  color: white;
 }
 
 #block-nac, #block-9to, #block-g63, #block-olk {
