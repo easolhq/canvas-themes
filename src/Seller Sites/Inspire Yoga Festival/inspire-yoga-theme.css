@@ -88,7 +88,7 @@
   border: none;
 }
 
-#block-nac > .block-content > p, #block-nac > .block-content > h4, #block-nac > .block-content > p, #block-nac > .block-content > div > a  {
+#block-nac > .block-content > p, #block-nac > .block-content > h1, #block-nac > .block-content > p, #block-nac > .block-content > div > a  {
   color: white;
 }
 
