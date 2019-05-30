@@ -28,6 +28,10 @@ nav#menu .navbar-nav{
     margin-top: 50px;
     }
 
+    #menu {
+        background-color: #e8edf2 !important;
+    }
+
     /*NAV AMENDS*/
 @media (min-width: 768px) {
     
