@@ -111,6 +111,22 @@
   max-width: 600px;
 }
 
+#block-aga > div.block-content > div > div {
+  background: #446655;
+  text-align: center;
+}
+
+#block-aga p, #block-aga h4{
+  text-align: center;
+  color: white;
+  margin-bottom: 3px;
+}
+
+.card {
+  border: none !important;
+}
+
+
 /*FOOTER*/
 #footer{
   background-color: #f4f1ea !important;
