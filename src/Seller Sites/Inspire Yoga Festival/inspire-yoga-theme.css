@@ -164,3 +164,7 @@
 #custom-header > div > img {
   margin-bottom: 15px;
 }
+
+#custom-header > div > h4 {
+  color: white;
+}
