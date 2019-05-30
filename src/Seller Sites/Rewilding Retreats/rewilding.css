@@ -110,6 +110,26 @@
   }
   
   /* Footer */
+
+#block-u4n {
+    background-color: #00916E;
+    Text-align: center;
+    padding: 0;
+    height: 150px;
+}
+
+#block-pzy {
+    height: 200px;
+}
+
+#footer {
+    height: 50px;
+}
+
+#custom-header {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
   
   #footer {
     background-color:#00916E !important;
