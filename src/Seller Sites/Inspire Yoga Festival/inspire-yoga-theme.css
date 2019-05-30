@@ -13,7 +13,7 @@
       font-family:"Ostrich-regular";
       font-size: 1em;
       text-transform: uppercase;
-      color: #446655
+      color: #446655 !important
   }
   
   .nav-link:hover {
