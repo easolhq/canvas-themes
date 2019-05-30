@@ -156,8 +156,15 @@
     font-family: Circular-std-book;
 }
 
-#block-etl h1 {
-    font-family: Silver-south-script-alt;
+#block-etl > div.block-content > h2 {
+  font-size: 5rem;
+  font-family: Bebasneue-bold;
+  margin-bottom: -35px;
+}
+
+#block-etl > div.block-content > h1 {
+  font-size: 4rem;
+  font-family: Silver-south-script-alt;
 }
 
 #block-skc a:hover {
