@@ -142,35 +142,24 @@
 
   /* SECTION STYLING */
 
-#block-g63 > .block-content {
-    width: 400px;
-    background-color: #f4f1ea;
-    border: none;
-    opacity: 0.8;
-    margin-left: 60%;
-}
-
-#block-nac > .block-content {
+#block-nac > .block-content, #block-g63 > .block-content, #block-9to > .block-content, #block-olk > .block-content {
   width: 400px;
   margin-left: 60%;
   background: none;
   border: none;
-}
-
-#block-nac > .block-content > p, #block-nac > .block-content > h1, #block-nac > .block-content > p, #block-nac > .block-content > div > a  {
   color: white;
 }
 
-#block-nac > .block-content > div > a  {
-  border: solid 1px white;
+#block-nac > .block-content, #block-g63 > .block-content {
+  margin-left: 60%;
 }
 
 #block-9to > .block-content, #block-olk > .block-content {
-    width: 400px;
-    background-color: #f4f1ea;
-    border: none;
-    opacity: 0.8;
-    margin-right: 60%;
+  margin-right: 60%;
+}
+
+#block-nac > .block-content > div > a, #block-g63 > .block-content > div > a  {
+  border: solid 1px white;
 }
 
 #block-nac, #block-9to, #block-g63, #block-olk {
