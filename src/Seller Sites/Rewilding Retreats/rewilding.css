@@ -112,7 +112,7 @@
   /* Footer */
   
   #footer {
-    background-color:#925c58 !important;
+    background-color:#00916E !important;
   }
   #footer a {
     color:#fff;
@@ -176,4 +176,33 @@ h6 {
 
 #block-zfb .btn {
   letter-spacing: 1pt;
+}
+
+#block-skc > div.block-content > div.text-center > a:hover {
+  background-color: #FCCD0D;
+  border: solid 1px #FCCD0D;
+}
+
+#mc-embedded-subscribe {
+  background-color: #FCCD0D;
+  border: solid 1px #FCCD0D;
+}
+
+#block-uvh > div.block-content > h2 {
+  font-family: Silver-south-script-alt;
+  font-size: 4rem;
+  color: white;
+}
+
+#block-ryz > div.block-content > h1 {
+  font-family: Silver-south-script-alt;
+  font-size: 4rem;
+}
+
+#block-ryz {
+  padding-bottom: 0px;
+}
+
+#block-zfb {
+  padding-top: 30px;
 }
