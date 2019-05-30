@@ -71,11 +71,11 @@
         position: fixed;
         top: 0px;
         width: 100%;
-        z-index: 1;
+        z-index: 1030;
     }
     
     body {
-        margin-top: 100px !important;
+        margin-top: 60px !important;
     }
 }
 
