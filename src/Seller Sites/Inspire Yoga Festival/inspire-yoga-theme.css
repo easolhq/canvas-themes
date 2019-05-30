@@ -131,6 +131,11 @@
   height: 300px;
 }
 
+#block-aga > div.block-content > div > div > div > div > a {
+  color: white;
+  border: solid 1PX white;
+  margin-top: 10px;
+
 /*FOOTER*/
 #footer{
   background-color: #f4f1ea !important;
