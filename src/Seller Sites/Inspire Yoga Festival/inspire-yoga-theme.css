@@ -113,7 +113,7 @@
 
 #block-aga > div.block-content > div > div {
   background: #446655;
-  text-align: center;
+  text-align: center !important;
 }
 
 #block-aga p, #block-aga h4{
