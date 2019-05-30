@@ -24,6 +24,75 @@
       height: 100px;
       
   }
+
+  nav#menu .navbar-nav{
+    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 100%;
+    }
+    
+    nav#menu a.navbar-brand{
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    nav#menu a.navbar-brand img{
+    height: 100px;
+    }
+    
+    nav#menu .container{
+    display: flex;
+    flex-flow: row wrap;
+    align-self: flex-start;
+    }
+    
+    #menu-navbar{
+    flex-basis: 100%;
+    width: 0px;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    }
+    
+    /*NAV AMENDS*/
+@media (min-width: 768px) {
+    
+    li#activities.nav-item {
+        margin-right: 10%;
+    }
+    
+    a.navbar-brand {
+        position: fixed;
+        left: 44.5%;
+    }
+
+    #menu-navbar {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #menu {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    body {
+        margin-top: 100px !important;
+    }
+}
+
+#book-now {
+    background-color: #f36958;
+    border-radius: 20px !important;
+    letter-spacing: 1px;
+    font-family: Ostrich-regular;
+}
+
+#book-now > a {
+    color: white !important;
+}
   
   @media only screen and (min-width: 768px){
     .navbar-expand-md .navbar-nav .nav-link{
