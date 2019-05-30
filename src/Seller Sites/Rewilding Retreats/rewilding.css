@@ -111,20 +111,8 @@
   
   /* Footer */
 
-#block-u4n {
-    background-color: #00916E;
-    Text-align: center;
-    padding: 0;
-    height: 150px;
-}
-
 #block-pzy {
-    height: 200px;
-}
-
-#custom-header {
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding: 40px;
 }
   
   #footer {
@@ -134,7 +122,7 @@
     color:#fff;
   }
   .fixers-stamp {
-    margin:100px 0 0 0 !important;
+    margin:10px 0 0 0 !important;
   }
   
   /* to consolidate */
