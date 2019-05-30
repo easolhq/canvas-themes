@@ -75,6 +75,10 @@
     font-family: Ostrich-regular;
   }
 
+  #menu-cta {
+    border-radius: 20px !important;
+}
+
   /* SECTION STYLING */
 
 #block-g63 > .block-content {
