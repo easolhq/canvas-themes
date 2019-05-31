@@ -104,6 +104,10 @@ h1 {
     font-family: Ostrich-regular;
   }
 
+  .btn-outline-primary:hover {
+    border: solid 1px #f36958;
+  }
+
   .btn-primary {
     font-family: Ostrich-regular;
   }
