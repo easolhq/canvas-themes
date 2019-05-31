@@ -252,6 +252,10 @@
 }
 
 /* ABOUT PAGE */
+#block-ctb > div.block-content > h1 {
+  padding-top: 100px;
+}
+
 #block-a3s > div.block-content, #block-gvo > div.block-content  { 
   max-width: 600px;
 }
