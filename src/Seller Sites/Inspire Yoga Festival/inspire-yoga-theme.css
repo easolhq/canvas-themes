@@ -53,7 +53,7 @@ h1 {
       }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
   
     #menu > div > a.navbar-brand {
       display: none;
