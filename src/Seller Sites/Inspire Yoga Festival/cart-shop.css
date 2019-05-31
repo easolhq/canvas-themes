@@ -1,0 +1,116 @@
+/* Style Changes add any customer specific stuff here */
+
+
+/* Set fonts for entire shop including ones forced in other CSS files */
+
+#app, .site-shop-nav {
+    font-family:'Ostrich-black', serif;
+  }
+  #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+    text-transform:uppercase;
+    font-family:'Ostrich-black', serif;
+  }
+  #app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
+    font-family:'Brandon-grotesque-light', sans-serif !important;
+  }
+  #app .bookable-list-item i:before {
+    font-family:'Fixers Icons';
+  }
+  
+  /* Set button colors */
+  
+  #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+      background-color:#446655 !important;
+      border-color:#446655;
+      color:#fff;
+  }
+  #app .cart .input-group-btn .btn {
+      border-color:#f36958 !important;
+      color:#fff;
+  }
+  #app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
+      background-color:#f36958;
+      color:#fff;
+  }
+  #app .segment-collapse {
+      color:#f36958;
+  }
+  
+  /* Hide default logo and add one centered in middle of nav */
+  
+  .navbar-full {
+      justify-content:center;
+  }
+  .navbar-full .logo {
+     display:none !important
+  }
+  .navbar-full .navbar-brand:before {
+    content: '';
+    width: 8rem;
+    height: 2rem;
+    background-image: url(https://sites-dxjnc.fixersworld.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWt5WkdZNVpUQTVOQzAzWkdNM0xUUXlNRGN0WWpZek1TMWxOakUwT0RWbE9UY3hNVEFHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--308c119c876e5fbcd523e096eb815afb7fe76b0d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lKZURJd01BWTZCa1ZVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--49acf6091af8a6a846fd9261af329a181c9ba278/Inspire%20Yoga%20Festival%20Logo-02.png);
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+  }
+  
+  /* Set background color and fix tile hidden by that */
+  
+  #app {
+    background:#f7f7f9;
+  }
+  #app .block-background {
+    z-index:0;
+  }
+  
+  /* Chevron Colors */
+  
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+    background-color:#f36958 ;
+    color:#f36958;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
+    background-color:#f36958;
+    border-color:#f36958;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
+    border-left-color:#f36958;
+    border-left-color:transparent;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
+      border-color:#f36958;
+      border-left-color:transparent;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
+    border-left-color:transparent
+  }
+  #app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+    background-color:#f36958;
+  }
+  
+  /* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+  
+  @media (min-width:768px) {
+    #app .cart-body .col-10 {
+      flex:0 0 38%;
+      max-width:38%
+    }
+  }
+  
+  /* Fix Nav on Mobile */
+  
+  #cart-shop-nav-mobile .nav-link {
+    padding:0 !important;
+    margin-right:0 !important;
+    font-size:0.9rem !important;
+  }
+  #cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+    float:left !important;
+    width:100%;
+  }
+  @media (max-width:600px) {
+    .cart-shop-navbar.sticky {
+      position:static;
+    }
+  }
+  
