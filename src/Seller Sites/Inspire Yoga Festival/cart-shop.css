@@ -1,12 +1,12 @@
 /* Style Changes add any customer specific stuff here */
   
   /* LEFT HAND LINES */
-  .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
+  #app .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
     background: #f36958 !important;
 }
 
 /* PRICING SIZE */
-div.col-4.col-md-3.text-center {
+#app div.col-4.col-md-3.text-center {
     font-size: 0.8rem !important;
 }
 
