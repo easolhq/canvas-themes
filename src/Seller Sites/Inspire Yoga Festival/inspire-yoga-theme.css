@@ -5,8 +5,7 @@
   }
   
   div#menu-navbar{
-    justify-content: flex-end;
-    padding-right: 30px;
+    justify-content: center;
   }
   
   .nav-link{ 
