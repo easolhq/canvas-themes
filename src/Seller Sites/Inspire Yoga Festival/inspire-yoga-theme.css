@@ -260,4 +260,5 @@ h1 {
 /*FAQs*/
 #block-waz > div.block-content > div {
   background-color: #f4f1ea;
+  border: none;
 }
