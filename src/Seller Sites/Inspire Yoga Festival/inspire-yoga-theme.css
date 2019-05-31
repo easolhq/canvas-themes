@@ -7,13 +7,25 @@
   div#menu-navbar{
     justify-content: center;
   }
+
+  #menu-navbar > ul{
+    justify-content: space-around;
+    width: 500px;
+  }
   
   .nav-link{ 
       font-family:"Ostrich-regular";
-      font-size: 1em;
+      font-size: 1.5em;
       text-transform: uppercase;
       color: #446655 !important
   }
+
+  #menu-cta {
+    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    letter-spacing: 2px;
+}
   
   .nav-link:hover {
       color: #f36958 !important;
@@ -166,6 +178,7 @@
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
+  padding-top: 0;
   max-width: 100%;
 }
 
@@ -178,6 +191,7 @@
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
+  padding-top: 0;
   max-width: 100%;
 }
 
