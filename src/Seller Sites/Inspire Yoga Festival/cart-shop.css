@@ -5,6 +5,11 @@
     background: #f36958 !important;
 }
 
+/* PRICING SIZE */
+div.col-4.col-md-3.text-center {
+    font-size: 0.8rem;
+}
+
 /* Set fonts for entire shop including ones forced in other CSS files */
 
 #app, .site-shop-nav {
