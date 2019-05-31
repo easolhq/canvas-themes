@@ -52,6 +52,14 @@ h1 {
       padding-left: 1.5rem;
       }
   }
+
+  @media only screen and (max-width: 600px) {
+  
+    #menu > div > a.navbar-brand {
+      display: none;
+    }  
+
+  }
   
   /*PARTNERS*/
   
