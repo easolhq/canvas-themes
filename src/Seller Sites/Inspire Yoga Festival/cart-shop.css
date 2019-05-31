@@ -1,5 +1,9 @@
 /* Style Changes add any customer specific stuff here */
-
+  
+  /* LEFT HAND LINES */
+  .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
+    background: #f36958 !important;
+}
 
 /* Set fonts for entire shop including ones forced in other CSS files */
 
@@ -113,8 +117,3 @@
       position:static;
     }
   }
-  
-  /* LEFT HAND LINES */
-  .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
-    background: #f36958 !important;
-}
