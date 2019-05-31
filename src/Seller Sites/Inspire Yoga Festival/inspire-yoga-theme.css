@@ -252,3 +252,8 @@ h1 {
   margin: 15px;
   max-width: 100px !important;
 }
+
+/*FAQs*/
+#block-waz > div.block-content > div {
+  background-color: #f4f1ea;
+}
