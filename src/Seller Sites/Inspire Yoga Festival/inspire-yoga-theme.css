@@ -105,7 +105,7 @@ h1 {
   }
 
   .btn-outline-primary:hover {
-    border: solid 1px #f36958;
+    border: solid 1px #f36958 !important;
   }
 
   .btn-primary {
