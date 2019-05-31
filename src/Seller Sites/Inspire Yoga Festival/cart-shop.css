@@ -43,10 +43,10 @@
   /* Hide default logo and add one centered in middle of nav */
   
   .navbar-full {
-      justify-content:center;
+      justify-content: center !important;
   }
-  .navbar-full .logo {
-     display:none !important
+  .navbar-full .navbar-brand .logo {
+     display: none !important
   }
   .navbar-full .navbar-brand:before {
     content: '';
