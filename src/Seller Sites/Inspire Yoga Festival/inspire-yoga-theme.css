@@ -242,3 +242,18 @@
   padding-right: 0;
   max-width: 100%;
 }
+
+/* ABOUT PAGE */
+#block-a3s > div.block-content { 
+  max-width: 600px;
+}
+
+#block-vv1 > div.block-content, #block-ctb > div.block-content > h1 {
+  color: white;
+}
+
+#block-jzi > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > p, #block-ulp > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > p {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
