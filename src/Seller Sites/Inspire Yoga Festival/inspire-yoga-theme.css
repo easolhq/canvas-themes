@@ -256,7 +256,7 @@
   padding-top: 100px;
 }
 
-#block-a3s > div.block-content, #block-gvo > div.block-content  { 
+#block-a3s > div.block-content, #block-gvo > div.block-content, #block-vv1 > div.block-content > p { 
   max-width: 600px;
 }
 
