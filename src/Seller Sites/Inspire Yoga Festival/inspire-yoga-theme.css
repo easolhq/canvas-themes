@@ -48,6 +48,17 @@
     justify-content: space-between;
     margin-top: 50px;
     }
+
+  #book-now {
+      background-color: #f36958;
+      border-radius: 20px !important;
+      font-family: Ostrich-regular;
+  }
+  
+  #book-now > a {
+      color: white !important;
+      letter-spacing: 3px;
+  }
   
   @media only screen and (min-width: 768px){
     .navbar-expand-md .navbar-nav .nav-link{
