@@ -47,13 +47,13 @@
   
   /* Hide default logo and add one centered in middle of nav */
   
-  .site-shop-nav{
+  body > nav.site-shop-nav{
       justify-content: center !important;
   }
-  .site-shop-nav .navbar-brand .logo {
+  body > nav > a > span > img.logo {
      display: none !important
   }
-  .site-shop-nav .navbar-brand:before {
+  body > nav > a > span.navbar-brand:before {
     content: '';
     width: 8rem;
     height: 5rem;
