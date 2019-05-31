@@ -57,7 +57,7 @@
   /* Set background color and fix tile hidden by that */
   
   #app {
-    background:#f7f7f9;
+    background:#f4f1ea;
   }
   #app .block-background {
     z-index:0;
@@ -67,7 +67,7 @@
   
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
     background-color:#f36958 ;
-    color:#f36958;
+    color:#fff !important;
   }
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
     background-color:#f36958;
@@ -114,3 +114,7 @@
     }
   }
   
+  /* LEFT HAND LINES */
+  .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
+    background: #f36958 !important;
+}
