@@ -109,14 +109,6 @@ h1 {
   color: white;
 }
 
-#block-nac > .block-content, #block-g63 > .block-content {
-  margin-left: 60%;
-}
-
-#block-9to > .block-content, #block-olk > .block-content {
-  margin-right: 60%;
-}
-
 #block-nac > .block-content > div > a, #block-g63 > .block-content > div > a, #block-olk > .block-content > div > a  {
   border: solid 1px white;
   color: white;
@@ -154,6 +146,16 @@ h1 {
   color: white;
   border: solid 1PX white;
   margin-top: 10px;
+}
+
+@media only screen and (min-width: 1010px){
+  #block-nac > .block-content, #block-g63 > .block-content {
+    margin-left: 60%;
+  }
+
+  #block-9to > .block-content, #block-olk > .block-content {
+    margin-right: 60%;
+  }
 }
 
 /*FOOTER*/
