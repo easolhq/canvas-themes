@@ -256,7 +256,7 @@
   padding-top: 100px;
 }
 
-#block-a3s > div.block-content, #block-gvo > div.block-content, #block-vv1 > div.block-content > p { 
+#block-a3s > div.block-content, #block-gvo > div.block-content { 
   max-width: 600px;
 }
 
@@ -266,6 +266,12 @@
 
 #block-jzi > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > p, #block-ulp > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > p {
   max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#block-vv1 > div.block-content > p { 
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
