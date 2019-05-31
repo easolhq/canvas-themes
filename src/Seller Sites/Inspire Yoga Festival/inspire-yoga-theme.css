@@ -85,6 +85,14 @@
     color: white !important;
     letter-spacing: 3px;
 }
+
+#tickets {
+  margin-right: -30px;
+}
+
+#faqs {
+  margin-right: -20px;
+}
   
   @media only screen and (min-width: 768px){
     .navbar-expand-md .navbar-nav .nav-link{
