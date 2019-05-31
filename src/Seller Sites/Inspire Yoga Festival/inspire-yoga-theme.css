@@ -48,51 +48,6 @@
     justify-content: space-between;
     margin-top: 50px;
     }
-    
-    /*NAV AMENDS*/
-@media (min-width: 768px) {
-    
-    li#activities.nav-item {
-        margin-right: 10%;
-    }
-    
-    a.navbar-brand {
-        position: fixed;
-        left: 50%;
-        margin-left: -50px;
-    }
-
-    #menu-navbar {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-    
-    #menu {
-        position: fixed;
-        top: 0px;
-        width: 100%;
-        z-index: 1030;
-    }
-}
-
-#book-now {
-    background-color: #f36958;
-    border-radius: 20px !important;
-    font-family: Ostrich-regular;
-}
-
-#book-now > a {
-    color: white !important;
-    letter-spacing: 3px;
-}
-
-#tickets {
-  margin-right: -30px;
-}
-
-#faqs {
-  margin-right: -20px;
-}
   
   @media only screen and (min-width: 768px){
     .navbar-expand-md .navbar-nav .nav-link{
