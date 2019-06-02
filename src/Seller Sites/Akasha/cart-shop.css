@@ -1,0 +1,11 @@
+#private-accommodation > h4:before {
+    content: 'Private Room';
+    color: #373a3c;
+}
+#shared-accommodation > h4:before {
+    content: 'Shared Room';
+    color: #373a3c;
+}
+#private-accommodation > h4, #shared-accommodation > h4 {
+    color:#f7f7f9 !important;
+}
