@@ -13,7 +13,7 @@ h1 {
 #menu {
     background-color: #f4f1ea;
   }
-  
+
   div#menu-navbar{
     justify-content: center;
   }
@@ -22,8 +22,8 @@ h1 {
     justify-content: space-around;
     width: 500px;
   }
-  
-  .nav-link{ 
+
+  .nav-link{
       font-family:"Ostrich-regular";
       font-size: 1.5em;
       text-transform: uppercase;
@@ -36,16 +36,16 @@ h1 {
     padding-bottom: 0px;
     letter-spacing: 2px;
 }
-  
+
   .nav-link:hover {
       color: #f36958 !important;
   }
-  
+
   .navbar-brand img {
       height: 100px;
-      
+
   }
-  
+
   @media only screen and (min-width: 768px){
     .navbar-expand-md .navbar-nav .nav-link{
       padding-right: 1.5rem;
@@ -54,19 +54,19 @@ h1 {
   }
 
   @media only screen and (max-width: 768px) {
-  
+
     #menu > div > a.navbar-brand {
       display: none;
-    }  
+    }
 
     #menu-cta {
       display: none;
   }
 
   }
-  
+
   /*PARTNERS*/
-  
+
   #block-klj {
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -74,29 +74,29 @@ h1 {
     width: 100% !important;
     background-color: #f4f1ea;
   }
-  
+
   #block-klj .block-container {
     width: 100% !important;
     max-width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  
+
   .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
-  
+
   .flex-item {
     margin: auto;
   }
-  
+
   .flex-container img {
     max-width: 125px;
     padding: 20px;
   }
-  
+
   /* BUTTONS */
   .btn-outline-primary {
     border-radius: 20px !important;
@@ -224,7 +224,7 @@ h1 {
 }
 
 /* ABOUT PAGE */
-#block-a3s > div.block-content, #block-gvo > div.block-content { 
+#block-a3s > div.block-content, #block-gvo > div.block-content {
   max-width: 600px;
 }
 
@@ -238,7 +238,7 @@ h1 {
   margin-right: auto;
 }
 
-#block-vv1 > div.block-content > p { 
+#block-vv1 > div.block-content > p {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -252,7 +252,7 @@ h1 {
   background-size: 100px auto;
 }
 
-.image-grid-entry {
+#block-i08 .image-grid-entry {
   margin: 15px;
   max-width: 100px !important;
 }
