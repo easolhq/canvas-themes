@@ -217,6 +217,9 @@ background-size:cover;
 
 /* History */
 
+#block-rrw {
+  color:#fff;
+}
 .custom-video {
   position:relative;
 }
