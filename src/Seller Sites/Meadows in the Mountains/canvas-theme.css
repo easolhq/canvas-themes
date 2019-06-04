@@ -9,7 +9,7 @@
   background:transparent;
 }
 .navbar-toggler {
-  padding:.25rem 0;
+  padding:.25rem 0 !important;
   color:#fff;
 }
 @media (max-width:536px) {
@@ -73,9 +73,6 @@ nav .btn{
   color:#fff;
   text-decoration:underline;
 }
-
-
-
 #menu-navbar {
     justify-content: center;
     background-color: transparent;
@@ -101,11 +98,13 @@ height: 500px !important;
     background: transparent !important;
     box-shadow: none !important;
 }
-
 #mce-EMAIL::placeholder{
     color: #fff!important;
 }
-
+#mc-embedded-subscribe {
+  background-color:transparent;
+  border:none;
+}
 #block-9qv{
     height: 100vh;
     z-index: 2;
