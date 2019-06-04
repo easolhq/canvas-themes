@@ -212,5 +212,5 @@ background-size:cover;
 
 #block-czo {
   color:#fff;
-  height:70vh;
+  height:70vh !important;
 }
