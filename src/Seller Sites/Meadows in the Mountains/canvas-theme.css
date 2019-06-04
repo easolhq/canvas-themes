@@ -1,0 +1,154 @@
+#menu{
+  background-color: transparent;
+}
+#menu .navbar-brand, #footer .navbar-brand {
+  display:none;
+}
+#menu.navbar {
+  z-index:9;
+}
+.navbar-toggler {
+  padding:.25rem 0;
+  color:#fff;
+}
+@media (max-width:536px) {
+	#menu.navbar {
+  	position: absolute;
+  	top: 0px;
+	}
+  #block-dd4 > div.block-content > div > div:nth-child(2) > img {
+    width:80%;
+  }
+  #footer > div.container > div.collapse.navbar-collapse {
+    display:block;
+  }
+}
+h2{
+  font-family: 'Playfair';
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h1{
+  color: #FFF;
+  font-family: 'Amatic';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.collapse h4{
+  color: #000000;
+  font-family: 'Playfair', sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.btn{
+  font-family: 'Amatic';
+}
+
+
+.social-icon{
+  font-size: 3rem !important;
+}
+
+
+nav .btn{
+  margin-left: auto;
+  font-size: 22px;
+}
+
+.fixers-stamp{
+  margin: 50px 0 0 0;
+  color:#fff;
+}
+.fixers-stamp:hover {
+  color:#fff;
+  text-decoration:underline;
+}
+
+
+
+#menu-navbar {
+    justify-content: center;
+    background-color: transparent;
+    z-index: 1030;
+    font-family: amatic;
+}
+
+#block-dd4{
+background-image: url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Meadows/sky.jpg");
+height: 500px !important;
+ margin-top: -56px;
+}
+
+#mce-EMAIL{
+    color: #fff;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #E1DBFF !important;
+    padding: 10px 0;
+    line-height: 1;
+    height: auto;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+#mce-EMAIL::placeholder{
+    color: #fff!important;
+}
+
+#block-9qv{
+    height: 100vh;
+    z-index: 2;
+    margin-top: -150px;
+}
+
+#block-9qv > div.block-content:after{
+    content:url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Meadows/down.png');
+    position: absolute;
+right: 0;
+bottom: -150px;
+}
+
+
+#block-x6o{
+        z-index: 2;
+    margin-top: -150px;
+}
+
+#block-ewy{
+    background: url(https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Meadows/012-footer-woods.jpg);
+    padding-top: 200px;
+    margin-top: -200px;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#block-sfm{
+    margin-top: -45vh;
+    z-index: 3;
+    pointer-events:none;
+}
+
+
+#mergeRow-gdpr{
+    display: none;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: none;
+    background-image:url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Meadows/btn-plate-tickets.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer .navbar-nav, #footer .nav-item {
+  width:100%;
+  text-align:center;
+}
