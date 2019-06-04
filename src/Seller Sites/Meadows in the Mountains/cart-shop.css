@@ -4,6 +4,22 @@
     background-image:none !important;
 }
 
+/* Set fonts for entire shop including ones forced in other CSS files */
+
+#app, .site-shop-nav {
+  font-family:'Amatic', serif;
+}
+#app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+  text-transform:uppercase;
+  font-family:'Amatic', serif;
+}
+#app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
+  font-family:'Amatic', sans-serif !important;
+}
+#app .bookable-list-item i:before {
+  font-family:'Fixers Icons';
+}
+
 /* Set button colors */
 
 #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
