@@ -257,7 +257,8 @@ h6 {
   cursor: text;
 }
 
-#custom-header > div > div > button:hover {
+#custom-header > div > div > a:hover {
   background-color: #FCCD0D;
 border: solid 1px #FCCD0D;
+cursor: pointer;
 }
