@@ -1,6 +1,6 @@
 /* Style Changes add any customer specific stuff here */
 
-#app .btn, #product-page-booking-bar .btn {
+#app .btn, .product-page-booking-bar .btn {
     background-image:none !important;
 }
 
