@@ -23,7 +23,9 @@
 /* Set button colors */
 
 #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
-    background-color:#000 !important;
+    background:linear-gradient(150deg, #d3feb6 0%,#a9fff4 7%,#cbe4f8 28%,#fecfd7 48%,#eaccfe 55%) !important;
+    border-color: #000;
+    color: #fff;
     border-color:#000;
     color:#fff;
 }
