@@ -214,3 +214,15 @@ background-size:cover;
   color:#fff;
   height:70vh !important;
 }
+
+/* History */
+
+.custom-video {
+  position:relative;
+}
+.custom-video .btn {
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  border:2px solid #fff;
+}
