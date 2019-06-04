@@ -13,7 +13,7 @@
   text-transform:uppercase;
   font-family:'Amatic', serif;
 }
-#app .bookable-ticket-variant *, #app .factual, #app .cart-footer .btn {
+#app .bookable-ticket-variant *, #app .factual, #app .cart-footer .btn, #app .availability-table {
   font-family:'Amatic', sans-serif !important;
 }
 #app .bookable-ticket-variant i:before {
