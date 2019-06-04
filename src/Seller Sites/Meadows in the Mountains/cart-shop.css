@@ -13,10 +13,10 @@
   text-transform:uppercase;
   font-family:'Amatic', serif;
 }
-#app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
+#app .bookable-ticket-variant *, #app .factual, #app .cart-footer .btn {
   font-family:'Amatic', sans-serif !important;
 }
-#app .bookable-list-item i:before {
+#app .bookable-ticket-variant i:before {
   font-family:'Fixers Icons';
 }
 
