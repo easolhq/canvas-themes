@@ -6,6 +6,7 @@
 }
 #menu.navbar {
   z-index:9;
+  background:transparent;
 }
 .navbar-toggler {
   padding:.25rem 0;
