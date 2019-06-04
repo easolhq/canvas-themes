@@ -65,7 +65,7 @@ nav .btn{
   text-align:left !important;
 }
 .fixers-stamp{
-  margin: 50px 0 0 0;
+  margin: 50px 0 0 0 !important;
   color:#fff;
   width:auto;
 }
