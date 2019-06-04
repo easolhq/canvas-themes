@@ -1,5 +1,10 @@
-#menu, #menu-cta {
+#menu {
   background-color: transparent;
+}
+#menu .navbar-nav {
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
 }
 #menu .navbar-brand, #footer .navbar-brand {
   display:none;
@@ -7,6 +12,8 @@
 #menu.navbar {
   z-index:9;
   background:transparent;
+  position:absolute;
+  width:100%;
 }
 .navbar-toggler {
   padding:.25rem 0 !important;
@@ -83,7 +90,6 @@ nav .btn{
 #block-dd4{
 background-image: url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Meadows/sky.jpg");
 height: 500px !important;
- margin-top: -65px;
 }
 
 #mce-EMAIL{
@@ -101,7 +107,7 @@ height: 500px !important;
 #mce-EMAIL::placeholder{
     color: #fff!important;
 }
-#mc-embedded-subscribe {
+#mc-embedded-subscribe, #menu-cta {
   background-color:transparent;
   border:none;
 }
