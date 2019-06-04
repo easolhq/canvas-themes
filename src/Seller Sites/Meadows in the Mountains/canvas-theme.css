@@ -27,6 +27,10 @@ h1 .h1 {
 .home #menu .navbar-brand, #footer .navbar-brand {
   display:none;
 }
+#menu .navbar-brand img {
+  width:60px;
+  height:auto;
+}
 #menu.navbar {
   z-index:9;
   font-size:2rem;
