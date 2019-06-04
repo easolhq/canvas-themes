@@ -1,4 +1,4 @@
-#menu{
+#menu, #menu-cta {
   background-color: transparent;
 }
 #menu .navbar-brand, #footer .navbar-brand {
@@ -83,7 +83,7 @@ nav .btn{
 #block-dd4{
 background-image: url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Meadows/sky.jpg");
 height: 500px !important;
- margin-top: -56px;
+ margin-top: -65px;
 }
 
 #mce-EMAIL{
