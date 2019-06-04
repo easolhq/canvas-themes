@@ -61,10 +61,13 @@ nav .btn{
   margin-left: auto;
   font-size: 22px;
 }
-
+#footer > div.w-100.text-center {
+  text-align:left !important;
+}
 .fixers-stamp{
   margin: 50px 0 0 0;
   color:#fff;
+  width:auto;
 }
 .fixers-stamp:hover {
   color:#fff;
