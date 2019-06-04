@@ -34,18 +34,8 @@ body .block:nth-child(2) {
 .navbar-toggler {
   padding:.25rem 0 !important;
   color:#fff;
-}
-@media (max-width:536px) {
-	#menu.navbar {
-  	position: absolute;
-  	top: 0px;
-	}
-  #block-dd4 > div.block-content > div > div:nth-child(2) > img {
-    width:80%;
-  }
-  #footer > div.container > div.collapse.navbar-collapse {
-    display:block;
-  }
+  outline:none !important;
+  border:none !important;
 }
 h2{
   font-family: 'Playfair';
@@ -228,4 +218,30 @@ background-size:cover;
   bottom:20px;
   right:20px;
   border:2px solid #fff;
+}
+
+/* Mobile */
+
+@media (max-width:536px) {
+	#menu.navbar {
+  	position: absolute;
+  	top: 0px;
+	}
+  #menu .navbar-brand {
+    margin-left:20px;
+  }
+  #menu.open #menu-cta {
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 250px;
+  }
+  #block-dd4 > div.block-content > div > div:nth-child(2) > img {
+    width:80%;
+  }
+  #footer > div.container > div.collapse.navbar-collapse {
+    display:block;
+  }
 }
