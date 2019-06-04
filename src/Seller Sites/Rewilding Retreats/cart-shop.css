@@ -20,20 +20,20 @@
   /* Set button colors */
   
   #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
-      background-color:#925c58 !important;
-      border-color:#925c58;
+      background-color:#00916E !important;
+      border-color:#00916E;
       color:#fff;
   }
   #app .cart .input-group-btn .btn {
-      border-color:#925c58 !important;
+      border-color:#00916E !important;
       color:#fff;
   }
   #app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
-      background-color:#925c58;
+      background-color:#00916E;
       color:#fff;
   }
   #app .segment-collapse {
-      color:#925c58;
+      color:#00916E;
   }
   
   /* Hide default logo and add one centered in middle of nav */
@@ -66,25 +66,25 @@
   /* Chevron Colors */
   
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
-    background-color:#925c58 ;
+    background-color:#00916E ;
     color:#fff;
   }
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
-    background-color:#925c58;
+    background-color:#00916E;
     border-color:#fff;
   }
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
-    border-left-color:#925c58;
+    border-left-color:#00916E;
   }
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
-      border-color:#925c58;
+      border-color:#00916E;
       border-left-color:transparent;
   }
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
     border-left-color:transparent
   }
   #app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
-    background-color:#925c58;
+    background-color:#00916E;
   }
   
   /* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
