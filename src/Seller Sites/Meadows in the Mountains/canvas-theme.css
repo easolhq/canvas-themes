@@ -179,6 +179,9 @@ background-size:cover;
   font-family:'Amatic';
   font-size:2rem;
 }
+#footer a {
+  color:#fff;
+}
 #footer .navbar-nav, #footer .nav-item {
   width:100%;
   text-align:center;
