@@ -10,6 +10,10 @@
     font-size: 0.8rem !important;
 }
 
+.row.bookable-ticket-variant .col > p:nth-child(2) {
+  color: red;
+}
+
 /* Set fonts for entire shop including ones forced in other CSS files */
 
 #app, .site-shop-nav {
