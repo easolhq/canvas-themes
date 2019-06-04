@@ -12,7 +12,7 @@ body .block:nth-child(2) {
 #menu .navbar-nav .nav-item {
   margin:0 10px;
 }
-#menu .navbar-brand, #footer .navbar-brand {
+#footer .navbar-brand {
   display:none;
 }
 #menu.navbar {
