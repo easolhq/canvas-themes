@@ -94,6 +94,9 @@
   margin-right:0 !important;
   font-size:0.9rem !important;
 }
+#cart-shop-nav-mobile .nav.nav-chevrons {
+  width:100%;
+}
 #cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
   float:left !important;
   width:100%;
