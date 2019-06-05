@@ -18,9 +18,6 @@ h1 .h1 {
   color:#000;
   background:#fff !important;
 }
-#menu.scrolled .navbar-brand {
-    display: block;
-}
 #menu.scrolled .nav-link {
   color:#000;
 }
@@ -37,6 +34,9 @@ h1 .h1 {
 }
 .home #menu .navbar-brand, #footer .navbar-brand {
   display:none;
+}
+#menu.scrolled .navbar-brand {
+    display: block !important;
 }
 #menu .navbar-brand img {
   width:60px;
