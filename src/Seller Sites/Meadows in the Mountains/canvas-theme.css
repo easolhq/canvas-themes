@@ -5,7 +5,7 @@ h1 .h1 {
   font-size:2rem;
 }
 #menu.open {
-  background-color:rgba(0,0,0,0.8);
+  background-color:rgba(0,0,0,0.8) !important;
 }
 #menu.open .navbar-nav {
   width:100%;
