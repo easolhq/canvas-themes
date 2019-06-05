@@ -289,3 +289,7 @@ h6 {
 border: solid 1px #FCCD0D;
 cursor: pointer;
 }
+
+#includes > article > ul > li {
+  text-transform: capitalize;
+}
