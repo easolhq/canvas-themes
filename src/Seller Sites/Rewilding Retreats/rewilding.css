@@ -4,7 +4,7 @@
     display:none;
   }
   #menu {
-    background-color: #00916E
+    background-color: #00916E !important
 }
 #menu > div > a.navbar-brand > img {
     height: 50px;
