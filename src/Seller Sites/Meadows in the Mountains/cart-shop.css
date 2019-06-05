@@ -6,15 +6,14 @@
 
 /* Set fonts for entire shop including ones forced in other CSS files */
 
-#app, .site-shop-nav {
+#app, .site-shop-nav, #app .nav-link, #app .bookable-ticket-variant *, #app .factual, #app .cart-footer .btn, #app .availability-table {
   font-family:'Amatic', serif;
+  font-weight:bold !important
 }
 #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
   text-transform:uppercase;
   font-family:'Amatic', serif;
-}
-#app .bookable-ticket-variant *, #app .factual, #app .cart-footer .btn, #app .availability-table {
-  font-family:'Amatic', sans-serif !important;
+  font-weight:bold !important;
 }
 #app .bookable-ticket-variant i:before {
   font-family:'Fixers Icons';
@@ -53,8 +52,8 @@
 }
 .navbar-full .navbar-brand:before {
   content: '';
-  width: 6rem;
-  height: 4rem;
+  width: 12rem;
+  height: 8rem;
   background-image: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Meadows+in+the+Mountains/img/meadows_logo_black_.jpg);
   background-size: contain;
   display: block;
