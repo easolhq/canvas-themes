@@ -1,7 +1,7 @@
 /* Global */
 
-#hideMenu {
-    display:none;
+.hideMenu {
+    display:none !important;
   }
   #menu {
     background-color: #00916E !important
