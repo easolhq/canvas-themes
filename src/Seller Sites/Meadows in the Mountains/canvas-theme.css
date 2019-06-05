@@ -18,6 +18,9 @@ h1 .h1 {
   color:#000;
   background:#fff !important;
 }
+#menu.scrolled .navbar-brand {
+    display: block;
+}
 #menu.scrolled .nav-link {
   color:#000;
 }
