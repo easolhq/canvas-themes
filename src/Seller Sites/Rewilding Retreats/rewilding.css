@@ -3,6 +3,15 @@
 #hideMenu {
     display:none;
   }
+  #menu {
+    background-color: #00916E
+}
+#menu > div > a.navbar-brand > img {
+    height: 50px;
+}
+#menu > div {
+    justify-content: center;
+}
   .hero-image-block {
     color:#fff !important;
   }
