@@ -124,6 +124,16 @@
   .fixers-stamp {
     margin:10px 0 0 0 !important;
   }
+
+#footer > div.container {
+    text-align: center !important;
+    margin-left: auto;
+    display: inline-block;
+}
+
+#footer > div.container > div.btn-group {
+    float: right;
+}
   
   /* to consolidate */
 
@@ -244,6 +254,14 @@ h6 {
         color:#fff;
         background:transparent;
         border-color:#fff !important;
+    }
+    #block-ns7 #custom-header {
+      margin-top: 10%;
+    }
+    #block-ns7 #custom-header > div > img {
+      max-width:100%;
+      height: auto;
+      vertical-align: middle;
     }
 }
 
