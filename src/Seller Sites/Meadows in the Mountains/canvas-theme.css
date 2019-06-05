@@ -143,6 +143,11 @@ background-size:cover;
 #mc-embedded-subscribe {
   padding: 10px 30px;
   font-size: 1.5rem;
+  box-shadow:none;
+}
+#mce-success-response, #mce-error-response {
+  margin-left:55px;
+  font-family:'Amatic';
 }
 #block-9qv{
     height: 100vh;
@@ -263,5 +268,10 @@ background-size:cover;
   }
   #footer > div.container > div.collapse.navbar-collapse {
     display:block;
+  }
+  #mce-success-response, #mce-error-response {
+    margin-left:15px;
+    margin-top:20px;
+    font-family:'Amatic';
   }
 }
