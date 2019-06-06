@@ -495,7 +495,7 @@ body {
 }
 .risenav {
   width: 100vw;
-  background: rgba(0,0,0,0.9);
+  background: rgba(234, 246, 246, 0.95);
   position: fixed;
   bottom: 0;
   height: calc(100vh - 122px);
@@ -506,7 +506,7 @@ body {
   display:none;
 }
 .risenav a {
-  color: #fff;
+  color: #89D2D4;
   font-size: 1.5rem;
   font-family: 'Gt-walsheim-pro-bold', sans-serif;
   display:block;
