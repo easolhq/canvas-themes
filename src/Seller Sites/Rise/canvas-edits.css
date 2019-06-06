@@ -1189,8 +1189,19 @@ footer p {
 }
 
 /* NEW ADDITIONS */
-.one-image h1, .one-image p, .one-image a  {
+.one-image p, .one-image a  {
     color: black !important;
+}
+
+.one-image h1 {
+  margin-top: auto;
+  margin-bottom: 30px;
+  color: #89D2D4 !important;
+}
+
+.one-image p {
+  margin-bottom: auto;
+  text-align: justify;
 }
 
 .one-image .btn-secondary {
