@@ -108,7 +108,7 @@ nav .btn{
     justify-content: center;
     background-color: transparent;
     z-index: 1030;
-    font-family: amatic;
+    font-family: 'Grapedemo-regular';
 }
 
 #block-dd4{
@@ -157,6 +157,9 @@ background-size:cover;
     z-index: 2;
     margin-top: -150px;
     padding-top:0;
+}
+#block-9qv h1 {
+  font-size:2rem;
 }
 
 #block-9qv > div.block-content:after{
