@@ -98,7 +98,7 @@ nav .btn{
 .fixers-stamp{
   margin: 50px 0 0 0 !important;
   color:#fff;
-  width:auto;
+  width:auto !important;
 }
 .fixers-stamp:hover {
   color:#fff;
