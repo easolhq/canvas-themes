@@ -231,7 +231,7 @@
 .book-title {
   font-weight:bold;
   font-size:1.1rem;
-  min-height:60px;
+  min-height:10px;
 }
 .book-content {
   font-size:0.8rem;
@@ -1277,4 +1277,16 @@ div.block-content > p {
 
 #block-knr a {
   color: #89D2D4 !important;
+}
+
+#block-jxh > div.block-content > div {
+  max-width: 80%;
+}
+
+#block-jxh {
+  padding-top: 40px;
+}
+
+#block-jxh > div.block-content {
+  text-align: center;
 }
