@@ -19,6 +19,12 @@ letter-spacing: 0.3rem;
 text-transform: uppercase;
 font-family: Playfairdisplay;
 }
+#overview .block-background .row.h100 {
+  flex-direction:row-reverse;
+}
+#overview .overview-card.offset-md-7 {
+  margin-left:0;
+}
 
 /*SLEEP*/
 
