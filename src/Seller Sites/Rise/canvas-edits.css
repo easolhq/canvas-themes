@@ -738,7 +738,7 @@ body.popup-open, body.nav-open {
   min-width:350px;
   margin:auto;
 }
-.custom-signup-text {
+.custom-signup-text, #mce-EMAIL {
   margin: 10px;
   text-align: center;
   outline: none;
@@ -756,7 +756,7 @@ body.popup-open, body.nav-open {
   font-size:1rem;
   width:25% !important;
 }
-.custom-signup-text::placeholder {
+.custom-signup-text::placeholder, #mce-EMAIL::placeholder {
   color:#f06f71;
   font-family:'Gt-walsheim-pro-bold';
 }
