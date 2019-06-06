@@ -45,3 +45,7 @@ max-width: 100%;
     display: flex;
     padding-left: 0;
 }
+
+#block-sy1 p {
+    color: black !important;
+}
