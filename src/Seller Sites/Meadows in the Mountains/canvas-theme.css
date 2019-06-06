@@ -64,7 +64,7 @@ h2{
 
 h1{
   color: #FFF;
-  font-family: 'Amatic';
+  font-family: 'Grapedemo-regular';
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -79,7 +79,7 @@ h1{
 }
 
 .btn{
-  font-family: 'Amatic';
+  font-family: 'Grapedemo-regular';
 }
 
 
@@ -108,7 +108,7 @@ nav .btn{
     justify-content: center;
     background-color: transparent;
     z-index: 1030;
-    font-family: amatic;
+    font-family: 'Grapedemo-regular';
 }
 
 #block-dd4{
@@ -130,7 +130,7 @@ background-size:cover;
   height: auto;
   background: transparent !important;
   box-shadow: none !important;
-  font-family: 'Amatic';
+  font-family: 'Grapedemo-regular';
   font-size: 1.5rem;
 }
 #mce-EMAIL::placeholder{
@@ -147,16 +147,19 @@ background-size:cover;
 }
 #mce-success-response, #mce-error-response {
   margin-left:55px;
-  font-family:'Amatic';
+  font-family:'Grapedemo-regular';
 }
 #mc_embed_signup div.mce_inline_error {
-  font-family:'Amatic';
+  font-family:'Grapedemo-regular';
 }
 #block-9qv{
     height: 100vh;
     z-index: 2;
     margin-top: -150px;
     padding-top:0;
+}
+#block-9qv h1 {
+  font-size:2rem;
 }
 
 #block-9qv > div.block-content:after{
@@ -201,7 +204,7 @@ background-size:cover;
     background-size: cover;
 }
 #footer {
-  font-family:'Amatic';
+  font-family:'Grapedemo-regular';
   font-size:2rem;
 }
 #footer a {
@@ -221,7 +224,7 @@ background-size:cover;
   max-width:800px;
 }
 #block-0bd p {
-  font-family:'Amatic';
+  font-family:'Grapedemo-regular';
 }
 #block-0bd .block-content p:nth-child(2) {
   font-size:2.5rem;
@@ -275,6 +278,6 @@ background-size:cover;
   #mce-success-response, #mce-error-response {
     margin-left:15px;
     margin-top:20px;
-    font-family:'Amatic';
+    font-family:'Grapedemo-regular';
   }
 }
