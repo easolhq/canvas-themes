@@ -81,7 +81,9 @@ font-family: Playfairdisplay;
 #plan > article > div > div.col-12.col-md-8 > ul > li.row.mb-2 > div{
     font-size: 1.rem !important;
     white-space: pre-line;
-    margin: 0 10%;
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
 }
 #plan > article > div > div.col-12.col-md-4{
     flex: 0 0 100%;
