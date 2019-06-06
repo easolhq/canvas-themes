@@ -302,3 +302,10 @@ body {
       height: 185px;
   }
 }
+
+@media only screen and (max-width: 768px){
+  .col-12.col-md-4.image-grid-entry.my-3 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+  }
