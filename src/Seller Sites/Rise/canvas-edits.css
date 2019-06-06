@@ -713,6 +713,7 @@ body.popup-open, body.nav-open {
   height:100%;
   background-image:url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Rise/Assets/overlay-top.png');
   background-size:cover;
+  opacity: 0.5;
 }
 .custom-double .col-12.bottom-overlay:before {
   content:'';
@@ -722,6 +723,7 @@ body.popup-open, body.nav-open {
   height:100%;
   background-image:url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Rise/Assets/overlay-bottom.png');
   background-size:cover;
+  opacity: 0.5;
 }
 @media (min-width:768px) {
   .custom-double .col-12:first-child .custom-double-bg {
