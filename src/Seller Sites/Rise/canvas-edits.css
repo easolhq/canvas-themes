@@ -1257,3 +1257,24 @@ div.block-content > p {
     margin-bottom:8rem !important
   }
 }
+
+#block-knr a{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#block-knr h1, #block-hvn h1 {
+  margin-top: 50px;
+}
+
+#block-knr p:nth-child(6) {
+  margin-bottom: 50px;
+}
+
+#block-hvn p:nth-child(4) {
+  margin-bottom: 80px;
+}
+
+#block-knr a {
+  color: #89D2D4 !important;
+}
