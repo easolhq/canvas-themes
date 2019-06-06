@@ -284,3 +284,21 @@ body {
     text-align:center;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  #block-zbb > div.block-content > div > div > div > a > div > img {
+      height: 290px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  #block-zbb > div.block-content > div > div > div > a > div > img {
+      height: 250px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #block-zbb > div.block-content > div > div > div > a > div > img {
+      height: 185px;
+  }
+}
