@@ -149,6 +149,9 @@ background-size:cover;
   margin-left:55px;
   font-family:'Amatic';
 }
+#mc_embed_signup div.mce_inline_error {
+  font-family:'Amatic';
+}
 #block-9qv{
     height: 100vh;
     z-index: 2;
