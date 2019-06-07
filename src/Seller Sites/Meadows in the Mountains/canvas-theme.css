@@ -229,6 +229,9 @@ background-size:cover;
 #block-0bd p {
   font-family:'Amatic';
 }
+#block-0bd .block-content p {
+  font-size:1.3rem;
+}
 #block-0bd .block-content p:nth-child(2) {
   font-size:2.5rem;
 }
