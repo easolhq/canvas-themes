@@ -159,7 +159,7 @@ background-size:cover;
     padding-top:0;
 }
 #block-9qv h1 {
-  font-size:2rem;
+  font-size:1.6rem;
 }
 
 #block-9qv > div.block-content:after{
@@ -216,6 +216,9 @@ background-size:cover;
 }
 #block-9qv > div.block-background {
   background-position:top center !important;
+}
+#block-9qv h1 a {
+  text-decoration:underline
 }
 
 /* Our Mountain */
@@ -279,5 +282,11 @@ background-size:cover;
     margin-left:15px;
     margin-top:20px;
     font-family:'Amatic';
+  }
+  #block-dd4 .w-100.text-center img {
+    width:100px !important
+  }
+  #block-9qv {
+    margin-top:-220px;
   }
 }
