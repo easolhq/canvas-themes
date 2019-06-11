@@ -314,3 +314,18 @@ cursor: pointer;
   color: white;
   border: solid 1px white;
 }
+
+#block-xgx h1 {
+  font-family: Silver-south-script-alt;
+  font-size: 4rem;
+}
+
+#block-xgx .block-content {
+  max-width: 700px;
+}
+
+#block-yu6 > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > div > a, #block-mig > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > div > a {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
