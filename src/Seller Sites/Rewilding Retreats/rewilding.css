@@ -293,3 +293,24 @@ cursor: pointer;
 #includes > article > ul > li {
   text-transform: capitalize;
 }
+
+
+
+#block-yu6 h1, #block-mig h1, #block-jpq h1, #block-pim h1, #block-fuo h1, #block-wrz h1 {
+  font-family: Bebasneue-bold;
+}
+
+#block-mig > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > p:nth-child(1) {
+  text-align: left;
+}
+
+#block-xtu h1 {
+  font-family: Silver-south-script-alt;
+  font-size: 4rem;
+  color: white;
+}
+
+#block-uvh > div.block-content > div > a {
+  color: white;
+  border: solid 1px white;
+}
