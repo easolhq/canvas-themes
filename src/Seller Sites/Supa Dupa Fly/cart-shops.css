@@ -1,69 +1,95 @@
-h1, h4, h5, h6{
-  text-transform: uppercase !important;
+/* CART SHOP */
+.navbar-full {
+  justify-content:center;
+}
+.navbar-full .logo {
+ display:none !important
+}
+.navbar-full .navbar-brand:before {
+content: '';
+width: 16rem;
+height: 4rem;
+background-image: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Supa+Dupa+Fly/logo.png);
+background-size: contain;
+display: block;
+background-repeat: no-repeat;
 }
 
-p{
-  font-size: 0.8rem;
+/* Set button colors */
+
+#app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+  background-color: black !important;
+  border-color: black;
+  color: white;
+}
+#app .cart .input-group-btn .btn {
+  border-color: black !important;
+  color:black;
+}
+#app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
+  background-color: black;
+  color: white;
+}
+#app .segment-collapse {
+  color: black;
 }
 
-.bookable-list-item:before{
-  background-color: #EB5449;
+/* Chevron Colors */
+
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+background-color:black ;
+color:white;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
+background-color:black;
+border-color:black;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
+border-left-color:black;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
+  border-color:black;
+  border-left-color:transparent;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
+border-left-color:transparent
+}
+#app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+background-color:#f856fb;
 }
 
-.btn-primary:hover{
-  background-color: rgb(232, 62, 50);
-  border-color: rgb(232, 62, 50);
-}
-    
-.btn{
-  font-family:"Proxima nova alt bold-webfont";
-  text-transform: uppercase;
-}
-    
-.nav-link{
-  font-size: 12px;
+.block-content .number-stepper button {
+  padding: 10px! important;
+  max-width: 50px;
 }
 
-.nav-link:hover{
-  color: rgb(232, 62, 50);
+.block-content .number-stepper .form-control {
+  font-size: 10px !important;
+  max-width: 50px;
 }
 
-nav  a{
-margin-left: auto;
-margin-right: auto;
+/* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+
+@media (min-width:768px) {
+#app .cart-body .col-10 {
+  flex:0 0 38%;
+  max-width:38%
+}
 }
 
-.footer-main,
-.navbar-main{
-    background-color: #353535;
-}
+/* Fix Nav on Mobile */
 
-.navbar-main .logo{
--webkit-filter: invert(100%);
-height: 5rem !important;
+#cart-shop-nav-mobile .nav-link {
+padding:0 !important;
+margin-right:0 !important;
+font-size:0.9rem !important;
 }
-
-  .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover{
-  background-color: white !important;
-  color: #EB5449;
+#cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+float:left !important;
+width:100%;
 }
-
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active{
-  color: #EB5449 !important;
-  background-color: #fff !important;
+@media (max-width:600px) {
+.cart-shop-navbar.sticky {
+  position:static;
 }
-
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before,
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after,
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before,
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
-    border-color: #fff !important;
-}
-
-.footer-list a,
-.my-4,
-.footer-list,
-.logo-mark.x2, 
-.footer-list{
-  display: none;
 }
