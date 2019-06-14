@@ -355,3 +355,12 @@ cursor: pointer;
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+#mc-embedded-subscribe-form > p {
+  color: white;
+}
+
+#mce-success-response {
+  padding-top: 10px;
+  color: #FCCD0D;
+}
