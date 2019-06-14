@@ -304,7 +304,7 @@ cursor: pointer;
   text-align: left;
 }
 
-#block-xtu h1 {
+#block-xtu h1, #block-wfl h1 {
   font-family: Silver-south-script-alt;
   font-size: 4rem;
   color: white;
