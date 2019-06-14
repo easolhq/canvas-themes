@@ -323,7 +323,10 @@ background-size:cover;
     font-family:'Amatic';
   }
   #block-dd4 .w-100.text-center img {
-    width:100px !important
+    width:240px !important
+  }
+  #block-asp .block-content {
+    margin-top:50px;
   }
   #block-9qv {
     margin-top:-220px;
