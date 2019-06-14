@@ -142,7 +142,7 @@ background-size:cover;
 #mce-EMAIL::placeholder{
     color: #fff!important;
 }
-#mc-embedded-subscribe, #menu-cta {
+#mc-embedded-subscribe, #menu-cta, .btn-primary {
   background-color:transparent;
   border:none;
 }
@@ -263,6 +263,14 @@ background-size:cover;
   right:20px;
   border:2px solid #fff;
 }
+
+#block-asp{
+  height: 100vh;
+      z-index: 2;
+      margin-top: -150px;
+      padding-top: 0;
+  }
+
 
 /* Mobile */
 
