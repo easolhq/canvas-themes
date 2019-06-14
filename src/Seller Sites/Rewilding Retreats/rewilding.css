@@ -296,7 +296,7 @@ cursor: pointer;
 
 
 
-#block-yu6 h1, #block-mig h1, #block-jpq h1, #block-pim h1, #block-fuo h1, #block-wrz h1 {
+#block-yu6 h1, #block-mig h1, #block-jpq h1, #block-pim h1, #block-fuo h1, #block-wrz h1, #block-jpq h1 {
   font-family: Bebasneue-bold;
 }
 
@@ -324,7 +324,7 @@ cursor: pointer;
   max-width: 700px;
 }
 
-#block-yu6 > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > div > a, #block-mig > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > div > a {
+#block-yu6 > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > div > a, #block-mig > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > div > a, #block-jpq > div.block-content > div > div.col-12.col-md-6.d-flex.flex-column.justify-content-center.col-text > div > a {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
