@@ -142,7 +142,7 @@ background-size:cover;
 #mce-EMAIL::placeholder{
     color: #fff!important;
 }
-#mc-embedded-subscribe, #menu-cta {
+#mc-embedded-subscribe, #menu-cta, .btn-primary {
   background-color:transparent;
   border:none;
 }
@@ -266,6 +266,12 @@ background-size:cover;
 
 /* Book Block */
 
+#block-asp{
+  height: 100vh;
+  z-index: 2;
+  margin-top: -150px;
+  padding-top: 0;
+}
 #block-asp .block-content {
   width: 100%;
   max-width: 550px;
