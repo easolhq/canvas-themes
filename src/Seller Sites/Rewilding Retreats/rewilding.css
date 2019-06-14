@@ -167,7 +167,7 @@
 #block-uvh p {
     font-family: Circular-std-book;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -328,4 +328,30 @@ cursor: pointer;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#block-uvh a {
+  color: white;
+  border: solid 1px white;
+  letter-spacing: 1pt;
+  font-family: Circular-std-book;
+  font-size: 1rem;
+  padding: 12px 12px;
+  width: 0px;
+}
+
+#block-uvh a:hover {
+  color: #00916e;
+  border: solid 1px white;
+  background-color: white;
+  text-decoration: none;
+}
+
+#block-uvh a:nth-of-type(2) {
+  padding: 12px 32px;
+}
+
+#block-uvh > div.block-content > p {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
