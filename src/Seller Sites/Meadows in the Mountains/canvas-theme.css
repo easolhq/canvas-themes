@@ -206,6 +206,8 @@ background-size:cover;
 #footer {
   font-family:'Amatic';
   font-size:2rem;
+  padding-top:200px;
+  margin-top:-240px;
 }
 #footer a {
   color:#fff;
