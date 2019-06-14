@@ -264,6 +264,31 @@ background-size:cover;
   border:2px solid #fff;
 }
 
+/* Book Block */
+
+#block-asp .block-content {
+  width: 100%;
+  max-width: 550px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+#block-asp .block-content h1 {
+  align-self:flex-end;
+}
+#block-asp .block-content .text-center {
+  align-self:flex-start;
+  margin-top:20px;
+}
+#block-asp .block-content .text-center .btn {
+  background-color:transparent;
+  border:none !important;
+  font-size:1.4rem
+}
+
 /* Mobile */
 
 @media (max-width:536px) {
