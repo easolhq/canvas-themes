@@ -160,22 +160,16 @@ background-size:cover;
 }
 #block-9qv{
     height: 100vh;
-    z-index: 2;
+    z-index: 3;
     margin-top: -150px;
     padding-top:0;
+}
+#block-9qv .block-content {
+  padding-top:15%;
 }
 #block-9qv h1 {
   font-size:1.6rem;
 }
-
-#block-9qv > div.block-content:after{
-  content:url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Meadows/down.png');
-  position: absolute;
-  left:50%;
-  transform:translateX(-50%);
-  bottom: -150px;
-}
-
 
 #block-x6o{
         z-index: 2;
