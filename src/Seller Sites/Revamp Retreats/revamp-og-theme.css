@@ -1,0 +1,55 @@
+/*HERO*/
+#block-aor{
+    height: 406px;
+}
+
+#block-aor h1{
+  color: #fff;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .0952381em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+/*INTRO*/
+#block-9g4{
+    padding-top: 96px;
+}
+
+/*VIDEO*/
+
+#block-vgn .block-content{
+    height: 500px;
+}
+
+/*PRE FOOTER*/
+.social-icon{
+    font-size: 2rem !important;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#gdpr_25{
+    display: none;
+}
+
+#block-cgy,
+#block-60q{
+background-color: rgba(115,115,125,.48);
+}
+
+
+ #block-cgy > div.block-content > div{
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(53,177,166,.25);
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 34px 17px;
+  width: 100%;
+}
+

@@ -1,0 +1,136 @@
+/*MENU*/
+
+#menu div.container{
+    max-width: 100vw !important;
+}
+
+#menu-navbar{
+justify-content: flex-end;
+padding-top: 14px;
+padding-bottom: 14px;
+}
+
+.navbar-brand img{
+    width: 420px;
+    height: 46.19px;
+}
+
+#menu .nav-link{
+  background-color: transparent;
+  color: rgba(0,0,0,.9);
+  display: block;
+  font-family: proximanova-regular;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: .75em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-delay: 0s;
+  transition-duration: .1s;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+}
+
+#menu .nav-link:hover {
+  color: rgba(52,157,153,.95);
+  outline: 0;
+}
+
+/*BUTTON STYLES*/
+.btn-primary,
+#menu-cta {
+  text-transform: uppercase;
+}
+
+ #mc-embedded-subscribe{
+  -webkit-appearance: none;
+  backface-visibility: hidden;
+  background-color: #31817b;
+  border: 1px solid #31817b;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  height: auto;
+  line-height: normal;
+  margin: 0;
+  outline: none;
+  padding: 1em 2.5em;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition-delay: 0s;
+  transition-duration: .1s;
+  transition-property: opacity;
+  transition-timing-function: linear;
+  white-space: nowrap;
+  width: auto;
+}
+
+button.sqs-editable-button-shape:hover {
+  opacity: .8;
+}
+
+
+#mce-EMAIL{
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.12);
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: normal;
+  margin: 0;
+  outline: none;
+  padding: 1em;
+  transition-delay: 0s,0s;
+  transition-duration: .3s,.3s;
+  transition-property: background,border;
+  transition-timing-function: ease-out,ease-out;
+  width: 100%;
+}
+
+
+
+
+
+/*FOOTER*/
+#footer .navbar-brand img{
+    display: none;
+}
+
+#footer{
+  background-color: #4e4f56;
+  color: rgba(255,255,255,.4);
+}
+
+#footer .btn-group{
+  display: none;
+}
+
+#footer .container{
+    height: 200px;
+}
+
+#footer .nav-link{
+    color: white;
+}
+
+/*FONTS*/
+h2 {
+  color: #4a4a4a;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.1em;
+  margin: 0 0 .5em;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+}
