@@ -1211,9 +1211,11 @@ footer p {
     color: black !important;
 }
 
+@media (min-width:768px) {
 .custom-double .col-12 {
     width: 40vw !important;
     height: 40vw!important;
+}
 }
 
 .custom-double h1 {
