@@ -75,4 +75,90 @@ body .h2, body h2 {
 .dual-product-block .card-img-overlay .text-center h1 {
     font-size:22px;
     text-transform:uppercase;
+    min-height:55px
+}
+.dual-product-block a:hover {
+  text-decoration:none;
+}
+#block-mpx .image-grid-entry-overlay h2 {
+  display:none;
+}
+#block-mpx .image-grid-entry-overlay {
+
+  position: absolute;
+  top: unset;
+  left: 10%;
+  bottom: 0px;
+  right: unset;
+  padding: 0;
+  background-color: rgba(55,58,60,0.8);
+  height: 70%;
+  width: 80%;
+  margin: 0;
+}
+#block-mpx .block-content:after {
+    content: '';
+    background: rgba(26,26,26,0.15);
+    height: 2px;
+    position: absolute;
+    bottom: -60px;
+    width: 90%;
+    left: 5%;
+}
+#block-mpx #mergeRow-gdpr {
+  position:relative;
+  left:-20px;
+}
+#block-cgy .mc-field-group.form-inline {
+  margin-bottom:10px;
+}
+#block-cgy #mce-EMAIL {
+  margin-right:10px;
+  height:50px;
+}
+#block-60q .fa {
+  width:110px;
+  height:110px;
+}
+#block-60q .fa.fa-facebook {
+  padding-top:15px;
+  padding-right:15px;
+}
+#block-60q .fa.fa-instagram {
+  padding-top:13px;
+  padding-right:10px;
+}
+#footer {
+  background-color:#4e4f56 !important;
+  padding:50px 0;
+}
+#footer a {
+  color:rgba(255,255,255,.8);
+  text-transform:uppercase;
+  font-size:20px
+}
+#footer a:hover {
+  text-decoration:none;
+}
+#siteInfo {
+  margin-bottom:30px;
+}
+@media (max-width:1025px) {
+  #menu .navbar-brand img {
+    width:250px;
+    height:auto;
+  }
+  #menu-cta {
+    margin-top:10px;
+  }
+  #block-cgy > div.block-content > div {
+    margin:0;
+  }
+  #block-cgy #mce-EMAIL {
+    margin-right:0;
+    margin-bottom:10px;
+  }
+  #block-60q .row .col-4 {
+    left: -15px;
+  }
 }
