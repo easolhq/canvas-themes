@@ -144,6 +144,15 @@ body .h2, body h2 {
 #siteInfo {
   margin-bottom:30px;
 }
+
+/* Product Page */
+#schedule h2 hr {
+  margin:10px auto;
+}
+ul.included-list {
+  text-align:center;
+}
+
 @media (max-width:1025px) {
   #menu .navbar-brand img {
     width:250px;
