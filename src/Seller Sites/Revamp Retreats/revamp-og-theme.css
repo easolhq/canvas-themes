@@ -84,7 +84,6 @@ body .h2, body h2 {
   display:none;
 }
 #block-mpx .image-grid-entry-overlay {
-
   position: absolute;
   top: unset;
   left: 10%;
@@ -95,6 +94,7 @@ body .h2, body h2 {
   height: 70%;
   width: 80%;
   margin: 0;
+  display:none;
 }
 #block-mpx .block-content:after {
     content: '';
@@ -117,16 +117,17 @@ body .h2, body h2 {
   height:50px;
 }
 #block-60q .fa {
-  width:110px;
-  height:110px;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem !important;
 }
 #block-60q .fa.fa-facebook {
-  padding-top:15px;
-  padding-right:15px;
+  padding-top: 10px;
+  padding-right: 12px;
 }
 #block-60q .fa.fa-instagram {
-  padding-top:13px;
-  padding-right:10px;
+  padding-top: 9px;
+  padding-right: 10px;
 }
 #footer {
   background-color:#4e4f56 !important;
