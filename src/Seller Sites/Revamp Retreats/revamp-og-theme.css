@@ -53,3 +53,26 @@ background-color: rgba(115,115,125,.48);
   width: 100%;
 }
 
+/* Added by BK */
+
+body .h2, body h2 {
+    font-size:22px;
+    margin-bottom:22px;
+}
+.dual-product-block .card-img {
+    height:400px;
+    object-fit:cover;
+}
+.dual-product-block .card-img-overlay {
+    position:static;
+    align-items:flex-start;
+    padding:1.25rem 0;
+}
+.dual-product-block .card-img-overlay .text-center {
+    text-align:left!important;
+    color:#000!important;
+}
+.dual-product-block .card-img-overlay .text-center h1 {
+    font-size:22px;
+    text-transform:uppercase;
+}
