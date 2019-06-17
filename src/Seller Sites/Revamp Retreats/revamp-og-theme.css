@@ -143,3 +143,22 @@ body .h2, body h2 {
 #siteInfo {
   margin-bottom:30px;
 }
+@media (max-width:1025px) {
+  #menu .navbar-brand img {
+    width:250px;
+    height:auto;
+  }
+  #menu-cta {
+    margin-top:10px;
+  }
+  #block-cgy > div.block-content > div {
+    margin:0;
+  }
+  #block-cgy #mce-EMAIL {
+    margin-right:0;
+    margin-bottom:10px;
+  }
+  #block-60q .row .col-4 {
+    left: -15px;
+  }
+}
