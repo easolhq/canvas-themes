@@ -603,8 +603,6 @@ body.popup-open, body.nav-open {
   top:0;
   z-index:11;
   width:100%;
-  transform:translateY(-100%);
-  transition:0.5s all;
 }
 #scroll-nav.active {
   transform:none;
