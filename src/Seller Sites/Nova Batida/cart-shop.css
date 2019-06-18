@@ -19,6 +19,18 @@
     border-color:#13ceae !important;
 }
   
+.footer-main .block-content:before {   
+  content: '';
+      width: 20rem;
+      height: 10rem;
+      background-image: url(https://novabatida.com/wp-content/themes/NovaBatida/dist/img/footer-logo.png);
+      background-size: contain;
+      display: block;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
 
   /* LEFT HAND LINES */
   #app .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
