@@ -1224,10 +1224,6 @@ footer p {
   max-height: 570px;
 }
 
-div.text-center.fb-100 > a {
-  margin-bottom: 60px;
-}
-
 div.block-content > p {
     max-width: 700px;
     margin: auto;
