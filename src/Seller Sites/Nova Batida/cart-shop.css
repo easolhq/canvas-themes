@@ -32,6 +32,11 @@
     }
 
 
+.navbar-main .logo {
+    height: 5rem !important;
+    padding-top: 1rem !important;
+  }
+
   /* LEFT HAND LINES */
   #app .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
     background: #13ceae !important;
