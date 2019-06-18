@@ -1357,3 +1357,7 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+#block-knr, #block-7rt, #block-6kl {
+  margin-top: 10px;
+}
