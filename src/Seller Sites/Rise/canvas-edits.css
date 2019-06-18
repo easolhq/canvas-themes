@@ -1331,3 +1331,28 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image > div {
   border: solid 1px #ececec;
 }
+
+#block-wlz > div.block-content > p:nth-child(4) > a {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid black;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  margin-top: 10px;
+  color: black;
+}
+
+#block-wlz > div.block-content > p:nth-child(4) > a:hover {
+  background: #ececec;
+  text-decoration: none;
+}
+
+#block-knr > div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image > div.row, #block-dp3 > div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image.image-left > div.text-center.fb-100, #block-ggr > div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image.image-left > div.text-center.fb-100 {
+  border: none;
+}
