@@ -1361,3 +1361,8 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 #block-knr, #block-7rt, #block-6kl {
   margin-top: 10px;
 }
+
+#block-7nx div.card-img-overlay {
+  padding-top: 45%;
+  color: white;
+}
