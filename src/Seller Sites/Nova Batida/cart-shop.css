@@ -1,0 +1,144 @@
+/* Style Changes add any customer specific stuff here */
+ body{
+      background-image: url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Nova+Batida/bg-1152-new.png"); 
+  }
+
+ nav.site-shop-nav{
+      background-color: #13ceae !important;
+      border-color: #13ceae;
+  }
+  
+  .cart-shop-navbar {
+    background-color: #13ceae !important;
+}
+.cart-shop-navbar .nav.nav-chevrons .nav-link {
+    background-color:#13ceae !important;
+}
+.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:after, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:before {
+    background-color:#13ceae !important;
+    border-color:#13ceae !important;
+}
+  
+
+  /* LEFT HAND LINES */
+  #app .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
+    background: #13ceae !important;
+}
+
+/* PRICING SIZE */
+#app div.col-4.col-md-3.text-center {
+    font-size: 0.8rem !important;
+}
+
+.row.bookable-ticket-variant .col > p:nth-child(2) {
+  color: #13ceae;
+}
+
+/* Set fonts for entire shop including ones forced in other CSS files */
+
+#app, .site-shop-nav {
+    font-family:'futuraptmedium', serif;
+  }
+  #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+    text-transform:uppercase;
+    font-family:'proximanova-regular', serif;
+  }
+  #app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
+    font-family:'proximanova-regular', sans-serif !important;
+  }
+  #app .bookable-list-item i:before {
+    font-family:'Fixers Icons';
+  }
+  
+  /* Set button colors */
+  
+  #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+      background-color: #fc4f60 !important;
+      border-color:#fc4f60;
+      color:#fff;
+  }
+  #app .cart .input-group-btn .btn {
+      border-color: #fc4f60 !important;
+      color:#fff;
+  }
+  #app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
+      background-color:#fc4f60;
+      color:#fff;
+  }
+  #app .segment-collapse {
+      color: #fc4f60;
+  }
+  
+  /* Hide default logo and add one centered in middle of nav */
+  
+  body > nav.site-shop-nav{
+      justify-content: center !important;
+      height: 80px;
+  }
+  /* Set background color and fix tile hidden by that */
+  
+
+  
+  /* Chevron Colors */
+  
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+    background-color: rgba(52,157,153,.95); 
+    color:#fff !important;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
+    background-color:rgba(52,157,153,.95);
+    border-color:rgba(52,157,153,.95);
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
+    border-left-color:rgba(52,157,153,.95);
+    border-left-color:transparent;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
+      border-color:rgba(52,157,153,.95);
+      border-left-color:transparent;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
+    border-left-color:transparent
+  }
+  #app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+    background-color:rgba(52,157,153,.95);
+  }
+  
+  /* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+  
+  @media (min-width:768px) {
+    #app .cart-body .col-10 {
+      flex:0 0 38%;
+      max-width:38%
+    }
+  }
+  
+  /*Footer*/
+  ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
+  display: none;
+}
+
+.footer-main{
+    background-color: #13ceae !important;
+}
+  
+  /* Fix Nav on Mobile */
+  
+  #cart-shop-nav-mobile .nav-link {
+    padding:0 !important;
+    margin-right:0 !important;
+    font-size:0.9rem !important;
+  }
+  #cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+    float:left !important;
+    width:100%;
+  }
+  @media (max-width:600px) {
+    .cart-shop-navbar.sticky {
+      position:static;
+    }
+  }
