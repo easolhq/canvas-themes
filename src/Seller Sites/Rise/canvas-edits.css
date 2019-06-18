@@ -1208,7 +1208,7 @@ footer p {
   text-align: justify;
 }
 
-.one-image .btn-secondary {
+.one-image .btn-secondary, #block-iwg > div.block-content > div > div > a {
     border: solid 1px black !important;
     color: black !important;
 }
@@ -1365,4 +1365,25 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 #block-7nx div.card-img-overlay {
   padding-top: 45%;
   color: white;
+}
+
+#block-iwg {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#block-iwg > div.block-content > div > div {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#block-iwg > div.block-content > div > img {
+  max-height: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+
+#block-7nx {
+  padding-bottom: 30px !important;
 }
