@@ -1323,3 +1323,11 @@ div.block-content > p {
 #block-2ki > div.block-content > div > div.row > div > img {
   width: 100%;
 }
+
+div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image.image-left > div {
+  border: solid 1px #ececec;
+}
+
+div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image > div {
+  border: solid 1px #ececec;
+}
