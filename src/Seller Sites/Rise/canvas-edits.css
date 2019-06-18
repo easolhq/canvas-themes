@@ -1352,3 +1352,8 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 #block-knr > div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image > div.row, #block-dp3 > div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image.image-left > div.text-center.fb-100, #block-ggr > div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image.image-left > div.text-center.fb-100 {
   border: none;
 }
+
+#block-7rt div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-k4d div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-xci div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-ep0 div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
