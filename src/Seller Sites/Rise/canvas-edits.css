@@ -604,9 +604,7 @@ body.popup-open, body.nav-open {
   z-index:11;
   width:100%;
 }
-#scroll-nav.active {
-  transform:none;
-}
+
 .nav-book {
   color: #fff;
   font-family: 'Gt-walsheim-pro-bold', sans-serif;
