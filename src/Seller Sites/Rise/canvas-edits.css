@@ -1391,3 +1391,7 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 #block-byo, #block-pix, #block-dcl, #block-xps, #block-8oj, #block-1o0 {
   margin-bottom: 20px;
 }
+
+#block-byo {
+  margin-top: 70px;
+}
