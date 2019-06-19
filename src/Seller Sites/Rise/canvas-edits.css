@@ -612,9 +612,12 @@ body.popup-open, body.nav-open {
 .nav-book {
   color: #fff;
   font-family: 'Gt-walsheim-pro-bold', sans-serif;
-  border-bottom: 2px solid #fff;
   padding-bottom: 5px;
   font-size: 1.2rem;
+}
+
+.nav-book:hover {
+  border-bottom: 2px solid #fff;
 }
 .text-red {
   color:#f06f71;
@@ -1416,7 +1419,7 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 }
 
 #block-rsw h1, #block-n9u h1, #block-i5w h1, #block-iok h1 {
-  color: #F06F71;
+  color: #fff;
   font-size: 3rem;
 }
 
@@ -1620,4 +1623,16 @@ a.collection-card {
 #block-mgr > div.block-content > div > div > div:nth-child(5) > a > p.card-title.mb-0 {
   min-height: 60px;
 }
+}
+
+
+
+
+
+
+
+
+/* HIDE BLOG */
+#block-nqc {
+  display: none;
 }
