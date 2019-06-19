@@ -1312,6 +1312,10 @@ div.block-content > p {
   margin-bottom: 10px;
 }
 
+#block-xqy #explore > div.custom-hero-content.fb-100 > p {
+  font-size: 1.2rem;
+}
+
 #block-ywe > div.block-content > div > div {
   margin-bottom: -45px;
 }
