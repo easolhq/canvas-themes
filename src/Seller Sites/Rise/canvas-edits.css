@@ -1419,7 +1419,7 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
     margin-top: 30px;
 }
 
-#block-rsw > div.block-content > h1 {
+#block-rsw h1, #block-n9u h1, #block-i5w h1, #block-iok h1 {
   color: #F06F71;
   font-size: 3rem;
 }
