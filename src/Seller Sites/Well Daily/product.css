@@ -22,9 +22,6 @@ font-family: Playfairdisplay;
 #overview .block-background .row.h100 {
   flex-direction:row-reverse;
 }
-#overview .overview-card.offset-md-7 {
-  margin-left:0;
-}
 
 /*SLEEP*/
 
@@ -74,7 +71,7 @@ font-family: Playfairdisplay;
     display:block;
 }
 #plan > article > div > div.col-12.col-md-4:after{
-    content:"A TRANSFORMATIVE EXPERIENCE";
+    content:"A Transformative Experience";
     font-family:Playfairdisplay;
     color:#e6a49b;
 }
