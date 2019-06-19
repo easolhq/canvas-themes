@@ -1616,4 +1616,8 @@ a.collection-card {
 #block-jna p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small, #block-vrx p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small {
   min-height: 90px;
 }
+
+#block-mgr > div.block-content > div > div > div:nth-child(5) > a > p.card-title.mb-0 {
+  min-height: 60px;
+}
 }
