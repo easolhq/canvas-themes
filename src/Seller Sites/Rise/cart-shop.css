@@ -22,6 +22,10 @@
   #app > section.block.block-sm > article > div > div > section > article > div.timeline > section > ol > div > div > ul > li > div > div > div.col-4.col-md-2.text-right.ml-auto > button, #app > section.block.block-sm > article > div > div > section > article > div.timeline > section > ol > div > div > ul > li > div > div > div.col-8.col-md-4 > p:nth-child(3) > small > a, #app > section.block.block-sm > article > div > div > section > article > div.timeline > section > ol > div > div > ul > li > div > div > div.hidden-sm-down.col-md-3.text-right > p > a {
       color: #f06f71;
   }
+
+  #app strong {
+    font-family: Gt-walsheim-pro-regular;
+}
   
   /* Set fonts for entire shop including ones forced in other CSS files */
   
