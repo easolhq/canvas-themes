@@ -1754,7 +1754,13 @@ a.collection-card {
 
 @media (max-width:767px) {
   #book > div > p > a {
-      margin-bottom: 35px;
+      margin-bottom: 30px;
+  }
+}
+
+@media (max-width:320px) {
+  #book > div > p > a {
+      margin-bottom: 20px;
   }
 }
 
