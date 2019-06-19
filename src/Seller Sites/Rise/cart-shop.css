@@ -105,7 +105,7 @@
   /* Set background color and fix tile hidden by that */
   
   #app {
-    background:#fff;
+    background:#f7f7f9;
   }
   #app .block-background {
     z-index:0;
