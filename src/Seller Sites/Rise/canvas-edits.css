@@ -1481,3 +1481,12 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
   margin-right: auto;
   
 }
+
+#block-mgr ul {
+  list-style: none;
+  font-size: 14px;
+}
+
+#block-mgr ul li:before {
+  content: '✓ ';
+}
