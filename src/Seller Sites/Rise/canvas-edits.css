@@ -1595,10 +1595,21 @@ a.collection-card {
   width: 89%;
 }
 
+@media (min-width:767px) {
+
 #block-u6s p.card-title, #block-vrx p.card-title {
   min-height: 80px;
 }
 
 #block-u6s p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small, #block-vrx p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small {
   min-height: 70px;
+}
+
+#block-jna p.card-title, #block-vrx p.card-title {
+  min-height: 60px;
+}
+
+#block-jna p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small, #block-vrx p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small {
+  min-height: 90px;
+}
 }
