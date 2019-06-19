@@ -1,5 +1,7 @@
 /* Style Changes */
 
+
+
 /* Set fonts for entire shop including ones forced in other CSS files */
 
 #app, .site-shop-nav {
@@ -92,6 +94,31 @@
     max-width:38%
   }
 }
+
+/*Footer*/
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
+  display: none;
+}
+
+.footer-main{
+    background-color: #B0B0B0 !important;
+}
+
+.footer-main .block-content:before {   
+  content: '';
+      width: 20rem;
+      height: 10rem;
+      background-image: url(https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Akasha+Wellness+Retreats/img/Akasha_Logo.png);
+      background-size: contain;
+      display: block;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 /* Fix Nav on Mobile */
 
