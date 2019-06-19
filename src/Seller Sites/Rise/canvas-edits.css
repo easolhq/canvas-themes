@@ -1762,6 +1762,10 @@ a.collection-card {
   #book > div > p > a {
       margin-bottom: 20px;
   }
+  #explore > div.custom-hero-img.fb-100 > img {
+    width: 100px;
+    height: 100px;
+}
 }
 
 @media (max-width:767px) {
