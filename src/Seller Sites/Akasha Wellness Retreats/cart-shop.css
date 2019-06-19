@@ -108,6 +108,10 @@ ul.list-inline.footer-social-list.my-4,
     background-color: #B0B0B0 !important;
 }
 
+footer > article > ul.list-inline.text-uppercase.mb-4 > li > small > a{
+  color: black !important;
+}
+
 .footer-main .block-content:before {   
   content: '';
       width: 20rem;
