@@ -43,15 +43,15 @@
   
   /* big book button */
   #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover, #app > div > nav > div > div.navbar-nav.ml-auto > a {
-      background-color:#fff !important;
-      border-color:#f06f71;
-      color:#f06f71;
+    background-color:#f06f71 !important;
+    border-color:#f06f71;
+    color:#fff;
   }
-  
+
   #app .cart-footer .btn-primary:hover, #app > div > nav > div > div.navbar-nav.ml-auto > a:hover {
-      background-color:#f06f71 !important;
-      border-color:#f06f71;
-      color:#fff;
+    background-color:#fff !important;
+    border-color:#f06f71;
+    color:#f06f71;
   }
   
   /* - + steppers */
