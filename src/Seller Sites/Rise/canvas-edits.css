@@ -1740,3 +1740,14 @@ a.collection-card {
   width: 100%;
   text-align: center;
 }
+
+@media (max-width:767px) {
+  #block-knr div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-dp3 div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-hvn div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-ggr div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center  {
+      height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #block-knr h1 {
+      margin-top: 0;
+  }
+}
