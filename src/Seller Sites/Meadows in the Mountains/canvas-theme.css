@@ -294,6 +294,10 @@ background-size:cover;
   font-size:1.4rem
 }
 
+#block-6dw{
+  margin-bottom: 250px;
+}
+
 /* Mobile */
 
 @media (max-width:536px) {
