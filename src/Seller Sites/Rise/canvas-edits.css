@@ -1494,3 +1494,7 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 #block-mgr > div.block-content > div > div > div:nth-child(1) > a > p.card-title.mb-0 > strong {
   font-family:Gt-walsheim-pro-regular;
 }
+
+a.collection-card {
+  height: 100%;
+}
