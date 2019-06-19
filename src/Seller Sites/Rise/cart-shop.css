@@ -1,79 +1,141 @@
-/*
-#app, .site-shop-nav, #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6, #app .availability-table {
-  font-family:Gt-walsheim-pro-regular !important;
-}
-#app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
-  text-transform:uppercase;
-}
-.site-shop-nav {
-    justify-content:center;
-}
-.site-shop-nav .logo {
-   display:none
-}
-.site-shop-nav .navbar-brand:before {
-  content:'';
-  width:4rem;
-  height:4rem;
-  background-image:url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Rise/Assets/Rise_logo_red.png');
-  background-size:contain;
-  display:block;
-}
+/* Style Changes add any customer specific stuff here */
 #app {
-  background:#f7f7f9;
-}
-#app .block-background {
-  z-index:0;
-}
-#app .text-center .btn-secondary {
-    color:red;
-    border-color:red;
-}
-#app hr {
-    display:none;
-}
-#app .cart-footer .btn {
-    background-color:#ec696e;
-    border:none !important;
-    color:#fff;
-}
-.availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
-  border:2px solid #ec696e;
-  color:#ec696e;
-  background-color:#ec696e;
-}
-#app .segment-collapse {
-    color:#ec696e;
-}
-#app .number-stepper-round .btn {
-  border:1px solid #000 !important;
-  color:#000;
-}
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
-    background-color:#64c5e1 !important;
-}
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
-    border-left-color:#64c5e1 !important;
-}
-.cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
-    border-color:#64c5e1 !important;
-    border-left-color:transparent !important;
-}
-#app .btn-secondary:hover {
-    background-color:#000;
-}
-#cart-shop-nav-mobile .nav-item {
-  float:left !important;
-  width:100%;
-}
-#cart-shop-nav-mobile .nav-link {
-  padding:0 !important;
-  margin-right:0 !important;
-  font-size:0.9rem !important;
-}
-@media (max-width:600px) {
-  .cart-shop-navbar.sticky {
-    position:static;
+  font-size:14px !important;
   }
-}
-*/
+  
+  /* Set fonts for entire shop including ones forced in other CSS files */
+  
+  #app, .site-shop-nav {
+    font-family:'Gt-walsheim-pro-regular', serif;
+  }
+  #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+    text-transform:uppercase;
+    font-family:'Gt-walsheim-pro-regular', serif;
+  }
+  #app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
+    font-family:'Gt-walsheim-pro-regular', sans-serif !important;
+  }
+  #app .bookable-list-item i:before {
+    font-family:'Fixers Icons';
+  }
+  
+  /* Set button colors */
+  
+  /* big book button */
+  #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+      background-color:#fff !important;
+      border-color:#f06f71;
+      color:#f06f71;
+  }
+  
+  #app .cart-footer .btn-primary:hover {
+      background-color:#f06f71 !important;
+      border-color:#f06f71;
+      color:#fff;
+  }
+  
+  /* - + steppers */
+  #app .cart .input-group-btn .btn {
+      border-color:#f06f71 !important;
+      color:#f06f71;
+  }
+  
+  /* - + steppers hover */
+  #app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
+      background-color:#f06f71;
+      color:#fff;
+  }
+  
+  /* segment drop down arrows */
+  #app .segment-collapse {
+      color:#f06f71;
+  }
+  
+  /* Fix stepper sizing */
+  .block-content .number-stepper button {
+    padding: 10px! important;
+    max-width: 50px;
+  }
+  
+  .block-content .number-stepper .form-control {
+    font-size: 10px !important;
+    max-width: 50px;
+  }
+  
+  
+  /* Hide default logo and add one centered in middle of nav */
+  
+  .navbar-full {
+      justify-content:center;
+  }
+  .navbar-full .logo {
+     display:none !important
+  }
+  .navbar-full .navbar-brand:before {
+    content: '';
+    width: 8rem;
+    height: 4rem;
+    background-image: url(https://risefestival2019.fixersworld.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWsyTnpGalpURTRZaTB3WldKa0xUUmtPRGd0T1RnM09DMHdNRE13TjJGaE9UQmxaR0VHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--308247701981237f155fed827b4fda668d723cd0/Rise%20logo%20red%20new.png);
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+  }
+  
+  /* Set background color and fix tile hidden by that */
+  
+  #app {
+    background:#fff;
+  }
+  #app .block-background {
+    z-index:0;
+  }
+  
+  /* Chevron Colors */
+  
+  /* Chevron hover text */
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+    background-color: #f06f71 ;
+    color:#fff;
+  }
+  
+  /* Chevron highlight when you scroll down */
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
+      border-color:#f06f71;
+      border-left-color:transparent;
+  }
+  
+  /* Part of chevron - don't amend */
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
+    border-left-color:transparent
+  }
+  
+  /* Line on left of selected tickets*/
+  #app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+    background-color:#f06f71;
+  }
+  
+  /* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+  
+  @media (min-width:768px) {
+    #app .cart-body .col-10 {
+      flex:0 0 38%;
+      max-width:38%
+    }
+  }
+  
+  /* Fix Nav on Mobile */
+  
+  #cart-shop-nav-mobile .nav-link {
+    padding:0 !important;
+    margin-right:0 !important;
+    font-size:0.9rem !important;
+  }
+  #cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+    float:left !important;
+    width:100%;
+  }
+  @media (max-width:600px) {
+    .cart-shop-navbar.sticky {
+      position:static;
+    }
+  }
