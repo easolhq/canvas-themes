@@ -1457,3 +1457,11 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 #block-xol > div.block-content > div > div > div > a > p:nth-child(5), #block-kiw > div.block-content > div > div > div > a > p:nth-child(5), #block-xi4 > div.block-content > div > div > div > a > p:nth-child(5), #block-55t > div.block-content > div > div > div > a > p:nth-child(5) {
   text-align: center;
 }
+
+#block-mgr > div.block-content > div > div > div > a > p.card-title.mb-0 {
+  min-height: 10px;
+}
+
+#block-mgr > div.block-content > div > div > div > a > p:nth-child(3) {
+  padding-bottom: 0;
+}
