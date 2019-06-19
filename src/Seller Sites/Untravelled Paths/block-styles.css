@@ -133,7 +133,7 @@
 /* Global Rules */
 
 body {
-  font-family:'Droidserif', serif;
+  font-family:'Bitter', serif !important;
 }
 a {
   color:#000;
