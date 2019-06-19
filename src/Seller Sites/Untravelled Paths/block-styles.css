@@ -144,11 +144,11 @@ a {
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight:bold;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Open Sans', sans-serif !important;
 }
 .btn {
   border-radius:0!important;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Open Sans', sans-serif !important;
   letter-spacing:0.2em;
 }
 .btn a {
@@ -268,7 +268,7 @@ img {
 .nav-item {
   margin:0 50px;
   letter-spacing:0.2em;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Open Sans', sans-serif !important;
   text-transform:uppercase;
   font-weight:bold;
 }
@@ -323,7 +323,7 @@ img {
   width:fit-content;
   margin:40px auto;
   position:relative;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Open Sans', sans-serif !important;
 }
 .trip-selector:before {
   content:'';
