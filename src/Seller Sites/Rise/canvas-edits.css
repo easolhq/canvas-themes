@@ -1732,3 +1732,11 @@ a.collection-card {
 #block-i24 > div.block-background {
   background-size: contain !important;
 }
+
+#block-fju div.image-grid-entry-overlay > div > p {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
