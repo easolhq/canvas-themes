@@ -1645,7 +1645,9 @@ a.collection-card {
 }
 }
 
-
+#block-7nx > div.block-content > div > div > div.card-footer {
+  z-index:1;
+}
 
 
 
