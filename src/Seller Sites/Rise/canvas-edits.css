@@ -1419,3 +1419,37 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
   color: #F06F71;
   font-size: 3rem;
 }
+
+.collection-card {
+  transition:0.5s all;
+}
+
+.collection-card:hover {
+  box-shadow: 5px 5px 5px 0px rgba(236,236,236,1);
+  text-decoration:none;
+}
+
+.collection-card h5 {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Gt-walsheim-pro-regular;
+}
+
+.collection-card div.card-body p {
+    font-size: 0.8rem;
+    font-family: Gt-walsheim-pro-regular;
+}
+
+.collection-card .card-footer {
+    background-color: white;
+    border: none;
+    text-align: center;
+}
+
+.collection-card.sold-out {
+  opacity: 0.6;
+}
+
+.collection-card.sold-out .btn:hover {
+  background-color: white;
+}
