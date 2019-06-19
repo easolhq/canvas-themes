@@ -1649,6 +1649,13 @@ a.collection-card {
   z-index:1;
 }
 
+#block-7nx > div.block-content > div > div > div.card-footer > p:nth-child(1), #block-7nx > div.block-content > div > div > div.card-footer > p:nth-child(2) {
+  font-family: Gt-walsheim-pro-bold;
+}
+
+#block-7nx .btn-outline-primary {
+  color: white;
+}
 
 
 
