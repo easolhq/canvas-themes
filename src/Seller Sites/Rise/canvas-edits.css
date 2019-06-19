@@ -1655,9 +1655,13 @@ a.collection-card {
 
 #block-7nx .btn-outline-primary {
   color: white;
+  border: solid 1px white;
 }
 
-
+#block-fqn .btn-outline-primary {
+  color: black;
+  border: solid 1px black;
+}
 
 /* HIDE BLOG */
 #block-nqc {
@@ -1679,4 +1683,35 @@ a.collection-card {
 
 .product-page-booking-bar {
   border: none;
+}
+
+@media (max-width:767px) {
+  #block-ynu div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-ey2 div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-ubg div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-p6k div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-r6q div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-ygx div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-lcc div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-nuw div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-iog div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-fuk div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-r8h div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-dy9 div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-nuw div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-4mu div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center, #block-7oe div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center  {
+      height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-content-center.align-items-center.text-center.one-image {
+      max-width: 540px;
+      padding: 10px;
+      color: white !important;
+  }
+  
+  .one-image p {
+      font-size: 13.8px;
+  }
+  
+  .one-image h1 {
+      font-size: 38px;
+  }
+  
+  .custom-double .col-12.top-overlay:before {
+      background-image: none;
+  }
+  
+  .custom-double .col-12.bottom-overlay:before {
+      background-image: none;
+
+  }
 }
