@@ -7,7 +7,7 @@
       background-color: #f06f71;
   }
   
-  .timeline:before, .timeline:after,  {
+  .timeline:before, .timeline:after {
       border: 1px solid #f06f71 !important;
   }
   
