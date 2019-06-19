@@ -24,16 +24,15 @@ Seconds_Until_Popup:
   type: String
   default: "5"
 Use_Cookies:
-  type: String
-  default: "yes"
+  type: Boolean
 ---
 <!---
 
 Instructions:
 
 Set variables as required
-if "Use_Cookies" is set to yes then a cookie is set when the box is closed meaning it won't appear again for 7 days.
-if "Use_Cookies is set to no then no cookies are set and the popup appears on every page load"
+if "Use_Cookies" is ticked then a cookie is set when the box is closed meaning it won't appear again for 7 days.
+if "Use_Cookies is unticked then no cookies are set and the popup appears on every page load"
 
 Info here on how to get the mailchimp variables https://mailchimp.com/help/host-your-own-signup-forms/
 
@@ -142,7 +141,7 @@ Info here on how to get the mailchimp variables https://mailchimp.com/help/host-
 <script>
   var popupTime = {{Seconds_Until_Popup}} * 1000;
 
-  {% if Use_Cookies == 'yes' %}
+  {% if Use_Cookies  %}
     function setCookie(cname, cvalue, exdays) {
       var d = new Date();
       d.setTime(d.getTime() + (exdays*24*60*60*1000));
