@@ -1636,3 +1636,20 @@ a.collection-card {
 #block-nqc {
   display: none;
 }
+
+/* PRODUCT PAGE */
+
+#gallery, #overview {
+  max-width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#overview p {
+  text-align: justify;
+}
+
+.product-page-booking-bar {
+  border: none;
+}
