@@ -1594,3 +1594,11 @@ a.collection-card {
   padding-bottom: 0;
   width: 89%;
 }
+
+#block-u6s p.card-title, #block-vrx p.card-title {
+  min-height: 80px;
+}
+
+#block-u6s p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small, #block-vrx p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small {
+  min-height: 70px;
+}
