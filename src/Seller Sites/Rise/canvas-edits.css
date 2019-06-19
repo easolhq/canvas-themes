@@ -1498,3 +1498,99 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 a.collection-card {
   height: 100%;
 }
+
+#block-mgr > div.block-content > div > div > div > a > ul {
+  padding-bottom: 80px;
+}
+
+#block-mgr p.small {
+  position: absolute;
+  bottom: 50px;
+}
+
+#block-mgr .button {
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0;
+  width: 89%;
+}
+
+#block-mij .listing-card-text-wrap {
+  padding-bottom: 100px;
+}
+
+#block-mij .price {
+  position: absolute;
+  bottom: 50px;
+}
+
+#block-mij .button {
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0;
+  width: 89%;
+}
+
+#block-nta .listing-card-text-wrap {
+  padding-bottom: 20px;
+}
+
+#block-nta .price {
+  position: absolute;
+  bottom: 50px;
+}
+
+#block-nta .button {
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0;
+  width: 89%;
+}
+
+#block-xol .listing-card-text-wrap {
+  padding-bottom: 100px;
+}
+
+#block-xol p.factual.mb-2.small {
+  position: absolute;
+  bottom: 50px;
+}
+
+#block-xol .button {
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0;
+  width: 89%;
+}
+
+#block-kiw .listing-card-text-wrap {
+  padding-bottom: 100px;
+}
+
+#block-kiw p.factual.mb-2.small {
+  position: absolute;
+  bottom: 50px;
+}
+
+#block-kiw .button {
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0;
+  width: 89%;
+}
+
+#block-xi4 .listing-card-text-wrap {
+  padding-bottom: 100px;
+}
+
+#block-xi4 p.factual.mb-2.small {
+  position: absolute;
+  bottom: 50px;
+}
+
+#block-xi4 .button {
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0;
+  width: 89%;
+}
