@@ -1399,3 +1399,27 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 #block-byo {
   margin-top: 70px;
 }
+
+#block-7nx ul {
+  list-style: none;
+  padding: 0;
+}
+
+#block-7nx ul li:before {
+  content: '✓ ';
+}
+
+#block-7nx div.card-footer {
+    background-color: #89D2D4;
+    color: white;
+    text-align: center;
+}
+
+#block-iwg {
+    margin-top: 30px;
+}
+
+#block-rsw > div.block-content > h1 {
+  color: #F06F71;
+  font-size: 3rem;
+}
