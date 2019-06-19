@@ -1605,6 +1605,10 @@ a.collection-card {
   min-height: 70px;
 }
 
+#block-vrx > div.block-content > div > div > div > a > p.card-title {
+  min-height: 80px;
+}
+
 #block-jna p.card-title, #block-vrx p.card-title {
   min-height: 60px;
 }
