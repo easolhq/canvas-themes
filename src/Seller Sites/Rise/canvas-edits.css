@@ -1465,3 +1465,8 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 #block-mgr > div.block-content > div > div > div > a > p:nth-child(3) {
   padding-bottom: 0;
 }
+
+#block-o3a {
+  padding-bottom: 0px;
+  color: #89d2d4;
+}
