@@ -1751,3 +1751,9 @@ a.collection-card {
       margin-top: 0;
   }
 }
+
+@media (max-width:767px) {
+  #book > div > p > a {
+      margin-bottom: 35px;
+  }
+}
