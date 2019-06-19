@@ -1757,3 +1757,28 @@ a.collection-card {
       margin-bottom: 35px;
   }
 }
+
+@media (max-width:767px) {
+  #block-mgr, #block-mij, #block-nta, #block-xol, #block-kiw, #block-xi4, #block-55t, #block-vrx, #block-u6s, #block-tmi, #block-sfa, #block-jna {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  #block-mgr img {
+      width: 100%;
+  }
+  
+  #block-mgr > div.block-content > div > div > div > a > ul {
+      padding-bottom: 10px;
+  }
+  
+  .collection-card p.small {
+      position: static !important;
+      padding-bottom: 10px !important;
+  }
+  
+  .collection-card p.small + p + p {
+      display: none;
+  }
+}
