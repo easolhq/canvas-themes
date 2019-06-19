@@ -1453,3 +1453,7 @@ div.block-content > div > div > div.col-12.col-md-6.d-flex.flex-wrap.justify-con
 .collection-card.sold-out .btn:hover {
   background-color: white;
 }
+
+#block-xol > div.block-content > div > div > div > a > p:nth-child(5), #block-kiw > div.block-content > div > div > div > a > p:nth-child(5), #block-xi4 > div.block-content > div > div > div > a > p:nth-child(5), #block-55t > div.block-content > div > div > div > a > p:nth-child(5) {
+  text-align: center;
+}
