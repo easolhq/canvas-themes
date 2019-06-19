@@ -3,6 +3,26 @@
   font-size:14px !important;
   }
   
+  #app > section.block.block-sm > article > div > div > section > article > div.cart-summary > div > table > tfoot > tr.text-right.fill-orange-light {
+      background-color: #f06f71;
+  }
+  
+  .timeline:before, .timeline:after,  {
+      border: 1px solid #f06f71 !important;
+  }
+  
+  .prefix-line-orange-light::before {
+      border-top-color: #f06f71 !important;
+  }
+  
+  #app > section.block.block-sm > article > div > div > section > article > div.timeline {
+      border-left:1px solid #f06f71 !important;
+  }
+  
+  #app > section.block.block-sm > article > div > div > section > article > div.timeline > section > ol > div > div > ul > li > div > div > div.col-4.col-md-2.text-right.ml-auto > button, #app > section.block.block-sm > article > div > div > section > article > div.timeline > section > ol > div > div > ul > li > div > div > div.col-8.col-md-4 > p:nth-child(3) > small > a, #app > section.block.block-sm > article > div > div > section > article > div.timeline > section > ol > div > div > ul > li > div > div > div.hidden-sm-down.col-md-3.text-right > p > a {
+      color: #f06f71;
+  }
+  
   /* Set fonts for entire shop including ones forced in other CSS files */
   
   #app, .site-shop-nav {
@@ -22,13 +42,13 @@
   /* Set button colors */
   
   /* big book button */
-  #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+  #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover, #app > div > nav > div > div.navbar-nav.ml-auto > a {
       background-color:#fff !important;
       border-color:#f06f71;
       color:#f06f71;
   }
   
-  #app .cart-footer .btn-primary:hover {
+  #app .cart-footer .btn-primary:hover, #app > div > nav > div > div.navbar-nav.ml-auto > a:hover {
       background-color:#f06f71 !important;
       border-color:#f06f71;
       color:#fff;
@@ -51,14 +71,15 @@
       color:#f06f71;
   }
   
+  
   /* Fix stepper sizing */
-  .block-content .number-stepper button {
+  #app .number-stepper button {
     padding: 10px! important;
     max-width: 50px;
   }
   
-  .block-content .number-stepper .form-control {
-    font-size: 10px !important;
+  #app .number-stepper .form-control {
+    font-size: 12px !important;
     max-width: 50px;
   }
   
