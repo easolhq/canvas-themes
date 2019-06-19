@@ -1792,3 +1792,10 @@ a.collection-card {
       display: none;
   }
 }
+
+
+#block-7nx {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
