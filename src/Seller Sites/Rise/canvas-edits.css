@@ -1623,9 +1623,13 @@ a.collection-card {
 #block-mgr > div.block-content > div > div > div:nth-child(5) > a > p.card-title.mb-0 {
   min-height: 60px;
 }
+
+#block-jna img, #block-xi4 img, #block-xol img {
+  height: 175px;
+  width: 100%;
+  object-fit: cover;
 }
-
-
+}
 
 
 
