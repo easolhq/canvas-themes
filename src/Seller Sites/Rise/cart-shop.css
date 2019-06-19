@@ -30,6 +30,10 @@
 #app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white {
   z-index: 1000 !important;
 }
+
+#app > section:nth-child(2) > article > header > div > div:nth-child(1) > h1 {
+  font-family: Gt-walsheim-pro-bold;
+}
   
   /* Set fonts for entire shop including ones forced in other CSS files */
   
