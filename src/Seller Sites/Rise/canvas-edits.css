@@ -1799,3 +1799,11 @@ a.collection-card {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+@media (max-width:767px) {
+  #block-iwg {
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  }
