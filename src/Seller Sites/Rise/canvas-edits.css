@@ -1817,3 +1817,7 @@ a.collection-card {
   #block-xqy #explore {
       height: 80vh;
   }
+
+  #book > div > p > a, #explore > div > p > a, #plan > div > p > a {
+    margin-bottom: 30px;
+}
