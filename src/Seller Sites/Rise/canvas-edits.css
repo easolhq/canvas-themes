@@ -502,13 +502,18 @@ body {
   background: rgba(255, 255, 255, 0.95);
   position: fixed;
   bottom: 0;
-  height: calc(100vh - 122px);
-  z-index: 12 !important;
+  height: calc(100vh - 160px);
+  z-index: 11 !important;
   text-align: center;
   align-items: center;
   justify-content: center;
   display:none;
 }
+
+#book + div{
+  margin-top: 140px !important;
+}
+
 .risenav a {
   color: #89D2D4;
   font-size: 1.5rem;
@@ -523,14 +528,14 @@ body {
 #top-nav a.active, #scroll-nav a.active {
   border-bottom:2px solid #fff;
 }
-#top-nav:before {
+#book + div:before {
   content: '';
   display: block;
   position: absolute;
   left: 50%;
   top: -40px;
   transform: translateX(-50%);
-  z-index: -1;
+  z-index: 1;
   max-width: 1920px;
   width: 100vw;
   height: 3000px;
@@ -555,12 +560,30 @@ body.popup-open, body.nav-open {
   max-width:100%;
 }
 #top-nav {
-  position:relative;
+  position:fixed;
   top: 0px;
   width: 100%;
-  height: 50px;
-  z-index: 10 !important;
-  padding-bottom: 110px;
+  height: 40px;
+  z-index: 11 !important;
+  padding-bottom: 0;
+  background-color: #245163;
+}
+#top-nav > div > div > p {
+  font-size: 14px;
+  font-family: Gt-walsheim-pro-regular;
+  letter-spacing: 2px;
+}
+@media (max-width:767px) {
+  #top-nav > div > div > p {
+  font-size: 12px;
+  font-family: Gt-walsheim-pro-regular;
+  letter-spacing: 1px;
+}
+}
+@media (max-width:767px) {
+  #top-nav > div > div > p {
+  letter-spacing: 0px;
+}
 }
 #top-nav a:hover, #scroll-nav a:hover {
   text-decoration:none;
@@ -614,8 +637,8 @@ body.popup-open, body.nav-open {
 }
 #scroll-nav {
   position:fixed;
-  top:0;
-  z-index:11;
+  top:40px;
+  z-index:1;
   width:100%;
 }
 
@@ -1807,12 +1830,6 @@ a.collection-card {
       padding-right: 5%;
   }
   }
-
-  @media (max-width:767px) {
-    .risenav {
-        top: 120px;
-    }
-    }
 
   #block-xqy #explore {
       height: 80vh;
