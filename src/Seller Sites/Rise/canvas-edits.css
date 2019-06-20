@@ -1807,3 +1807,9 @@ a.collection-card {
       padding-right: 5%;
   }
   }
+
+  @media (max-width:767px) {
+    .risenav {
+        top: 120px;
+    }
+    }
