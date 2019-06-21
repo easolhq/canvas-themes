@@ -564,7 +564,7 @@ body.popup-open, body.nav-open {
   top: 0px;
   width: 100%;
   height: 40px;
-  z-index: 11 !important;
+  z-index: 110 !important;
   padding-bottom: 0;
   background-color: #245163;
 }
@@ -860,7 +860,7 @@ body.popup-open, body.nav-open {
 }
 .custom-review .col-12:first-child {
   padding-right:0;
-  height:50vh;
+  height:50vh !important;
 }
 .custom-review .col-12:last-child {
   padding-left:0;
