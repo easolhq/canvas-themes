@@ -264,14 +264,14 @@ color: white;
 		border-left: 1px solid #595958
 	}
 	#newsletterAndSearchFooter {
-		max-width: 875px;
+		max-width: 1000px;
 		align-items:center;
 		justify-content:space-between;
 		display:inline-flex;
 		margin-top:15px;
 	}
-	#newsletterAndSearchFooter .newsletterForm {
-		max-width: 290px
+  #newsletterAndSearchFooter input[type=email] {
+		width: 250px
 	}
 	@media (max-width:576px) {
 		#footerWidgets>li {
