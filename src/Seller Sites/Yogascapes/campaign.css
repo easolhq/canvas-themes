@@ -30,7 +30,10 @@ height: 90vh;
     padding-left: 0;
     padding-right: 0;
 }
-
+#block-tsk .subscribe-copy {
+  max-width: 300px;
+  text-align: justify;
+}
 .hero-logo{
     margin-top:30%;
 }
