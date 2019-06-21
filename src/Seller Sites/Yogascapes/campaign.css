@@ -273,6 +273,9 @@ color: white;
   #newsletterAndSearchFooter input[type=email] {
 		width: 250px
 	}
+  .fixers-stamp {
+    float:right;
+  }
 	@media (max-width:576px) {
 		#footerWidgets>li {
 			max-width:100%;
@@ -280,6 +283,11 @@ color: white;
 			margin:0;
 			text-align:center;
 		}
+    .fixers-stamp {
+      float:none;
+      position:relative;
+      top:15px;
+    }
 		#footerWidgets {
 			margin-left:0;
 			width:100%;
