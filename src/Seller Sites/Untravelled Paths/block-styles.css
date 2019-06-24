@@ -168,8 +168,8 @@ h1, .h1 {
   text-decoration:none;
 }
 .btn-outline-secondary {
-  color:#fff;
-  border-color:#fff;
+  color:#fff !important;
+  border-color:#fff !important;
 }
 #menu-cta {
   font-weight:bold;
