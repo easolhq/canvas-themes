@@ -564,6 +564,9 @@ footer .credits {
   #header-cta {
     display:none;
   }
+  h2.block-p {
+    font-size:1.5rem !important
+  }
   .navbar-toggler {
     color:#fff;
   }
@@ -580,5 +583,24 @@ footer .credits {
   }
   .trip-selector:before {
     display:none;
+  }
+  #somewhere-different .diff-text {
+    position: static !important;
+    transform: none;
+    width: 100% !important;
+    margin-top: 1.5rem;
+  }
+  .block-content #signup {
+    flex-wrap:wrap;
+  }
+  footer .d-flex span {
+    margin-bottom:10px;
+  }
+  footer .credits {
+    position:static;
+  }
+  footer .d-flex a {
+    width:100%;
+    display:block;
   }
 }
