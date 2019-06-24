@@ -167,6 +167,10 @@ h1, .h1 {
 .submenu a:hover {
   text-decoration:none;
 }
+.btn-outline-secondary {
+  color:#fff;
+  border-color:#fff;
+}
 #menu-cta {
   font-weight:bold;
   text-transform:uppercase;
