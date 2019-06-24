@@ -553,7 +553,7 @@ footer .credits {
     color:#fff;
   }
   .navbar-brand {
-    width:150px;
+    width:150px !important;
   }
   .navbar-brand img {
     height:auto;
