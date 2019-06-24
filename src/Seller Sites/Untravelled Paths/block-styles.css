@@ -469,12 +469,6 @@ img {
 .plan-title .mr-5 {
   min-width:140px;
 }
-.plan-content {
-  margin:0 200px;
-  height:0;
-  overflow:hidden;
-  padding:0 !important;
-}
 .plan-icons {
   position:absolute;
   bottom:0;
@@ -482,10 +476,6 @@ img {
 }
 .plan-item.open a .fa-plus {
   transform:rotate(45deg);
-}
-.plan-item.open .plan-content {
-  height:auto;
-  padding:3rem 0 !important;
 }
 .included, .optional {
   list-style-type:none;
