@@ -171,10 +171,17 @@ h1, .h1 {
   color:#fff !important;
   border-color:#fff !important;
 }
+.nav-link {
+  font-size:0.8rem
+}
 #menu-cta {
   font-weight:bold;
   text-transform:uppercase;
   border:1px solid #fff;
+  font-size:0.8rem;
+}
+.nav-link #menu-cta {
+  margin-top:8px;
 }
 #mc_embed_signup input {
   height:50px;
