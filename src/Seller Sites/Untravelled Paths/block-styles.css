@@ -169,6 +169,7 @@ h1, .h1 {
 }
 #menu-cta {
   font-weight:bold;
+  text-transform:uppercase;
 }
 #mc_embed_signup input {
   height:50px;
