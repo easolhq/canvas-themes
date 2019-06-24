@@ -264,6 +264,9 @@ img {
 
 /* Header / Nav */
 
+.btn-outline-secondary.focus, .btn-outline-secondary:focus {
+  box-shadow:none !important;
+}
 #menu {
   background-color:transparent !important;
   position:absolute;
