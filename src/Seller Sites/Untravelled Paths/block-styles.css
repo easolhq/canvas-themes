@@ -167,6 +167,9 @@ h1, .h1 {
 .submenu a:hover {
   text-decoration:none;
 }
+#menu-cta {
+  font-weight:bold;
+}
 #mc_embed_signup input {
   height:50px;
 }
@@ -273,7 +276,7 @@ img {
   justify-content:flex-end;
 }
 .nav-item {
-  margin:0 50px;
+  margin:0 30px;
   letter-spacing:0.2em;
   font-family:'Open Sans', sans-serif !important;
   text-transform:uppercase;
@@ -360,6 +363,7 @@ img {
 }
 .trip-selector select, .trip-selector input {
   position:relative;
+  background-color:#fff;
 }
 .trip-selector select:first-child {
   left:0;
