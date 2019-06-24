@@ -548,6 +548,14 @@ footer .credits {
   bottom:0;
   width:100%;
 }
+@media (max-width:1025px) {
+  .navbar-brand img {
+    height:auto;
+  }
+  .footer .font-italic {
+    font-size:0.8rem;
+  }
+}
 @media (max-width:576px) {
   .navbar-toggler {
     color:#fff;
@@ -555,7 +563,12 @@ footer .credits {
   .navbar-brand {
     width:150px !important;
   }
-  .navbar-brand img {
-    height:auto;
+  .trip-selector .spacer, .trip-selector i {
+    display:none;
+  }
+  .trip-selector select, .trip-selector input {
+    max-width:90%;
+    width:90%;
+    margin-bottom:10px;
   }
 }
