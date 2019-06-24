@@ -548,8 +548,6 @@ footer .social {
   font-size:1.5rem;
 }
 footer .credits {
-  position:absolute;
-  bottom:0;
   width:100%;
 }
 @media (max-width:1025px) {
@@ -597,7 +595,6 @@ footer .credits {
     margin-bottom:10px;
   }
   footer .credits {
-    position:static;
     font-size:0.8rem;
   }
   footer .d-flex a {
