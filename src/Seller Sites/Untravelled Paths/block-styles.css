@@ -548,3 +548,14 @@ footer .credits {
   bottom:0;
   width:100%;
 }
+@media (max-width:576px) {
+  .navbar-toggler {
+    color:#fff;
+  }
+  .navbar-brand {
+    width:150px;
+  }
+  .navbar-brand img {
+    height:auto;
+  }
+}
