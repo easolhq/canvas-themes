@@ -598,6 +598,7 @@ footer .credits {
   }
   footer .credits {
     position:static;
+    font-size:0.8rem;
   }
   footer .d-flex a {
     width:100%;
