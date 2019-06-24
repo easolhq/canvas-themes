@@ -360,6 +360,7 @@ img {
   color: #000;
   transform: translateY(-50%);
   font-size: 24px;
+  pointer-events:none;
 }
 .trip-selector select, .trip-selector input {
   position:relative;
@@ -369,6 +370,7 @@ img {
   left:0;
   clip-path:none;
   padding-left:20px;
+  max-width:265px;
 }
 .trip-selector .spacer {
   width: 40px;
@@ -381,6 +383,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   z-index: 99;
+  pointer-events:none;
 }
 .about__icon {
   font-size:3rem;
