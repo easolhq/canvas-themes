@@ -134,6 +134,10 @@
 
 body {
   font-family:'Bitter', serif !important;
+  font-weight:500;
+}
+body .font-weight-normal {
+  font-weight:500 !important;
 }
 a {
   color:#000;
