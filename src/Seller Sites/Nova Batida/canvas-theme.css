@@ -219,3 +219,22 @@ footer {
     margin: 0 auto;
     min-height: 560px;
 }
+@media (max-width:600px) {
+  #menu {
+    padding:1rem;
+  }
+  .nova-header-content {
+    left:20px;
+  }
+  .nova-header-content p.h4 {
+    display:none;
+  }
+  .nova-header-content h1 {
+    font-size:1.5rem;
+  }
+  .dual-product-block .col-12 {
+    flex:0 0 100%;
+    max-width:100%;
+    margin:0 !important;
+  }
+}

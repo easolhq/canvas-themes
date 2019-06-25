@@ -10,6 +10,7 @@
 
   .cart-shop-navbar {
     background-color: #13ceae !important;
+    position:static;
 }
 .cart-shop-navbar .nav.nav-chevrons .nav-link {
     background-color:#13ceae !important;
@@ -160,5 +161,8 @@
   @media (max-width:600px) {
     .cart-shop-navbar.sticky {
       position:static;
+    }
+    #cart-shop-nav-mobile .nav-item {
+      background-color:#13ceae
     }
   }
