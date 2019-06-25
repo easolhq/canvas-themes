@@ -90,7 +90,8 @@ body {
 }
 .nova-h1-container {
   position:relative;
-  width:fit-content
+  width:fit-content;
+  margin-bottom:20px
 }
 .nova-circle {
   position: absolute;
@@ -103,8 +104,8 @@ body {
 }
 .nova-triangle {
   position: absolute;
-  top: -15px;
-  left: -24px;
+  top: -11px;
+  left: -28px;
   z-index: 100;
   border-bottom: 22.96px solid #fc4f60;
   border-right: 6px solid transparent;
