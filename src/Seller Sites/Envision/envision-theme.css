@@ -1,0 +1,425 @@
+/*THEME*/
+
+/*BUNDLE*/
+.list-group + .card-block {
+    display: none;
+}
+
+.fill-orange-light{
+background-color: #FF7A59 !important;
+}
+
+.prefix-line-orange-light::before, .timeline, .timeline::before, .timeline::after {
+  border-color:  #FF7A59 !important;
+}
+
+/*PRODUCT PAGE*/
+.product-hero {
+  height: 80vh !important;
+}
+#overview .overview-card {
+  min-height:300px;
+}
+#includes {
+  text-align: center !important;
+}
+
+#includes > article > h2 > hr {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*MENU*/
+
+nav#menu.navbar {
+  height: 100px;
+  flex-basis: 100%;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#menu-navbar {
+  justify-content:flex-end;
+  padding-right:0px;
+}
+.navbar-brand img {
+  height: 75px;
+}
+
+#menu .nav-link {
+  font-family: 'Gobold cuts';
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 90px;
+}
+#menu .nav-link:hover {
+	color: #ddaf61
+}
+#menu > div {
+    margin-left: 35px;
+    margin-right: 220px;
+}
+.nav-item {
+    margin-right: 20px;
+}
+#menu {
+  background-color:#142626;
+}
+#menu-cta {
+    background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Envision/button-bg-2.svg);
+    background-size: contain;
+  	border-image-repeat: no-repeat;
+    background-color: transparent !important;
+  	background-position: center center;
+    border: none;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    line-height: 1;
+    padding-top: 15px;
+  	font-size: 17px;
+}
+
+@media only screen and (max-width: 1189px) {
+#menu .nav-link, #menu-cta {
+    font-size: 12px !important;
+}
+#menu > div {
+    margin-right: 190px;
+}
+#menu > div > a.navbar-brand > img {
+    height: 65px;
+}
+}
+
+/*REACTIVE NAV */
+@media only screen and (max-width: 1189px) {
+#menu .nav-link, #menu-cta {
+    font-size: 12px !important;
+}
+#menu > div {
+    margin-right: 190px;
+}
+#menu > div > a.navbar-brand > img {
+    height: 65px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+#menu .nav-link, #menu-cta {
+    font-size: 12px !important;
+}
+#menu > div {
+    margin-right: 190px;
+}
+#menu > div > a.navbar-brand > img {
+    height: 35px;
+}
+#menu > div > a.navbar-brand {
+    position: absolute;
+    height: 35px;
+    top: 5px;
+    padding: 0;
+    left: calc(50% - 12px);
+}
+#menu-cta {
+    display: none;
+}
+#menu > div > button {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+}
+#menu {
+    height: 48px !important;
+}
+#menu-navbar {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    background-color: #142626;
+    height: 100vh;
+}
+#menu .nav-link {
+    line-height: 20px !important;
+    font-size: 20px !important;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 70vw;
+}
+.dropdown-content {
+  position: relative !important;
+  background-color: rgba(64, 63, 62, 0.95);
+  background: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Envision/dropdown.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  top: 10px !important;
+  margin-left: 0px !important;
+}
+}
+
+@media only screen and (min-width: 1650px) {
+#menu > div {
+    margin-left: 7% !important;
+}
+}
+
+@media only screen and (min-width: 1800px) {
+#menu > div {
+    margin-left: 10% !important;
+}
+}
+
+/*BUTTONS*/
+
+.btn-primary {
+  background-color: #FF7A59 !important;
+  border-color:#FF7A59;
+  font-family: 'Gobold cuts';
+}
+
+/*FOOTER*/
+#footer {
+  display: none;
+}
+
+/*CART SHOP*/
+
+.navbar-main {
+  background-color: #14888B !important;
+}
+
+/* Style Changes add any customer specific stuff here */
+#app .btn,
+.product-page-booking-bar .btn {
+}
+
+/* Set fonts for entire shop including ones forced in other CSS files */
+
+#app,
+.site-shop-nav,
+#app .nav-link,
+#app .bookable-ticket-variant *,
+#app .factual,
+#app .cart-footer .btn,
+#app .availability-table {
+  font-family: 'Proximanova-regular', serif;
+  font-weight: bold !important;
+}
+
+#app h1,
+#app h2,
+#app h3,
+#app h4,
+#app h5,
+#app h6,
+#app .h1,
+#app .h2,
+#app .h3,
+#app .h4,
+#app .h5,
+#app .h6 {
+  text-transform: uppercase;
+  font-family: 'Gobold regular', serif;
+  font-weight: bold !important;
+}
+
+#app .bookable-ticket-variant i:before {
+  font-family: 'Fixers Icons';
+}
+
+/* Set button colors */
+
+#app .cart-footer .btn-primary,
+#app .cart-footer .btn-secondary,
+#app .input-group.btn .btn:hover {
+  border-color: #fff;
+  color: #000;
+}
+#app .cart .input-group-btn .btn {
+  border-color: #000 !important;
+  color: #000;
+}
+#app .cart .number-stepper-round .btn:hover,
+#app .cart .number-stepper-round .btn:active {
+  background-color: #fff;
+  color: #000;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
+  background-color: #fff;
+  border-color: #000;
+}
+#app .segment-collapse {
+  color: #000;
+}
+
+/* Hide default logo and add one centered in middle of nav */
+
+.navbar-full {
+  justify-content: center;
+}
+.navbar-full .logo {
+  display: none !important;
+}
+.navbar-full .navbar-brand:before {
+  content: '';
+  width: 12rem;
+  height: 6rem !important;
+  background-image: url(https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Envision/logo_envision.png);
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+/* Set background color and fix tile hidden by that */
+
+#app {
+  background: #EFECE8;
+}
+#app .block-background {
+  z-index: 0;
+}
+
+/* Chevron Colors */
+
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover,
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+  background-color: #000;
+  color: #fff;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
+  background-color: #000;
+  border-color: #000;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after,
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
+  border-left-color: #000;
+}
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
+  border-color: #000;
+  border-left-color: transparent;
+}
+#app
+  .cart-shop-navbar
+  .nav.nav-chevrons
+  .nav-item:nth-child(even)
+  .nav-link:before {
+  border-left-color: transparent;
+}
+#app .bookable-list-item:before,
+.availability-table .row-head:before,
+#app .availability-table .bookable-ticket-variant:before {
+  background-color: #000;
+}
+
+/*Footer*/
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2,
+.footer-list {
+  display: none;
+}
+
+/* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+
+@media (min-width: 768px) {
+  #app .cart-body .col-10 {
+    flex: 0 0 38%;
+    max-width: 38%;
+  }
+}
+
+/* Fix Nav on Mobile */
+
+#cart-shop-nav-mobile .nav-link {
+  padding: 0 !important;
+  margin-right: 0 !important;
+  font-size: 0.9rem !important;
+}
+#cart-shop-nav-mobile .nav.nav-chevrons {
+  width: 100%;
+}
+#cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+  float: left !important;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .cart-shop-navbar.sticky {
+    position: static;
+  }
+}
+
+/* Kyles stuff */
+
+#itinerary img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+nav.booking-footer .hidden-sm-down {
+  display: none;
+}
+
+time {
+  display: none;
+}
+
+header .factual {
+  display: none;
+}
+
+.booking-footer .btn-cta {
+  border: none;
+  color: #000;
+  background-position-y: -10px;
+  font-family: 'Gobold regular', serif;
+}
+
+nav .navbar-full {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.fill-white {
+	background-color: #efece8;
+}
+
+.bookable-list-item {
+	p {
+    font-size: 12px;
+  }
+}
+
+#app .block-sm section {
+  padding-top: 0;
+}
+
+.cart-item small a,
+.cart-item span {
+  display: none;
+}
+
+.cart-item .clickable-widget {
+  pointer-events: none;
+}
+
+/* PRODUCT PAGE */
+section.block:not(#hero,#overview,#includes,#venue,#rooms,#gallery) .block-background .col-8.offset-md-4 {
+  margin-left:50%;
+  flex:0 0 50%;
+  max-width:50%;
+}
+@media (max-width:576px) {
+ 	section.block:not(#hero,#overview,#includes,#venue,#rooms,#gallery) .block-background {
+    position:static;
+    height:300px;
+  }
+  section.block:not(#hero,#overview,#includes,#venue,#rooms,#gallery) .block-background .col-8 {
+    margin-left:0;
+    flex:0 0 100%;
+    max-width:100%;
+  }
+}
