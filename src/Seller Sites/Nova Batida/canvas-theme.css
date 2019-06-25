@@ -1,0 +1,52 @@
+.navbar-brand {
+    display:none;
+}
+#menu {
+    padding:0 1rem;
+    font-family:'futuraptmedium', sans-serif;
+    font-size:14px;
+}
+#menu a {
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.navbar-nav {
+    width:100%;
+    justify-content:space-evenly;
+}
+.nav-item {
+    flex-grow:1;
+    text-align:center;
+    padding:1.5rem 0;
+}
+.nav-item#book-now, .nav-item:hover {
+    background-color:#fc4f60;
+}
+.nav-item#book-now a, .nav-item:hover a {
+    color:#fff !important;
+}
+#full-logo {
+    position: absolute;
+    left: 50%;
+    top: 85px;
+    transform: translateX(-50%);
+    z-index: 1029;
+    width: 70%;
+    max-width: 338px;
+}
+.sticky #full-logo {
+    display:none;
+}
+#shorthand-logo {
+    display:none;
+    position: sticky;
+    z-index: 1031;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+
+}
+.sticky #shorthand-logo {
+    display:block;
+}
