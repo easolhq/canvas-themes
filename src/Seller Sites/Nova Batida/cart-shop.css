@@ -57,14 +57,14 @@
 /* Set fonts for entire shop including ones forced in other CSS files */
 
 #app, .site-shop-nav {
-    font-family:'futuraptmedium', serif;
+    font-family:'Futuraptmedium', sans-serif;
   }
   #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
     text-transform:uppercase;
-    font-family:'proximanova-regular', serif;
+    font-family:'Futuraptmedium', sans-serif;
   }
   #app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
-    font-family:'proximanova-regular', sans-serif !important;
+    font-family:'Robotocondensed-regular', sans-serif !important;
   }
   #app .bookable-list-item i:before {
     font-family:'Fixers Icons';
