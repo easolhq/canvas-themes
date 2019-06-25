@@ -169,6 +169,9 @@ body {
   padding:15px;
   background-color:#000;
 }
+.ticket-cards.sold-out .ticket-inner {
+  background-color:#1bdcbf;
+}
 .ticket-inner h1 {
   font-size:1.5rem;
 }
@@ -180,6 +183,14 @@ body {
   background: #fc4f60;
   color: #fff !important;
   text-decoration: none !important;
+}
+.ticket-cards.sold-out .buy-button {
+  background-color:#13ceae;
+}
+.ticket-inner .h6 {
+  font-size: 0.8rem;
+  font-weight: normal !important;
+  padding-top: 20px;
 }
 
 /* Footer */
