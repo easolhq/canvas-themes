@@ -14,9 +14,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family:'futuraptmedium', sans-serif;
     font-size:14px;
 }
-#menu .container {
-  max-width:1168px;
-}
 #menu a {
     text-transform:uppercase;
     font-weight:bold;
@@ -28,7 +25,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .nav-item {
     flex:1 1 0;
     text-align:center;
-    padding:1.5rem 0;
+    padding:1rem 0;
 }
 .nav-item#book-now, .nav-item:hover {
     background-color:#fc4f60;
@@ -52,7 +49,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     display:none;
     position: sticky;
     z-index: 1031;
-    top: 40px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     width: 90px;
@@ -148,7 +145,7 @@ body {
     object-fit:cover;
 }
 .dual-product-block .btn-primary {
-  background-color: #51eed8;
+  background-color: #51eed8 !important;
   margin-bottom: 15px;
   float: right;
 }
