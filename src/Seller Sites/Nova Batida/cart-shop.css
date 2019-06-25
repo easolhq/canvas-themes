@@ -1,13 +1,13 @@
 /* Style Changes add any customer specific stuff here */
  body.cart-shop{
-      background-image: url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Nova+Batida/bg-1152-new.png"); 
+      background-image: url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Nova+Batida/body-bg.png"); 
   }
 
  nav.site-shop-nav{
       background-color: #13ceae !important;
       border-color: #13ceae;
   }
-  
+
   .cart-shop-navbar {
     background-color: #13ceae !important;
 }
@@ -18,8 +18,8 @@
     background-color:#13ceae !important;
     border-color:#13ceae !important;
 }
-  
-.footer-main .block-content:before {   
+
+.footer-main .block-content:before {
   content: '';
       width: 20rem;
       height: 10rem;
@@ -66,9 +66,9 @@
   #app .bookable-list-item i:before {
     font-family:'Fixers Icons';
   }
-  
+
   /* Set button colors */
-  
+
   #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
       background-color: #fc4f60 !important;
       border-color:#fc4f60;
@@ -85,21 +85,21 @@
   #app .segment-collapse {
       color: #fc4f60;
   }
-  
+
   /* Hide default logo and add one centered in middle of nav */
-  
+
   body > nav.site-shop-nav{
       justify-content: center !important;
       height: 80px;
   }
   /* Set background color and fix tile hidden by that */
-  
 
-  
+
+
   /* Chevron Colors */
-  
+
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
-    background-color: rgba(52,157,153,.95); 
+    background-color: rgba(52,157,153,.95);
     color:#fff !important;
   }
   #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
@@ -120,21 +120,21 @@
   #app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
     background-color:rgba(52,157,153,.95);
   }
-  
+
   /* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
-  
+
   @media (min-width:768px) {
     #app .cart-body .col-10 {
       flex:0 0 38%;
       max-width:38%
     }
   }
-  
+
   /*Footer*/
   ul.list-inline.footer-social-list.my-4,
 .footer-list a,
 .footer-list,
-.logo-mark.x2, 
+.logo-mark.x2,
 .footer-list{
   display: none;
 }
@@ -142,9 +142,9 @@
 .footer-main{
     background-color: #13ceae !important;
 }
-  
+
   /* Fix Nav on Mobile */
-  
+
   #cart-shop-nav-mobile .nav-link {
     padding:0 !important;
     margin-right:0 !important;

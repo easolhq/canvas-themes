@@ -65,7 +65,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 /* Global BG's */
 
 body {
-    background: url(https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Nova+Batida/body-bg.png) #51eed8;
+    background: url(https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Nova+Batida/body-bg.png) #51eed8 !important;
     background-repeat: repeat-y;
     background-position: center 77px;
     background-size: auto;
