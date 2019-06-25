@@ -147,6 +147,9 @@ body {
     max-height:350px;
     object-fit:cover;
 }
+.dual-product-block .btn-primary {
+    background-color: #51eed8;
+}
 
 /* Text BLocks */
 
