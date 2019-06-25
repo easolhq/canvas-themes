@@ -1,0 +1,295 @@
+#app {
+    background-color: #02a0aa !important;
+}
+#app, .site-shop-nav {
+  font-family:'Brandon', serif;
+}
+#app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+  text-transform:uppercase;
+  font-family:'Founders', serif;
+}
+#app .bookable-list-item *, #app .factual, #app p {
+  font-family:'Brandon', sans-serif !important;
+}
+#app .cart-footer .btn {
+  font-family:'Founders', sans-serif !important;
+}
+#app .bookable-list-item i:before {
+  font-family:'Fixers Icons';
+}
+#availability h4 {
+    color: #fdd949 !important;
+    font-size: 3rem;
+}
+#availability .bookable-ticket-variant {
+    background-color: #02a0aa !important;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Brandon', sans-serif !important;
+}
+#app hr {
+    border: 3px solid white !important;
+}
+.cart, .cart-body-wrapper, .cart-header, .cart-footer {
+    background-color: transparent !important;
+    color: #fff;
+    font-weight: 700;
+}
+#app .bookable-ticket-variant input.form-control {
+    background-color: #02a0aa !important;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px !important;
+    border: none;
+    border-bottom: solid 2px #fdd949 !important;
+}
+#app .bookable-ticket-variant .btn {
+    background-color: #02a0aa !important;
+    color: #fdd949;
+    border: none;
+    border-bottom: solid 2px #fdd949 !important;
+}
+#app .cart input.form-control {
+    background-color: #02a0aa !important;
+    color: #fff;
+    font-weight: 700;
+}
+#app .cart .factual {
+    color: #fff;
+    font-weight: 700;
+}
+.cart-body-wrapper .cart-body {
+    border-top: 1px solid #fdd949 !important;
+    border-bottom: 1px solid #fdd949 !important;
+    background-color: transparent !important;
+}
+.cart-body-wrapper .cart-item {
+    border: none !important
+}
+.cart-body-wrapper h6.mb-0.mr-auto {
+    font-size: 24px !important;
+    color: #fdd949;
+}
+#app div.cart-body-wrapper.d-flex.flex-column > div.container.w-100 > div {
+    border-bottom: 1px solid #fdd949 !important;
+}
+
+
+
+/* Set button colors */
+
+/* big book button */
+#app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+    background-color:#fdd949 !important;
+    border-color:#fdd949;
+    color:#YYYY;
+}
+
+#app .cart-footer .btn-primary {
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+/* - + steppers */
+#app .cart .input-group-btn .btn {
+    border-color:#02a0aa !important;
+    color:#fdd949;
+    background-color: #02a0aa;
+}
+
+/* - + steppers hover */
+#app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
+    background-color:#XXXX;
+    color:#YYYY;
+}
+
+/* segment drop down arrows */
+#app .segment-collapse {
+    color:#fdd949;
+}
+
+/* Fix stepper sizing */
+.block-content .number-stepper button {
+  padding: 10px! important;
+  max-width: 50px;
+}
+
+.block-content .number-stepper .form-control {
+  font-size: 10px !important;
+  max-width: 50px;
+}
+
+
+/* Hide default logo and add one centered in middle of nav */
+.site-shop-nav, .footer-main {
+    background-color:#02a0aa !important;   
+}
+
+.navbar-full {
+    justify-content:center;
+}
+.navbar-full .logo {
+   display:none !important
+}
+.navbar-full .navbar-brand:before {
+  content: '';
+  width: 6rem;
+  height: 6rem;
+  background-image: url(https://lovetrails.fixersworld.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxtTWpZMk1qQmhZaTFsTWpaa0xUUXhNekF0WVRobU5pMWtNamczWVdaaVpqWTNNamtHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--8975577107ec43830141cdf6929d75c28884bdb8/love-trails-square.png);
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.cart-shop-navbar {
+    background-color: #02a0aa !important;
+}
+
+.cart-shop-navbar .nav-link {
+    background-color: #02a0aa !important;
+    font: 20px Founders !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+
+/* Set background color and fix tile hidden by that */
+
+#app {
+  background:#02a0aa;
+}
+#app .block-background {
+  z-index:0;
+}
+
+/* Chevron Colors */
+
+
+/* Chevron hover text */
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+  background-color:#fdd949 !important ;
+}
+
+/* Chevron hover left */
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
+  background-color:#fdd949;
+  border-color:#fdd949;
+}
+
+/* Chevron hover right */
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
+  border-left-color:#fdd949;
+}
+
+/* Chevron highlight when you scroll down */
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
+    border-color:#fdd949;
+    border-left-color:transparent;
+}
+
+/* Part of chevron - don't amend */
+#app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
+  border-left-color:transparent
+}
+
+/* Line on left of selected tickets*/
+#app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+  background-color:#fdd949;
+}
+
+/* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+
+@media (min-width:768px) {
+  #app .cart-body .col-10 {
+    flex:0 0 38%;
+    max-width:38%
+  }
+}
+
+/* Fix Nav on Mobile */
+
+#cart-shop-nav-mobile .nav-link {
+  padding:0 !important;
+  margin-right:0 !important;
+  font-size:0.9rem !important;
+}
+#cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+  float:left !important;
+  width:100%;
+}
+@media (max-width:600px) {
+  .cart-shop-navbar.sticky {
+    position:static;
+  }
+}
+
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white {
+    background-color: transparent !important;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    max-width: 800px;
+    left: 100px !important;
+    z-index: 3;
+}
+
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h1 {
+    color: #fdd949;
+    font-size: 140px;
+    text-align: right !important;
+    line-height: 0.7;
+}
+
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h6 {
+    color: #fdd949;
+    font-size: 36px;
+    text-align: right !important;
+}
+
+.cart-shop-hero-tag-line {
+    line-height: 0.8;
+    font-size: 24px;
+    text-align: right !important;
+}
+
+#app .faux-image {
+    background-image: none !important;
+}
+
+
+#app .img-fluid {
+    display: none !important;
+}
+
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3:after {
+    background-image: url('https://fixersworld.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWt4TkRsaE5EYzBZaTA1WWpnNUxUUmpOamt0WWpFM01DMDJZbUZqTnpReE9UYzBZek1HT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--1ee26ae1cf73794f89ef5ab8d0cdbe77e247d77c/music.png');
+    content: '';
+    width: 200px;
+    height: 500px;
+    display: block;
+    position: absolute !important;
+    right: 0px;
+    background-position: top;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    z-index: 2;
+}
+
+@media (max-width:600px) {
+.cart-body-wrapper .cart-body, .cart-footer, .cart-header, #app > div.container.pb-4 > div.row > div.col-14.col-lg-5.cart-container > div > div > div.cart-body-wrapper.d-flex.flex-column > div.container.w-100 {
+    background-color: #02a0aa !important;
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white {
+    left: 0px !important;
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h1 {
+    font-size: 80px;
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h6 {
+    font-size: 24px;
+}
+.cart-shop-hero-tag-line {
+    font-size: 18px;
+}
+}
