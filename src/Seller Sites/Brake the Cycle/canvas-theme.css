@@ -315,3 +315,10 @@ body {
       padding-right: 0px !important;
   }
   }
+
+  @media only screen and (max-width: 768px) {
+    #block-zbb > div.block-content > div > div > div, #block-mbq > div.block-content > div > div > div {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
