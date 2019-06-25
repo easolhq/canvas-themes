@@ -67,7 +67,7 @@ body {
     background-position: center 77px;
     background-size: auto;
 }
-.block .container {
+.block .container, .block-content {
     background-color:#51eed8;
 }
 
