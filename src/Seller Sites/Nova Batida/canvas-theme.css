@@ -88,6 +88,31 @@ body {
   bottom: 40px;
   left: 60px;
 }
+.nova-h1-container {
+  position:relative;
+  width:fit-content
+}
+.nova-circle {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: 32px;
+  height: 32px;
+  background-color: #fbf77c;
+  border-radius: 375px;
+}
+.nova-triangle {
+  position: absolute;
+  top: -15px;
+  left: -24px;
+  z-index: 100;
+  border-bottom: 22.96px solid #fc4f60;
+  border-right: 6px solid transparent;
+  border-left: 19px solid transparent;
+  -ms-transform: rotate(-41deg);
+  -webkit-transform: rotate(-41deg);
+  transform: rotate(-41deg);
+}
 .nova-header-content h1 {
     background-color:#1bdcbf;
     font-size:3rem;
