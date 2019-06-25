@@ -67,8 +67,10 @@ body {
     background-position: center 77px;
     background-size: auto;
 }
-.block .container, .block-content {
+.block-page .block {
     background-color:#51eed8;
+    max-width: 1140px;
+    margin: auto;
 }
 
 /* Header Block */
