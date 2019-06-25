@@ -182,7 +182,9 @@ body {
 .ticket-cards .buy-button {
   background: #fc4f60;
   color: #fff !important;
-  text-decoration: none !important;
+}
+.ticket-cards a:hover {
+  text-decoration:none;
 }
 .ticket-cards.sold-out .buy-button {
   background-color:#13ceae;
