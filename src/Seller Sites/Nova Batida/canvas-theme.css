@@ -65,6 +65,34 @@ body {
     background-color:#51eed8;
 }
 
+/* Header Block */
+
+.nova-header {
+  height:60vh;
+  margin-top:6rem;
+  position:relative;
+}
+.nova-header-content {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+}
+.nova-header-content h1 {
+    background-color:#1bdcbf;
+    font-size:3rem;
+    font-weight:bold;
+    padding:10px 20px;
+    margin-bottom:10px;
+    width:fit-content;
+}
+.nova-header-content p.h4 {
+    background-color:#1bdcbf;
+    font-size:2rem;
+    font-weight:bold;
+    margin-top:10px;
+    padding:5px 10px;
+    width:fit-content;
+}
 
 /* Footer */
 
