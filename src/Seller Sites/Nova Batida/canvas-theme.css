@@ -237,4 +237,7 @@ footer {
     max-width:100%;
     margin:0 !important;
   }
+  .ticket-cards .col-12 {
+    margin-bottom:10px;
+  }
 }
