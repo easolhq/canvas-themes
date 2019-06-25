@@ -53,6 +53,18 @@
     display:block;
 }
 
+/* Global BG's */
+
+body {
+    background: url(https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Nova+Batida/body-bg.png) #51eed8;
+    background-repeat: repeat-y;
+    background-position: center 77px;
+    background-size: auto;
+}
+.block .container {
+    background-color:#51eed8;
+}
+
 
 /* Footer */
 
