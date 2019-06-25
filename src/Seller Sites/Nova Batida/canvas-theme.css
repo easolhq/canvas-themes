@@ -148,7 +148,9 @@ body {
     object-fit:cover;
 }
 .dual-product-block .btn-primary {
-    background-color: #51eed8;
+  background-color: #51eed8;
+  margin-bottom: 15px;
+  float: right;
 }
 
 /* Text BLocks */
