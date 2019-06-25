@@ -1,5 +1,5 @@
-.navbar-brand {
-    display:none;
+#menu .navbar-brand {
+    display:none !important;
 }
 #menu {
     padding:0 1rem;
