@@ -75,11 +75,11 @@
   #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
       background-color: #fc4f60 !important;
       border-color:#fc4f60;
-      color:#fc4f60;
+      color:#fff;
   }
   #app .cart .input-group-btn .btn {
       border-color: #fc4f60 !important;
-      color:#fff;
+      color:#fc4f60;
   }
   #app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
       background-color:#fc4f60;
