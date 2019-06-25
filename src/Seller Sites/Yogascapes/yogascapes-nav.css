@@ -3,7 +3,6 @@ justify-content: space-evenly;
 width: 100%;
 }
 
-
 a.navbar-brand{
 margin-left: 0;
 margin-left: -20px;
@@ -15,7 +14,7 @@ height: 65px;
 }
 
 nav#menu{
-height: 135px;
+height: 130px;
 background-color: rgba(53, 53, 53, 0.2);
 }
 
@@ -121,7 +120,7 @@ background-color: rgba(53, 53, 53, 0.2);
 }
 
 nav#menu a.navbar-brand img{
-height: 42px;
+height: 30px;
 }
 
 nav#menu .navbar-brand{
@@ -135,7 +134,7 @@ nav#menu .navbar-brand{
     background-color: #595958 !important;
     padding-bottom: 400px;
   }
-  
+
   #menu.open .nav-link{
-      text-align: center;    
+      text-align: center;
   }
