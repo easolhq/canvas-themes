@@ -148,6 +148,12 @@ body {
     object-fit:cover;
 }
 
+/* Text BLocks */
+
+.block-page .text-block .block-content {
+  max-width:750px;
+}
+
 /* Footer */
 
 footer {
