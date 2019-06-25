@@ -136,10 +136,10 @@ body {
   font-size: 2rem;
 }
 
-#block-axm .accordion-entry {
+.accordion-entry {
   border:1px solid #5fa3f3;
 }
-#block-axm .fa-chevron-right:before {
+.fa-chevron-right:before {
   content:"\f067";
   color:#5fa3f3;
 }
