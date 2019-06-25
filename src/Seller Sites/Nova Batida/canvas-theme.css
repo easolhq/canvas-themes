@@ -159,6 +159,29 @@ body {
   max-width:750px;
 }
 
+/* Tickets Block */
+
+.ticket-cards .col-6 {
+  padding-left:5px;
+  padding-right:5px;
+}
+.ticket-cards .ticket-inner {
+  padding:15px;
+  background-color:#000;
+}
+.ticket-inner h1 {
+  font-size:1.5rem;
+}
+.ticket-inner h1.ticket-price {
+  font-size:2.5rem;
+  margin:20px 0;
+}
+.ticket-cards .buy-button {
+  background: #fc4f60;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
 /* Footer */
 
 footer {
