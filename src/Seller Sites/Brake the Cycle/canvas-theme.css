@@ -286,20 +286,26 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-  #block-zbb > div.block-content > div > div > div > a > div > img {
-      height: 290px;
+  #block-zbb img, #block-mbq img {
+      height: 480px !important;
+      object-fit: cover;
+      object-position: center;
   }
 }
 
 @media only screen and (max-width: 1199px) {
-  #block-zbb > div.block-content > div > div > div > a > div > img {
-      height: 250px;
+  #block-zbb img, #block-mbq img {
+      height: 400px !important;
+      object-fit: cover;
+      object-position: center;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #block-zbb > div.block-content > div > div > div > a > div > img {
-      height: 185px;
+  #block-zbb img, #block-mbq img {
+      height: 320px !important;
+      object-fit: cover;
+      object-position: center;
   }
 }
 
