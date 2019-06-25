@@ -1,6 +1,6 @@
 /* Style Changes add any customer specific stuff here */
  body.cart-shop{
-      background-image: url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Nova+Batida/body-bg.png"); 
+      background-image: url("https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Nova+Batida/body-bg.png");
   }
 
  nav.site-shop-nav{
@@ -17,6 +17,9 @@
 .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:after, .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:before {
     background-color:#13ceae !important;
     border-color:#13ceae !important;
+}
+#cart-shop-nav .nav-item {
+  display:none;
 }
 
 .footer-main .block-content:before {
@@ -72,7 +75,7 @@
   #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
       background-color: #fc4f60 !important;
       border-color:#fc4f60;
-      color:#fff;
+      color:#fc4f60;
   }
   #app .cart .input-group-btn .btn {
       border-color: #fc4f60 !important;
