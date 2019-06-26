@@ -291,6 +291,10 @@ h1 {
   padding: 5px;
 }
 
+#block-nsh {
+  padding-bottom: 50px;
+}
+
 #block-pka h1, #block-xaz h1, #block-nsh h1 {
   font-size: 36px !important;
 }
