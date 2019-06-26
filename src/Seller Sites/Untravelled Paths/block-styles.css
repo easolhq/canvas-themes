@@ -536,14 +536,15 @@ img {
 /* Search Page */
 
 .product-card {
-  border:1px solid #f7f7f9;
   padding:0;
+}
+.product-card-inner {
+  border:1px solid #f7f7f9;
   transition:0.5s box-shadow
 }
-.product-card:hover {
+.product-card:hover .product-card-inner {
   box-shadow: 5px 5px 5px 5px rgba(194,194,194,1);
 }
-.product-card
 .product-card img {
   height:250px;
   width:100%;
