@@ -281,3 +281,16 @@ h1 {
   margin: 30px 0;
   color: #446655 !important;
 }
+
+.line-up-element {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+#block-pka, #block-xaz, #block-nsh {
+  padding: 5px;
+}
+
+#block-pka h1, #block-xaz h1, #block-nsh h1 {
+  font-size: 36px !important;
+}
