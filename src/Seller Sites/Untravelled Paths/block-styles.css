@@ -543,7 +543,7 @@ img {
   transition:0.5s box-shadow
 }
 .product-card:hover .product-card-inner {
-  box-shadow: 3px 3px 3px 1px rgba(194,194,194,0.8);
+  box-shadow: 5px 5px 5px 1px rgba(194,194,194,0.8);
 }
 .product-card img {
   height:250px;
