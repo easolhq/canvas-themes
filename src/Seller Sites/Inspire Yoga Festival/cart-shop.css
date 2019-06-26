@@ -126,3 +126,20 @@
       position:static;
     }
   }
+
+
+
+ /* Lines on checkout remove */
+
+#app .timeline:before, .timeline:after {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+#app .timeline {
+    border-left: none;
+}
+
+#app .prefix-line:before {
+    border-top: none;
+}
