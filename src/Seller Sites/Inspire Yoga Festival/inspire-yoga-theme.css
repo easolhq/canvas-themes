@@ -283,8 +283,8 @@ h1 {
 }
 
 .line-up-element {
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 30px !important;
+  line-height: 30px !important;
 }
 
 #block-pka, #block-xaz, #block-nsh {
