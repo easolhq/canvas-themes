@@ -543,12 +543,18 @@ img {
   transition:0.5s box-shadow
 }
 .product-card:hover .product-card-inner {
-  box-shadow: 2px 2px 2px 2px rgba(194,194,194,0.8);
+  box-shadow: 3px 3px 3px 1px rgba(194,194,194,0.8);
 }
 .product-card img {
   height:250px;
   width:100%;
   object-fit:cover;
+}
+.product-content p.text-secondary {
+  min-height:25px;
+}
+.product-content p.mb-3 {
+  min-height:75px;
 }
 
 /* Footer */
