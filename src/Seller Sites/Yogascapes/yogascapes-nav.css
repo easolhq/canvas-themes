@@ -52,8 +52,8 @@ right: 50px;
 #menu-social-links{
 display: flex !important;
 position: absolute;
-top: 130px;
-right: 50px;
+top: 88px;
+right: 60px;
 justify-content: flex-end;
 }
 
