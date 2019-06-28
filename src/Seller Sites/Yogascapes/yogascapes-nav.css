@@ -124,8 +124,10 @@ height: 30px;
 }
 
 nav#menu .navbar-brand{
-    margin-left: auto;
-    margin-right: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 !important;
 }
 }
 
