@@ -84,17 +84,7 @@
   }
   
   
-  /* Fix stepper sizing */
-  #app .number-stepper button {
-    padding: 10px! important;
-    max-width: 50px;
-  }
-  
-  #app .number-stepper .form-control {
-    font-size: 12px !important;
-    max-width: 50px;
-  }
-  
+
   
   /* Hide default logo and add one centered in middle of nav */
   
