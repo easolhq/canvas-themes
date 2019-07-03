@@ -559,6 +559,10 @@ img {
 
 /* Team Pages */
 
+.team-intro {
+  bottom:-75px;
+  left:calc(50% -75px);
+}
 .team-headshot {
   width: 150px;
   height: 150px;
