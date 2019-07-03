@@ -131,14 +131,14 @@ h1 {
 }
 
 
-#block-fal > .inner-copy, #block-5n1 > .inner-copy, #block-9to > .inner-copy, #block-hqc > .inner-copy {
+#block-fal .inner-copy, #block-5n1 .inner-copy, #block-9to .inner-copy, #block-hqc .inner-copy {
   width: 400px;
   background: none;
   border: none;
   color: white;
 }
 
-#block-fal > .inner-copy > div > a, #block-5n1 > .inner-copy > div > a, #block-hqc > .inner-copy > div > a  {
+#block-fal a, #block-5n1 a, #block-hqc a  {
   border: solid 1px white;
   color: white;
 }
@@ -198,11 +198,11 @@ h1 {
 }
 
 @media only screen and (min-width: 1010px){
-  #block-nac > .inner-copy, #block-g63 > .inner-copy, #block-fal > .inner-copy, #block-5n1 > .inner-copy {
+  #block-nac .block-content, #block-g63 .block-content, #block-fal .inner-copy, #block-5n1 .inner-copy {
     margin-left: 60%;
   }
 
-  #block-9to > .inner-copy, #block-olk > .inner-copy, #block-hqc > .inner-copy {
+  #block-9to .inner-copy, #block-olk .block-content, #block-hqc .inner-copy {
     margin-right: 60%;
   }
 }
