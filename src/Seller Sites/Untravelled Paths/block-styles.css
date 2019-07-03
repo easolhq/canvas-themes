@@ -575,6 +575,11 @@ img {
   margin-top:8rem;
   text-align:justify;
 }
+.team-tagline {
+  position:relative;
+  top:-30px;
+  margin-bottom:-30px;
+}
 
 /* Footer */
 
