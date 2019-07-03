@@ -561,7 +561,7 @@ img {
 
 .team-intro {
   bottom:-75px;
-  left:calc(50% -75px);
+  left:calc(50% - 75px);
 }
 .team-headshot {
   width: 150px;
@@ -570,6 +570,10 @@ img {
   border-radius: 50%;
   border: 1px solid #ececec;
   margin-top: 20px;
+}
+.team-bio {
+  margin-top:8rem;
+  text-align:justify;
 }
 
 /* Footer */
