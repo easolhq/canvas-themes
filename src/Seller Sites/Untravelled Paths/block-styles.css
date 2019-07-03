@@ -571,8 +571,8 @@ img {
   border: 10px solid #ececec;
   margin-top: 20px;
 }
-.team-bio {
-  text-align:justify;
+.team-info li {
+  margin:1.5rem 0;
 }
 .team-tagline {
   position:relative;
