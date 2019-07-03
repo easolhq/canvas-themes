@@ -209,9 +209,11 @@ img {
 #block-obz, #block-24e {
   display:none;
 }
-#block-lfr .block-content, #block-syx .block-content, #block-5ez .block-content, #block-bxw .block-content, #block-zbu .block-content, #block-fch .block-content, #block-ci8 .block-content, #block-fh0 .block-content, #block-8de .block-content, #block-pk6 .block-content, .team-header .block-content, .custom-block .block-content {
-  max-width:100%;
+#block-lfr .block-content, #block-syx .block-content, #block-5ez .block-content, #block-bxw .block-content, #block-zbu .block-content, #block-fch .block-content, #block-ci8 .block-content, #block-fh0 .block-content, #block-8de .block-content, #block-pk6 .block-content, .team-header .block-content {
   min-height:80vh;
+}
+.custom-block .block-content {
+  max-width:100%;
   padding:0;
 }
 .block.custom-block {
