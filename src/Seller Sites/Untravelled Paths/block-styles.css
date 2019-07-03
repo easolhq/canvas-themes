@@ -568,7 +568,7 @@ img {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 1px solid #ececec;
+  border: 10px solid #ececec;
   margin-top: 20px;
 }
 .team-bio {
