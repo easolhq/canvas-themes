@@ -329,3 +329,34 @@ h1 {
 #block-pka h1, #block-xaz h1, #block-nsh h1 {
   font-size: 36px !important;
 }
+
+
+
+
+/* MULTI LANGAUGE AMENDS */
+#block-fal, #block-hqc, #block-5n1, #block-6p3 {
+  padding: 0;
+}
+
+#block-fal > div.block-content, #block-hqc > div.block-content, #block-5n1 > div.block-content {
+  height: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.inner-copy {
+  padding-top: 150px;
+}
+
+#block-hqc > div.block-content > div > div {
+  margin-left: 200px;
+}
+
+#block-fbj {
+  background-color: white!important;
+  padding: 0;
+}
+
+#block-g4g {
+  padding-top: 0;
+}
