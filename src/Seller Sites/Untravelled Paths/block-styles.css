@@ -608,6 +608,13 @@ footer .credits {
   }
 }
 @media (max-width:576px) {
+  #mc_embed_signup_scroll input {
+    width:80% !important;
+    margin-top:10px;
+  }
+  #signup h4.mr-3 {
+    text-align:center;
+  }
   h1, .h1 {
     font-size:1.5rem !important;
   }
