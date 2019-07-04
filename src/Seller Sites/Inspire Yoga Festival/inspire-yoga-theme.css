@@ -334,8 +334,17 @@ h1 {
 
 
 /* MULTI LANGAUGE AMENDS */
-#block-fal, #block-hqc, #block-5n1, #block-6p3 {
+#block-fal, #block-hqc, #block-5n1, #block-6p3, #block-qu6, #block-gzp, #block-2kb, #block-asg, #block-nky, #block-szn {
   padding: 0;
+}
+
+#block-qu6 > div.block-content, #block-asg > div.block-content {
+  max-width: 100%;
+  padding: 0;
+}
+
+#block-zxt > div.block-content, #block-tpy > div.block-content, #block-vv1 > div.block-content {
+  max-width: 600px;
 }
 
 #block-fal > div.block-content, #block-hqc > div.block-content, #block-5n1 > div.block-content {
@@ -359,4 +368,8 @@ h1 {
 
 #block-g4g {
   padding-top: 0;
+}
+
+#block-szn p {
+  line-height: 28px;
 }
