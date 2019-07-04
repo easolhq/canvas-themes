@@ -132,7 +132,7 @@ h1 {
 
 
 #block-fal .inner-copy, #block-5n1 .inner-copy, #block-9to .inner-copy, #block-hqc .inner-copy {
-  width: 400px;
+  max-width: 400px;
   background: none;
   border: none;
   color: white;
