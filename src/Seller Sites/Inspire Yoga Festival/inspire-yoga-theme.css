@@ -20,16 +20,15 @@ h1 {
   }
 
   .nav-link{
-      font-family:"Ostrich-regular";
-      font-size: 1.5em;
+      font-family:"Brandon-grotesque-light";
+      font-size: 1em;
       text-transform: uppercase;
       color: #446655 !important
   }
 
   #menu-cta {
-    font-size: 1.5rem;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    font-size: 1rem;
+    padding: 8px 16px;
     letter-spacing: 2px;
 }
 
@@ -97,7 +96,8 @@ h1 {
   .btn-outline-primary {
     border-radius: 20px !important;
     letter-spacing: 3px;
-    font-family: Ostrich-regular;
+    font-family: Brandon-grotesque-light;
+    padding: 8px 16px !important;
   }
 
   .btn-outline-primary:hover {
@@ -105,8 +105,11 @@ h1 {
   }
 
   .btn-primary {
-    font-family: Ostrich-regular;
-  }
+    font-size: 16px !important;
+    padding: 8px 16px !important;
+    letter-spacing: 2px !important;
+    font-family: Brandon-grotesque-light;
+}
 
   #menu-cta {
     border-radius: 20px !important;
