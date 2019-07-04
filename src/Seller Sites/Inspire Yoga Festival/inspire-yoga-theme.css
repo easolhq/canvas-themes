@@ -157,7 +157,9 @@ h1 {
   #block-fbj > div.block-content {
       padding: 0;
   }
-  
+  #menu > div > a.navbar-brand {
+    display:none !important;
+}
   }
 
 
