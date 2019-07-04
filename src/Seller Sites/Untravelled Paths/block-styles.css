@@ -613,11 +613,31 @@ footer .credits {
   .navbar-brand img {
     height:auto;
   }
+  .ethos-card {
+    height:330px;
+  }
   .footer .font-italic {
     font-size:0.8rem;
   }
 }
 @media (max-width:576px) {
+  .bg-cover.h-80vh {
+    height:fit-content !important;
+  }
+  #about .w-75 {
+    width:100% !important;
+  }
+  #about .submeu {
+    flex-wrap:wrap;
+  }
+  #about .submenu a {
+    display: block;
+    width: 100%;
+    flex-basis: 100%;
+    margin: 0 0 10px 0 !important;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 5px;
+  }
   #signup #mc_embed_signup_scroll input {
     width:85% !important;
     margin-top:10px;
