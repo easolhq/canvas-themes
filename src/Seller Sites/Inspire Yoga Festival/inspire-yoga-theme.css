@@ -27,10 +27,9 @@ h1 {
   }
 
   #menu-cta {
-    font-size: 1.2rem;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    letter-spacing: 0px;
+    font-size: 1rem;
+    padding: 8px 16px;
+    letter-spacing: 2px;
 }
 
   .nav-link:hover {
@@ -105,8 +104,11 @@ h1 {
   }
 
   .btn-primary {
+    font-size: 16px !important;
+    padding: 8px 16px !important;
+    letter-spacing: 2px !important;
     font-family: Brandon-grotesque-light;
-  }
+}
 
   #menu-cta {
     border-radius: 20px !important;
