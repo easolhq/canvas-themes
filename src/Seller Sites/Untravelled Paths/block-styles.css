@@ -233,7 +233,7 @@ img {
   height:80vh !important;
 }
 .intro-content {
-  line-height:1.6;
+  line-height:1.6 !important;
 }
 
 /* Swipers */
