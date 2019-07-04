@@ -608,6 +608,9 @@ footer .credits {
   }
 }
 @media (max-width:576px) {
+  h1, .h1 {
+    font-size:1.5rem !important;
+  }
   #header-cta {
     display:none;
   }
