@@ -621,7 +621,7 @@ footer .credits {
   }
 }
 @media (max-width:576px) {
-  .bg-cover.h-80vh {
+  #ethos {
     height:fit-content !important;
   }
   #about .w-75 {
