@@ -97,6 +97,7 @@ h1 {
     border-radius: 20px !important;
     letter-spacing: 3px;
     font-family: Brandon-grotesque-light;
+    padding: 8px 16px !important;
   }
 
   .btn-outline-primary:hover {
