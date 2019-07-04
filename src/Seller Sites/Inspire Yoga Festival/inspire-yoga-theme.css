@@ -20,7 +20,7 @@ h1 {
   }
 
   .nav-link{
-      font-family:"Oswald";
+      font-family:"Brandon-grotesque-light";
       font-size: 1.5em;
       text-transform: uppercase;
       color: #446655 !important
@@ -97,7 +97,7 @@ h1 {
   .btn-outline-primary {
     border-radius: 20px !important;
     letter-spacing: 3px;
-    font-family: Oswald;
+    font-family: Brandon-grotesque-light;
   }
 
   .btn-outline-primary:hover {
@@ -105,7 +105,7 @@ h1 {
   }
 
   .btn-primary {
-    font-family: Oswald;
+    font-family: Brandon-grotesque-light;
   }
 
   #menu-cta {
