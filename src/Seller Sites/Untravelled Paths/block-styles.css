@@ -240,6 +240,9 @@ img {
   display: flex;
   align-items: center;
 }
+#team a:hover {
+  text-decoration:none;
+}
 /* Swipers */
 
 .swiper-button-next, .swiper-button-prev {
