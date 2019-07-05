@@ -780,15 +780,17 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 }
-.filters__wrapper__selects ul {
+.filters__open {
   position: absolute;
   top: calc(100% + 2px);
   width: 99%;
   padding: 10px 0;
-  list-style: none;
   background-color: #fff;
   color: #000;
   z-index: 20;
+}
+.filters__open ul {
+  list-style: none;
 }
 .filters__wrapper__selects ul li {
   position: relative;
