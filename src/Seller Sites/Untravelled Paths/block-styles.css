@@ -844,7 +844,33 @@ footer .credits {
     font-size:0.8rem;
   }
 }
+@media (max-width:769px) {
+  .filters__wrapper {
+    display:block;
+  }
+  div.filters__wrapper > span {
+    margin-bottom:15px;
+    display:block;
+  }
+  .btn-search {
+    margin-top:15px;
+    margin-left:0;
+  }
+}
 @media (max-width:576px) {
+  .filters__wrapper__selects {
+    flex-wrap:wrap;
+  }
+  .filters__separator {
+    display:none;
+  }
+  .filters__select {
+    width:100%;
+    flex-basis:100%;
+  }
+  .filters__open {
+    width:100%;
+  }
   #ethos {
     height:fit-content !important;
   }
