@@ -555,10 +555,13 @@ img {
 }
 .product-card-inner {
   border:1px solid #fff;
-  transition:0.5s box-shadow
+  min-height:450px;
 }
-.product-card:hover .product-card-inner {
-  box-shadow: 5px 5px 5px 1px rgba(194,194,194,0.8);
+.product-content .d-flex {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
 }
 .product-card img {
   height:250px;
