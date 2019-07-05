@@ -218,7 +218,7 @@ h1 {
     margin-left: 60%;
   }
 
-  #block-9to .inner-copy, #block-olk .block-content, #block-hqc .inner-copy {
+  #block-9to .inner-copy, #block-olk .block-contentx {
     margin-right: 60%;
   }
 }
@@ -374,7 +374,7 @@ h1 {
 }
 
 #block-hqc > div.block-content > div > div {
-  margin-left: 200px;
+  margin-left: 5%;
 }
 
 #block-fbj {
