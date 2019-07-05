@@ -558,9 +558,10 @@ img {
   min-height:450px;
 }
 .product-content .d-flex {
-  position:absolute;
-  bottom:0;
-  left:0;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
 }
 .product-card img {
   height:250px;
