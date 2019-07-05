@@ -615,7 +615,7 @@ img {
 .filters__wrapper > span {
   margin-right: 34px;
   font-family: "Bitter", serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 .filters__wrapper__selects {
   display: -webkit-box;
@@ -646,7 +646,7 @@ img {
   -ms-border-radius: 0;
   border-radius: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
@@ -727,7 +727,7 @@ img {
 .filters__bottom .filters-count {
   margin-right: 25px;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -746,11 +746,21 @@ img {
   box-shadow: none;
   outline: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
   cursor: pointer;
+}
+.btn--daark {
+  padding: 15px 55px;
+  background-color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* Footer */
