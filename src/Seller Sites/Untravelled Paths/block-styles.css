@@ -550,8 +550,11 @@ img {
 .product-card {
   padding:0;
 }
+.product-card a:hover {
+  text-decoration:none;
+}
 .product-card-inner {
-  border:1px solid #f7f7f9;
+  border:1px solid #fff;
   transition:0.5s box-shadow
 }
 .product-card:hover .product-card-inner {
