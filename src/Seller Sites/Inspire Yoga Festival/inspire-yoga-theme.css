@@ -393,3 +393,11 @@ h1 {
 #french {
   margin-left: 20px;
 }
+
+#block-kso {
+  padding-top: 0;
+}
+
+#block-ahp {
+  padding-bottom:0 ;
+}
