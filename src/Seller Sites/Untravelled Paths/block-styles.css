@@ -784,7 +784,6 @@ img {
   position: absolute;
   top: calc(100% + 2px);
   width: 99%;
-  padding: 10px 0;
   background-color: #fff;
   color: #000;
   z-index: 20;
