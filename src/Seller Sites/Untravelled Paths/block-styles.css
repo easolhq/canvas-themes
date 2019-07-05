@@ -783,7 +783,7 @@ img {
 .filters__wrapper__selects ul {
   position: absolute;
   top: calc(100% + 2px);
-  width: 100%;
+  width: 99%;
   padding: 10px 0;
   list-style: none;
   background-color: #fff;
