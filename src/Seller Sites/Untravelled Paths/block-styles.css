@@ -640,7 +640,7 @@ img {
   background-color: #fff;
   box-shadow: none;
   border: 0;
-  outline: 0;
+  outline: 0 !important;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -687,9 +687,10 @@ img {
   content: '';
 }
 .filters .btn-search {
-  height: 52px;
+  height: 84px;
   border: 0;
   margin-left: 32px;
+  padding: 0 40px;
 }
 .filters__bottom {
   display: -webkit-box;
@@ -744,7 +745,7 @@ img {
   background-color: transparent;
   border: 0;
   box-shadow: none;
-  outline: 0;
+  outline: 0 !important;
   font-family: "Open Sans", sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
