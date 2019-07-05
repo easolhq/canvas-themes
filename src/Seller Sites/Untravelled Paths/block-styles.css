@@ -652,7 +652,7 @@ img {
 .filters__select {
   position: relative;
   display: block;
-  width: 25%;
+  width: 33%;
   padding: 18px 68px 18px 30px;
   background-color: #fff;
   box-shadow: none;
@@ -704,7 +704,7 @@ img {
   content: '';
 }
 .filters .btn-search {
-  height: 80px;
+  height: 56px;
   border: 0;
   margin-left: 32px;
   padding: 0 40px;
