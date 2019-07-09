@@ -869,6 +869,9 @@ footer .credits {
     height:100vh !important;
     background-position:center;
   }
+  #trustpilot {
+    right:unset;
+  }
   .filters__wrapper__selects {
     flex-wrap:wrap;
   }
