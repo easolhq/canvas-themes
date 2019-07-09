@@ -880,6 +880,9 @@ footer .credits {
 
 /* Popup */
 
+body.popup-open {
+  overflow:hidden;
+}
 .popup-overlay {
   display:none;
   position:fixed;
@@ -891,6 +894,9 @@ footer .credits {
   background-color:rgba(0,0,0,0.6);
   align-items:center;
   justify-content:center;
+}
+.popup-open .popup-overlay {
+  display:flex
 }
 .popup-inner {
   width:70%;
