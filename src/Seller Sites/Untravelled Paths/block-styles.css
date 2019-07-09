@@ -910,8 +910,9 @@ body.popup-open {
 }
 .closepop {
   position:absolute;
-  top:15px;
-  right:15px;
+  top:47px;
+  right:47px;
+  cursor:pointer;
 }
 
 /* Media Queries */
