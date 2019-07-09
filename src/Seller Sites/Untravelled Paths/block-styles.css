@@ -184,6 +184,10 @@ h1, .h1 {
   bottom:2rem;
   left:2rem;
 }
+#trustpilot {
+  bottom:-25px;
+  right:15px;
+}
 .nav-link #menu-cta {
   margin-top:8px;
 }
