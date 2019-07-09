@@ -165,7 +165,7 @@ h1, .h1 {
   text-decoration:none;
 }
 .btn-outline-secondary:hover {
-  background-color:#6c757d;
+  background-color:#6c757d !important;
 }
 .submenu a:hover {
   text-decoration:none;
