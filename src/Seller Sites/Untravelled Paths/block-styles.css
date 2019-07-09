@@ -862,6 +862,13 @@ footer .credits {
   }
 }
 @media (max-width:576px) {
+  #block-lfr {
+    height:100vh;
+  }
+  #block-header {
+    height:100vh !important;
+    background-position:center;
+  }
   .filters__wrapper__selects {
     flex-wrap:wrap;
   }
