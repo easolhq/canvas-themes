@@ -902,6 +902,9 @@ footer .credits {
   }
 }
 @media (max-width:576px) {
+  .filters__bottom .filters-count {
+    margin-right:15px;
+  }
   #block-lfr {
     height:100vh;
   }
