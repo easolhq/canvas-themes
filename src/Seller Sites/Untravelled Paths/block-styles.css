@@ -882,6 +882,25 @@ footer .credits {
 
 .popup-overlay {
   display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:999;
+  background-color:rgba(0,0,0,0.6);
+  align-items:center;
+  justify-content:center;
+}
+.popup-inner {
+  width:70%;
+  height:60%;
+  position:relative;
+}
+.closepop {
+  position:absolute;
+  top:15px;
+  right:15px;
 }
 
 /* Media Queries */
