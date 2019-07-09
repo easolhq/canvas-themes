@@ -164,6 +164,9 @@ h1, .h1 {
 .btn a:hover {
   text-decoration:none;
 }
+.btn-outline-secondary:hover {
+  background-color:#6c757d;
+}
 .submenu a:hover {
   text-decoration:none;
 }
