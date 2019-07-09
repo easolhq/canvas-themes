@@ -890,7 +890,7 @@ body.popup-open {
   left:0;
   width:100%;
   height:100%;
-  z-index:999;
+  z-index:9999;
   background-color:rgba(0,0,0,0.6);
   align-items:center;
   justify-content:center;
@@ -899,9 +899,14 @@ body.popup-open {
   display:flex
 }
 .popup-inner {
-  width:70%;
-  height:60%;
-  position:relative;
+  width: 70%;
+  height: 60%;
+  position: relative;
+  background: #fff;
+  padding-top: 3rem;
+  overflow-y: scroll;
+  border-radius: 10px;
+  margin-bottom:6rem;
 }
 .closepop {
   position:absolute;
