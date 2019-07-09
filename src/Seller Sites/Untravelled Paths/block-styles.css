@@ -842,7 +842,7 @@ img {
   text-align: center;
   cursor: pointer;
 }
-.filters__bottom .filters__order ul li:after {
+.filters__bottom .filters__order ul li:first-child:after {
   position: absolute;
   bottom: 0;
   left: 50%;
