@@ -877,6 +877,15 @@ footer .social {
 footer .credits {
   width:100%;
 }
+
+/* Popup */
+
+.popup-overlay {
+  display:none;
+}
+
+/* Media Queries */
+
 @media (max-width:1025px) {
   .navbar-brand img {
     height:auto;
