@@ -932,6 +932,14 @@ body.popup-open {
 /* Media Queries */
 
 @media (max-width:1025px) {
+  .popup-inner {
+    width:90%;
+    height:90%;
+  }
+  .closepop {
+    top:7px;
+    right:15px;
+  }
   .navbar-brand img {
     height:auto;
   }
