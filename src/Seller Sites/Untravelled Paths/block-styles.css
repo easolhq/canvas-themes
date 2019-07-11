@@ -506,12 +506,6 @@ img {
   vertical-align:baseline;
   min-height:50px;
 }
-#details select {
-  height:50px;
-  width:80%;
-  padding-left:20px;
-  margin-left:10%;
-}
 .pricing.swiper-button-next, .pricing.swiper-button-prev {
   width: 40px;
   height: 40px;
