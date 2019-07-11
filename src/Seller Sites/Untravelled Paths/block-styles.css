@@ -15,6 +15,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Contact Form */
+
+.fsBody .fsFieldRow, .fsBody .fsRowBody {
+  padding:0 10px;
+}
+.fsBody .fsForm .fsSectionHeading {
+  color: #212529;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
+.fsBody .fsSectionHeader {
+  background-color:transparent;
+}
+
+/* Icon Font */
+
 .iconlogo:before {
   content: "\e925";
 }
