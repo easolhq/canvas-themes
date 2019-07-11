@@ -914,13 +914,13 @@ body.popup-open {
 }
 .popup-inner {
   width: 70%;
-  height: 60%;
+  height: 85%;
   position: relative;
   background: #fff;
   padding-top: 3rem;
   overflow-y: scroll;
-  border-radius: 10px;
-  margin-bottom:6rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 .closepop {
   position:absolute;
