@@ -18,15 +18,16 @@
 /* Contact Form */
 
 .fsBody .fsFieldRow, .fsBody .fsRowBody {
-  padding:0 10px;
+  padding:0 10px !important;
 }
 .fsBody .fsForm .fsSectionHeading {
-  color: #212529;
+  color: #212529 !important;
   border-bottom: 1px solid;
   padding-bottom: 20px;
+  text-align: left !important;
 }
 .fsBody .fsSectionHeader {
-  background-color:transparent;
+  background-color:transparent !important;
 }
 
 /* Icon Font */
