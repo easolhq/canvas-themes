@@ -932,7 +932,7 @@ body.popup-open {
   margin-right:5px;
 }
 .form-header img {
-  object-fit:cover;
+  object-fit:contain;
 }
 .form-header .reasons {
   margin:20px 15px 20px auto;
