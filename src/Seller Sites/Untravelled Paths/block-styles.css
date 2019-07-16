@@ -917,16 +917,32 @@ body.popup-open {
   height: 85%;
   position: relative;
   background: #fff;
-  padding-top: 3rem;
   overflow-y: scroll;
   border-radius: 5px;
   margin-bottom: 1rem;
 }
+.form-header {
+  background: #343a40;
+  padding: 10px 30px;
+  color: #fff;
+  display: flex;
+  margin-bottom:30px;
+}
+.form-header i {
+  margin-right:5px;
+}
+.form-header img {
+  object-fit:cover;
+}
+.form-header .reasons {
+  margin:20px 15px 20px auto;
+}
 .closepop {
   position:absolute;
-  top:47px;
-  right:47px;
+  top:15px;
+  right:25px;
   cursor:pointer;
+  color:#fff;
 }
 
 /* Media Queries */
@@ -951,6 +967,14 @@ body.popup-open {
   }
 }
 @media (max-width:769px) {
+  .form-header {
+    flex-wrap:wrap;
+    padding-right:50px;
+  }
+  .form-header .reasons {
+    margin:20px 0;
+    font-size:0.8rem;
+  }
   .filters__wrapper {
     display:block;
   }
