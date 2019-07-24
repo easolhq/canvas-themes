@@ -211,7 +211,6 @@ background-size:cover;
   font-family:'Amatic';
   font-size:2rem;
   padding-top:200px;
-  margin-top:-240px;
 }
 #footer a {
   color:#fff;
@@ -296,6 +295,11 @@ background-size:cover;
 
 #block-6dw{
   margin-bottom: 250px;
+}
+
+.dual-product-block .btn{
+  background-color: transparent;
+  border: 0;
 }
 
 /* Mobile */
