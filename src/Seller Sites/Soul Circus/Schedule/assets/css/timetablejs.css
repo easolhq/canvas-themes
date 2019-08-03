@@ -1,0 +1,437 @@
+.timetable {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+
+.timetable * {
+  box-sizing: inherit;
+  padding-top: 0px;
+}
+
+.timetable li, .timetable ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.timetable li, .timetable ul {
+  padding: 0;
+}
+
+.timetable > aside {
+  flex: none;
+  max-width: 30%;
+  padding: 0!important;
+  margin-top: 60px;
+  position: relative;
+}
+
+.timetable > aside li {
+  padding: 0 15px;
+  background-color: #ffffff;
+  line-height: 60px;
+}
+
+.timetable > aside li:not(:last-of-type) {
+  border-bottom: 1px solid #1c2944;
+}
+
+.timetable > aside .row-heading {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: clip;
+  word-wrap: normal;
+  word-break: break-word;
+  line-height: 1rem;
+  white-space: normal;
+  vertical-align: middle;
+  font-size: .8em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.timetable > aside:before {
+  content: "";
+  display: block;
+  background-color: #ffffff;
+  height: 60px;
+  position: relative;
+  margin-top: -60px;
+  top: 0;
+}
+
+.timetable aside li, .timetable time li {
+  height: 60px;
+}
+
+.timetable > section {
+  flex: 3 0 auto;
+  width: 0;
+  padding: 0!important;
+}
+
+.timetable > section time {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.timetable > section > header {
+  position: relative;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  transform-style: preserve-3d;
+}
+
+.timetable > section > header ul {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.timetable > section > header li {
+  flex: none;
+  display: block;
+  position: relative;
+  width: 96px;
+}
+
+.timetable > section > header li .time-label {
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+.timetable > section > header li:not(:first-of-type) .time-label {
+  transform: translateX(-50%);
+}
+
+.timetable > section > header li:last-of-type {
+  width: 0;
+}
+
+.timetable > section > header li:last-of-type .time-label {
+  transform: translateX(-100%);
+}
+
+.timetable ul.room-timeline {
+  border-left: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.timetable ul.room-timeline li {
+  position: relative;
+  background-color: #f9d5d229;
+  height: 60px;
+}
+
+.timetable ul.room-timeline li:nth-of-type(odd) {
+  background-color: #4f739d0f;
+}
+
+.timetable ul.room-timeline li:first-of-type {
+  border-top: 1px solid #e5e5e5;
+}
+
+.timetable ul.room-timeline li:last-of-type {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.timetable ul.room-timeline li:not(:last-of-type) {
+  border-bottom: none;
+}
+
+.timetable ul.room-timeline li:first-child .time-entry {
+  /*height: 44px;*/
+}
+
+.timetable ul.room-timeline li:after, .timetable ul.room-timeline li:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.timetable ul.room-timeline li:before {
+  background-image: linear-gradient(90deg,#e5e5e5 1px,transparent 0);
+  background-size: 96px auto;
+}
+
+.timetable ul.room-timeline li:after {
+  background-size: 96px auto;
+  background-position: -2px 0;
+}
+
+.timetable .time-entry {
+  background-color: #6cc2cd;
+  transition: background-color .2s;
+  height: 60px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  padding: 0 10px;
+  white-space: normal;
+  overflow: hidden;
+  font-size: small;
+  font-family: Montserrat;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  border: 1px dashed #ffffff;
+  border-radius: 0px;
+  transform-style: preserve-3d;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 5px #1c294447;
+}
+
+.timetable .time-entry small {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+}
+
+.timetable .time-entry:hover {
+  background-color: #1c2944;
+  color: #ffffff;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.modal-body {
+  font-size: medium;
+  z-index: 1010;
+}
+
+.event-modal-body{
+  max-height: 40vh;
+  overflow-y: scroll
+}
+
+#exampleModalLabel {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #1c2944;
+}
+
+#artist {
+  font-size: large;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+
+.modal-content {
+  font-family: 'Montserrat';
+  position: fixed;
+  bottom: 0px;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border: 0px !important;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 20px rgba(28, 41, 68, 0.33);
+  box-shadow: 0px 0px 20px rgba(28, 41, 68, 0.33);
+}
+
+#location {
+  font-size: large;
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+
+.modal-backdrop {
+  opacity: 0.3;
+  background-image: url(../../assets/img/Party_Time.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal-backdrop.show {
+  display: none;
+  background-image: none;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal.left.fade.show .modal-dialog {
+  left: 0;
+}
+
+#timetable-tabs li {
+  font-family: "Campton-bolddemo";
+  font-size: large;
+  background-color: #f9d5d2;
+  padding: 10px 0px;
+  cursor: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-right: 1px solid #ffffff;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#timetable-tabs li:last-child {
+  border-right: none;
+}
+
+#timetable-tabs a {
+  cursor: auto;
+  color: black;
+}
+
+#timetable-tabs {
+  /*background-color: #4d576d;*/
+  border: none;
+  position: fixed;
+  top: 0px;
+  display: flex;
+}
+
+scheduleTabs {
+  display: flex;
+  border: none;
+}
+
+#scheduleTabs li {
+  font-family: "Campton-bolddemo";
+  font-size: x-large;
+  background-color: #f9d5d2;
+  padding: 10px 0px;
+  cursor: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-right: 1px solid #ffffff;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#scheduleTabs li:last-child {
+  border-right: none;
+}
+
+#scheduleTabs a {
+  cursor: auto;
+  color: black;
+}
+
+.header-bar {
+  position: fixed;
+  z-index: 300;
+  background-color: rgb(164,130,130);
+  width: 100%;
+}
+
+#logo-container {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  color: #1c2944;
+  background-color: rgb(255,255,255);
+  display: flex;
+  align-items: center;
+}
+
+#logo{
+  max-width: 90%;
+  max-height: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#timetable-tabs .tab-content {
+  background-color: #fdfdfd;
+}
+
+#scheduleModal .modal-dialog {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#scheduleModal .modal-content {
+  height: 100%;
+  border-radius: 0;
+}
+
+tr:first-child td {
+  border: none;
+}
+
+.time-entry[data-class=scheduled] {
+  background-color: #f9d5d2;
+  color: black;
+}
+
+.container-fluid{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.timetable > section > header {
+    /*position: fixed;*/
+    z-index: 3;
+    width: 100%;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    background-color: #fdeeed;
+}
+
+body{
+  background-image: url("/assets/img/soulcircus-background.png");
+  font-family: "Campton-lightdemo";
+}
+
+@font-face {
+  font-family: "Campton-lightdemo";
+  src: url("/assets/fonts/Campton-LightDEMO.ttf");
+}
+
+@font-face {
+  font-family: "Campton-bolddemo";
+  src: url("/assets/fonts/Campton-bolddemo2.otf");
+}
+
+.schedule-item{
+  background-color: white;
+}
+
+#timetable-tabs a.active{
+  color: white;
+}
+
+#scheduleTabs a.active{
+  color: white;
+}
+
+.event-image{
+  max-width: 40%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
