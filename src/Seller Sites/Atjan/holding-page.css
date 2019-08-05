@@ -141,7 +141,7 @@ body, html {
   padding:3rem 0;
 }
 #block-7zh .block-background {
-  background-size:contain !important;
+  background-size:45% !important;
   background-color: #88d2d5 !important;
 }
 #block-saw .image-grid-entry-overlay {
@@ -246,7 +246,10 @@ body, html {
     margin: 0;
     padding: 0;
     height: 80vh !important;
-    background-size: cover;
+    background-size: contain;
+  }
+  #block-7zh .block-background {
+    background-size:contain !important;
   }
   .text-and-image-block h4 {
     margin-top:15px;
