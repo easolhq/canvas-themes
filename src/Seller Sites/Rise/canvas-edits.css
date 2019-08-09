@@ -1686,11 +1686,6 @@ a.collection-card {
   border: solid 1px black;
 }
 
-/* HIDE BLOG */
-#block-nqc {
-  display: none;
-}
-
 /* PRODUCT PAGE */
 
 #gallery, #overview {
