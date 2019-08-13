@@ -578,6 +578,9 @@ img {
   border:1px solid #fff;
   min-height:450px;
 }
+.product-card-inner .mx-1 {
+  max-width:33%;
+}
 .product-content .d-flex {
   position: absolute;
   bottom: 0;
