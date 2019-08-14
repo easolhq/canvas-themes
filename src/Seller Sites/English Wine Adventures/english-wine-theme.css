@@ -300,10 +300,7 @@ a[href^="tel:"]:before {
   margin-right: 0.5em;
 }
 
-/* PRODUCT PAGE INCLUDES CAPITALIZATION FIX */
-#includes > article > ul {
-  text-transform: capitalize;
-}
+
 
 /* PRODUCT BLOCK HEADERS POINTER STYLING. LINKED WITH JS TO PRODUCT PAGE*/
 #block-ka6 h3.mt-2, #block-tlr h3.mt-2, #block-cdo h3.mt-2 {
