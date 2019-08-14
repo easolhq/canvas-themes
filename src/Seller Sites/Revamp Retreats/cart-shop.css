@@ -1,5 +1,20 @@
 /* Style Changes add any customer specific stuff here */
-
+#app .bookable-list-item-text {
+  overflow: visible;
+  line-height: 1.2;
+  font-size: 0.9rem;
+}
+#app .input-group.number-stepper button {
+  padding: 8px 8px;
+}
+#app .form-control-static {
+  overflow: visible;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+#app .mb-0.mt-1.small {
+  line-height: 1;
+}
 
   /* LEFT HAND LINES */
   #app .availability-table .row-head:before, .availability-table .bookable-ticket-variant:before {
