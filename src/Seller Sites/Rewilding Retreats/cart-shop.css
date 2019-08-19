@@ -25,9 +25,10 @@
       color:#fff;
   }
   #app .cart .input-group-btn .btn {
-      border-color:#00916E !important;
-      color:#fff;
-  }
+    border-color:#00916E !important;
+    color:#00916E !important;
+    letter-spacing: normal !important;
+}
   #app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
       background-color:#00916E;
       color:#fff;
