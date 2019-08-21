@@ -136,11 +136,11 @@ body, html {
   width:20%;
   float:right;
 }
-#block-7zh {
+#block-7zh, #block-y9x {
   height:100vh !important;
   padding:3rem 0;
 }
-#block-7zh .block-background {
+#block-7zh .block-background, #block-y9x .block-background {
   background-size:45% !important;
   background-color: #88d2d5 !important;
 }
@@ -192,7 +192,7 @@ body, html {
 #block-4vr {
   margin-top:3rem;
 }
-#block-7zh:after {
+#block-7zh:after, #block-y9x:after {
   content:'';
   width:100%;
   background:#88d2d5;
@@ -242,13 +242,13 @@ body, html {
     width:300px;;
     height:110px;
   }
-  #block-7zh {
+  #block-7zh, #block-y9x {
     margin: 0;
     padding: 0;
     height: 80vh !important;
     background-size: contain;
   }
-  #block-7zh .block-background {
+  #block-7zh .block-background, #block-y9x .block-background {
     background-size:contain !important;
   }
   .text-and-image-block h4 {
