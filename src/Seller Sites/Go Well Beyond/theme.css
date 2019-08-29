@@ -91,7 +91,15 @@ hr {
 #block-yx8 .col-text {
     max-width: 500px;
 }
-
+#block-yx8 img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#block-yx8 .col-text {
+    background-color: #fff;
+}
 /* PARTNERS */
 #block-ssz .image-grid-entry {
     max-width: 140px;
@@ -134,6 +142,31 @@ hr {
     margin-left: 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    padding-top: 3rem;
+}
+.product-overview {
+    text-align: justify;
+}
+section hr {
+    border-color: #7d9aaa !important;
+}
+.listing-overview {
+    background-color: #fff;
+    padding: 1rem;
+}
+.listing-overview h6 {
+    font-size: 1.5rem;
+}
+.host-card {
+    text-align: justify;
+}
+.accommodation_information {
+    background-color: #fff;
+    padding: 1rem;
+}
+.gallery-figure img {
+    max-height: 400px;
+    object-fit: cover;
 }
 
 /* FIX OVERLAY ISSUE */
@@ -192,5 +225,8 @@ hr {
     }
     .dual-product-block div.col-4.text-right.d-flex.flex-column.justify-content-center {
         padding: 0;
+    }
+    #block-yx8 .col-text {
+        background-color: transparent;
     }
 }
