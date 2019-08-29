@@ -1,0 +1,131 @@
+/* CART SHOP */
+/* Style Changes add any customer specific stuff here */
+#app p {
+    font-size: 1rem;
+}
+
+#app p.form-control-static.factual.m-0 {
+    font-size: 0.8rem !important;
+}
+.navbar-main .logo {
+    height: 4rem !important;
+}
+
+/* Set fonts for entire shop including ones forced in other CSS files */
+
+#app, .site-shop-nav {
+      font-family: Ptsans-regular;
+}
+#app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+  text-transform:uppercase;
+      font-family: Ptsans-bold;
+}
+#app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
+      font-family: Ptsans-regular;
+}
+#app .bookable-list-item i:before {
+  font-family:'Fixers Icons';
+}
+
+/* Set button colors */
+
+#app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+    background-color:#7d9aaa !important;
+    border-color:#7d9aaa;
+    color:#fff;
+}
+#app .cart .input-group-btn .btn {
+    border-color:#7d9aaa !important;
+    color:#7d9aaa;
+}
+#app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
+    background-color:#7d9aaa;
+    color:#fff;
+}
+#app .segment-collapse {
+    color:#7d9aaa;
+}
+
+/* Hide default logo and add one centered in middle of nav */
+
+.navbar-main.site-shop-nav {
+    background-color: #fff;
+}
+.navbar-full {
+    justify-content:center;
+}
+
+
+/* Set background color and fix tile hidden by that */
+
+#app {
+  background:#f7f7f9;
+}
+#app .block-background {
+  z-index:0;
+}
+
+/* Chevron Colors */
+
+#app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+  background-color:#7d9aaa;
+}
+
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
+  display: none;
+}
+
+.footer-main{
+    background-color: #fff !important;
+}
+
+footer > article > ul.list-inline.text-uppercase.mb-4 > li > small > a{
+  color: #000 !important;
+}
+
+.footer-main .block-content:before {   
+  content: '';
+      width: auto;
+      height: 4rem;
+      background-image: url(https://sites-dbwvc.fixersworld.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWszWVRZd05XVTFNQzAyTVRFNExUUXdNakl0T1dWaFpTMHhZakl4TUdRNFlUTXhZeklHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--ae72190954df54ef0c71ef3ffe4f2e9195122e55/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lKZURJd01BWTZCa1ZVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--49acf6091af8a6a846fd9261af329a181c9ba278/GWB-lg_logo-black.png);
+      background-size: contain;
+      background-position: center;
+      display: block;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 3rem;
+    }
+
+/* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+
+@media (min-width:768px) {
+  #app .cart-body .col-10 {
+    flex:0 0 38%;
+    max-width:38%
+  }
+}
+
+/* Fix Nav on Mobile */
+
+#cart-shop-nav-mobile .nav-link {
+  padding:0 !important;
+  margin-right:0 !important;
+  font-size:0.9rem !important;
+}
+#cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+  float:left !important;
+  width:100%;
+}
+@media (max-width:600px) {
+  .cart-shop-navbar.sticky {
+    position:static;
+  }
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white {
+    z-index: 20;
+}
