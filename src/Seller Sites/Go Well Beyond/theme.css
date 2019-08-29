@@ -16,15 +16,22 @@ hr {
 }
 
 /* MENU */
+#menu {
+    background-color: transparent !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 #menu .navbar-brand {
-
     margin-left: auto;
     margin-right: auto;
 }
 #menu .navbar-brand img {
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
+    height: 100px;
 }
 #menu-cta {
     position: absolute;
@@ -33,16 +40,17 @@ hr {
 
 
 /* HERO */
-#block-buh {
-    padding-top: 10rem;
+#block-3sj {
+    color: #fff;
+    padding: 0;
+    height: 80vh !important;
 }
-
-#block-buh p, #block-buh span {
-    font-size: 1.25rem !important;
+#block-3sj p, #block-buh span {
+    font-size: 1.5rem !important;
 }
-#block-buh strong {
-    font-family: ptsans-bold;
-    font-size: 1.25rem !important;
+#block-3sj .block-content {
+    background-color: rgba(0,0,0,0.3);
+    max-width: 100%;
 }
 
 /* PRODUCTS */
@@ -131,10 +139,17 @@ hr {
 }
 
 /* ALL RETREATS */
-.hero-product-block .card-img, .dual-product-block .card-img {
+.hero-product-block .card-img {
+    height: 35vw;
+    object-fit: cover;
+    object-position: center;
+    max-height: 450px;
+}
+.dual-product-block .card-img {
     height: 25vw;
     object-fit: cover;
     object-position: center;
+    max-height: 360px;
 }
 #block-msl {
     background-color: #7d9aaa;
