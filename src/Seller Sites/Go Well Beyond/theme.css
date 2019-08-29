@@ -1,0 +1,135 @@
+/* GENERAL */
+p {
+    font-size: 1.1rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2.2rem;
+}
+strong {
+    font-family: ptsans-bold;
+}
+#block-utt, #block-hyy, #block-ssz, #block-thd, #block-jqt {
+    padding-bottom: 0;
+}
+hr {
+    padding-bottom: 3rem;
+}
+
+/* MENU */
+#menu .navbar-brand {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu .navbar-brand img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+#menu-cta {
+    position: absolute;
+    right: 20px;
+}
+
+
+/* HERO */
+#block-buh {
+    padding-top: 10rem;
+}
+
+#block-buh p, #block-buh span {
+    font-size: 1.25rem !important;
+}
+#block-buh strong {
+    font-family: ptsans-bold;
+    font-size: 1.25rem !important;
+}
+
+/* PRODUCTS */
+#block-osl, #block-7vi {
+    padding: 0;
+}
+#block-osl .block-content, #block-7vi .block-content {
+    max-width: 100%;
+    padding: 0;
+}
+#block-osl img, #block-7vi img  {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    position: relative;
+}
+#block-osl .col-md-4, #block-7vi .col-md-6 {
+    padding: 8px !important;
+}
+#block-osl .overlay-text, #block-7vi .overlay-text {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  overflow: hidden;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  transition: .5s ease;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0.1) !important;
+  color: #fff;
+}
+#block-osl .btn, #block-7vi .btn {
+    margin-top: 1rem;
+}
+#block-osl .inner-text, #block-7vi .inner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: auto;
+}
+
+/* FOUNDER */
+#block-yx8 .col-text {
+    max-width: 500px;
+}
+
+/* PARTNERS */
+#block-ssz .image-grid-entry {
+    max-width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#block-ssz .faux-image {
+    background-size: contain;
+}
+
+/* MAILCHIMP */
+#mergeRow-gdpr {
+    display: none;
+}
+
+/* FOOTER */
+#footer {
+    margin-top: 5rem;
+    border-top: solid 1px #f7f7f9;
+}
+#footer > div.w-100.text-center > a > svg {
+    display: none;
+}
+#footer > div.w-100.text-center > a:after {
+    content: "Created on Fixers";
+}
+
+/* ALL RETREATS */
+.hero-product-block .card-img, .dual-product-block .card-img {
+    height: 25vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* PRODUCT PAGE */
+.product-hero {
+    height: 500px;
+}
