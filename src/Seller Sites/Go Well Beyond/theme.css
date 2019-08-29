@@ -126,12 +126,19 @@ hr {
 #footer > div.w-100.text-center > a:after {
     content: "Created on Fixers";
 }
+#footer a {
+    color: #fff;
+}
 
 /* ALL RETREATS */
 .hero-product-block .card-img, .dual-product-block .card-img {
     height: 25vw;
     object-fit: cover;
     object-position: center;
+}
+#block-msl {
+    background-color: #7d9aaa;
+    color: #fff;
 }
 
 /* PRODUCT PAGE */
