@@ -120,7 +120,8 @@
   content: "\e913";
 }
 .iconControl:before {
-  content: "\e914";
+  content: "\f154";
+  font-family: "fontawesome";
 }
 .iconService:before {
   content: "\e915";

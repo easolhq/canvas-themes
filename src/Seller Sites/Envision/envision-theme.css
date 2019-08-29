@@ -1,3 +1,12 @@
+/*2020 PAGE*/
+.text-block h1{
+  color: #356867;
+}
+
+.dual-product-block .col-8.text-left{
+  visibility: hidden;
+  }
+
 /*BUNDLE*/
 .list-group + .card-block {
     display: none;
@@ -421,3 +430,4 @@ section.block:not(#hero,#overview,#includes,#venue,#rooms,#gallery) .block-backg
     max-width:100%;
   }
 }
+
