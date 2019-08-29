@@ -133,3 +133,31 @@ hr {
 .product-hero {
     height: 500px;
 }
+
+/* MOBILE */
+@media only screen and (max-width: 991px) {
+    p {
+        font-size: 1rem;
+    }
+    .navbar-toggler {
+        display: none
+    }
+    #menu .navbar-brand {
+        margin-left: 0px;
+    }
+    #block-osl img, #block-7vi img {
+        height: 100vw;
+    }
+    #block-yx8 .col-text {
+        margin-top: 3rem;
+    }
+    .hero-product-block .card-img, .dual-product-block .card-img {
+        height: 60vw;
+    }
+    .hero-product-block .card-title, .dual-product-block .card-title {
+        font-size: 2rem;
+    }
+    .dual-product-block div.col-4.text-right.d-flex.flex-column.justify-content-center {
+        padding: 0;
+    }
+}
