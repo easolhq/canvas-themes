@@ -136,6 +136,30 @@ hr {
     max-width: 50%;
 }
 
+/* FIX OVERLAY ISSUE */
+.listing-highlight-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    color: #fff;
+    display: none;
+    background: rgba(0,0,0,0.4);
+}
+.listing-highlight:hover .listing-highlight-overlay {
+    display: block !important;
+}
+.listing-highlight:hover .card-img-overlay {
+    display: none !important;
+}
+.listing-highlight .card-img {
+    max-height: 30vw !important;
+    object-fit: cover;
+    object-position: center;
+}
+
 /* MOBILE */
 @media only screen and (max-width: 991px) {
     p {
