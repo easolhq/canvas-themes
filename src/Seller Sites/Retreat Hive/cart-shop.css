@@ -1,0 +1,111 @@
+/* CART SHOP */
+/* Style Changes add any customer specific stuff here */
+body.cart-shop {
+    border: none;
+}
+.navbar-full {
+    justify-content:center;
+}
+.navbar-main .logo {
+    height: 4rem !important;
+}
+
+/* Set fonts for entire shop including ones forced in other CSS files */
+
+
+#app .bookable-list-item i:before {
+  font-family:'Fixers Icons';
+}
+#app p {
+    font-size: 0.9rem;
+}
+
+/* Set button colors */
+
+#app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+    background-color:#f5b503 !important;
+    border-color:#f5b503;
+    color:#fff;
+    font-size: 1rem !important;
+}
+#app .cart .input-group-btn .btn {
+    border-color:#f5b503 !important;
+    color:#f5b503;
+}
+#app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
+    background-color:#f5b503;
+    color:#fff;
+}
+#app .segment-collapse {
+    color:#f5b503;
+}
+
+/* Set background color and fix tile hidden by that */
+#app .block-background {
+  z-index:0;
+}
+
+/* Chevron Colors */
+
+#app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+  background-color:#f5b503;
+}
+
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
+  display: none;
+}
+
+.footer-main{
+    background-color: #fff !important;
+}
+
+footer > article > ul.list-inline.text-uppercase.mb-4 > li > small > a{
+  color: #000 !important;
+}
+
+.footer-main .block-content:before {   
+  content: '';
+      width: auto;
+      height: 2rem;
+      background-image: url(https://d17t27i218htgr.cloudfront.net/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxsT0RRd1pqTXhaUzAyT1dSbExUUXhZMlF0T1RneU5DMDBZelF6TVRSak0yRmhORFFHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--b49358e57c3eeda863c3cdeb94ee2f42cc26cac3/honey-bee-icon-13.png);
+      background-size: contain;
+      background-position: center;
+      display: block;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 3rem;
+    }
+
+/* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+
+@media (min-width:768px) {
+  #app .cart-body .col-10 {
+    flex:0 0 38%;
+    max-width:38%
+  }
+}
+
+/* Fix Nav on Mobile */
+
+#cart-shop-nav-mobile .nav-link {
+  padding:0 !important;
+  margin-right:0 !important;
+  font-size:0.9rem !important;
+}
+#cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+  float:left !important;
+  width:100%;
+}
+@media (max-width:600px) {
+  .cart-shop-navbar.sticky {
+    position:static;
+  }
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white {
+    z-index: 20;
+}
