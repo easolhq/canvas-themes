@@ -385,6 +385,7 @@ img {
 #different {
   background-size:cover;
   padding-bottom: 10vh;
+  background-position:bottom;
 }
 #signup input {
   margin-left:20px;
