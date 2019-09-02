@@ -17,31 +17,31 @@ h1 {
 
 /* NAV */
 #promobar {
-  background-color: #25416E; 
-  color: white; 
-  text-align: center;
-  font-family: oswald;
-  font-size: 13px;
-  display: flex;
-  justify-content: center;
-  padding: 4px;
-  letter-spacing: 1px;
-  z-index: 2000 !important;
-  position: fixed;
+background-color: #25416E; 
+color: white; 
+text-align: center;
+font-family: oswald;
+font-size: 13px;
+display: flex;
+justify-content: center;
+padding: 4px;
+letter-spacing: 1px;
+z-index: 2050 !important;
+position: fixed;
 }
 
 #promobar a {
-   margin: 0px 10px;
-   line-height: 30px;
+ margin: 0px 10px;
+ line-height: 30px;
 }
 
 #promobarbook {
-  color: #2ed9d4;
+color: #2ed9d4;
 }
 
 @media only screen and (min-width: 902px) {
 #promobar a {
-   margin: 0px 50px;
+ margin: 0px 50px;
 }
 }
 @media screen and (max-width: 600px) {
@@ -51,12 +51,12 @@ display: none;
 }
 
 .promolink {
-  color: #fff;
+color: #fff;
 }
 
 .promolink:hover {
-  color: #2ed9d4;
-  text-decoration: none;
+color: #2ed9d4;
+text-decoration: none;
 }
 
 #promobarbook {
@@ -66,77 +66,106 @@ padding: 2px 16px;
 
 
 .navbar-toggler {
-  margin-top: 40px;
-  margin-bottom: 30px;
+margin-top: 40px;
+margin-bottom: 30px;
 }
 
-#navbarNav li a {
-  font-family: Oswald;
-  letter-spacing: 1px;
-  color: white;
-  font-size: 13px;
+.fixed-top {
+padding: 0;
+transition: 0.5s;
+background-color: transparent;
+}
+
+.fixed-top .nav-link {
+font-family: Oswald;
+letter-spacing: 1px;
+color: white;
+font-size: 13px;
 }
 
 .navbar-brand-img {
-  position: fixed;
-  left: calc(50% - 50px);
-  top: 40px;
+position: fixed;
+left: calc(50% - 50px);
+top: 40px;
 }
 
 .fixed-top.scrolled {
-  background-color: #fff;
-  transition: background-color 200ms linear;
+background-color: #fff;
+transition: background-color 200ms linear;
 }
 
 .fixed-top.scrolled .nav-link {
-  color: #040546;
+color: #040546;
 }
 
-#navbarNav .dropdown-item {
-   color: #040546;
-  display: block;
-  line-height: 2;
+.fixed-top.hover {
+background-color: #fff;
+transition: background-color 200ms linear;
+}
+
+.fixed-top.hover .nav-link {
+color: #040546;
+}
+
+.fixed-top .dropdown-item {
+color: #040546;
+display: block;
+line-height: 2;
+letter-spacing: 1px;
+font-size: 13px;
+font-family: oswald;
 }
 
 @media only screen and (min-width: 902px) {
-.navbar {
-  padding: 0!important;
-  transition: 0.5s;
-  background-color: transparent;
+.fixed-top {
+padding: 0!important;
+transition: 0.5s;
+background-color: transparent;
 }
 
 #navbarNav {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-top: 80px;
-  vertical-align: top;
-  text-align: center;
-  background-color: transparent;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 50px;
+padding-top: 80px;
+vertical-align: top;
+text-align: center;
 }
 
 .navbar-brand-img {
-  position: fixed;
-  left: 40px;
-  top: 60px;
+position: fixed;
+left: 40px;
+top: 60px;
 }
 
 #navbarNav > ul {
-  margin-left: auto;
-  margin-right: auto;
+margin-left: auto;
+margin-right: auto;
 }
 
 #navbarNav > ul > li {
-  width: 180px;
-}
-.hover {
-background-color: white;
-color: #040546;
-}
-.hover #navbarNav li a {
-color: #040546;
+width: 180px;
 }
 
+}
+@media only screen and (max-width: 991px) {
+.nav-item, .dropdown-item {
+  margin-left: 20px;
+}
+.navbar.fixed-top.hover{
+  z-index: 2010 !important;
+}
+
+.navbar.fixed-top.scrolled{
+  z-index: 2010 !important;
+}
+.navbar-brand-img {
+left: calc(50% - 35px);
+}
+.navbar-brand-img img {
+width: 70px !important;
+}
+}
 /* BUTTONS */
 .btn {
   letter-spacing: 3px;
@@ -212,8 +241,25 @@ a.btn-surf:hover {
 /* IN WORK */
 
 
-/* BUTTONS */
-
+/* LOGOS */
+#block-agt .faux-image {
+width: 150px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+#block-agt .image-grid-entry {
+margin: 15px;
+max-width: 150px;
+margin-left: auto;
+margin-right: auto;
+}
+#block-agt .row {
+  text-align: center !important;
+}
+#block-agt {
+  padding-bottom: 0;
+}
 
 
 /* GLAMPING */
@@ -363,6 +409,29 @@ height: 38px;
 
 #block-krr .block-content {
   margin-top: 40px;
+}
+
+
+/*ABOUT*/
+#block-l8y {
+padding-top: 0
+}
+
+.team-card .card-body {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-card .card-text {
+  padding: 0px;
+}
+#contact-details h4 {
+  line-height: 25px;
+}
+#contact-details h4 img {
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
 /*MISC*/
@@ -638,6 +707,11 @@ width:100%;
 
 
 /*PRODUCT PAGE */
+
+.header-text {
+  color: #fff;
+}
+
 .page-header {
   height: 65vh !important;
   width: 100vw !important;
@@ -667,8 +741,9 @@ padding-top:10px;
 
 }
 #jump-bar.stuck{
-position: sticky;
+position: fixed;
 top: 39px;
+left: 0;
 }
 #jump-bar a {
 padding:.5rem 1rem;
@@ -748,6 +823,9 @@ font-size:1.2rem;
   object-fit: cover !important;
   width: 100%;
   height: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  object-position: center;
 }
 .highlights-card .card-body {
   position: relative;
@@ -908,6 +986,88 @@ h1, .h1 {
 }
 }
 
-.page-header.shop-header {
-  height: 200px;
+.page-header.shop-header.cart-header {
+  height: 200px !important;
+}
+
+.extra-list {
+  border: solid 5px #f7f7f9;
+}
+
+#block-aqb {
+  padding-bottom: 0;
+}
+
+.date-bar a {
+  padding: .5rem 1rem;
+  color: #424242;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.date-bar a:nth-of-type(1) {
+padding-left:0;
+}
+
+#block-qsh {
+  padding: 0;
+}
+
+#block-jyn #mc-embedded-subscribe {
+  height: 50px;
+  width: 130px;
+  border: solid 1px #25416e;
+}
+
+#block-jyn #mce-EMAIL {
+  margin: 0 !important;
+  width: 300px !important;
+  background-color: white;
+  border: solid 1px #25416e;
+}
+
+.lesson-opt {
+  float: left;
+  border: solid 5px #f7f7f9;
+}
+
+#block-kor .card-body {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+#block-kor .card-body h4 {
+  padding-top: 10px;
+}
+#block-kor .card-body p {
+  min-height: 60px;
+}
+
+.review-badge {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.review-badge img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.badge-wrapper {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#block-kor {
+  padding-top: 0;
+}
+
+.reviews-card a {
+  position: static;
+}
+#block-kor > div.block-content > div.row.mb-5 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
