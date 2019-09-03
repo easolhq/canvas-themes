@@ -94,7 +94,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    color: #fff;
+    color: #fff !important;
 }
 .hero-image-block h1 {
   	font-size: 2.6rem;
