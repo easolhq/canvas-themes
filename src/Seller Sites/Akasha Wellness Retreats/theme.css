@@ -88,6 +88,13 @@
 
 /* RETREAT CENTER PAGE */
 
+.divider {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+
 /* HERO */
 .hero-image-block {
     height: 600px !important;
@@ -146,3 +153,200 @@
   text-decoration: underline;
 }
 /* JUMP BAR */
+
+/* TEXT BLOCK */
+
+.text-block {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+}
+.text-block h2, .section-header {
+    text-align: center;
+    line-height: 1.4;
+    padding-bottom: 1rem;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-block h4, .section-subheader {
+    text-align: center;
+    line-height: 1;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  	font-family: Twcenmtstd-light;
+  	font-size:12px;
+}
+.text-block p, .section-text {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1rem;
+  	font-family: Twcenmtstd-light;
+}
+.text-block a, .section-link {
+    font-family: Twcenmtstd-light;
+    border-bottom: solid 1px #000;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding-bottom: 3px;
+  	margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.text-block a:hover, .section-link:hover {
+    text-decoration: none;
+}
+/* TEXT BLOCK */
+
+.section-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+/* IMAGE1 */
+#image1 .row {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dual-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 450px;
+}
+/* IMAGE1 */
+
+/* ROOMS */
+#rooms .row {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.room-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+ 	 	max-width: 500px;
+    height: 350px;
+    margin-bottom: 2rem;
+}
+.room-text {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+    .room-image {
+        height: 220px;
+    }
+}
+/* ROOMS */
+
+/* GALLERY */
+#block-ksv .block-content, #block-qed .block-content {
+    max-width: none;
+    padding: 0;
+}
+#gallery .swiper-slide {
+      width: 500px !important;
+      height: 400px !important;
+ }
+#gallery .swiper-slide img {
+     width: 100%;
+     height: 350px;
+     object-fit: cover;
+     object-position: center;
+ }
+#gallery .swiper-button-next, #gallery .swiper-button-prev {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    height: 20px;
+    cursor: pointer;
+    background-size: 27px 20px;
+}
+#gallery .swiper-button-next {
+    right: 47%;
+    left: auto;
+}
+#gallery .swiper-button-prev {
+    left: 47%;
+    right: auto;
+}
+@media only screen and (max-width: 600px) {
+    #gallery .swiper-button-next {
+        right: 40%;
+        left: auto;
+    }
+    #gallery .swiper-button-prev {
+        left: 40%;
+        right: auto;
+    }
+  	#gallery .swiper-slide {
+        width: 100vw !important;
+        height: 300px !important;
+    }
+    #gallery .swiper-slide img {
+        height: 250px;
+    }
+}
+/* GALLERY */
+
+/* UPCOMING */
+#upcoming .row {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.retreat-img {
+    object-fit: cover;
+    object-position: center;
+    max-width: 220px;
+ 		width: 100%;
+    height: 150px;
+    margin-bottom: 2rem;
+}
+.retreat-seg {
+    margin-bottom: 0;
+  	font-family: Twcenmtstd-light;
+  	font-size:12px;
+}
+.retreat-name {
+    font-size: 1.2rem;
+    min-height: 50px;
+}
+.retreat-link {
+    font-family: Twcenmtstd-light;
+    border-bottom: solid 1px #000;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding-bottom: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+	.retreat-link {
+    position: static;
+	}
+	.retreat-text {
+    padding: 0;
+	}
+  .retreat-img {
+    height: 200px;
+	}
+}
+/* UPCOMING */
