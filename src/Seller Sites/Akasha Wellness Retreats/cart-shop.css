@@ -5,15 +5,14 @@
 /* Set fonts for entire shop including ones forced in other CSS files */
 
 #app, .site-shop-nav {
-  font-family:'AGaramondPro-Regular', serif;
+  font-family:'Twcenmtstd-light', serif;
 }
 #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
   text-transform:uppercase;
-  font-family:'AGaramondPro-Bold', serif;
+  font-family:'Chronicle-display-light', serif;
 }
 #app .bookable-list-item *, #app .factual {
-  font-family:'DINCondensed-Bold', sans-serif !important;
-  font-weight:bold;
+  font-family:'Twcenmtstd-light', sans-serif !important;
   color:#000;
 }
 #app .bookable-list-item i:before {
@@ -23,7 +22,7 @@
   color:#fff !important;
   background:#000 !important;
   border-color:#000 !important;
-  font-family:'DINCondensed-Bold', sans-serif !important;
+  font-family:'Twcenmtstd-light', sans-serif !important;
 }
 
 /* Set button colors */
