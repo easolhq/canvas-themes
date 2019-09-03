@@ -191,7 +191,7 @@
     margin-bottom: 1rem;
     display: inline-block;
 }
-.text-block a:hover {
+.text-block a:hover, .section-link:hover {
     text-decoration: none;
 }
 /* TEXT BLOCK */
