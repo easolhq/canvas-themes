@@ -519,6 +519,23 @@ text-align: left !important;
   margin-top:50px;
 }
 
+@media (max-width:576px) {
+  #block-vfk .swiper-container .container {
+    width:100px;
+    left:10px;
+  }
+  #block-vfk .swiper-slide {
+    background-position:center;
+  }
+  #block-9dv, #block-9dv .block-content {
+    height:32vh;
+  }
+  #block-9dv video {
+    object-fit:contain;
+    width:100%;
+  }
+}
+
 /*HOME PAGE VIDEO*/
 .video-background{
   position: absolute;
