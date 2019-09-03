@@ -1,0 +1,145 @@
+#menu.scrolled {
+    display: none;
+}
+#menu {
+	font-family: Twcenmtstd-light;
+  background-color: #fff;
+  color: #000;
+}
+#menu .nav-link {
+	color: #000;
+}
+#menu .navbar-collapse.row {
+    max-width: 1000px;
+}
+#menu .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+#menu.show {
+    background-color: #fff;
+}
+#menu.show .nav-link {
+    color: #000;
+}
+#menu.show .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+#menu .nav-cta {
+    border: solid 1px #000;
+    padding: 4px 10px;
+    letter-spacing: 1px;
+}
+#navbarNav .nav-button {
+    position: absolute;
+    right: 20px;
+}
+#footer .footer-text {
+    text-align: center;
+    line-height: 1;
+    max-width: 300px;
+    font-family: Domainedisp-regular;
+}
+#footer #mce-EMAIL {
+    font-family: Twcenmtstd-light;
+    border: none;
+    border-bottom: solid 1px #000;
+}
+#fixers-stamp {
+    color: rgb(209, 125, 116);
+}
+#footer #mc-embedded-subscribe {
+    font-family: Twcenmtstd-light;
+    border-bottom: solid 1px #000;
+}
+#footer #mce-EMAIL:focus {
+    box-shadow: none;
+}
+@media only screen and (max-width: 600px) {
+    #mc-embedded-subscribe {
+        background-color: transparent !important;
+        width: auto !important;
+        padding-top: 20px;
+    }
+    #mce-EMAIL {
+        text-align: center;
+    }
+  }
+@media only screen and (max-width: 991.98px) {
+    #footer #mce-EMAIL {
+        width: 80% !important;
+    }
+  	#navbarNav > .nav-button {
+    		position: static;
+    		right: auto;
+		}
+}
+#fixers-stamp a {
+    color: rgb(209, 125, 116);
+    font-family: Twcenmtstd-light;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+/* RETREAT CENTER PAGE */
+
+/* HERO */
+.hero-image-block {
+    height: 600px !important;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #fff;
+}
+.hero-image-block h1 {
+  	font-size: 2.6rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.hero-image-block h4 {
+    font-size: 1.0rem;
+    line-height: 1;
+    font-family: Twcenmtstd-light;
+}
+.hero-image-block h3 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: Twcenmtstd-light;
+}
+/* HERO */
+
+/* JUMP BAR */
+#block-sew {
+    padding: 0;
+}
+#block-sew .block-content {
+    max-width: none;
+    padding: 0;
+}
+#block-sew #jump-bar.stuck {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#block-sew #jump-bar {
+  z-index: 2000;
+  background-color:#f7f7f9;
+  padding:.5rem 0;
+  width: 100%;
+  font-family: Twcenmtstd-light;
+}
+#block-sew #jump-bar a {
+  padding:.5rem 1.2rem;
+  font-size:12px;
+  text-transform:uppercase;
+  color: #000;
+}
+#block-sew #jump-bar a:hover {
+  text-decoration:none;
+}
+#block-sew #jump-bar a.active {
+  text-decoration: underline;
+}
+/* JUMP BAR */
