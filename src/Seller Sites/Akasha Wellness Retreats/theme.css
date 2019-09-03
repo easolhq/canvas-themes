@@ -386,7 +386,7 @@
 }
 .grid-square {
     height: 25vw;
-    padding: 7px;
+    padding: 7px !important;
 }
 .grid-background {
     height: 100%;
