@@ -295,3 +295,43 @@
     }
 }
 /* GALLERY */
+
+/* UPCOMING */
+#upcoming .row {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.retreat-img {
+    object-fit: cover;
+    object-position: center;
+    max-width: 220px;
+ 		width: 100%;
+    height: 150px;
+    margin-bottom: 2rem;
+}
+.retreat-seg {
+    margin-bottom: 0;
+  	font-family: Twcenmtstd-light;
+  	font-size:12px;
+}
+.retreat-name {
+    font-size: 1.2rem;
+    min-height: 50px;
+}
+#upcoming a {
+    position: absolute;
+    bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+	#upcoming a {
+    position: static;
+	}
+	#upcoming .retreat-text {
+    padding: 0;
+	}
+  .retreat-img {
+    height: 200px;
+	}
+}
+/* UPCOMING */
