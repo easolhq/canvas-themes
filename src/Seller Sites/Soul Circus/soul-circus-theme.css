@@ -504,7 +504,7 @@ text-align: left !important;
   z-index:99;
   width:60px;
 }
-#block-vfk .swiper-container .container {
+#block-vfk .swiper-container .container-inner {
   position:absolute;
   width:50%;
   bottom:100px;
