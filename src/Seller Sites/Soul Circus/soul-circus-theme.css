@@ -521,7 +521,7 @@ text-align: left !important;
 
 @media (max-width:576px) {
   #block-vfk .swiper-container .container {
-    width:100px;
+    width:100%;
     left:10px;
   }
   #block-vfk .swiper-slide {
