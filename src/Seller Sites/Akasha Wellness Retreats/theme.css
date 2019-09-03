@@ -75,7 +75,10 @@
   	#navbarNav > .nav-button {
     		position: static;
     		right: auto;
-		}
+        }
+    #menu .nav-cta {
+            margin-right: 0;
+    }
 }
 #fixers-stamp a {
     color: rgb(209, 125, 116);
