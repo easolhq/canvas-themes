@@ -530,10 +530,9 @@ text-align: left !important;
 }
 .top-btn {
   position: absolute;
-  margin: 0;
+  margin: 0 !important;
   right: 0;
-  top: 25px;
-  font-size: 20px !important;
+  top: 45px;
 }
 .top-logo {
   width: 350px;
