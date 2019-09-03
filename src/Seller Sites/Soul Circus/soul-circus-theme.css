@@ -528,11 +528,14 @@ text-align: left !important;
     background-position:center;
   }
   #block-9dv, #block-9dv .block-content {
-    height:32vh;
+    height:40vh !important;
   }
   #block-9dv video {
     object-fit:contain;
     width:100%;
+  }
+  #block-9dv .video-overlay .btn {
+    bottom:8vh !important;
   }
 }
 
