@@ -504,7 +504,7 @@ text-align: left !important;
 #block-8ti .container, #block-9dv .block-content{
   max-width: 100%;
 }
-#block-8ti > div.block-content > div.block-content.video-overlay > a, #block-9dv > div.block-content > div.block-content.video-overlay > a {
+#block-8ti .video-overlay .btn, #block-9dv .video-overlay .btn {
     max-width: 200px;
     position: absolute;
     bottom: 0;
