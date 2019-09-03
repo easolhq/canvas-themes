@@ -250,7 +250,7 @@ h1 {
   color: white;
 }
 
-#block-45a, #block-45a.block-content, #block-zwr, #block-zwr.block-content  {
+#block-45a, #block-45a.block-content, #block-zwr, #block-zwr.block-content, #block-jzb, #block-jzb .block-content  {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
@@ -263,7 +263,7 @@ h1 {
   max-width:100% !important
 }
 
-#block-45a > div.block-content.swiper-block, #block-zwr > div.block-content.swiper-block {
+#block-45a > div.block-content.swiper-block, #block-zwr > div.block-content.swiper-block, #block-jzb > div.block-content.swiper-block {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
