@@ -319,15 +319,15 @@
     font-size: 1.2rem;
     min-height: 50px;
 }
-#upcoming a {
+.retreat-link {
     position: absolute;
     bottom: 30px;
 }
 @media only screen and (max-width: 600px) {
-	#upcoming a {
+	.retreat-link {
     position: static;
 	}
-	#upcoming .retreat-text {
+	.retreat-text {
     padding: 0;
 	}
   .retreat-img {
