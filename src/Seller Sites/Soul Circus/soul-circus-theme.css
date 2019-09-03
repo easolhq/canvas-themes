@@ -9,7 +9,7 @@ h3{
     font-family:"Campton-lightdemo";
     letter-spacing: 2px;
 }
-  
+
 h4{
     font-family:"Campton-lightdemo";
     letter-spacing: 2px;
@@ -26,8 +26,8 @@ h6{
 }
 
 /*BUTTON STYLING*/
-.btn-primary, 
-.btn-outline-secondary, 
+.btn-primary,
+.btn-outline-secondary,
 .btn-secondary{
     font-family:"Campton-bolddemo 2";
     letter-spacing: 2px;
@@ -51,7 +51,7 @@ div#menu-navbar{
   display: inline;
 }
 
-.nav-link{ 
+.nav-link{
     font-family:"Campton-bolddemo 2";
     letter-spacing: 2px;
     font-size: 0.7em;
@@ -101,11 +101,11 @@ padding-right: 0px;
 .image-position-right.text-and-image-block .text-center{
 text-align: left !important;
 padding-right: 20%;
-} 
+}
 
 .image-position-left.text-and-image-block .text-center{
   text-align: left !important;
-}  
+}
 
 .image-position-left.text-and-image-block .col-12.col-md-6,
 .image-position-right.text-and-image-block .col-12.col-md-6{
@@ -164,7 +164,7 @@ justify-content: center;
 }
 
 .hero-product-block p.mb-2{
-  display:none;  
+  display:none;
 }
 
 .hero-product-block{
@@ -181,7 +181,7 @@ justify-content: center;
 
 /*GRID ON HERO AND CUSTOM HTML BLOCK */
 .block.custom-block,
-.block.hero-image-block{ 
+.block.hero-image-block{
   margin-left: auto;
   margin-right: auto;
 }
@@ -193,21 +193,21 @@ justify-content: center;
 }
 }
 
-@media only screen and (min-width: 768px){ 
+@media only screen and (min-width: 768px){
 .block.custom-block,
 .block.hero-image-block{
     max-width: 720px;
 }
 }
 
-@media only screen and (min-width: 992px){ 
+@media only screen and (min-width: 992px){
 .block.custom-block,
 .block.hero-image-block{
     max-width: 960px;
 }
 }
 
-@media only screen and (min-width: 1200px){ 
+@media only screen and (min-width: 1200px){
 .block.custom-block,
 .block.hero-image-block{
     max-width: 1140px;
@@ -217,7 +217,7 @@ justify-content: center;
 
 /*FOOTER*/
 
-#footer .nav-link{ 
+#footer .nav-link{
     font-family:"Campton-lightdemo";
     letter-spacing: 2px;
     font-size: 0.7em;
@@ -240,10 +240,10 @@ justify-content: center;
     background-color: #A4C3CD;
 }
 
-#block-9im .block-container, 
-#block-apb .block-container, 
-#block-nws .block-container, 
-#block-llw .block-container, 
+#block-9im .block-container,
+#block-apb .block-container,
+#block-nws .block-container,
+#block-llw .block-container,
 #block-cyj .block-container,
 #block-tzd .block-container{
   width: 100% !important;
@@ -306,7 +306,7 @@ border: none;
 #block-qml, #block-ey5{
   max-width: 100%;
   width: 100%;
-  position: -webkit-sticky; 
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding-top: 0;
@@ -328,7 +328,7 @@ border: none;
 #block-ey5 h4{
     font-size: 14px !important;
 }
-  
+
 
 div#jump{
   width: 100%;
@@ -366,7 +366,7 @@ div#jump .container a {
 
 #block-der .block-content .text-center{
 text-align: left !important;
-}  
+}
 
 #block-der .block-content{
   justify-content: flex-end !important;
@@ -376,7 +376,7 @@ text-align: left !important;
 #block-der h1{
   margin-bottom: 0;
 }
-  
+
 #block-der .btn-primary{
   width: 144px;
   margin-top: 20px;
@@ -395,7 +395,7 @@ text-align: left !important;
 #block-to0 p{
     max-width: 60%;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 /*HOMEPAGE BY DAY BY NIGHT*/
@@ -413,7 +413,7 @@ text-align: left !important;
   height: 90vh;
 }
 
-#block-g46 .content-intro h4, 
+#block-g46 .content-intro h4,
 #block-g46 .content-main h1{
   text-transform: uppercase !important;
 }
@@ -445,7 +445,7 @@ text-align: left !important;
   content: "";
   background: url(https://s3-eu-west-1.amazonaws.com/fixers-email-assets/Copy+of+Soul+Circus+2018+-+Lydia+Thomas+-18+-_DSC1218.jpg);
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   top: 1rem;
   left: 1rem;
   bottom: 1rem;
@@ -458,7 +458,7 @@ text-align: left !important;
   content: "";
   background: url(https://s3-eu-west-1.amazonaws.com/fixers-email-assets/SC+2018_4.jpeg);
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   top: 1rem;
   left: 1rem;
   bottom: 1rem;
@@ -466,7 +466,7 @@ text-align: left !important;
   position: absolute;
   z-index: -1;
 }
-@media only screen and (min-width: 768px){ 
+@media only screen and (min-width: 768px){
 #block-g46 > div.block-content > div > div > div.col.poster-image.by-night{
   margin-left: 20px;
 }
@@ -492,7 +492,7 @@ text-align: left !important;
   justify-content: center;
 }
 
-#block-8ti .block-content{
+#block-8ti .block-content, #block-9dv .block-content {
   margin: 0;
   padding: 0;
   max-width: 100%;
@@ -501,10 +501,10 @@ text-align: left !important;
   text-align: center;
 }
 
-#block-8ti .container{
+#block-8ti .container, #block-9dv .block-content{
   max-width: 100%;
 }
-#block-8ti > div.block-content > div.block-content.video-overlay > a{
+#block-8ti > div.block-content > div.block-content.video-overlay > a, #block-9dv > div.block-content > div.block-content.video-overlay > a {
     max-width: 200px;
     position: absolute;
     bottom: 0;
@@ -542,7 +542,7 @@ text-align: left !important;
   width: 100%;
   height: auto;
 }
-  
+
 .gallery-figure-row {
 padding-left: 30px ;
 }
@@ -556,8 +556,8 @@ padding-left: 30px ;
       margin-left: -30px;
     }
 
-.gallery-figure:last-child { 
-  padding-right: 0; 
+.gallery-figure:last-child {
+  padding-right: 0;
 }
 .full-image {
   padding-left: 0;
@@ -586,7 +586,7 @@ div#gallery img{
 	width: 100%;
 	height: 100%;
  }
- 
+
  .vimeo-wrapper {
   position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
