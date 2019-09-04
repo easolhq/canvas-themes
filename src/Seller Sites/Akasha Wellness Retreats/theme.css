@@ -484,3 +484,19 @@
     text-decoration: none;
 }
 /* BLOG */
+
+/* PRESS */
+#block-mub .block-content {
+    max-width: none;
+}
+#press h4 {
+    padding-top: 1rem;
+    text-transform: uppercase;
+    line-height: 1;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Twcenmtstd-light;
+    font-size: 16px;
+}
+/* PRESS */
