@@ -443,6 +443,11 @@
     text-decoration: none;
     color: #fff;
 }
+@media only screen and (max-width: 991.98px) {
+    .grid-square {
+        height: 80vw;
+    }
+}
 /* HOMEPAGE GRID */
 
 /* BLOG */
@@ -483,6 +488,17 @@
 #blog a:hover {
     text-decoration: none;
 }
+@media only screen and (max-width: 991.98px) {
+    #blog img {
+        width: 100%;
+        height: 60vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    #blog .swiper-container {
+        height: calc(60vw + 150px);
+    }
+    }
 /* BLOG */
 
 /* PRESS */
