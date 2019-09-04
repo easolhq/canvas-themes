@@ -520,3 +520,49 @@
     text-decoration: none;
 }
 /* PRESS */
+/* HOMEPAGE */
+
+
+/* ALL RETREATS PAGE */
+#block-64i {
+    padding: 0;
+}
+.trip-selector select, .trip-selector input {
+  padding:5px 10px;
+  height:40px;
+  margin-right:5px;
+  border:none;
+}
+.trip-selector select {
+  -webkit-appearance:none;
+  background:#fff;
+  outline:none;
+  padding-right:50px;
+  border-radius:0;
+  font-size: 0.9rem;
+}
+.trip-selector input {
+  cursor:pointer;
+}
+.select-container {
+  position:relative;
+  display:inline-block;
+}
+.select-container .select-down {
+  position: absolute;
+  color: #424242;
+  right: 24px;
+  top: 10px;
+  font-size: 0.9rem;
+  pointer-events:none;
+}
+.filter-btn {
+    font-family: Twcenmtstd-light;
+    border-bottom: solid 1px #000 !important;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+/* ALL RETREATS PAGE */
