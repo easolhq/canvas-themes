@@ -535,6 +535,7 @@
   height:40px;
   margin-right:5px;
   border:none;
+  text-transform: uppercase !important;
 }
 .trip-selector select {
   -webkit-appearance:none;
