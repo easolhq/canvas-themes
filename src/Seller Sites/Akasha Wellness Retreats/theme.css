@@ -498,6 +498,7 @@
     margin-right: auto;
     font-family: Twcenmtstd-light;
     font-size: 16px;
+    min-height: 50px;
 }
 #press a:hover {
     text-decoration: none;
