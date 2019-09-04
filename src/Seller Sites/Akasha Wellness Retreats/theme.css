@@ -499,4 +499,7 @@
     font-family: Twcenmtstd-light;
     font-size: 16px;
 }
+#press a:hover {
+    text-decoration: none;
+}
 /* PRESS */
