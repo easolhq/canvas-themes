@@ -524,6 +524,9 @@
 
 
 /* ALL RETREATS PAGE */
+#block-kau {
+    padding-bottom: 0;
+}
 #block-64i {
     padding: 0;
 }
