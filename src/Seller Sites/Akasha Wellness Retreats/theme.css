@@ -371,6 +371,29 @@
 /* RETREAT CENTRE PAGE */
 
 /* HOMEPAGE */
+
+/* VIDEO */
+#block-jzy {
+    padding-top: 100px;
+}
+#block-jzy .block-content {
+    max-width: none;
+    width: 100%;
+    padding: 0;
+}
+#block-jzy > div.block-content > div {
+    margin: 0;
+    max-width: none;
+    padding: 0;
+}
+#block-jzy video {
+    max-height: 700px;
+    overflow: hidden;
+    object-fit: cover;
+}
+ /* VIDEO */
+
+
 .hero-image-block a {
     font-family: Twcenmtstd-light;
     border-bottom: solid 1px #fff;
