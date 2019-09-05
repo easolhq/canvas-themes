@@ -292,12 +292,14 @@
     background-size: 27px 20px;
 }
 #gallery .swiper-button-next {
-    right: 47%;
+    right: 10px;
     left: auto;
+    margin-bottom: 5px;
 }
 #gallery .swiper-button-prev {
-    left: 47%;
-    right: auto;
+    right: 40px;
+    left: auto;
+    margin-bottom: 5px;
 }
 #block-qed .swiper-slide {
     height: 415px !important;
