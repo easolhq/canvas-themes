@@ -598,6 +598,10 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: inline-block;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 3px !important;
+    height: auto !important;
 }
 .fa-chevron-down:before{
     -webkit-text-stroke: 2px white;
