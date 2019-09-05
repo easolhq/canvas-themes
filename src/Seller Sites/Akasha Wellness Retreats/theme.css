@@ -610,4 +610,7 @@
 .fa-chevron-down:before{
     -webkit-text-stroke: 2px white;
 }
+#block-xnu a:hover {
+    text-decoration: none;
+}
 /* ALL RETREATS PAGE */
