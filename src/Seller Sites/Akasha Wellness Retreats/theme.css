@@ -111,7 +111,8 @@
 
 /* HERO */
 .hero-image-block {
-    height: 600px !important;
+    padding-top: 100px;
+    height: 700px !important;
     margin-left: auto;
     margin-right: auto;
     position: relative;
