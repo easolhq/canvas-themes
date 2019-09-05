@@ -542,6 +542,14 @@
 #press a:hover {
     text-decoration: none;
 }
+#press img {
+    max-width: 100px;
+    max-height: 50px;
+    object-fit: contain;
+}
+#press .image-height {
+    height: 50px;
+}
 /* PRESS */
 /* HOMEPAGE */
 
