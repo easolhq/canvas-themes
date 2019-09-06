@@ -266,4 +266,10 @@ section hr {
     #block-yx8 .col-text {
         background-color: transparent;
     }
+    .product-cta-bar h6, .product-cta-bar .h6 {
+        font-size: 0.8rem;
+    }
+    .product-cta-bar h4, .product-cta-bar .h4 {
+        font-size: 1rem;
+    }
 }
