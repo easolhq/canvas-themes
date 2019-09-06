@@ -245,8 +245,8 @@ section hr {
     .navbar-toggler {
         display: none
     }
-    #menu .navbar-brand {
-        margin-left: 0px;
+    #menu-cta {
+        display: none;
     }
     #block-osl img, #block-7vi img {
         height: 100vw;
