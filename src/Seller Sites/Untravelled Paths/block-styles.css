@@ -198,7 +198,7 @@ h1, .h1 {
 .nav-link {
   font-size:0.8rem
 }
-.bg-light {
+body .bg-light {
   background:#ebebeb !important;
 }
 #menu-cta {
