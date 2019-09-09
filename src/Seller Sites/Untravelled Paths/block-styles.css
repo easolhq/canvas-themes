@@ -198,6 +198,9 @@ h1, .h1 {
 .nav-link {
   font-size:0.8rem
 }
+.bg-light {
+  background:#ebebeb !important;
+}
 #menu-cta {
   font-weight:bold;
   text-transform:uppercase;
