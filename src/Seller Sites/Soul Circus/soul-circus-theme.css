@@ -542,11 +542,11 @@ text-align: left !important;
 }
 
 @media (max-width:576px) {
-  #block-vfk .swiper-container .container {
+  #block-vfk .swiper-container .container, #block-4wr .swiper-container .container {
     width:100%;
     left:10px;
   }
-  #block-vfk .swiper-slide {
+  #block-vfk .swiper-slide, #block-4wr .swiper-slide {
     background-position:center;
   }
   #block-9dv, #block-9dv .block-content {
