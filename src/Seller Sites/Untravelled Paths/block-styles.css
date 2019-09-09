@@ -489,6 +489,11 @@ img {
   position:relative;
   overflow:hidden;
 }
+#faq h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+
+}
 #faq-overlay {
   position:absolute;
   top:0;
