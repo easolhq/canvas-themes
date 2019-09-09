@@ -263,6 +263,10 @@ img {
 .intro-content {
   line-height:1.6 !important;
 }
+.block-heading h1 {
+  font-size: 3rem !important;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+}
 .ethos-card {
   height: 220px;
   display: flex;
