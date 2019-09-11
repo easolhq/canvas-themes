@@ -595,6 +595,7 @@ img {
   border:1px solid #fff;
   min-height:400px;
   position:relative;
+  flex-basis:40%;
 }
 .product-card-inner .mx-1 {
   max-width:33%;
@@ -612,6 +613,7 @@ img {
 }
 .product-img {
   height:400px;
+  flex-basis:60%;
 }
 .product-card img {
   height: 100%;
@@ -982,6 +984,10 @@ body.popup-open {
   right:25px;
   cursor:pointer;
   color:#fff;
+}
+.footer #mce-Email {
+  background-color:#333333 !important;
+  border-color:#606060 !important;
 }
 
 /* Media Queries */
