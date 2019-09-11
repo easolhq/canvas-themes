@@ -795,7 +795,7 @@ img {
 .filters__bottom .filters__select {
   padding-right: 120px;
 }
-.filters__bottom .btn-reset {
+.filters__bottom .btn-reset, .filters__bottom .price-filter {
   padding: 5px 0;
   background-color: transparent;
   border: 0;
