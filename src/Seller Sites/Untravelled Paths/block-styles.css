@@ -808,6 +808,9 @@ img {
   font-weight: 700;
   cursor: pointer;
 }
+.filters__bottom .price-filter.active {
+  font-weight:bold;
+}
 .btn--dark {
   padding: 15px 55px;
   background-color: #000;
