@@ -467,13 +467,15 @@ img {
   height:300px;
   object-fit:cover;
 }
+.swiper-container.top-trips h3 {
+  min-height:67px;
+}
 .swiper-container.top-trips .trip-desc {
-  height: 245px;
   overflow: hidden;
   margin-bottom: 50px;
 }
 .offers-text {
-  max-height:267px;
+  min-height:100px;
   overflow:hidden;
   margin-bottom:50px;
 }
