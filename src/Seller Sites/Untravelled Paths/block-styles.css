@@ -811,6 +811,13 @@ img {
 .filters__bottom .price-filter.active {
   font-weight:bold;
 }
+.filters__bottom .price {
+  font-weight:bold;
+  margin-right:10px;
+}
+.filters__bottom .spacer {
+  margin:0 10px;
+}
 .btn--dark {
   padding: 15px 55px;
   background-color: #000;
