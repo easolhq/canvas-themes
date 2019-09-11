@@ -273,6 +273,9 @@ img {
   font-size: 3rem !important;
   text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
 }
+.textshading {
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+}
 .ethos-card {
   height: 220px;
   display: flex;
