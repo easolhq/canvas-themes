@@ -496,11 +496,12 @@
 }
 .grid-square a {
     font-family: Twcenmtstd-light;
-    border-bottom: solid 1px #fff;
+    border: solid 1px rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
     font-size: 0.9rem;
     line-height: 1.4;
-    padding-bottom: 3px;
-  	margin-top:  0.4rem;
+    padding: 5px 10px;
+    margin-top: 0.4rem;
     margin-bottom: 1rem;
     display: inline-block;
     color: #fff;
@@ -508,8 +509,9 @@
     margin-right: auto;
 }
 .grid-square a:hover {
-    text-decoration: none;
-    color: #fff;
+    border: solid 1px #fff;
+    background-color: #fff;
+    color: rgb(51, 51, 51);
 }
 @media only screen and (max-width: 991.98px) {
     .grid-square {
