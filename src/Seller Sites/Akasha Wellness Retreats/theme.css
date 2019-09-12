@@ -168,6 +168,21 @@
 #block-sew #jump-bar a.active {
   text-decoration: underline;
 }
+@media (max-width:991px) {
+    #jump-bar > div > a:nth-child(1) {
+    display: none;
+  }
+  #jump-bar a {
+    display: block;
+    margin-top:0.75rem !important;
+    margin-bottom:0.75rem !important;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 14px;
+  }
+  #jump-bar.stuck, #block-sew #jump-bar.stuck {
+    position: relative;
+  }
+}
 /* JUMP BAR */
 
 /* TEXT BLOCK */
