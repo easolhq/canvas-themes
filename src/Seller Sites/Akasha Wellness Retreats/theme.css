@@ -300,7 +300,7 @@
     margin-right: auto;
 }
 .grid-image-square {
-    padding: 5px;
+    padding: 5px !important;
 }
 .image-grid {
     margin-bottom: 2rem;
