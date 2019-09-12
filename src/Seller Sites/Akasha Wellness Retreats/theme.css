@@ -109,6 +109,9 @@
 #block-49i, #block-vl9, #block-1vv, #block-qxt {
     padding-bottom: 0;
 }
+#block-1vv {
+    padding-top: 0;
+}
 
 /* HERO */
 .hero-image-block {
