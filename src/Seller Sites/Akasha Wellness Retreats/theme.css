@@ -277,7 +277,7 @@
 #block-qed .swiper-slide {
     height: 415px !important;
 }
-.swiper-slide {
+#gallery .swiper-slide {
     width: 500px !important;
     height: 400px !important;
 }
