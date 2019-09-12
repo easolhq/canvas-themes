@@ -309,12 +309,12 @@
     max-width: none;
     padding: 0;
 }
-#block-qed .swiper-slide {
-    height: 415px !important;
-}
 #gallery .swiper-slide {
     width: 500px !important;
     height: 400px !important;
+}
+#block-qed .swiper-slide {
+    height: 415px !important;
 }
 .swiper-slide img {
    width: 100%;
