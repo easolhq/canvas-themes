@@ -429,7 +429,14 @@
 	}
   .retreat-img {
     height: 200px;
-	}
+    }
+    .retreat-text .retreat-name {
+        font-size: 1.0rem;
+        min-height: 50px;
+    }
+    .retreat-text .retreat-price {
+        font-size: 0.9rem;
+    }
 }
 /* UPCOMING */
 
