@@ -587,7 +587,7 @@
     min-height: 50px;
 }
 #press a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 #press img {
     max-width: 100px;
