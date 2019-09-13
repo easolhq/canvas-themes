@@ -531,6 +531,23 @@ img {
 #faq.open #faq-overlay {
   background-image:none;
 }
+#faq h2:after {
+  content: "\f067";
+  font-family: 'fontawesome';
+  position: absolute;
+  right: 30px;
+  transition:0.3s transform;
+}
+#faq h2.open:after {
+  transform:rotate(45deg);
+}
+#faq p {
+  height:0;
+  overflow:hidden;
+}
+#faq p.open {
+  height:auto;
+}
 
 /* Trip */
 
