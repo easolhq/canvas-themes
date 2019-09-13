@@ -306,6 +306,9 @@ img {
 .swiper-button-prev {
   left:26px !important;
 }
+.top-trips a {
+  text-decoration:none;
+}
 .top-trips .swiper-button-next, .top-trips .swiper-button-prev {
   top:30%;
 }
