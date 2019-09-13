@@ -502,14 +502,17 @@ img {
 /* About */
 
 #faq {
-  height:90vh;
+  height:auto;
   position:relative;
   overflow:hidden;
 }
 #faq h2 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-
+  padding-bottom:1rem;
+  border-bottom:1px solid #f8f9fa;
+  font-family:'Bitter', serif !important;
+  font-weight:500;
 }
 #faq-overlay {
   position:absolute;
