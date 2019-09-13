@@ -263,6 +263,10 @@ img {
 .block.custom-block .text-secondary {
   color:#6c757d!important
 }
+.homeHeader {
+  width:100%;
+  height:100%;
+}
 .h-80vh {
   height:80vh !important;
 }
