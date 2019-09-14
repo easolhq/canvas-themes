@@ -1060,6 +1060,9 @@ body.popup-open {
   .product-img, .product-card-inner {
     flex-basis:100%;
   }
+  .filters__open ul {
+    padding:0;
+  }
   .form-header {
     flex-wrap:wrap;
     padding-right:50px;
