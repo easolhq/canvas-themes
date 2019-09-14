@@ -287,7 +287,7 @@ img {
   display: flex;
   align-items: center;
 }
-#team a:hover {
+#team a:hover, #latest-offers a:hover {
   text-decoration:none;
 }
 /* Swipers */
