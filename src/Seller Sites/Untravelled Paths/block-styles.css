@@ -1060,6 +1060,13 @@ body.popup-open {
   .product-img, .product-card-inner {
     flex-basis:100%;
   }
+  .product-img {
+    height:250px;
+  }
+  .product-content .d-flex {
+    position:static;
+    width:100%
+  }
   .filters__open ul {
     padding:0;
   }
