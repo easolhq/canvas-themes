@@ -1054,6 +1054,12 @@ body.popup-open {
   }
 }
 @media (max-width:769px) {
+  .exp-link {
+    flex-wrap:wrap;
+  }
+  .product-img, .product-card-inner {
+    flex-basis:100%;
+  }
   .form-header {
     flex-wrap:wrap;
     padding-right:50px;
