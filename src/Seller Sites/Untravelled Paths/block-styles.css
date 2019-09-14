@@ -351,11 +351,18 @@ img {
   z-index:99;
   width:100%;
 }
+#menu.open {
+  background:#000 !important;
+}
 #menu .nav-link {
   color:#fff !important;
 }
 #menu-navbar {
   justify-content:flex-end;
+}
+.reviews.swiper-container p {
+  font-size:1rem;
+  padding:25px 20px 0;
 }
 .nav-item {
   margin:0 20px;
