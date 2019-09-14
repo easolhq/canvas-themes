@@ -1153,6 +1153,10 @@ body.popup-open {
   .block-content #signup {
     flex-wrap:wrap;
   }
+  .footer-copyright {
+    text-align:right;
+    margin-left:30px;
+  }
   footer .d-flex span {
     margin-bottom:10px;
   }
