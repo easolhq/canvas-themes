@@ -710,3 +710,23 @@
     text-decoration: none;
 }
 /* ALL RETREATS PAGE */
+
+
+/* ABOUT PAGE */
+
+/* TEAM */
+.team-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+.team-text h6 {
+    font-family: Twcenmtstd-light;
+    line-height: 1;
+}
+/* TEAM */
+
+
+/* ABOUT PAGE */
