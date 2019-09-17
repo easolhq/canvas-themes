@@ -750,5 +750,22 @@
     bottom: 15px;
 }
 /* ARTICLES */
-
 /* ABOUT PAGE */
+
+/* HIRE PAGE */
+#block-o6j h4, #block-a1k h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+#block-o6j hr, #block-a1k hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#block-wwq, #block-ila {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#block-oja, #block-acm {
+    padding-bottom: 0;
+}
+/* HIRE PAGE */
