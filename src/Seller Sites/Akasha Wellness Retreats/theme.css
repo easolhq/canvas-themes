@@ -487,6 +487,38 @@
     overflow: hidden;
     object-fit: cover;
 }
+#block-jzy .overlay-text {
+    padding: 0 1rem;
+    width: 100%;
+    color: #fff;
+}
+#block-jzy .video-overlay {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+  height: auto;
+  padding: 0 1rem;
+}
+#block-jzy .video-link {
+    font-family: Twcenmtstd-light;
+    border: solid 1px #fff;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 5px 10px;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+#block-jzy .video-link:hover {
+    border: solid 1px #fff;
+    background-color: transparent;
+    color: #fff;
+}
  /* VIDEO */
 
 
