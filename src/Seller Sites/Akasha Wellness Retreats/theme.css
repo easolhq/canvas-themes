@@ -519,6 +519,14 @@
     background-color: transparent;
     color: #fff;
 }
+@media only screen and (max-width: 991.98px) {
+    #block-jzy h2 {
+        font-size: 1.2rem !important;
+    }
+    #block-jzy video {
+        height: 80vw !important;
+    }
+}
  /* VIDEO */
 
 
