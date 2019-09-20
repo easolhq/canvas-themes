@@ -52,7 +52,7 @@ hr {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
 }
 #block-pxd p {
     font-size: 1.5rem !important;
@@ -200,6 +200,9 @@ section hr {
 .accommodation_information {
     background-color: #fff;
     padding: 1rem;
+}
+#gallery.gallery {
+  height:100%
 }
 .gallery-figure img {
     max-height: 400px;
