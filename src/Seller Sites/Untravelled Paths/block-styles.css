@@ -312,7 +312,7 @@ img {
 .top-trips .swiper-button-next, .top-trips .swiper-button-prev {
   top:30%;
 }
-.team .swiper-button-next, .team .swiper-button-prev {
+.team .swiper-button-next, .team .swiper-button-prev, .offers .swiper-button-next, .offers .swiper-button-prev {
   top:21%;
 }
 .swiper-button-prev:before, .swiper-button-next:before {
