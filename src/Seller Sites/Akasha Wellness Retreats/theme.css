@@ -612,6 +612,9 @@
 /* HOMEPAGE GRID */
 
 /* BLOG */
+#block-8sd {
+    padding-bottom: 0;
+}
 #block-8sd .block-content {
     max-width: none;
 }
