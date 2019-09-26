@@ -691,6 +691,9 @@
 #press .image-height {
     height: 50px;
 }
+#block-bdy {
+    padding-top: 0;
+}
 /* PRESS */
 /* HOMEPAGE */
 
