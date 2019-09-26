@@ -684,12 +684,12 @@
     text-decoration: underline;
 }
 #press img {
-    max-width: 100px;
-    max-height: 50px;
+    max-width: 100%;
+    max-height: 100px;
     object-fit: contain;
 }
 #press .image-height {
-    height: 50px;
+    height: 100px;
 }
 #block-bdy {
     padding-top: 0;
