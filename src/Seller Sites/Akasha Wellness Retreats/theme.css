@@ -313,15 +313,15 @@
     padding: 0;
 }
 #gallery .swiper-slide {
-    width: 500px !important;
-    height: 400px !important;
+    width: 600px !important;
+    height: 500px !important;
 }
 #block-qed .swiper-slide {
-    height: 415px !important;
+    height: 515px !important;
 }
 .swiper-slide img {
    width: 100%;
-   height: 350px;
+   height: 450px;
    object-fit: cover;
    object-position: center;
 }
