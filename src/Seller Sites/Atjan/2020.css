@@ -1,0 +1,17 @@
+
+/*Text and Image Block*/
+
+#block-hwf .col-image:before {
+    content: "";
+    background-image: url(https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller%20Sites/Revamp+Retreats/Images/leaves.jpg);
+    width: 320px;
+    height: 400px;
+    position: absolute;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    left: 15px;
+    margin-top: -70px;
+    pointer-events: none;
+    z-index: -1;
+}
