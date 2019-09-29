@@ -26,6 +26,11 @@
     margin-left: 50px;
 }
 
+/*Product Block*/
+#block-a8e h1{
+    text-align: center;
+}
+
 /* PRESS */
 #block-erf .block-content {
     max-width: none;
