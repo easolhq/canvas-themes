@@ -47,12 +47,13 @@
 }
 
 #press img {
-    max-width: 100%;
+    max-width: 70%;
     max-height: 100px;
     object-fit: contain;
 }
 #press .image-height {
-    height: 100px;
+    height: 90px;
+    text-align: center;
 }
 #block-erf {
     padding-top: 0;

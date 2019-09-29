@@ -6,9 +6,7 @@ body, html {
 .block-content a.btn {
   border-color:#f1e033 !important;
 }
-#menu {
-  display:none;
-}
+
 #block-s4k {
   padding:1rem 0;
   position:absolute;
