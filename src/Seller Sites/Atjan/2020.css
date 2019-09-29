@@ -151,3 +151,68 @@ h4{
   background-color: #000 !important;
 }
 /* GALLERY */
+
+/*MOBILE*/
+@media screen and (max-width: 679px) {
+    #block-luc .col-text {
+        margin-top: 350px;
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    #block-luc{
+        padding: 0;
+        z-index: 1;
+    }
+    
+    #block-hwf img{
+        margin-top: -100px;
+        margin-left: 150px;
+        max-width: 220px;
+    }
+    
+    #block-2jc h1{
+        font-size: 2rem;
+    }
+    
+    .introduction-inner p:before{
+        width: 200px !important;
+        height: 50px !important;
+    }
+    
+    #block-arw{
+        padding-top: 0;
+    }
+    
+    #block-a8e{
+        padding-bottom: 0;
+    }
+    
+    #press .col-4 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    #press .image-height{
+        margin-top: 30px;
+    }
+    
+    #block-luc{
+        z-index: -1;
+        margin-top: -450px;
+        padding: 0;
+    }
+    
+    #block-luc .image-right img {
+        z-index: -1;
+        max-width: 300px;
+    }
+    
+    #block-luc .image-left img{
+        z-index: -1;
+        margin-top: -100px;
+        max-width: 300px;
+    
+    }
+    }
