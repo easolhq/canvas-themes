@@ -1,4 +1,8 @@
 
+h4{ 
+    font-family: Avenirltstd-light;
+}
+
 /*Navbar*/
 #menu .navbar-brand img{
     display: block;
@@ -29,6 +33,12 @@
 /*Product Block*/
 #block-a8e h1{
     text-align: center;
+}
+
+/*INCLUDED*/
+
+#included strong{
+    text-transform: uppercase;
 }
 
 /* PRESS */
