@@ -161,11 +161,6 @@ h4{
         text-align: center;
     }
     
-    #block-luc{
-        padding: 0;
-        z-index: 1;
-    }
-    
     #block-hwf img{
         margin-top: -100px;
         margin-left: 150px;
@@ -198,12 +193,6 @@ h4{
         margin-top: 30px;
     }
     
-    #block-luc{
-        z-index: -1;
-        margin-top: -450px;
-        padding: 0;
-    }
-    
     #block-luc .image-right img {
         z-index: -1;
         max-width: 300px;
@@ -213,6 +202,17 @@ h4{
         z-index: -1;
         margin-top: -100px;
         max-width: 300px;
-    
+    }
+    #block-luc text {
+        padding-bottom: 0;
+        padding-top: 3rem;
+    }
+    #block-luc {
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+    }
+    #block-luc .reverse{
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
     }
     }
