@@ -25,7 +25,7 @@ h4{
     z-index: -1;
 }
 
-#block-hwf img {
+#block-hwf .col-image img {
     max-width: 400px;
     margin-left: 50px;
 }
@@ -161,10 +161,16 @@ h4{
         text-align: center;
     }
     
-    #block-hwf img{
-        margin-top: -100px;
-        margin-left: 150px;
-        max-width: 220px;
+    #block-hwf {
+        padding-top: 0;
+    }
+
+    #block-hwf .col-12 img {
+        margin-bottom: 1rem;
+    }
+
+    #block-t0i {
+        padding-bottom: 1rem;
     }
     
     #block-2jc h1{
