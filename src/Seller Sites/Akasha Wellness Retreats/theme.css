@@ -98,7 +98,67 @@
 /* MENU + FOOTER */
 
 /* RETREAT CENTER PAGE */
-
+/* VIDEO */
+#block-sod {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+#block-sod .block-content {
+    max-width: none;
+    width: 100%;
+    padding: 0;
+}
+#block-sod > div.block-content > div {
+    margin: 0;
+    max-width: none;
+    padding: 0;
+}
+#block-sod video {
+    max-height: 700px;
+    overflow: hidden;
+    object-fit: cover;
+}
+#block-sod .overlay-text {
+    padding: 0 1rem;
+    width: 100%;
+    color: #fff;
+}
+#block-sod .video-overlay {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+  height: auto;
+  padding: 0 1rem;
+}
+#block-sod .video-link {
+    font-family: Twcenmtstd-light;
+    border: solid 1px #fff;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 5px 10px;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+#block-sod .video-link:hover {
+    border: solid 1px #fff;
+    background-color: transparent;
+    color: #fff;
+}
+@media only screen and (max-width: 991.98px) {
+    #block-sod h2 {
+        font-size: 1.2rem !important;
+    }
+    #block-sod video {
+        height: 80vw !important;
+    }
+}
+ /* VIDEO */
 .divider {
     margin-top: 5rem;
     margin-left: auto;
