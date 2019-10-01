@@ -182,8 +182,6 @@ background-size:cover;
 
 #block-ewy{
     background: url(https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Meadows/012-footer-woods.jpg);
-    padding-top: 200px;
-    margin-top: -200px;
     background-repeat: no-repeat;
     background-size:cover;
 
@@ -266,7 +264,7 @@ background-size:cover;
 /* Book Block */
 
 #block-asp{
-  height: 100vh;
+  height: 40vh;
   z-index: 2;
   margin-top: -150px;
   padding-top: 0;
@@ -291,6 +289,9 @@ background-size:cover;
   background-color:transparent;
   border:none !important;
   font-size:1.4rem
+}
+#block-asp > div.block-background {
+  background-position: top !important;
 }
 
 #block-6dw{
