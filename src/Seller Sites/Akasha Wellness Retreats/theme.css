@@ -279,10 +279,10 @@
   	font-family: Twcenmtstd-light;
   	font-size:12px;
 }
-.text-block p, .section-text {
+.text-block p, .section-text, .section-text p {
     text-align: justify;
     line-height: 1.6;
-    font-size: 1rem;
+    font-size: 17px;
   	font-family: Twcenmtstd-light;
 }
 .text-block a, .section-link {
