@@ -709,6 +709,9 @@
     font-family: Twcenmtstd-light;
     font-size: 12px;
 }
+#blog .blog-title {
+    font-size: 16px;
+}
 #blog a:hover {
     text-decoration: none;
 }
