@@ -1167,12 +1167,6 @@ body.popup-open {
   .trip-selector:before {
     display:none;
   }
-  #somewhere-different .diff-text {
-    position: static !important;
-    transform: none;
-    width: 100% !important;
-    margin-top: 1.5rem;
-  }
   .block-content #signup {
     flex-wrap:wrap;
   }
