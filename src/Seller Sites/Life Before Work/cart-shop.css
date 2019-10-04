@@ -1,0 +1,152 @@
+/* CART SHOP */
+/* Style Changes add any customer specific stuff here */
+
+/* Set fonts for entire shop including ones forced in other CSS files */
+
+#app {
+    font-family: Avenirnextltpro-regular;
+    color: #000;
+}
+.cart-shop-navbar .nav-link {
+    font-family: Abadimtstd-condextrabold !important;
+}
+.cart-shop-navbar .nav-link:hover, .cart-shop-navbar .nav-link.active {
+    color: #fff !important;
+}
+#app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+    text-transform:uppercase;
+}
+#app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
+    font-family: Avenirnextltpro-demi;
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h1 {
+    font-family: Abadimtstd-condextrabold !important;
+    color: #000;
+}
+#app .bookable-list-item i:before {
+    font-family:'Fixers Icons';
+}
+#app h4 {
+    color: #EDAC43;
+}
+#app h4>hr {
+    border-top-color: #EDAC43;
+}
+#app h6 {
+    color: #000;
+}
+/* Set button colors */
+
+#app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
+    font-family: Avenirnextltpro-demi;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #e41548;
+    border-color: #e41548;
+    border-radius: 3px !important;
+}
+#app .cart .input-group-btn .btn {
+    border-color:#159bd1 !important;
+    color:#159bd1;
+}
+#app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
+    background-color:#159bd1;
+    color:#fff;
+}
+#app .segment-collapse {
+    color:#EDAC43;
+}
+
+/* Hide default logo and add one centered in middle of nav */
+
+.navbar-main.site-shop-nav {
+    background-color: #159bd1;
+}
+.navbar-full {
+    justify-content:center;
+}
+.navbar-full .logo {
+    display: none !important;
+}
+.navbar-full .navbar-brand:before {
+    content: '';
+    width: 8rem;
+    height: 4rem;
+    background-image: url(https://d17t27i218htgr.cloudfront.net/variants/YjJE4t4HnMra9nPUKLDJZ1pH/9eec57a80cfcb82e0cb9c8596e747cb02912f9664bc5abff0fe5b2af51360d30);
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+
+/* Set background color and fix tile hidden by that */
+
+#app {
+  background:#f7f7f9;
+}
+#app .block-background {
+  z-index:0;
+}
+
+/* Chevron Colors */
+
+#app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+  background-color:#159bd1;
+}
+
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
+  display: none;
+}
+
+.footer-main{
+    background-color: #23455b !important;
+}
+
+footer > article > ul.list-inline.text-uppercase.mb-4 > li > small > a{
+  color: #fff !important;
+}
+
+.footer-main .block-content:before {   
+  content: '';
+      width: 10rem;
+      height: 5rem;
+      background-image: url(https://d17t27i218htgr.cloudfront.net/variants/YjJE4t4HnMra9nPUKLDJZ1pH/9eec57a80cfcb82e0cb9c8596e747cb02912f9664bc5abff0fe5b2af51360d30);
+      background-size: contain;
+      display: block;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+/* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+
+@media (min-width:768px) {
+  #app .cart-body .col-10 {
+    flex:0 0 38%;
+    max-width:38%
+  }
+}
+
+/* Fix Nav on Mobile */
+
+#cart-shop-nav-mobile .nav-link {
+  padding:0 !important;
+  margin-right:0 !important;
+  font-size:0.9rem !important;
+}
+#cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+  float:left !important;
+  width:100%;
+}
+@media (max-width:600px) {
+  .cart-shop-navbar.sticky {
+    position:static;
+  }
+}
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white {
+    z-index: 20;
+}
