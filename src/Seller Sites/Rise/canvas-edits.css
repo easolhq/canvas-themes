@@ -1604,7 +1604,7 @@ a.collection-card {
 }
 
 #block-kiw .listing-card-text-wrap {
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 #block-kiw p.factual.mb-2.small {
@@ -1617,6 +1617,10 @@ a.collection-card {
   bottom: 0px;
   padding-bottom: 0;
   width: 89%;
+}
+#block-kiw p.factual.new-price.small {
+  position: absolute;
+  bottom: 85px;
 }
 
 #block-xi4 .listing-card-text-wrap {
