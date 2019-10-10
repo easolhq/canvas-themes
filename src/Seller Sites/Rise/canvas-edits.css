@@ -1,5 +1,7 @@
 /* General Stuff */
-
+.new-price {
+  color: #f06f71;
+}
 .text-block .block-content {
     max-width:550px;
 }
