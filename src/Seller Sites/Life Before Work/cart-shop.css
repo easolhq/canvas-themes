@@ -5,9 +5,12 @@
 }
 /* Set fonts for entire shop including ones forced in other CSS files */
 
-#app {
-    font-family: Avenirnextltpro-regular;
+#app, #app p {
+    font-family: Avenirnextltpro-regular !important;
     color: #000;
+}
+#app #extras strong {
+  font-family: Avenirnextltpro-demi;
 }
 .cart-shop-navbar .nav-link {
     font-family: Abadimtstd-condextrabold !important;
