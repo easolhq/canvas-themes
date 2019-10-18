@@ -41,7 +41,9 @@
     color: #000;
 }
 /* Set button colors */
-
+.number-stepper-round .btn {
+  width: 27px !important;
+}
 #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
     font-family: Avenirnextltpro-demi;
     color: #fff;
