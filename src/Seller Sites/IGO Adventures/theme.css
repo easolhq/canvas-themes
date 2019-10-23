@@ -152,6 +152,10 @@ img {
     height: 100vh;
 }
 
+.text-and-cols .col-md-4 h4 {
+    font-size: 23px;
+}
+
 #mc_embed_signup input:not(.btn-fix) {
     min-height: 50px;
     font-size: 14px;
