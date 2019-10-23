@@ -7,21 +7,25 @@
     padding-top:0;
     padding-bottom:0
 }
+
+/* sitewide code */
 .cover {
     object-fit: cover;
 }
+.text-width {
+    max-width: 100%;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* blocks code */
 .hero-video {
     height: 100vh;
 }
 
 
-
-
-body {
-	overflow-x: hidden;
-}
-
+/* copied from bk product code */
 body {
   font:normal 15px/18px 'Karla', sans-serif;
   color:#77777A;
