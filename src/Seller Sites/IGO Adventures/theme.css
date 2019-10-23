@@ -160,3 +160,17 @@ img {
     min-height: 50px;
     font-size: 14px;
 }
+.background-text:before {
+    content: "ADVENTURE";
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-size: 140px;
+    line-height: 117px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    bottom: 80px;
+    left: 0;
+    color: rgba(0,0,0,.05);
+}
