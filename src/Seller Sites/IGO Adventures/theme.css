@@ -131,6 +131,7 @@ img {
 .btn-hover {
     overflow: hidden;
     position: relative;
+    font-family: karla-bold;
 }
 .btn-hover:before {
     content: "";
