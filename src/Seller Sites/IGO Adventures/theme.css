@@ -124,6 +124,29 @@ img {
     margin:0;
 }
 
+/* sitewide code PA code */
+.btn-hover {
+    overflow: hidden;
+    position: relative;
+}
+.btn-hover:before {
+    content: "";
+    background: rgba(255,255,255,.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400%;
+    height: 400px;
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+    -webkit-transition: -webkit-transform .7s;
+    transition: transform .7s;
+}
+.btn-hover:hover:before {
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,120%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,120%,0);
+}
+
 /* template blocks code */
 .hero-video {
     height: 100vh;
