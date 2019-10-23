@@ -16,56 +16,54 @@ body {
   }
 
 /* nested in block to overrride other code! */
-.block {
-    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-        font-family:'Roboto Condensed', sans-serif;
-        letter-spacing:1px;
-        text-transform:uppercase;
-        color:#000;
-    }
-    h1, .h1 {
-        font-size:70px;
-        line-height: 82px;
-    }
-    h2, .h2 {
-        font-size:50px;
-        line-height: 59px;
-    }
-    h4, .h4 {
-        font-size:30px;
-        line-height: 35px;
-    }
-    h5, .h5 {
-        font-size:25px;
-        line-height: 29px;
-    }
-    h6, .h6 {
-        font-size:16px;
-        line-height: 19px;
-    }
-    .jumbo-bg {
-        font-family:'Roboto Condensed';
-        font-size:100px;
-        line-height: 117px;
-        text-transform:uppercase
-    }
-    .small {
-        font-size:13px;
-        line-height: 20px;
-    }
-    .tiny {
-        font-size:10px;
-        line-height: 12px;
-    }
-    .cover {
-        object-fit: cover;
-    }
-    .text-width {
-        max-width: 100%;
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.block h1, .block .h1, .block h2, .block .h2, .block h3, .block .h3, .block h4, .block .h4, .block h5, .block .h5, .block h6, .block .h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+.block h1, .block .h1 {
+    font-size: 70px;
+    line-height: 82px;
+}
+.block h2, .block .h2 {
+    font-size: 50px;
+    line-height: 59px;
+}
+.block h4, .block .h4 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.block h5, .block .h5 {
+    font-size: 25px;
+    line-height: 29px;
+}
+.block h6, .block .h6 {
+    font-size: 16px;
+    line-height: 19px;
+}
+.block .jumbo-bg {
+    font-family: 'Roboto Condensed';
+    font-size: 100px;
+    line-height: 117px;
+    text-transform: uppercase;
+}
+.block .small {
+    font-size: 13px;
+    line-height: 20px;
+}
+.block .tiny {
+    font-size: 10px;
+    line-height: 12px;
+}
+.block .cover {
+    object-fit: cover;
+}
+.block .text-width {
+    max-width: 100%;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* sitewide from bk code */
