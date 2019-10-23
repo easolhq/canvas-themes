@@ -7,19 +7,10 @@
     padding-top:0;
     padding-bottom:0
 }
+.cover {
+    object-fit: cover;
+}
 
-/* hero-video
-.hero-video .overlay-logo {
-    width: 400px;
-    height: auto;
-    object-fit: contain;
-    object-position: center;
+.hero-video {
+    height: 100vh;
 }
-.hero-video .video-overlay {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
-    width: 90%;
-    height: auto;
-}
- */
