@@ -155,6 +155,11 @@ img {
 .hero-video {
     height: 120vh;
 }
+.hero-video .overlay-logo {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .text-and-cols .col-md-4 h4 {
     font-size: 23px;
