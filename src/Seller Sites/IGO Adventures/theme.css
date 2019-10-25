@@ -228,6 +228,10 @@ img {
     }
 }
 
+.full-height-hero-block {
+    height: 100vh;
+}
+
 /* misc code - block specific */
 #mc_embed_signup input:not(.btn-fix) {
     min-height: 50px;
