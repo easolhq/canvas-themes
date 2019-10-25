@@ -210,6 +210,23 @@ img {
     color: #fff !important;
   }
 
+@media screen and (max-width: 700px) {
+    .grid .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "cell1" "cell2" "cell3" "cell4" "cell5" "cell6";
+      }
+    .cell:nth-of-type(odd) .grid-inner {
+        padding-right: 0px;
+    }
+    .cell:nth-of-type(even) .grid-inner {
+        padding-left: 0px;
+    }
+    .grid-inner {
+        padding: 10px 0;
+    }
+}
 
 /* misc code - block specific */
 #mc_embed_signup input:not(.btn-fix) {
