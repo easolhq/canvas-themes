@@ -242,9 +242,11 @@ img {
 }
 .team-block h2 {
     font-size: 30px;
+    line-height: 35px;
 }
 .team-block h3 {
     font-size: 22px;
+    line-height: 25px;
 }
 
 /* misc code - block specific */
