@@ -167,7 +167,9 @@ img {
     font-size: 23px;
 }
 
-
+.text-and-2cols .col-md-4 h4 {
+    font-size: 23px;
+}
 
 
 .hero-block {
