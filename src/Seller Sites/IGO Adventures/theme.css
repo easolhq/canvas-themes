@@ -161,10 +161,27 @@ img {
     margin-right: auto;
 }
 
+
+
 .text-and-cols .col-md-4 h4 {
     font-size: 23px;
 }
 
+
+
+
+.hero-block {
+    height: 65vh;
+}
+.hero-block h1, .hero-block h2, .hero-block h3, .hero-block h4, .hero-block p {
+    color: #fff !important;
+}
+.hero-block h1 {
+    font-size: 80px;
+}
+
+
+/* misc code */
 #mc_embed_signup input:not(.btn-fix) {
     min-height: 50px;
     font-size: 14px;
