@@ -252,3 +252,18 @@ img {
     background-size: 100% auto;
     background-color: white;
 }
+.accordion-block h2 {
+    font-size: 30px;
+}
+.accordion-block h4 {
+    font-size: 18px;
+    margin: 10px !important;
+}
+.accordion-entry {
+    border:none;
+    background-color: transparent;
+}
+.collapsible-segment .fa-chevron-right:before {
+    content: "\f067";
+    color: #EF7431;
+}
