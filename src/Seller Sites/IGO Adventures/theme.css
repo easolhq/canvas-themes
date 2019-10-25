@@ -199,7 +199,7 @@ img {
       color: #fff !important;
   }
   .grid-inner h5 {
-      font-size: 15px;;
+      font-size: 15px;
   }
   .cell:nth-of-type(odd) .grid-inner {
     padding-right: 100px;
