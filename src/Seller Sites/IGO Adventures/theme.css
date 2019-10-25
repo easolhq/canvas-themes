@@ -259,7 +259,7 @@ img {
     font-size: 18px;
     margin: 10px !important;
 }
-.accordion-entry {
+.block-content .accordion-entry {
     border:none;
     background-color: transparent;
 }
