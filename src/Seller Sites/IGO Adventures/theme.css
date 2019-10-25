@@ -232,6 +232,21 @@ img {
     height: 100vh;
 }
 
+.team-block img {
+    object-fit: contain;
+    padding: 0 20px;
+}
+.team-block h1 {
+    font-size: 35px;
+    line-height: 35px;
+}
+.team-block h2 {
+    font-size: 30px;
+}
+.team-block h3 {
+    font-size: 22px;
+}
+
 /* misc code - block specific */
 #mc_embed_signup input:not(.btn-fix) {
     min-height: 50px;
