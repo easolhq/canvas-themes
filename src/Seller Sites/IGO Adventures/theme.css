@@ -196,6 +196,7 @@ img {
   .grid .cell6 { grid-area: cell6; }
   .grid-inner {
       padding: 35px 0;
+      color: #fff !important;
   }
   .grid-inner h5 {
       font-size: 15px;;
