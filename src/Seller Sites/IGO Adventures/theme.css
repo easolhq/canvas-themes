@@ -196,7 +196,6 @@ img {
   .grid .cell6 { grid-area: cell6; }
   .grid-inner {
       padding: 35px 0;
-      color: #fff !important;
   }
   .grid-inner h5 {
       font-size: 15px;
@@ -206,6 +205,9 @@ img {
   }
   .cell:nth-of-type(even) .grid-inner {
     padding-left: 100px;
+  }
+  .grid h1, .grid h2, .grid h3, .grid h4, .grid h5, .grid h6, .grid p {
+    color: #fff !important;
   }
 
 
