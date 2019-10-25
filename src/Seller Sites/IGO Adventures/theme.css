@@ -267,3 +267,17 @@ img {
     content: "\f067";
     color: #EF7431;
 }
+#block-idt h1, #block-idt h2, #block-idt h3, #block-idt h4, #block-idt h5, #block-idt h6, #block-idt p, #block-idt a  {
+    color: #fff !important;
+}
+#block-idt hr {
+    border-top: solid 3px #fff;
+    width: 60px;
+    margin: 2.5rem auto;
+}
+#block-idt h4  {
+    font-family: Karla-regular;
+    text-transform: none;
+    margin-bottom: 2rem;
+    font-size: 45px;
+}
