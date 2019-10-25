@@ -302,3 +302,99 @@ img {
     margin-bottom: 2rem;
     font-size: 45px;
 }
+
+@media screen and (max-width: 700px) {
+    .hero-video h3 {
+        font-size: 1.6rem;
+        line-height: 1.2;
+        margin-top: 30px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .background-text:before {
+    content: "";
+    }
+    .dropdown-link:after {
+    right: 20px;
+    }
+    .hero-block h1 {
+        font-size: 2.25rem;
+    }
+    .hero-block {
+        height: 300px;
+    }
+    .hero-block a.btn-hover {
+        margin-top: 0 !important;
+    }
+    .text-and-2cols h4 {
+        font-size: 1.4rem; 
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+    .text-and-2cols div.col-md-6 {
+        margin-bottom: 2rem;
+    }
+    .text-and-2cols li {
+        text-align: left;
+    }
+    #block-wfa .text-and-2cols {
+    padding-bottom: 50px;
+    }
+    .grid h3 {
+        font-size: 1.6rem;
+    }
+    .text-block h4 {
+        font-size: 1.6rem;
+    }
+    .quote-block .container {
+        padding: 20px;
+    }
+    .quote-block .container div.py-5 {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .video-block iframe {
+        width: 100%;
+        height: 60vw;
+    }
+    
+    .text-and-cols h4 {
+        font-size: 1.6rem;
+        line-height: 1.3;
+    }
+    .team-block h1 {
+        font-size: 1.8rem
+    }
+    .team-block img {
+        padding: 0 10px;
+    }
+    .team-block .bio-inner {
+        padding: 0 10px;
+    }
+    .accordion-entry h4 {
+        line-height: 1.2;
+    }
+    .text-block h3 {
+        font-size: 1.8rem
+    }
+    .full-height-hero-block {
+        height: 95vh !important;
+    }
+    .full-height-hero-block img {
+        max-width: 60%;
+    }
+    .full-height-hero-block h3 {
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+    #block-2fw {
+        display: none;
+    }
+    .text-and-video h4 {
+        font-size: 1.6rem;
+    } 
+    .text-and-video h5 {
+        font-size: 1.4rem;
+    } 
+}
