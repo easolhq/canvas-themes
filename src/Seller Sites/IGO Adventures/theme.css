@@ -104,6 +104,12 @@ img {
 .orange {
     color:#EF7431
 }
+.text-black {
+	color: #000;
+}
+.text-grey {
+	color: #77777A;
+}
 .btn-fix {
     display:inline-flex;
     align-items: center;
