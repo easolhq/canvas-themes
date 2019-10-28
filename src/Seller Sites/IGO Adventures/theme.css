@@ -315,9 +315,6 @@ img {
     .background-text:before {
     content: "";
     }
-    .dropdown-link:after {
-    right: 20px;
-    }
     .hero-block h1 {
         font-size: 2.25rem;
     }
