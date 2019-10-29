@@ -400,6 +400,9 @@ img {
     .text-and-video h5 {
         font-size: 1.4rem;
     } 
+    #retreat-row {
+        justify-content: center;
+    }
 }
 
 /* filter page */
