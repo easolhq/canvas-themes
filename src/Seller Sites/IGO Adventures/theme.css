@@ -104,6 +104,12 @@ img {
 .orange {
     color:#EF7431
 }
+.text-black {
+	color: #000;
+}
+.text-grey {
+	color: #77777A;
+}
 .btn-fix {
     display:inline-flex;
     align-items: center;
@@ -315,9 +321,6 @@ img {
     .background-text:before {
     content: "";
     }
-    .dropdown-link:after {
-    right: 20px;
-    }
     .hero-block h1 {
         font-size: 2.25rem;
     }
@@ -397,4 +400,58 @@ img {
     .text-and-video h5 {
         font-size: 1.4rem;
     } 
+    #retreat-row {
+        justify-content: center;
+    }
 }
+
+/* filter page */
+.filter-box select {
+    border:none;
+    -webkit-appearance:none;
+    outline:none;
+    font-family: Karla-bold;
+    color: #000;
+    background-color: transparent;
+  }
+  .select-container {
+    display:inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border-right: 1px solid #77777A;
+    text-align: center;
+  }
+  .select-container p {
+      font-family: Roboto Condensed;
+  }
+  .product-card {
+    width: 269px;
+    }
+    .product-card img {
+        height: 170px;
+        width: 100%;
+        object-size: cover;
+    }
+    .product-card .product-card-overlay {
+        top: 150px;
+        left: 20px;
+    }
+    .product-card .product-card-overlay .product-card-price {
+        background-color: #002A3A;
+        padding: 4px;
+        color: #fff;
+    }
+    .product-card .product-card-overlay .product-card-discount {
+        background-color: #fff;
+        padding: 4px;
+        color: #000;
+    }
+    .label {
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
