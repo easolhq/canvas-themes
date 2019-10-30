@@ -472,6 +472,9 @@ img {
     margin-right: auto;
     text-align: left;
 }
+.swiper-container {
+    z-index: 0 !important;
+}
 
 /* filter page */
 .filter-box select {
