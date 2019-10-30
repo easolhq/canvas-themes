@@ -528,6 +528,14 @@ form#_form_5DB99979610BB_ ._form-content {
     margin-left: auto;
     margin-right: auto;
 }
+#block-s3z .header-text h3 {
+    font-size: 2rem;
+    line-height: 1;
+}
+#block-s3z .header-text h4 {
+    font-size: 1.6rem;
+    color: #ef7431;
+}
 @media only screen and (max-width: 700px) { 
     #block-uhg form {
         text-align: center;
