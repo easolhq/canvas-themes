@@ -545,6 +545,19 @@ form#_form_5DB99979610BB_ ._form-content {
         width: 200px;
         text-align: center;
     }
+    #block-s3z #mc-embedded-subscribe-form h6 {
+        text-align: center;
+    }
+    #block-s3z .col-12.col-md-auto.pb-3 {
+        text-align: center;
+    }
+    #block-s3z .header-text h3 {
+        font-size: 1.4rem;
+        line-height: 1;
+    }
+    #block-s3z .header-text h4 {
+        display: none;
+    }
 }
 
 /* filter page */
