@@ -180,6 +180,7 @@ img {
 
 .hero-block {
     height: 65vh;
+    margin-top: 3rem;
 }
 .hero-block h1, .hero-block h2, .hero-block h3, .hero-block h4, .hero-block p {
     color: #fff !important;
