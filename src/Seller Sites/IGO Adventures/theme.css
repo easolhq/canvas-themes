@@ -309,6 +309,59 @@ img {
     font-size: 45px;
 }
 
+
+#block-wfa h4 {
+    min-height: 70px;
+}
+#block-wfa .text-width h4 {
+    font-size: 1.4rem;
+    line-height: 1.1;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#block-wfa .text-width p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    #block-wfa .text-width p {
+    font-size: 16px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .grid-container {
+        border-color: #75787b;
+    }
+    .grid-inner {
+        max-width: 550px;
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .cell1 .grid-inner, .cell3 .grid-inner, .cell5 .grid-inner {
+        margin-left: auto;
+    }
+    .grid-container .cell1 {
+        border-top: solid 1px;
+        border-right: solid 1px;
+        border-bottom: solid 1px;
+    }
+    .grid-container .cell3, .grid-container .cell5 {
+        border-right: solid 1px;
+        border-bottom: solid 1px;
+    }
+    .grid-container .cell2 {
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+    }
+    .grid-container .cell4, .grid-container .cell6 {
+        border-bottom: solid 1px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .hero-video h3 {
         font-size: 1.6rem;
