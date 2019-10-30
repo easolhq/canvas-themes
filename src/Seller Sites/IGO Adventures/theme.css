@@ -512,6 +512,10 @@ img {
 #block-uhg #_form_3_ label {
     font-family: karla-bold;
 }
+#block-3e3 img {
+    max-width: 80px;
+    object-fit: contain !important;
+}
 
 @media only screen and (max-width: 700px) { 
     #block-uhg form {
