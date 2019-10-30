@@ -460,6 +460,18 @@ img {
         justify-content: center;
     }
 }
+#block-rr2 .col-md-6 p {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+#block-rr2 ul {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 
 /* filter page */
 .filter-box select {
