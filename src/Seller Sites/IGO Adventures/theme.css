@@ -618,3 +618,6 @@ form#_form_5DB99979610BB_ ._form-content {
         letter-spacing: 1px;
         text-transform: uppercase;
     }
+    .product-card .card-text {
+        min-height: 182px;
+    }
