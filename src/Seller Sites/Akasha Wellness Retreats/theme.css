@@ -852,6 +852,16 @@
     position: absolute;
     bottom: 34px;
 }
+@media only screen and (max-width: 991.98px) {
+    #retreat-row .retreat-link.more-info {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    #retreat-row .retreat-img {
+        height: 230px;
+    }
+}
 /* ALL RETREATS PAGE */
 
 
