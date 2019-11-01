@@ -528,6 +528,14 @@ form#_form_5DB99979610BB_ ._form-content {
     margin-left: auto;
     margin-right: auto;
 }
+#block-s3z .header-text h3 {
+    font-size: 2rem;
+    line-height: 1;
+}
+#block-s3z .header-text h4 {
+    font-size: 1.6rem;
+    color: #ef7431;
+}
 @media only screen and (max-width: 700px) { 
     #block-uhg form {
         text-align: center;
@@ -544,6 +552,19 @@ form#_form_5DB99979610BB_ ._form-content {
     #block-uhg #_form_3_ input[type="text"], #_form_3_ input[type="date"], #_form_3_ textarea {
         width: 200px;
         text-align: center;
+    }
+    #block-s3z #mc-embedded-subscribe-form h6 {
+        text-align: center;
+    }
+    #block-s3z .col-12.col-md-auto.pb-3 {
+        text-align: center;
+    }
+    #block-s3z .header-text h3 {
+        font-size: 1.4rem;
+        line-height: 1;
+    }
+    #block-s3z .header-text h4 {
+        display: none;
     }
 }
 
@@ -596,4 +617,7 @@ form#_form_5DB99979610BB_ ._form-content {
         line-height: 12px;
         letter-spacing: 1px;
         text-transform: uppercase;
+    }
+    .product-card .card-text {
+        min-height: 182px;
     }
