@@ -82,7 +82,7 @@ hr {
     object-fit: cover;
     position: relative;
 }
-#block-osl .col-md-4, #block-7vi .col-md-6 {
+#block-osl .col-md-4, #block-7vi .col-md-4 {
     padding: 8px !important;
 }
 #block-osl .overlay-text, #block-7vi .overlay-text {
