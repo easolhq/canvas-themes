@@ -586,6 +586,9 @@ form#_form_5DB99979610BB_ ._form-content {
   .select-container p {
       font-family: Roboto Condensed;
   }
+  .search-container {
+    padding: 10px 30px !important;
+  }
   .product-card {
     width: 269px;
     }
