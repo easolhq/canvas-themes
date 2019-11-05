@@ -721,3 +721,24 @@ body.popup-open {
     }
   }
   /* POPUP */
+
+  /* PRESS */
+  #block-3gf {
+    padding-top: 0;
+}
+#block-3gf .image-grid-entry .faux-image {
+    background-size: cover;
+    background-position: top;
+}
+#block-3gf .image-grid-entry .image-grid-entry-overlay {
+    position: static;
+    opacity: 1;
+    height: auto;
+    background-color: transparent;
+    color: #000 !important;
+    text-align: center;
+    margin-top: 20px;
+}
+#block-3gf .image-grid-entry .image-grid-entry-overlay h2 {
+    line-height: 1;
+}
