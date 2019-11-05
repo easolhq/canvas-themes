@@ -621,3 +621,9 @@ form#_form_5DB99979610BB_ ._form-content {
     .product-card .card-text {
         min-height: 182px;
     }
+    .card-text .tagline {
+        min-height: 80px;
+    }
+    .card-text h6 {
+        min-height: 38px;
+    }
