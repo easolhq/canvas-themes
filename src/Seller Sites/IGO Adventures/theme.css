@@ -579,10 +579,9 @@ form#_form_5DB99979610BB_ ._form-content {
   }
   .select-container {
     display:inline-block;
-    padding: 10px 30px;
+    padding: 10px 30px !important;
     background: #fff;
     border-right: 1px solid #77777A;
-    text-align: center;
   }
   .select-container p {
       font-family: Roboto Condensed;
