@@ -593,7 +593,7 @@ form#_form_5DB99979610BB_ ._form-content {
     .product-card img {
         height: 170px;
         width: 100%;
-        object-size: cover;
+        object-fit: cover;
     }
     .product-card .product-card-overlay {
         top: 150px;
