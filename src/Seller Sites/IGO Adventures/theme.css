@@ -629,3 +629,89 @@ form#_form_5DB99979610BB_ ._form-content {
     .card-text h6 {
         min-height: 38px;
     }
+
+   
+    @media screen and (max-width: 767px) { 
+        #show-filters:before {
+            content: '\f078';
+            right: 20px;
+            font-family: 'FontAwesome';
+            position: absolute;
+            transition: 0.5s transform;
+            color: #EF7431;
+            font-size: 14px;
+        }
+        .filter-box.full-height #show-filters:before {
+            content: '\f00d';
+        }
+        .filter-box .container {
+            height: 70px;
+            overflow: hidden;
+        }
+        .filter-box.full-height .container {
+            height: auto;
+        }
+    }
+
+    /* POPUP */
+body.popup-open {
+    overflow:hidden;
+  }
+  .popup-overlay {
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:9999;
+    background-color:rgba(0,42,58,0.9);
+    align-items:center;
+    justify-content:center;
+  }
+  .popup-open .popup-overlay {
+    display:flex
+  }
+  .popup-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .form-header {
+    padding: 10px 30px;
+    color: #fff;
+    display: flex;
+    margin-bottom:20px;
+  }
+  .form-header img {
+    object-fit:contain;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-title {
+      color: #fff !important;
+  }
+  .closepop {
+    position:absolute;
+    top:15px;
+    right:25px;
+    cursor:pointer;
+    color:#fff;
+  }
+  .popup-overlay .form-header img {
+      height: 80px;
+      width: 80px;
+  }
+  @media screen and (max-width: 767px) {
+    .popup-inner {
+        width: 95%;
+        max-height: 95%;
+    }
+    .popup-overlay .form-header img {
+        width: 50px;
+    }
+  }
+  /* POPUP */
