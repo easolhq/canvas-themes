@@ -647,6 +647,7 @@ form#_form_5DB99979610BB_ ._form-content {
         .filter-box .container {
             height: 70px;
             overflow: hidden;
+            transition: 0.5s all;
         }
         .filter-box.full-height .container {
             height: auto;
