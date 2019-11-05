@@ -652,6 +652,11 @@ form#_form_5DB99979610BB_ ._form-content {
         .filter-box.full-height .container {
             height: auto;
         }
+        .filter-box {
+            position: sticky;
+            top: 10px;
+            z-index: 10;
+        }
     }
 
     /* POPUP */
