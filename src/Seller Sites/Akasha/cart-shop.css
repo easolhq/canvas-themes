@@ -9,3 +9,6 @@
 #private-accommodation > h4, #shared-accommodation > h4 {
     color:#f7f7f9 !important;
 }
+.bookable-list-item p.factual.text-no-wrap {
+    display: none;
+}
