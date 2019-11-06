@@ -157,6 +157,9 @@
     #block-sod video {
         height: 80vw !important;
     }
+    #block-sod .overlay-text h1 {
+        font-size: 1.4rem;
+    }
 }
  /* VIDEO */
 .divider {
