@@ -10,20 +10,20 @@
 /* Set button colors */
 
 #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
-    background-color:#f99156 !important;
-    border-color:#f99156;
+    background-color:#F0763D !important;
+    border-color:#F0763D;
     color:#fff;
 }
 #app .cart .input-group-btn .btn {
-    border-color:#f99156 !important;
-    color:#f99156;
+    border-color:#F0763D !important;
+    color:#F0763D;
 }
 #app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
-    background-color:#f99156;
+    background-color:#F0763D;
     color:#fff;
 }
 #app .segment-collapse {
-    color:#f99156;
+    color:#F0763D;
 }
 
 
@@ -57,25 +57,25 @@
 /* Chevron Colors */
 
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
-  background-color:#f99156 ;
+  background-color:#F0763D ;
   color:#fff;
 }
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
   background-color:#fff;
-  border-color:#f99156;
+  border-color:#F0763D;
 }
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
-  border-left-color:#f99156;
+  border-left-color:#F0763D;
 }
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
-    border-color:#f99156;
+    border-color:#F0763D;
     border-left-color:transparent;
 }
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
   border-left-color:transparent
 }
 #app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
-  background-color:#f99156;
+  background-color:#F0763D;
 }
 
 /* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
