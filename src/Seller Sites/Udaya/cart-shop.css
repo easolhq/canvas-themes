@@ -100,3 +100,32 @@
     position:static;
   }
 }
+
+/* REPLACE FOOTER */
+ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2, 
+.footer-list{
+  display: none;
+}
+
+.footer-main{
+    background-color: #411b42 !important;
+}
+
+footer > article > ul.list-inline.text-uppercase.mb-4 > li > small > a{
+  color: #fff !important;
+}
+
+.footer-main .block-content:before {   
+  content: '';
+      width: 10rem;
+      height: 5rem;
+      background-image: url('https://s3-eu-west-1.amazonaws.com/canvas-themes/Seller+Sites/Udaya/img/udaya-logo.png');
+      background-size: contain;
+      display: block;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+    }
