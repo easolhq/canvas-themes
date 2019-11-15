@@ -1,4 +1,7 @@
 /* Style Changes */
+#app {
+  background-color: #ffebe2 !important;
+}
 
 #app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > h1 {
     display:none;
@@ -7,20 +10,20 @@
 /* Set button colors */
 
 #app .cart-footer .btn-primary, #app .cart-footer .btn-secondary, #app .input-group.btn .btn:hover {
-    background-color:#cd513f !important;
-    border-color:#cd513f;
+    background-color:#f99156 !important;
+    border-color:#f99156;
     color:#fff;
 }
 #app .cart .input-group-btn .btn {
-    border-color:#cd513f !important;
-    color:#cd513f;
+    border-color:#f99156 !important;
+    color:#f99156;
 }
 #app .cart .number-stepper-round .btn:hover, #app .cart .number-stepper-round .btn:active {
-    background-color:#cd513f;
+    background-color:#f99156;
     color:#fff;
 }
 #app .segment-collapse {
-    color:#cd513f;
+    color:#f99156;
 }
 
 
@@ -54,25 +57,25 @@
 /* Chevron Colors */
 
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
-  background-color:#cd513f ;
+  background-color:#f99156 ;
   color:#fff;
 }
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:before {
   background-color:#fff;
-  border-color:#cd513f;
+  border-color:#f99156;
 }
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover:after, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:after {
-  border-left-color:#cd513f;
+  border-left-color:#f99156;
 }
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active:before {
-    border-color:#cd513f;
+    border-color:#f99156;
     border-left-color:transparent;
 }
 #app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
   border-left-color:transparent
 }
 #app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
-  background-color:#cd513f;
+  background-color:#f99156;
 }
 
 /* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
