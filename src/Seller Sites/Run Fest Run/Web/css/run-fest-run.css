@@ -203,8 +203,8 @@ blockquote {
 
 .container {
   position: relative;
-  width: 95% !important;
-  max-width: 1400px !important;
+  width: 95%;
+  max-width: 1400px;
 }
 
 .container.nav-container {
@@ -311,15 +311,15 @@ blockquote {
 }
 
 .navbar {
-  position: absolute !important;
+  position: absolute;
   z-index: 999;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
