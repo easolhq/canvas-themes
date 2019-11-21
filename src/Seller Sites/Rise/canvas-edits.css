@@ -1643,11 +1643,11 @@ a.collection-card {
 
 @media (min-width:767px) {
 
-#block-u6s p.card-title, #block-vrx p.card-title {
+#block-u6s p.card-title, #block-vrx p.card-title, #block-hr4 p.card-title {
   min-height: 80px;
 }
 
-#block-u6s p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small, #block-vrx p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small {
+#block-u6s p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small, #block-vrx p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small, #block-hr4 p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small {
   min-height: 70px;
 }
 
@@ -1667,7 +1667,18 @@ a.collection-card {
   min-height: 60px;
 }
 
-#block-jna img, #block-xi4 img, #block-xol img {
+#block-jna img, #block-xi4 img, #block-xol img, #block-hr4 img {
+  height: 175px;
+  width: 100%;
+  object-fit: cover;
+}
+#block-hr4 p.card-title {
+  min-height: 55px;
+}
+#block-hr4 p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small {
+  min-height: 50px;
+}
+#block-hr4 img {
   height: 175px;
   width: 100%;
   object-fit: cover;
