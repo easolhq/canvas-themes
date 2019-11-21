@@ -2012,19 +2012,19 @@ blockquote {
 
 @font-face {
   font-family: 'Zillaslab';
-  src: url('../fonts/ZillaSlab-Regular.ttf') format('truetype');
+  src: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/fonts/ZillaSlab-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Zillaslab';
-  src: url('../fonts/ZillaSlab-Bold.ttf') format('truetype');
+  src: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/fonts/ZillaSlab-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Mindset';
-  src: url('../fonts/PintassilgoPrints---Mindset-Slim.otf') format('opentype');
+  src: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/fonts/PintassilgoPrints---Mindset-Slim.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
