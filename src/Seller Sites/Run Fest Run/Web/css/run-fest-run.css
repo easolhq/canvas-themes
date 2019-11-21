@@ -454,7 +454,7 @@ blockquote {
   -ms-flex-pack: start;
   justify-content: flex-start;
   background-color: #f5c5bb;
-  background-image: url('../images/Bottom-Shape.svg'), url('../images/Hero-Top-Shape.svg'), url('../images/Hero-Lines.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Bottom-Shape.svg'), url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Hero-Top-Shape.svg'), url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Hero-Lines.svg');
   background-position: 50% 100%, 50% -250px, 50% 50%;
   background-size: auto, auto, cover;
   background-repeat: no-repeat, no-repeat, repeat;
@@ -484,7 +484,7 @@ blockquote {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #153863;
-  background-image: url('../images/nature_plant02.svg'), url('../images/nature_plant01.svg'), url('../images/Video-Lines.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/nature_plant02.svg'), url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/nature_plant01.svg'), url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Video-Lines.svg');
   background-position: 0px 0px, 100% 50%, 50% 0%;
   background-size: 125px, 125px, cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -535,7 +535,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/Green-Shape.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Green-Shape.svg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -548,7 +548,7 @@ blockquote {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url('../images/Shape-1.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Shape-1.svg');
 }
 
 .ticket-runner {
@@ -556,7 +556,7 @@ blockquote {
   height: 200px;
   margin-top: -30px;
   margin-bottom: -30px;
-  background-image: url('../images/Runner-Male-Masked.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Runner-Male-Masked.svg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -564,19 +564,19 @@ blockquote {
 
 .ticket-runner.runner-2 {
   height: 150px;
-  background-image: url('../images/Runner-Femail.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Runner-Femail.svg');
 }
 
 .ticket-runner.runner-3 {
   height: 150px;
-  background-image: url('../images/Runner-Female-Masked.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Runner-Female-Masked.svg');
 }
 
 .ticket-w-runner-name {
   min-width: 260px;
   margin-bottom: 10px;
   padding: 10px 0px;
-  background-image: url('../images/Text-BG-Typo.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Text-BG-Typo.svg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -628,7 +628,7 @@ blockquote {
   bottom: 100%;
   width: 100%;
   height: 100px;
-  background-image: url('../images/Section-Line.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Section-Line.svg');
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -637,12 +637,12 @@ blockquote {
 .section-top-line.hollow-line {
   top: 0px;
   bottom: auto;
-  background-image: url('../images/Top-Separator-Line.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Top-Separator-Line.svg');
 }
 
 .section-top-line.dark-top-line {
   margin-bottom: -1px;
-  background-image: url('../images/Section-Line-Blue.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Section-Line-Blue.svg');
 }
 
 .heroes-grid {
@@ -701,116 +701,116 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   background-color: #fff4f1;
-  background-image: url('../images/IMG-20190602-WA0045-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/IMG-20190602-WA0045-1.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .hero-image.speaker-2 {
-  background-image: url('../images/AL_Run_Fest_Run_261912-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/AL_Run_Fest_Run_261912-1.png');
   background-position: 50% 0%;
 }
 
 .hero-image.speaker-3 {
-  background-image: url('../images/IMG-20190531-WA0013-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/IMG-20190531-WA0013-1.png');
 }
 
 .hero-image.speaker-4 {
-  background-image: url('../images/IMG-20190602-WA0018-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/IMG-20190602-WA0018-1.png');
 }
 
 .hero-image.speaker-5 {
-  background-image: url('../images/AL_Run_Fest_Run_3151945-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/AL_Run_Fest_Run_3151945-1.png');
   background-position: 50% 0%;
 }
 
 .hero-image.speaker-6 {
-  background-image: url('../images/Speaker-x.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Speaker-x.png');
   background-position: 50% 0%;
 }
 
 .hero-image.live-performer-1 {
   width: 100%;
-  background-image: url('../images/rs_600x600-190613110051-600.chris-evans.ct.061319.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/rs_600x600-190613110051-600.chris-evans.ct.061319.jpg');
 }
 
 .hero-image.live-performer-2 {
-  background-image: url('../images/Header_2276873_1.11-1024x1022.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Header_2276873_1.11-1024x1022.jpg');
   background-position: 50% 50%;
 }
 
 .hero-image.live-performer-3 {
   width: 100%;
   height: 250px;
-  background-image: url('../images/2018-09-01_lif_43725575_I8.jpeg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/2018-09-01_lif_43725575_I8.jpeg');
 }
 
 .hero-image.live-performer-4 {
-  background-image: url('../images/steve-cram-1.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/steve-cram-1.jpg');
 }
 
 .hero-image.live-performer-5 {
-  background-image: url('../images/Athletissima_2012_-_Colin_Jackson.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Athletissima_2012_-_Colin_Jackson.jpg');
   background-position: 50% 50%;
 }
 
 .hero-image.talks-6 {
-  background-image: url('../images/4E6DE3E700000578-5974127-image-a-80_1532081624080.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/4E6DE3E700000578-5974127-image-a-80_1532081624080.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-7 {
-  background-image: url('../images/Sally_gunnell_1216127037.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Sally_gunnell_1216127037.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-8 {
-  background-image: url('../images/826dae7b84682ebd12cac438346ea73d-1.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/826dae7b84682ebd12cac438346ea73d-1.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-9 {
-  background-image: url('../images/RZTcjUbi_400x400.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/RZTcjUbi_400x400.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-10 {
-  background-image: url('../images/running-commentary-3000x3000-iypqwmpi.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/running-commentary-3000x3000-iypqwmpi.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-11 {
-  background-image: url('../images/melissa_hemsley_sakara_life_1440x2x.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/melissa_hemsley_sakara_life_1440x2x.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-12 {
-  background-image: url('../images/Jenni-Falconer.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Jenni-Falconer.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-13 {
-  background-image: url('../images/DanKeeley1.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/DanKeeley1.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-14 {
-  background-image: url('../images/qJl0ux4i.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/qJl0ux4i.jpg');
   background-position: 50% 0%;
 }
 
 .hero-image.talks-15 {
   width: 100%;
-  background-image: url('../images/download.jpeg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/download.jpeg');
 }
 
 .hero-image.talks-16 {
-  background-image: url('../images/sophie_raworth350.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/sophie_raworth350.jpg');
 }
 
 .hero-image.talks-18 {
-  background-image: url('../images/jenni-falconer-triathalon-fitspiration-by-healthista.com_.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/jenni-falconer-triathalon-fitspiration-by-healthista.com_.jpg');
   background-position: 50% 0%;
 }
 
@@ -835,14 +835,14 @@ blockquote {
   top: 100%;
   width: 100%;
   height: 100px;
-  background-image: url('../images/Section-Line-Bottom.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Section-Line-Bottom.svg');
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .section-bottom-line.dark-bottom-line {
-  background-image: url('../images/Section-Line-Blue-Bottom.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Section-Line-Blue-Bottom.svg');
 }
 
 .icons {
@@ -856,7 +856,7 @@ blockquote {
   max-width: 1400px;
   margin-top: 100px;
   margin-bottom: 100px;
-  background-image: url('../images/Line-Up-Underline-Stroke.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Line-Up-Underline-Stroke.svg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -897,24 +897,24 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/76-DSC00263-2.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/76-DSC00263-2.png');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .explore-items.wellnes {
-  background-image: url('../images/59-DSC09887-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/59-DSC09887-1.png');
 }
 
 .explore-items.kids-zone {
-  background-image: url('../images/65-DSC00003-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/65-DSC00003-1.png');
 }
 
 .explore-texts {
   min-width: 250px;
   margin-bottom: -25px;
   padding: 10px 20px;
-  background-image: url('../images/Text-BG-Typo.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Text-BG-Typo.svg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -928,7 +928,7 @@ blockquote {
   min-width: 250px;
   margin-bottom: 30px;
   padding: 10px 20px;
-  background-image: url('../images/Text-BG-Typo-Oragne.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Text-BG-Typo-Oragne.svg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -963,7 +963,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/Screen-Shot-2019-11-13-at-5.04-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Screen-Shot-2019-11-13-at-5.04-1.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -988,7 +988,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/Play-Button-BG-2.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Play-Button-BG-2.svg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1014,7 +1014,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/Play-Button-BG-1.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Play-Button-BG-1.svg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1026,7 +1026,7 @@ blockquote {
   bottom: -75px;
   width: 100px;
   height: 180px;
-  background-image: url('../images/Video-Tree.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Video-Tree.svg');
   background-position: 50% 10px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1089,7 +1089,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/Pink-Shape.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Pink-Shape.svg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1098,23 +1098,23 @@ blockquote {
 }
 
 .running-route-item-center.run-2 {
-  background-image: url('../images/Dark-Shape.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Dark-Shape.svg');
 }
 
 .running-route-item-center.run-3 {
-  background-image: url('../images/Green-Shape_1.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Green-Shape_1.svg');
 }
 
 .running-route-item-center.run-4 {
-  background-image: url('../images/Yellow-Shape.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Yellow-Shape.svg');
 }
 
 .running-route-item-center.run-5 {
-  background-image: url('../images/Pink-Shape-1.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Pink-Shape-1.svg');
 }
 
 .running-route-item-center.run-6 {
-  background-image: url('../images/Blue-Shape.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Blue-Shape.svg');
 }
 
 .no-margin {
@@ -1134,14 +1134,14 @@ blockquote {
   height: 40px;
   margin-right: 25px;
   margin-left: 25px;
-  background-image: url('../images/Gallery-Icon-Right.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Gallery-Icon-Right.svg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .slider-nav-items.left-item {
-  background-image: url('../images/Gallery-Icon-Left.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Gallery-Icon-Left.svg');
 }
 
 .gallery-image-1 {
@@ -1153,7 +1153,7 @@ blockquote {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-image: url('../images/128-DSC00760-1-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/128-DSC00760-1-1.png');
   background-position: 50% 50%;
   background-size: cover;
   opacity: 0.5;
@@ -1170,11 +1170,11 @@ blockquote {
 }
 
 .gallery-image-1.image-2 {
-  background-image: url('../images/86-DSC09829-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/86-DSC09829-1.png');
 }
 
 .gallery-image-1.image-1 {
-  background-image: url('../images/Screen-Shot-2019-11-13-at-5.04-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Screen-Shot-2019-11-13-at-5.04-1.png');
 }
 
 .gallery-mask {
@@ -1387,7 +1387,7 @@ blockquote {
   min-width: 150px;
   margin-bottom: 30px;
   padding: 10px 20px;
-  background-image: url('../images/Text-BG-Typo-Oragne_1.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Text-BG-Typo-Oragne_1.svg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1404,7 +1404,7 @@ blockquote {
   max-width: 1400px;
   margin-top: 30px;
   margin-bottom: 30px;
-  background-image: url('../images/Line-Up-Underline-Stroke.svg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Line-Up-Underline-Stroke.svg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1450,116 +1450,116 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   background-color: #fff4f1;
-  background-image: url('../images/IMG-20190602-WA0045-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/IMG-20190602-WA0045-1.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .speaker-image.speaker-2 {
-  background-image: url('../images/AL_Run_Fest_Run_261912-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/AL_Run_Fest_Run_261912-1.png');
   background-position: 50% 0%;
 }
 
 .speaker-image.speaker-3 {
-  background-image: url('../images/IMG-20190531-WA0013-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/IMG-20190531-WA0013-1.png');
 }
 
 .speaker-image.speaker-4 {
-  background-image: url('../images/IMG-20190602-WA0018-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/IMG-20190602-WA0018-1.png');
 }
 
 .speaker-image.speaker-5 {
-  background-image: url('../images/AL_Run_Fest_Run_3151945-1.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/AL_Run_Fest_Run_3151945-1.png');
   background-position: 50% 0%;
 }
 
 .speaker-image.speaker-6 {
-  background-image: url('../images/Speaker-x.png');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Speaker-x.png');
   background-position: 50% 0%;
 }
 
 .speaker-image.live-performer-1 {
   width: 100%;
-  background-image: url('../images/rs_600x600-190613110051-600.chris-evans.ct.061319.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/rs_600x600-190613110051-600.chris-evans.ct.061319.jpg');
 }
 
 .speaker-image.live-performer-2 {
-  background-image: url('../images/Header_2276873_1.11-1024x1022.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Header_2276873_1.11-1024x1022.jpg');
   background-position: 50% 50%;
 }
 
 .speaker-image.live-performer-3 {
   width: 100%;
   height: 250px;
-  background-image: url('../images/2018-09-01_lif_43725575_I8.jpeg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/2018-09-01_lif_43725575_I8.jpeg');
 }
 
 .speaker-image.live-performer-4 {
-  background-image: url('../images/steve-cram-1.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/steve-cram-1.jpg');
 }
 
 .speaker-image.live-performer-5 {
-  background-image: url('../images/Athletissima_2012_-_Colin_Jackson.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Athletissima_2012_-_Colin_Jackson.jpg');
   background-position: 50% 50%;
 }
 
 .speaker-image.talks-6 {
-  background-image: url('../images/4E6DE3E700000578-5974127-image-a-80_1532081624080.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/4E6DE3E700000578-5974127-image-a-80_1532081624080.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-7 {
-  background-image: url('../images/Sally_gunnell_1216127037.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Sally_gunnell_1216127037.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-8 {
-  background-image: url('../images/826dae7b84682ebd12cac438346ea73d-1.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/826dae7b84682ebd12cac438346ea73d-1.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-9 {
-  background-image: url('../images/RZTcjUbi_400x400.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/RZTcjUbi_400x400.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-10 {
-  background-image: url('../images/running-commentary-3000x3000-iypqwmpi.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/running-commentary-3000x3000-iypqwmpi.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-11 {
-  background-image: url('../images/melissa_hemsley_sakara_life_1440x2x.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/melissa_hemsley_sakara_life_1440x2x.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-12 {
-  background-image: url('../images/Jenni-Falconer.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/Jenni-Falconer.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-13 {
-  background-image: url('../images/DanKeeley1.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/DanKeeley1.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-14 {
-  background-image: url('../images/qJl0ux4i.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/qJl0ux4i.jpg');
   background-position: 50% 0%;
 }
 
 .speaker-image.talks-15 {
   width: 100%;
-  background-image: url('../images/download.jpeg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/download.jpeg');
 }
 
 .speaker-image.talks-16 {
-  background-image: url('../images/sophie_raworth350.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/sophie_raworth350.jpg');
 }
 
 .speaker-image.talks-18 {
-  background-image: url('../images/jenni-falconer-triathalon-fitspiration-by-healthista.com_.jpg');
+  background-image: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/images/jenni-falconer-triathalon-fitspiration-by-healthista.com_.jpg');
   background-position: 50% 0%;
 }
 
@@ -2012,19 +2012,19 @@ blockquote {
 
 @font-face {
   font-family: 'Zillaslab';
-  src: url('../fonts/ZillaSlab-Regular.ttf') format('truetype');
+  src: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/fonts/ZillaSlab-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Zillaslab';
-  src: url('../fonts/ZillaSlab-Bold.ttf') format('truetype');
+  src: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/fonts/ZillaSlab-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Mindset';
-  src: url('../fonts/PintassilgoPrints---Mindset-Slim.otf') format('opentype');
+  src: url('https://canvas-themes.s3-eu-west-1.amazonaws.com/Seller+Sites/Run+Fest+Run/Web/fonts/PintassilgoPrints---Mindset-Slim.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
