@@ -193,14 +193,12 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "cell1 cell2 cell3" "cell4 cell4 cell4";
+    grid-template-areas: "cell1 cell2 cell3";
   }
   .grid .cell1 { grid-area: cell1; }
   .grid .cell2 { grid-area: cell2; }
   .grid .cell3 { grid-area: cell3; }
-  .grid .cell4 { grid-area: cell4; }
-  .grid .cell5 { grid-area: cell5; }
-  .grid .cell6 { grid-area: cell6; }
+
   .grid-inner {
       padding: 35px 0;
   }
@@ -222,8 +220,8 @@ img {
     .grid .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "cell1" "cell2" "cell3" "cell4";
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "cell1" "cell2" "cell3";
       }
     .cell:nth-of-type(odd) .grid-inner {
         padding-right: 0px;
@@ -346,9 +344,9 @@ img {
         padding-top: 80px;
         padding-bottom: 30px;
     }
-    .cell-4 .grid-inner {
+    .cell4 .grid-inner {
         text-align: center;
-        max-width: 90%;
+        max-width: 800px;
         margin-left: auto;
         margin-right: auto;
     }
