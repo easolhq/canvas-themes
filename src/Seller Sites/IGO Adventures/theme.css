@@ -223,12 +223,6 @@ img {
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "cell1" "cell2" "cell3";
       }
-    .cell:nth-of-type(odd) .grid-inner {
-        padding-right: 0px;
-    }
-    .cell:nth-of-type(even) .grid-inner {
-        padding-left: 0px;
-    }
     .grid-inner {
         padding: 10px 0;
     }
