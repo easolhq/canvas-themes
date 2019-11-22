@@ -325,6 +325,9 @@ img {
     #block-wfa .text-width p {
     font-size: 16px;
     }
+    .cell4 .grid-inner {
+        padding: 10px;
+    }
 }
 @media only screen and (min-width: 700px) {
     .grid-container {
@@ -340,6 +343,7 @@ img {
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
+        padding: 10px;
     }
     .grid-container .cell1 {
         border-top: solid 1px;
