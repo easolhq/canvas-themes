@@ -191,9 +191,9 @@ img {
 
 .grid .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "cell1 cell2" "cell3 cell4" "cell5 cell6";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "cell1 cell2 cell3" "cell4";
   }
   .grid .cell1 { grid-area: cell1; }
   .grid .cell2 { grid-area: cell2; }
@@ -207,11 +207,8 @@ img {
   .grid-inner h5 {
       font-size: 15px;
   }
-  .cell:nth-of-type(odd) .grid-inner {
-    padding-right: 100px;
-  }
-  .cell:nth-of-type(even) .grid-inner {
-    padding-left: 100px;
+  .cell .grid-inner {
+    padding: 50px;
   }
   .grid h1, .grid h2, .grid h3, .grid h4, .grid h5, .grid h6, .grid p {
     color: #fff !important;
