@@ -222,8 +222,8 @@ img {
     .grid .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: "cell1 cell2 cell3" "cell4 cell4 cell4";
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "cell1" "cell2" "cell3" "cell4";
       }
     .cell:nth-of-type(odd) .grid-inner {
         padding-right: 0px;
