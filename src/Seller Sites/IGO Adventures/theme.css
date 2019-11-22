@@ -193,7 +193,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "cell1 cell2 cell3" "cell4";
+    grid-template-areas: "cell1 cell2 cell3" "cell4 cell4 cell4";
   }
   .grid .cell1 { grid-area: cell1; }
   .grid .cell2 { grid-area: cell2; }
