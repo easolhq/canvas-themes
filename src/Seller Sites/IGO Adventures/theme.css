@@ -208,6 +208,7 @@ img {
       font-size: 15px;
   }
   .cell .grid-inner {
+    text-align: center;
     padding: 50px;
   }
   .grid h1, .grid h2, .grid h3, .grid h4, .grid h5, .grid h6, .grid p {
@@ -345,23 +346,24 @@ img {
         padding-top: 80px;
         padding-bottom: 30px;
     }
-    .cell1 .grid-inner, .cell3 .grid-inner, .cell5 .grid-inner {
+    .cell-4 .grid-inner {
+        text-align: center;
+        max-width: 90%;
         margin-left: auto;
+        margin-right: auto;
     }
     .grid-container .cell1 {
         border-top: solid 1px;
         border-right: solid 1px;
         border-bottom: solid 1px;
     }
-    .grid-container .cell3, .grid-container .cell5 {
-        border-right: solid 1px;
+    .grid-container .cell3 {
+        border-top: solid 1px;
+        border-left: solid 1px;
         border-bottom: solid 1px;
     }
     .grid-container .cell2 {
         border-top: solid 1px;
-        border-bottom: solid 1px;
-    }
-    .grid-container .cell4, .grid-container .cell6 {
         border-bottom: solid 1px;
     }
 }
