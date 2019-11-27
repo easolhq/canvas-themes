@@ -1,5 +1,5 @@
 
-
+/* PROMO BAR */
 #promo-bar {
     background-color: #000;
 }
@@ -20,4 +20,31 @@
     #promo-bar .promobarsignup {
         display: none;
     }
+}
+
+/* NAV */
+#scroll-nav {
+    position: fixed;
+    top: 40px;
+    z-index: 100;
+    width: 100%;
+}
+.fb-20 {
+    flex-basis: 20%;
+}
+#scroll-nav .nav-sides {
+    width: 100px;
+}
+#scroll-nav img {
+    margin: 10px 60px;
+    width: 130px;
+}
+.bg-red {
+    background-color: #f06f71;
+}
+#scroll-nav .nav-book {
+    color: #fff;
+    font-family: 'Gt-walsheim-pro-bold', sans-serif;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
 }
