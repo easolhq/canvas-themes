@@ -1675,6 +1675,9 @@ a.collection-card {
 #block-1g3 p.card-title {
   min-height: 55px;
 }
+#block-1g3 p.caption {
+  min-height: 34px;
+}
 #block-1g3 p.factual.text-uppercase.text-muted.mb-0.listing-card-text-wrap.mt-1.small {
   min-height: 50px;
 }
@@ -1826,6 +1829,9 @@ a.collection-card {
   .collection-card p.small + p + p {
       display: none;
   }
+  .collection-card p.caption {
+    display: block !important;
+}
 }
 
 
