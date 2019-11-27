@@ -1,0 +1,23 @@
+
+
+#promo-bar {
+    background-color: #000;
+}
+#promo-bar .top-nav-cta {
+    font-family: 'Gt-walsheim-pro-bold', sans-serif;
+    font-size: 16px;
+    padding: 4px 0;
+}
+#promo-bar.promobarsignup {
+    padding: .2rem .75rem;
+    margin-left: 1rem;
+}
+@media (max-width: 767px) {
+    #promo-bar .top-nav-cta {
+        font-size: 12px;
+        padding: .6rem .75rem;
+    }
+    #promo-bar .promobarsignup {
+        display: none;
+    }
+}
