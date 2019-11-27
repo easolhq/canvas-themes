@@ -2,7 +2,14 @@
 /* PROMO BAR */
 #promo-bar {
     background-color: #000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    z-index: 110 !important;
+    padding-bottom: 0;
 }
+
 #promo-bar .top-nav-cta {
     font-family: 'Gt-walsheim-pro-bold', sans-serif;
     font-size: 16px;
