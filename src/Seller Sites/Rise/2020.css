@@ -62,7 +62,7 @@
 .book-header {
     background-color: #89D2D4;
 }
-.book-header:after {
+.book-header:not(.flights-header):after {
     content: '';
     display: block;
     position: absolute;
