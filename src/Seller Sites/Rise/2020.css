@@ -9,7 +9,9 @@
     z-index: 110 !important;
     padding-bottom: 0;
 }
-
+#promo-bar .top-nav-cta a:hover {
+    text-decoration: none;
+}
 #promo-bar .top-nav-cta {
     font-family: 'Gt-walsheim-pro-bold', sans-serif;
     font-size: 16px;
