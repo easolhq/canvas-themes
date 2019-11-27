@@ -34,7 +34,7 @@
 /* NAV */
 #scroll-nav {
     position: fixed;
-    top: 40px;
+    top: 0px;
     z-index: 100;
     width: 100%;
 }
