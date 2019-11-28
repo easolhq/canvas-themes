@@ -1,5 +1,5 @@
 #overview:before{
-    content: "Sri Lanka 2019 \A Check in: 4pm 21st Sept \A Check out: 10:30am 29th Sept";
+    content: "Sri Lanka 2020 \A Check in: 4pm 22nd May \A Check out: 10:30am 31st May";
 white-space: pre;
   display: block;
   text-align: center;
@@ -9,4 +9,15 @@ white-space: pre;
 
 .product-tagline{
   padding-top: 20px;
+}
+
+.block-background .col-8.offset-md-4 {
+    margin-left: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+@media (max-width:568px) {
+    .block-background .col-8.offset-md-4 {
+        display:none;
+    }
 }
