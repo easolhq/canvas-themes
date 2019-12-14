@@ -715,7 +715,7 @@ body.popup-open, body.nav-open {
 }
 .custom-hero-img img {
   width:200px;
-  margin-top:10vh;
+  margin-top:20vh;
 }
 .custom-hero-cta p {
   margin-bottom:0;
@@ -1107,7 +1107,7 @@ footer p {
     padding:0 5%;
   }
   .custom-hero-img img {
-    margin-top:5vh;
+    margin-top:10vh;
   }
   .custom-signup h1, .custom-video h1, .custom-review h1 {
     font-size:1.5rem
