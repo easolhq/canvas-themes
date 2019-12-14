@@ -504,7 +504,7 @@ body {
   background: rgba(255, 255, 255, 0.95);
   position: fixed;
   bottom: 0;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 120px);
   z-index: 11 !important;
   text-align: center;
   align-items: center;
