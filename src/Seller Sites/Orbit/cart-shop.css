@@ -1,0 +1,164 @@
+/* CART SHOP */
+
+#app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white > div > div.mt-4 {
+    position:relative;
+    z-index:9;
+  }
+  #app>div.container.pb-4>div.d-flex.w-100.pt-3>section>article>div.row.h-100.no-gutters>div.col-14.col-md-6.push-md-8.fill-white>div>div.row.justify-content-center>div>img {
+    border-radius: 100% !important;
+}
+/* Style Changes add any customer specific stuff here */
+
+
+/* Set fonts for entire shop including ones forced in other CSS files */
+
+#app, .site-shop-nav {
+    font-family: 'nunito-bold', serif;
+  }
+  #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
+    text-transform:uppercase;
+    font-family: 'nunito-bold', serif;
+  }
+  #app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
+    font-family: 'nunito-regular', sans-serif;
+    font-size: 0.8rem;
+  }
+  #app .bookable-list-item i:before {
+    font-family:'Fixers Icons';
+  }
+  
+  /* Set button colors */
+  
+  #app .cart-footer .btn-primary:hover, #app .cart-footer .btn-secondary:hover, #app .input-group.btn .btn:hover {
+      color: #FF8484 !important;
+  }
+  #app .segment-collapse {
+      color:#FF8484;
+  }
+  
+  /* Hide default logo and add one centered in middle of nav */
+  
+  .navbar-full {
+      justify-content:center;
+  }
+  .navbar-full .logo {
+     display:none !important
+  }
+  .navbar-full .navbar-brand:before {
+    content: '';
+    width: 8rem;
+    height: 6rem;
+    background-image: url('https://d17t27i218htgr.cloudfront.net/5cWTnnZvnkLWvCyPdFgz4mqC');
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+  }
+  
+  /* Set background color and fix tile hidden by that */
+  
+  #app {
+    background:#f7f7f9;
+  }
+  #app .block-background {
+    z-index:0;
+    pointer-events: none;
+  }
+  
+  /* Chevron Colors */
+  #app .nav-chevrons {
+      background-color: transparent;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link:hover, #app .cart-shop-navbar .nav.nav-chevrons .nav-item .nav-link.active {
+    background-color:#XXXX ;
+    color:#fff;
+  }
+  #app .cart-shop-navbar .nav.nav-chevrons .nav-item:nth-child(even) .nav-link:before {
+    border-left-color:transparent
+  }
+  #app .bookable-list-item:before, .availability-table .row-head:before, #app .availability-table .bookable-ticket-variant:before {
+    background-color:#FF8484;
+  }
+  
+  /*Footer*/
+  ul.list-inline.footer-social-list.my-4,
+  .footer-list a,
+  .footer-list,
+  .logo-mark.x2, 
+  .footer-list{
+    display: none;
+  }
+  
+  .footer-main{
+      background-color: #fff !important;
+  }
+  
+  .footer-main .block-content:before {   
+    content: '';
+        width: 10rem;
+        height: 10rem;
+        background-image: url(https://d17t27i218htgr.cloudfront.net/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWswWkdFeE5XVXpOQzFoTjJJekxUUXlNelV0T1RrNFlpMDROalF3TkRCak1ESmxOV01HT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--15bf23dce00a248a057b65feca9fe6dcc14fc53c/ORBIT%20ICON%202.png);
+        background-size: contain;
+        display: block;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+  
+  /* Fix width of cart for longer sub elements (/room or prices in the 1000's) */
+  
+  @media (min-width:768px) {
+    #app .cart-body .col-10 {
+      flex:0 0 38%;
+      max-width:38%
+    }
+  }
+  
+  /* Fix Nav on Mobile */
+  
+  #cart-shop-nav-mobile .nav-link {
+    padding:0 !important;
+    margin-right:0 !important;
+    font-size:0.9rem !important;
+  }
+  #cart-shop-nav-mobile .nav.nav-chevrons .nav-item {
+    float:left !important;
+    width:100%;
+  }
+  @media (max-width:600px) {
+    .cart-shop-navbar.sticky {
+      position:static;
+    }
+  }
+  #collapsible_food-package {
+      padding: 0;
+  }
+  #app p.factual.text-uppercase.mb-0.text-no-wrap.small {
+      display: none;
+  }
+  #app .bookable-list-item-text {
+      max-height: 120px;
+      text-overflow: ellipsis;
+      font-size: 0.65rem;
+      margin-bottom: 5px;
+  }
+  .bookable-ticket-variant p span {
+      font-size: 0.65rem;
+      text-transform: none !important;
+  }
+  #app .mb-0.mt-1.small {
+      font-size: 0.65rem;
+  }
+  #collapsible_food-package > div > div > div > div > div.col-4.col-md-3.text-center > span {
+      display: block;
+  }
+  @media (min-width: 992px) {
+    .cart.mt-lg-4 {
+      margin-top:4.8rem !important
+    }
+  }
+  @media (max-width:800px) {
+    #app>div.container.pb-4>div.d-flex.w-100.pt-3>section>article>div.row.h-100.no-gutters>div.col-14.col-md-6.push-md-8.fill-white {
+      position:static !important;
+    }
+  }
