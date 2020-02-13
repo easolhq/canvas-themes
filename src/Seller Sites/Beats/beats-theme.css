@@ -77,12 +77,6 @@ body{
 
 /*PRODUCT BLOCK */
 @media only screen and (min-width: 768px){ 
-    .hero-product-block .btn-primary{
-      max-width: 200px;
-      position: absolute;
-      right: 30px;
-      bottom: 25px;
-    }
     .hero-product-block .justify-content-start{
     position: absolute;
     top: 15px;
