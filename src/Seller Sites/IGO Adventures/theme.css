@@ -163,6 +163,7 @@ img {
 }
 .hero-video .overlay-logo {
     max-width: 80%;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
