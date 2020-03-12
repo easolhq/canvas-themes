@@ -14,7 +14,7 @@ body {
     padding-bottom: 50px;
   }
 
-  .navbar-nav{
+  #menu .navbar-nav{
   justify-content: space-evenly;
   width: 100%;
   }
