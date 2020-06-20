@@ -24,7 +24,7 @@
   }
 
   #app strong {
-    font-family: Gt-walsheim-pro-regular;
+    font-family: Gt-walsheim-regular;
 }
 
 #app > div.container.pb-4 > div.d-flex.w-100.pt-3 > section > article > div.row.h-100.no-gutters > div.col-14.col-md-6.push-md-8.fill-white {
@@ -32,20 +32,20 @@
 }
 
 #app > section:nth-child(2) > article > header > div > div:nth-child(1) > h1 {
-  font-family: Gt-walsheim-pro-bold;
+  font-family: Gt-walsheim-bold;
 }
   
   /* Set fonts for entire shop including ones forced in other CSS files */
-  
+
   #app, .site-shop-nav {
-    font-family:'Gt-walsheim-pro-regular', serif;
-  }
+    font-family:'Gt-walsheim-regular', serif;
+  } 
   #app h1, #app h2, #app h3, #app h4, #app h5, #app h6, #app .h1, #app .h2, #app .h3, #app .h4, #app .h5, #app .h6 {
     text-transform:uppercase;
-    font-family:'Gt-walsheim-pro-regular', serif;
+    font-family:'Gt-walsheim-regular', serif;
   }
   #app .bookable-list-item *, #app .factual, #app .cart-footer .btn {
-    font-family:'Gt-walsheim-pro-regular', sans-serif !important;
+    font-family:'Gt-walsheim-regular', sans-serif !important;
   }
   #app .bookable-list-item i:before {
     font-family:'Fixers Icons';
@@ -162,3 +162,14 @@
       position:static;
     }
   }
+
+  ul.list-inline.footer-social-list.my-4,
+.footer-list a,
+.footer-list,
+.logo-mark.x2,
+.footer-list {
+	display: none;
+}
+.cart-shop .footer-main {
+	background-color: var(--secondary) !important;
+}
