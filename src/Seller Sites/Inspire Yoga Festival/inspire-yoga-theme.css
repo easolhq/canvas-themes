@@ -151,7 +151,7 @@ h1 {
 }
 
 @media only screen and (max-width: 600px){
-  #block-fal > div.block-content > div > div, #block-hqc > div.block-content > div > div, #block-5n1 > div.block-content > div > div {
+  #block-fal > div.block-content > div > div, #block-hqc > div.block-content > div > div, #block-5n1 > div.block-content > div > div, #block-fal .inner-copy {
       padding-left: 10px;
       padding-right: 10px;
       margin-left: 0;
@@ -214,12 +214,15 @@ h1 {
 }
 
 @media only screen and (min-width: 1010px){
-  #block-nac .block-content, #block-g63 .block-content, #block-fal .inner-copy, #block-5n1 .inner-copy {
+  #block-nac .block-content, #block-g63 .block-content, #block-5n1 .inner-copy {
     margin-left: 60%;
   }
 
-  #block-9to .inner-copy, #block-olk .block-contentx {
+  #block-9to .inner-copy, #block-olk .block-content {
     margin-right: 60%;
+  }
+  #block-fal .inner-copy {
+    margin-left: 5%;
   }
 }
 
