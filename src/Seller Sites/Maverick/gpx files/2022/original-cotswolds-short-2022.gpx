@@ -1,137 +1,103 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
- 
-<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="bikehike.co.uk" version="1.1" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>2022 Maverick Adidas Terrex Original Cotswolds Short</name>
+        <desc>Back for the 7th year in the Cotswold Hills, Britain’s biggest AONB, as well as the most quintessentially English place we’ve ever seen. Leaving from the grand Sudeley Castle in the heart of the Cotswold Hills and set in 1200 acres of estate land, this won’t be a walk in the park.
 
+All three routes start at the Tudor Castle and take you straight out onto the trails. The routes join multiple different Long Distance Paths including the; Winchcombe, Gloucestershire and Cotswold Way. All three courses will take you on a rolling adventure showcasing the hidden gems of the northern Cotswolds.
 
-  <trk>
-    <name>cotswolds-short</name>
-    <trkseg>
-      <trkpt lat="51.949195" lon="-1.956418">
-       <ele>108.17</ele>
-       <time>2020-11-09T11:46:02Z</time>
-      </trkpt>
-      <trkpt lat="51.948349" lon="-1.959422">
-       <ele>101.77</ele>
-       <time>2020-11-09T11:47:58Z</time>
-      </trkpt>
-      <trkpt lat="51.949301" lon="-1.963113">
-       <ele>94</ele>
-       <time>2020-11-09T11:50:19Z</time>
-      </trkpt>
-      <trkpt lat="51.950200" lon="-1.965001">
-       <ele>99.04</ele>
-       <time>2020-11-09T11:51:43Z</time>
-      </trkpt>
-      <trkpt lat="51.949618" lon="-1.965688">
-       <ele>98.56</ele>
-       <time>2020-11-09T11:52:24Z</time>
-      </trkpt>
-      <trkpt lat="51.948243" lon="-1.964315">
-       <ele>94.45</ele>
-       <time>2020-11-09T11:53:57Z</time>
-      </trkpt>
-      <trkpt lat="51.946021" lon="-1.963971">
-       <ele>96.9</ele>
-       <time>2020-11-09T11:56:04Z</time>
-      </trkpt>
-      <trkpt lat="51.943905" lon="-1.964057">
-       <ele>103.68</ele>
-       <time>2020-11-09T11:58:05Z</time>
-      </trkpt>
-      <trkpt lat="51.942264" lon="-1.963714">
-       <ele>109.02</ele>
-       <time>2020-11-09T11:59:40Z</time>
-      </trkpt>
-      <trkpt lat="51.940148" lon="-1.961997">
-       <ele>118.32</ele>
-       <time>2020-11-09T12:01:55Z</time>
-      </trkpt>
-      <trkpt lat="51.938878" lon="-1.962255">
-       <ele>133.48</ele>
-       <time>2020-11-09T12:03:09Z</time>
-      </trkpt>
-      <trkpt lat="51.937026" lon="-1.963199">
-       <ele>164</ele>
-       <time>2020-11-09T12:05:00Z</time>
-      </trkpt>
-      <trkpt lat="51.936338" lon="-1.963285">
-       <ele>171.25</ele>
-       <time>2020-11-09T12:05:39Z</time>
-      </trkpt>
-      <trkpt lat="51.934274" lon="-1.965602">
-       <ele>185</ele>
-       <time>2020-11-09T12:08:03Z</time>
-      </trkpt>
-      <trkpt lat="51.932792" lon="-1.965945">
-       <ele>189.99</ele>
-       <time>2020-11-09T12:09:28Z</time>
-      </trkpt>
-      <trkpt lat="51.932104" lon="-1.966975">
-       <ele>202.81</ele>
-       <time>2020-11-09T12:10:22Z</time>
-      </trkpt>
-      <trkpt lat="51.930728" lon="-1.966375">
-       <ele>210.68</ele>
-       <time>2020-11-09T12:11:43Z</time>
-      </trkpt>
-      <trkpt lat="51.929776" lon="-1.964915">
-       <ele>195.54</ele>
-       <time>2020-11-09T12:12:58Z</time>
-      </trkpt>
-      <trkpt lat="51.930728" lon="-1.961654">
-       <ele>166.68</ele>
-       <time>2020-11-09T12:15:06Z</time>
-      </trkpt>
-      <trkpt lat="51.933110" lon="-1.958392">
-       <ele>134.12</ele>
-       <time>2020-11-09T12:18:04Z</time>
-      </trkpt>
-      <trkpt lat="51.930781" lon="-1.955388">
-       <ele>127.78</ele>
-       <time>2020-11-09T12:20:54Z</time>
-      </trkpt>
-      <trkpt lat="51.931046" lon="-1.952728">
-       <ele>123.04</ele>
-       <time>2020-11-09T12:22:29Z</time>
-      </trkpt>
-      <trkpt lat="51.931787" lon="-1.950496">
-       <ele>115.7</ele>
-       <time>2020-11-09T12:23:59Z</time>
-      </trkpt>
-      <trkpt lat="51.934115" lon="-1.951612">
-       <ele>114.93</ele>
-       <time>2020-11-09T12:26:17Z</time>
-      </trkpt>
-      <trkpt lat="51.935809" lon="-1.952899">
-       <ele>114.57</ele>
-       <time>2020-11-09T12:28:04Z</time>
-      </trkpt>
-      <trkpt lat="51.936655" lon="-1.954272">
-       <ele>113.86</ele>
-       <time>2020-11-09T12:29:13Z</time>
-      </trkpt>
-      <trkpt lat="51.939407" lon="-1.955131">
-       <ele>105.87</ele>
-       <time>2020-11-09T12:31:53Z</time>
-      </trkpt>
-      <trkpt lat="51.941947" lon="-1.956418">
-       <ele>99.43</ele>
-       <time>2020-11-09T12:34:25Z</time>
-      </trkpt>
-      <trkpt lat="51.945756" lon="-1.956933">
-       <ele>102.79</ele>
-       <time>2020-11-09T12:38:04Z</time>
-      </trkpt>
-      <trkpt lat="51.948402" lon="-1.958822">
-       <ele>102.79</ele>
-       <time>2020-11-09T12:40:49Z</time>
-      </trkpt>
-      <trkpt lat="51.948878" lon="-1.956933">
-       <ele>0</ele>
-       <time>2020-11-09T12:42:01Z</time>
-      </trkpt>
-    </trkseg>
-  </trk>
+Whichever route you choose you will be sure to experience undulating terrain through picturesque villages, breath-taking countryside and even past famous ancient sites. Whether you are an experienced trail runner or just starting out these routes will challenge, excite and reward you. Whilst you may have to slow to a power hike up some of the hills, you will have more time to take in the surrounding scenery. We even encourage you to stop and catch your breath as you look out across the green pastures of the Cotswold valleys.
+
+Bring the families, support crews and cheer squads to take a wander around the beautiful Castle and Gardens and of course relax and enjoy the Maverick event village.</desc>
+        <bounds minlat="51.9297760" minlon="-1.9739008" maxlat="51.9506876" maxlon="-1.9504959"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:surface_types>
+                <os:surface_type>3</os:surface_type>
+                <os:surface_type>99</os:surface_type>
+                <os:surface_type>2</os:surface_type>
+            </os:surface_types>
+            <os:point lat="51.9491383" lon="-1.9577157" type="start"/>
+            <os:point lat="51.9485628" lon="-1.9577163" type="end"/>
+            <os:source id="1744746">-1</os:source>
+            <os:activity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ON_FOOT_RUNNING</os:activity>
+            <os:difficulty xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UNKNOWN</os:difficulty>
+            <os:paths>
+                <os:path start="0" end="30" type="plotted"/>
+            </os:paths>
+            <os:distance>7006.9743803</os:distance>
+            <os:elevation_ascent>220.2157651</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="51.9491383" lon="-1.9577157"/>
+    <wpt lat="51.9483490" lon="-1.9594219"/>
+    <wpt lat="51.9493010" lon="-1.9631129"/>
+    <wpt lat="51.9502000" lon="-1.9650009"/>
+    <wpt lat="51.9506876" lon="-1.9670846"/>
+    <wpt lat="51.9493214" lon="-1.9685405"/>
+    <wpt lat="51.9471648" lon="-1.9730231"/>
+    <wpt lat="51.9456542" lon="-1.9725003"/>
+    <wpt lat="51.9414828" lon="-1.9738411"/>
+    <wpt lat="51.9388575" lon="-1.9739008"/>
+    <wpt lat="51.9351891" lon="-1.9733793"/>
+    <wpt lat="51.9345055" lon="-1.9722161"/>
+    <wpt lat="51.9338576" lon="-1.9697730"/>
+    <wpt lat="51.9313398" lon="-1.9684366"/>
+    <wpt lat="51.9319149" lon="-1.9672145"/>
+    <wpt lat="51.9307280" lon="-1.9663749"/>
+    <wpt lat="51.9297760" lon="-1.9649149"/>
+    <wpt lat="51.9307280" lon="-1.9616539"/>
+    <wpt lat="51.9331100" lon="-1.9583919"/>
+    <wpt lat="51.9305445" lon="-1.9556388"/>
+    <wpt lat="51.9310460" lon="-1.9527279"/>
+    <wpt lat="51.9317870" lon="-1.9504959"/>
+    <wpt lat="51.9341150" lon="-1.9516119"/>
+    <wpt lat="51.9358090" lon="-1.9528989"/>
+    <wpt lat="51.9366550" lon="-1.9542719"/>
+    <wpt lat="51.9394070" lon="-1.9551309"/>
+    <wpt lat="51.9419470" lon="-1.9564179"/>
+    <wpt lat="51.9457560" lon="-1.9569329"/>
+    <wpt lat="51.9484020" lon="-1.9588219"/>
+    <wpt lat="51.9485628" lon="-1.9577163"/>
+    <rte/>
+    <trk>
+        <trkseg>
+            <trkpt lat="51.9491383" lon="-1.9577157"/>
+            <trkpt lat="51.9483490" lon="-1.9594219"/>
+            <trkpt lat="51.9493010" lon="-1.9631129"/>
+            <trkpt lat="51.9502000" lon="-1.9650009"/>
+            <trkpt lat="51.9506876" lon="-1.9670846"/>
+            <trkpt lat="51.9493214" lon="-1.9685405"/>
+            <trkpt lat="51.9471648" lon="-1.9730231"/>
+            <trkpt lat="51.9456542" lon="-1.9725003"/>
+            <trkpt lat="51.9438202" lon="-1.9730251"/>
+            <trkpt lat="51.9414828" lon="-1.9738411"/>
+            <trkpt lat="51.9388575" lon="-1.9739008"/>
+            <trkpt lat="51.9351891" lon="-1.9733793"/>
+            <trkpt lat="51.9345055" lon="-1.9722161"/>
+            <trkpt lat="51.9338576" lon="-1.9697730"/>
+            <trkpt lat="51.9313398" lon="-1.9684366"/>
+            <trkpt lat="51.9319149" lon="-1.9672145"/>
+            <trkpt lat="51.9307280" lon="-1.9663749"/>
+            <trkpt lat="51.9297760" lon="-1.9649149"/>
+            <trkpt lat="51.9307280" lon="-1.9616539"/>
+            <trkpt lat="51.9331100" lon="-1.9583919"/>
+            <trkpt lat="51.9305445" lon="-1.9556388"/>
+            <trkpt lat="51.9310460" lon="-1.9527279"/>
+            <trkpt lat="51.9317870" lon="-1.9504959"/>
+            <trkpt lat="51.9341150" lon="-1.9516119"/>
+            <trkpt lat="51.9358090" lon="-1.9528989"/>
+            <trkpt lat="51.9366550" lon="-1.9542719"/>
+            <trkpt lat="51.9394070" lon="-1.9551309"/>
+            <trkpt lat="51.9419470" lon="-1.9564179"/>
+            <trkpt lat="51.9457560" lon="-1.9569329"/>
+            <trkpt lat="51.9484020" lon="-1.9588219"/>
+            <trkpt lat="51.9485628" lon="-1.9577163"/>
+        </trkseg>
+    </trk>
 </gpx>
