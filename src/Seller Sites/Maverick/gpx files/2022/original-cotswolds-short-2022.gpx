@@ -1,103 +1,108 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
-xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
-xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
-xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
-    <metadata>
-        <name>2022 Maverick Adidas Terrex Original Cotswolds Short</name>
-        <desc>Back for the 7th year in the Cotswold Hills, Britain’s biggest AONB, as well as the most quintessentially English place we’ve ever seen. Leaving from the grand Sudeley Castle in the heart of the Cotswold Hills and set in 1200 acres of estate land, this won’t be a walk in the park.
-
-All three routes start at the Tudor Castle and take you straight out onto the trails. The routes join multiple different Long Distance Paths including the; Winchcombe, Gloucestershire and Cotswold Way. All three courses will take you on a rolling adventure showcasing the hidden gems of the northern Cotswolds.
-
-Whichever route you choose you will be sure to experience undulating terrain through picturesque villages, breath-taking countryside and even past famous ancient sites. Whether you are an experienced trail runner or just starting out these routes will challenge, excite and reward you. Whilst you may have to slow to a power hike up some of the hills, you will have more time to take in the surrounding scenery. We even encourage you to stop and catch your breath as you look out across the green pastures of the Cotswold valleys.
-
-Bring the families, support crews and cheer squads to take a wander around the beautiful Castle and Gardens and of course relax and enjoy the Maverick event village.</desc>
-        <bounds minlat="51.9297760" minlon="-1.9739008" maxlat="51.9506876" maxlon="-1.9504959"/>
-        <extensions>
-            <os:version>2.0</os:version>
-            <os:surface_types>
-                <os:surface_type>3</os:surface_type>
-                <os:surface_type>99</os:surface_type>
-                <os:surface_type>2</os:surface_type>
-            </os:surface_types>
-            <os:point lat="51.9491383" lon="-1.9577157" type="start"/>
-            <os:point lat="51.9485628" lon="-1.9577163" type="end"/>
-            <os:source id="1744746">-1</os:source>
-            <os:activity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ON_FOOT_RUNNING</os:activity>
-            <os:difficulty xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">UNKNOWN</os:difficulty>
-            <os:paths>
-                <os:path start="0" end="30" type="plotted"/>
-            </os:paths>
-            <os:distance>7006.9743803</os:distance>
-            <os:elevation_ascent>220.2157651</os:elevation_ascent>
-        </extensions>
-    </metadata>
-    <wpt lat="51.9491383" lon="-1.9577157"/>
-    <wpt lat="51.9483490" lon="-1.9594219"/>
-    <wpt lat="51.9493010" lon="-1.9631129"/>
-    <wpt lat="51.9502000" lon="-1.9650009"/>
-    <wpt lat="51.9506876" lon="-1.9670846"/>
-    <wpt lat="51.9493214" lon="-1.9685405"/>
-    <wpt lat="51.9471648" lon="-1.9730231"/>
-    <wpt lat="51.9456542" lon="-1.9725003"/>
-    <wpt lat="51.9414828" lon="-1.9738411"/>
-    <wpt lat="51.9388575" lon="-1.9739008"/>
-    <wpt lat="51.9351891" lon="-1.9733793"/>
-    <wpt lat="51.9345055" lon="-1.9722161"/>
-    <wpt lat="51.9338576" lon="-1.9697730"/>
-    <wpt lat="51.9313398" lon="-1.9684366"/>
-    <wpt lat="51.9319149" lon="-1.9672145"/>
-    <wpt lat="51.9307280" lon="-1.9663749"/>
-    <wpt lat="51.9297760" lon="-1.9649149"/>
-    <wpt lat="51.9307280" lon="-1.9616539"/>
-    <wpt lat="51.9331100" lon="-1.9583919"/>
-    <wpt lat="51.9305445" lon="-1.9556388"/>
-    <wpt lat="51.9310460" lon="-1.9527279"/>
-    <wpt lat="51.9317870" lon="-1.9504959"/>
-    <wpt lat="51.9341150" lon="-1.9516119"/>
-    <wpt lat="51.9358090" lon="-1.9528989"/>
-    <wpt lat="51.9366550" lon="-1.9542719"/>
-    <wpt lat="51.9394070" lon="-1.9551309"/>
-    <wpt lat="51.9419470" lon="-1.9564179"/>
-    <wpt lat="51.9457560" lon="-1.9569329"/>
-    <wpt lat="51.9484020" lon="-1.9588219"/>
-    <wpt lat="51.9485628" lon="-1.9577163"/>
-    <rte/>
-    <trk>
-        <trkseg>
-            <trkpt lat="51.9491383" lon="-1.9577157"/>
-            <trkpt lat="51.9483490" lon="-1.9594219"/>
-            <trkpt lat="51.9493010" lon="-1.9631129"/>
-            <trkpt lat="51.9502000" lon="-1.9650009"/>
-            <trkpt lat="51.9506876" lon="-1.9670846"/>
-            <trkpt lat="51.9493214" lon="-1.9685405"/>
-            <trkpt lat="51.9471648" lon="-1.9730231"/>
-            <trkpt lat="51.9456542" lon="-1.9725003"/>
-            <trkpt lat="51.9438202" lon="-1.9730251"/>
-            <trkpt lat="51.9414828" lon="-1.9738411"/>
-            <trkpt lat="51.9388575" lon="-1.9739008"/>
-            <trkpt lat="51.9351891" lon="-1.9733793"/>
-            <trkpt lat="51.9345055" lon="-1.9722161"/>
-            <trkpt lat="51.9338576" lon="-1.9697730"/>
-            <trkpt lat="51.9313398" lon="-1.9684366"/>
-            <trkpt lat="51.9319149" lon="-1.9672145"/>
-            <trkpt lat="51.9307280" lon="-1.9663749"/>
-            <trkpt lat="51.9297760" lon="-1.9649149"/>
-            <trkpt lat="51.9307280" lon="-1.9616539"/>
-            <trkpt lat="51.9331100" lon="-1.9583919"/>
-            <trkpt lat="51.9305445" lon="-1.9556388"/>
-            <trkpt lat="51.9310460" lon="-1.9527279"/>
-            <trkpt lat="51.9317870" lon="-1.9504959"/>
-            <trkpt lat="51.9341150" lon="-1.9516119"/>
-            <trkpt lat="51.9358090" lon="-1.9528989"/>
-            <trkpt lat="51.9366550" lon="-1.9542719"/>
-            <trkpt lat="51.9394070" lon="-1.9551309"/>
-            <trkpt lat="51.9419470" lon="-1.9564179"/>
-            <trkpt lat="51.9457560" lon="-1.9569329"/>
-            <trkpt lat="51.9484020" lon="-1.9588219"/>
-            <trkpt lat="51.9485628" lon="-1.9577163"/>
-        </trkseg>
-    </trk>
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>2022 Maverick Adidas Terrex Original Cotswolds Short</name>
+    <link href="https://ridewithgps.com/routes/37810277">
+      <text>2022 Maverick Adidas Terrex Original Cotswolds Short</text>
+    </link>
+    <time>2021-10-18T17:29:00Z</time>
+  </metadata>
+  <trk>
+    <name>2022 Maverick Adidas Terrex Original Cotswolds Short</name>
+    <trkseg>
+      <trkpt lat="51.9491383" lon="-1.9577157">
+        <ele>104.6</ele>
+      </trkpt>
+      <trkpt lat="51.948349" lon="-1.9594219">
+        <ele>101.8</ele>
+      </trkpt>
+      <trkpt lat="51.949301" lon="-1.9631129">
+        <ele>94.0</ele>
+      </trkpt>
+      <trkpt lat="51.9502" lon="-1.9650009">
+        <ele>99.0</ele>
+      </trkpt>
+      <trkpt lat="51.9506876" lon="-1.9670846">
+        <ele>94.3</ele>
+      </trkpt>
+      <trkpt lat="51.9493214" lon="-1.9685405">
+        <ele>98.7</ele>
+      </trkpt>
+      <trkpt lat="51.9471648" lon="-1.9730231">
+        <ele>104.5</ele>
+      </trkpt>
+      <trkpt lat="51.9456542" lon="-1.9725003">
+        <ele>108.2</ele>
+      </trkpt>
+      <trkpt lat="51.9438202" lon="-1.9730251">
+        <ele>110.9</ele>
+      </trkpt>
+      <trkpt lat="51.9414828" lon="-1.9738411">
+        <ele>123.0</ele>
+      </trkpt>
+      <trkpt lat="51.9388575" lon="-1.9739008">
+        <ele>149.0</ele>
+      </trkpt>
+      <trkpt lat="51.9351891" lon="-1.9733793">
+        <ele>210.1</ele>
+      </trkpt>
+      <trkpt lat="51.9345055" lon="-1.9722161">
+        <ele>225.4</ele>
+      </trkpt>
+      <trkpt lat="51.9338576" lon="-1.969773">
+        <ele>225.6</ele>
+      </trkpt>
+      <trkpt lat="51.9313398" lon="-1.9684366">
+        <ele>224.8</ele>
+      </trkpt>
+      <trkpt lat="51.9319149" lon="-1.9672145">
+        <ele>205.6</ele>
+      </trkpt>
+      <trkpt lat="51.930728" lon="-1.9663749">
+        <ele>210.7</ele>
+      </trkpt>
+      <trkpt lat="51.9297759" lon="-1.9649149">
+        <ele>195.5</ele>
+      </trkpt>
+      <trkpt lat="51.930728" lon="-1.9616539">
+        <ele>166.7</ele>
+      </trkpt>
+      <trkpt lat="51.93311" lon="-1.9583919">
+        <ele>134.1</ele>
+      </trkpt>
+      <trkpt lat="51.9305445" lon="-1.9556388">
+        <ele>130.2</ele>
+      </trkpt>
+      <trkpt lat="51.931046" lon="-1.9527279">
+        <ele>123.0</ele>
+      </trkpt>
+      <trkpt lat="51.931787" lon="-1.9504959">
+        <ele>115.7</ele>
+      </trkpt>
+      <trkpt lat="51.934115" lon="-1.9516119">
+        <ele>114.9</ele>
+      </trkpt>
+      <trkpt lat="51.935809" lon="-1.9528989">
+        <ele>114.6</ele>
+      </trkpt>
+      <trkpt lat="51.936655" lon="-1.9542719">
+        <ele>113.9</ele>
+      </trkpt>
+      <trkpt lat="51.939407" lon="-1.9551309">
+        <ele>105.9</ele>
+      </trkpt>
+      <trkpt lat="51.941947" lon="-1.9564179">
+        <ele>99.4</ele>
+      </trkpt>
+      <trkpt lat="51.945756" lon="-1.9569329">
+        <ele>102.8</ele>
+      </trkpt>
+      <trkpt lat="51.948402" lon="-1.9588219">
+        <ele>104.5</ele>
+      </trkpt>
+      <trkpt lat="51.9485628" lon="-1.9577163">
+        <ele>106.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
 </gpx>
