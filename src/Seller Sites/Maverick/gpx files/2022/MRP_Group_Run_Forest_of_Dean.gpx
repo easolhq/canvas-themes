@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>MRP Group Run: Forest of Dean</name>
+    <link href="https://ridewithgps.com/trips/91121155">
+      <text>MRP Group Run: Forest of Dean</text>
+    </link>
+    <time>2022-05-13T09:55:34Z</time>
+  </metadata>
+  <trk>
+    <name>MRP Group Run: Forest of Dean</name>
+    <trkseg>
+      <trkpt lat="51.80393" lon="-2.550195">
+        <ele>166.4</ele>
+        <time>2022-05-13T08:55:34Z</time>
+        <extensions>
+          <gpxdata:cadence>60</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.80401" lon="-2.549763">
+        <ele>165.8</ele>
+        <time>2022-05-13T08:56:00Z</time>
+        <extensions>
+          <gpxdata:cadence>93</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.803584" lon="-2.548695">
+        <ele>163.8</ele>
+        <time>2022-05-13T08:56:39Z</time>
+        <extensions>
+          <gpxdata:cadence>91</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.801104" lon="-2.543643">
+        <ele>154.0</ele>
+        <time>2022-05-13T08:59:41Z</time>
+        <extensions>
+          <gpxdata:cadence>91</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.80079" lon="-2.542592">
+        <ele>154.2</ele>
+        <time>2022-05-13T09:00:12Z</time>
+        <extensions>
+          <gpxdata:cadence>91</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.8000479" lon="-2.541507">
+        <ele>160.6</ele>
+        <time>2022-05-13T09:01:14Z</time>
+        <extensions>
+          <gpxdata:cadence>90</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.798182" lon="-2.537973">
+        <ele>162.4</ele>
+        <time>2022-05-13T09:03:11Z</time>
+        <extensions>
+          <gpxdata:cadence>58</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.794595" lon="-2.530398">
+        <ele>137.8</ele>
+        <time>2022-05-13T09:09:57Z</time>
+        <extensions>
+          <gpxdata:cadence>63</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.799104" lon="-2.526463">
+        <ele>149.4</ele>
+        <time>2022-05-13T09:14:13Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.799754" lon="-2.525522">
+        <ele>152.8</ele>
+        <time>2022-05-13T09:16:07Z</time>
+        <extensions>
+          <gpxdata:cadence>86</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.800826" lon="-2.524562">
+        <ele>159.6</ele>
+        <time>2022-05-13T09:17:06Z</time>
+        <extensions>
+          <gpxdata:cadence>89</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.801069" lon="-2.524142">
+        <ele>161.2</ele>
+        <time>2022-05-13T09:17:40Z</time>
+        <extensions>
+          <gpxdata:cadence>0</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.802266" lon="-2.523272">
+        <ele>164.0</ele>
+        <time>2022-05-13T09:18:40Z</time>
+        <extensions>
+          <gpxdata:cadence>89</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.804048" lon="-2.521023">
+        <ele>173.4</ele>
+        <time>2022-05-13T09:20:54Z</time>
+        <extensions>
+          <gpxdata:cadence>59</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.804131" lon="-2.520847">
+        <ele>173.8</ele>
+        <time>2022-05-13T09:21:09Z</time>
+        <extensions>
+          <gpxdata:cadence>54</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.803306" lon="-2.5197">
+        <ele>173.8</ele>
+        <time>2022-05-13T09:22:47Z</time>
+        <extensions>
+          <gpxdata:cadence>63</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.802221" lon="-2.519158">
+        <ele>167.2</ele>
+        <time>2022-05-13T09:24:44Z</time>
+        <extensions>
+          <gpxdata:cadence>55</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.801056" lon="-2.517507">
+        <ele>167.8</ele>
+        <time>2022-05-13T09:29:38Z</time>
+        <extensions>
+          <gpxdata:cadence>60</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.798672" lon="-2.5160079">
+        <ele>185.4</ele>
+        <time>2022-05-13T09:35:41Z</time>
+        <extensions>
+          <gpxdata:cadence>59</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.799702" lon="-2.51562">
+        <ele>189.0</ele>
+        <time>2022-05-13T09:37:55Z</time>
+        <extensions>
+          <gpxdata:cadence>65</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.801456" lon="-2.514488">
+        <ele>184.8</ele>
+        <time>2022-05-13T09:40:30Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.804102" lon="-2.513702">
+        <ele>168.0</ele>
+        <time>2022-05-13T09:43:04Z</time>
+        <extensions>
+          <gpxdata:cadence>0</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.804694" lon="-2.51238">
+        <ele>171.8</ele>
+        <time>2022-05-13T09:46:59Z</time>
+        <extensions>
+          <gpxdata:cadence>61</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.80465" lon="-2.511933">
+        <ele>169.2</ele>
+        <time>2022-05-13T09:47:19Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.804336" lon="-2.511573">
+        <ele>165.8</ele>
+        <time>2022-05-13T09:47:35Z</time>
+        <extensions>
+          <gpxdata:cadence>89</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.803638" lon="-2.511252">
+        <ele>168.4</ele>
+        <time>2022-05-13T09:48:30Z</time>
+        <extensions>
+          <gpxdata:cadence>44</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.802323" lon="-2.511817">
+        <ele>172.2</ele>
+        <time>2022-05-13T09:49:59Z</time>
+        <extensions>
+          <gpxdata:cadence>82</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.800461" lon="-2.512087">
+        <ele>185.8</ele>
+        <time>2022-05-13T09:52:15Z</time>
+        <extensions>
+          <gpxdata:cadence>82</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.800118" lon="-2.512293">
+        <ele>189.2</ele>
+        <time>2022-05-13T09:52:37Z</time>
+        <extensions>
+          <gpxdata:cadence>83</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.799267" lon="-2.512262">
+        <ele>195.4</ele>
+        <time>2022-05-13T09:53:14Z</time>
+        <extensions>
+          <gpxdata:cadence>81</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7989249" lon="-2.512587">
+        <ele>197.4</ele>
+        <time>2022-05-13T09:53:29Z</time>
+        <extensions>
+          <gpxdata:cadence>55</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.79905" lon="-2.512467">
+        <ele>197.0</ele>
+        <time>2022-05-13T09:53:47Z</time>
+        <extensions>
+          <gpxdata:cadence>58</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.798752" lon="-2.512258">
+        <ele>200.4</ele>
+        <time>2022-05-13T09:54:11Z</time>
+        <extensions>
+          <gpxdata:cadence>81</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.797229" lon="-2.512133">
+        <ele>212.6</ele>
+        <time>2022-05-13T09:55:27Z</time>
+        <extensions>
+          <gpxdata:cadence>85</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.796989" lon="-2.511942">
+        <ele>213.2</ele>
+        <time>2022-05-13T09:55:37Z</time>
+        <extensions>
+          <gpxdata:cadence>65</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.797078" lon="-2.512268">
+        <ele>213.0</ele>
+        <time>2022-05-13T09:55:59Z</time>
+        <extensions>
+          <gpxdata:cadence>73</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.796474" lon="-2.512155">
+        <ele>213.6</ele>
+        <time>2022-05-13T09:56:49Z</time>
+        <extensions>
+          <gpxdata:cadence>86</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.795251" lon="-2.512363">
+        <ele>208.8</ele>
+        <time>2022-05-13T09:58:43Z</time>
+        <extensions>
+          <gpxdata:cadence>87</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.794022" lon="-2.5123319">
+        <ele>210.4</ele>
+        <time>2022-05-13T09:59:35Z</time>
+        <extensions>
+          <gpxdata:cadence>86</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.793661" lon="-2.51249">
+        <ele>212.0</ele>
+        <time>2022-05-13T10:00:05Z</time>
+        <extensions>
+          <gpxdata:cadence>47</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.793443" lon="-2.512308">
+        <ele>213.0</ele>
+        <time>2022-05-13T10:00:33Z</time>
+        <extensions>
+          <gpxdata:cadence>86</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7918049" lon="-2.512393">
+        <ele>220.4</ele>
+        <time>2022-05-13T10:02:26Z</time>
+        <extensions>
+          <gpxdata:cadence>87</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.790608" lon="-2.512762">
+        <ele>223.0</ele>
+        <time>2022-05-13T10:05:07Z</time>
+        <extensions>
+          <gpxdata:cadence>56</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.790512" lon="-2.511358">
+        <ele>216.2</ele>
+        <time>2022-05-13T10:06:22Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.79009" lon="-2.510098">
+        <ele>200.8</ele>
+        <time>2022-05-13T10:07:35Z</time>
+        <extensions>
+          <gpxdata:cadence>59</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.790301" lon="-2.508832">
+        <ele>191.6</ele>
+        <time>2022-05-13T10:09:03Z</time>
+        <extensions>
+          <gpxdata:cadence>54</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.78928" lon="-2.5085099">
+        <ele>187.6</ele>
+        <time>2022-05-13T10:14:11Z</time>
+        <extensions>
+          <gpxdata:cadence>71</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.789366" lon="-2.506795">
+        <ele>192.4</ele>
+        <time>2022-05-13T10:16:57Z</time>
+        <extensions>
+          <gpxdata:cadence>52</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.789037" lon="-2.50648">
+        <ele>193.4</ele>
+        <time>2022-05-13T10:21:45Z</time>
+        <extensions>
+          <gpxdata:cadence>54</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.789085" lon="-2.506128">
+        <ele>190.4</ele>
+        <time>2022-05-13T10:22:13Z</time>
+        <extensions>
+          <gpxdata:cadence>56</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7886979" lon="-2.506193">
+        <ele>197.8</ele>
+        <time>2022-05-13T10:29:04Z</time>
+        <extensions>
+          <gpxdata:cadence>51</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.78833" lon="-2.505278">
+        <ele>196.4</ele>
+        <time>2022-05-13T10:30:57Z</time>
+        <extensions>
+          <gpxdata:cadence>47</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.787437" lon="-2.50409">
+        <ele>193.6</ele>
+        <time>2022-05-13T10:34:24Z</time>
+        <extensions>
+          <gpxdata:cadence>45</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.787725" lon="-2.50379">
+        <ele>187.2</ele>
+        <time>2022-05-13T10:38:40Z</time>
+        <extensions>
+          <gpxdata:cadence>51</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.787715" lon="-2.5032199">
+        <ele>182.2</ele>
+        <time>2022-05-13T10:40:53Z</time>
+        <extensions>
+          <gpxdata:cadence>0</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.787427" lon="-2.504033">
+        <ele>191.4</ele>
+        <time>2022-05-13T10:44:00Z</time>
+        <extensions>
+          <gpxdata:cadence>78</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.786854" lon="-2.504322">
+        <ele>196.8</ele>
+        <time>2022-05-13T10:45:19Z</time>
+        <extensions>
+          <gpxdata:cadence>46</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7874399" lon="-2.504125">
+        <ele>191.0</ele>
+        <time>2022-05-13T10:58:17Z</time>
+        <extensions>
+          <gpxdata:cadence>41</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.786931" lon="-2.504405">
+        <ele>194.0</ele>
+        <time>2022-05-13T11:00:12Z</time>
+        <extensions>
+          <gpxdata:cadence>45</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.786554" lon="-2.5036649">
+        <ele>185.6</ele>
+        <time>2022-05-13T11:02:11Z</time>
+        <extensions>
+          <gpxdata:cadence>144</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785114" lon="-2.502963">
+        <ele>155.6</ele>
+        <time>2022-05-13T11:05:45Z</time>
+        <extensions>
+          <gpxdata:cadence>56</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7851969" lon="-2.503047">
+        <ele>154.0</ele>
+        <time>2022-05-13T11:07:43Z</time>
+        <extensions>
+          <gpxdata:cadence>49</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785763" lon="-2.501572">
+        <ele>141.6</ele>
+        <time>2022-05-13T11:09:30Z</time>
+        <extensions>
+          <gpxdata:cadence>58</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785949" lon="-2.499213">
+        <ele>129.8</ele>
+        <time>2022-05-13T11:12:47Z</time>
+        <extensions>
+          <gpxdata:cadence>46</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784381" lon="-2.500687">
+        <ele>127.8</ele>
+        <time>2022-05-13T11:15:48Z</time>
+        <extensions>
+          <gpxdata:cadence>81</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.783357" lon="-2.501967">
+        <ele>129.0</ele>
+        <time>2022-05-13T11:16:58Z</time>
+        <extensions>
+          <gpxdata:cadence>55</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.781379" lon="-2.50391">
+        <ele>133.8</ele>
+        <time>2022-05-13T11:19:14Z</time>
+        <extensions>
+          <gpxdata:cadence>82</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.780973" lon="-2.504798">
+        <ele>142.2</ele>
+        <time>2022-05-13T11:20:56Z</time>
+        <extensions>
+          <gpxdata:cadence>47</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.78088" lon="-2.505455">
+        <ele>148.8</ele>
+        <time>2022-05-13T11:21:38Z</time>
+        <extensions>
+          <gpxdata:cadence>51</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.780486" lon="-2.506068">
+        <ele>157.0</ele>
+        <time>2022-05-13T11:22:51Z</time>
+        <extensions>
+          <gpxdata:cadence>77</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.780192" lon="-2.507218">
+        <ele>165.6</ele>
+        <time>2022-05-13T11:23:49Z</time>
+        <extensions>
+          <gpxdata:cadence>61</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.780448" lon="-2.508283">
+        <ele>166.6</ele>
+        <time>2022-05-13T11:24:37Z</time>
+        <extensions>
+          <gpxdata:cadence>52</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.780557" lon="-2.508233">
+        <ele>167.8</ele>
+        <time>2022-05-13T11:24:58Z</time>
+        <extensions>
+          <gpxdata:cadence>56</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.780419" lon="-2.509118">
+        <ele>168.2</ele>
+        <time>2022-05-13T11:26:36Z</time>
+        <extensions>
+          <gpxdata:cadence>79</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.780547" lon="-2.509915">
+        <ele>170.6</ele>
+        <time>2022-05-13T11:27:27Z</time>
+        <extensions>
+          <gpxdata:cadence>59</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.781542" lon="-2.5099079">
+        <ele>178.6</ele>
+        <time>2022-05-13T11:31:07Z</time>
+        <extensions>
+          <gpxdata:cadence>56</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.782109" lon="-2.5102479">
+        <ele>181.6</ele>
+        <time>2022-05-13T11:32:01Z</time>
+        <extensions>
+          <gpxdata:cadence>58</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7842879" lon="-2.510002">
+        <ele>179.2</ele>
+        <time>2022-05-13T11:33:41Z</time>
+        <extensions>
+          <gpxdata:cadence>87</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784746" lon="-2.510392">
+        <ele>177.4</ele>
+        <time>2022-05-13T11:34:09Z</time>
+        <extensions>
+          <gpxdata:cadence>81</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784528" lon="-2.511025">
+        <ele>174.0</ele>
+        <time>2022-05-13T11:36:32Z</time>
+        <extensions>
+          <gpxdata:cadence>45</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784538" lon="-2.510888">
+        <ele>174.6</ele>
+        <time>2022-05-13T11:36:47Z</time>
+        <extensions>
+          <gpxdata:cadence>62</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785581" lon="-2.511107">
+        <ele>192.2</ele>
+        <time>2022-05-13T11:39:44Z</time>
+        <extensions>
+          <gpxdata:cadence>49</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785738" lon="-2.511352">
+        <ele>197.0</ele>
+        <time>2022-05-13T11:40:17Z</time>
+        <extensions>
+          <gpxdata:cadence>0</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.78519" lon="-2.511532">
+        <ele>198.6</ele>
+        <time>2022-05-13T11:42:27Z</time>
+        <extensions>
+          <gpxdata:cadence>55</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784816" lon="-2.511945">
+        <ele>200.2</ele>
+        <time>2022-05-13T11:43:14Z</time>
+        <extensions>
+          <gpxdata:cadence>53</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.78401" lon="-2.513493">
+        <ele>202.6</ele>
+        <time>2022-05-13T11:46:10Z</time>
+        <extensions>
+          <gpxdata:cadence>70</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784269" lon="-2.514002">
+        <ele>207.8</ele>
+        <time>2022-05-13T11:51:15Z</time>
+        <extensions>
+          <gpxdata:cadence>51</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784394" lon="-2.517287">
+        <ele>223.8</ele>
+        <time>2022-05-13T11:56:02Z</time>
+        <extensions>
+          <gpxdata:cadence>58</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785293" lon="-2.522242">
+        <ele>159.2</ele>
+        <time>2022-05-13T12:03:23Z</time>
+        <extensions>
+          <gpxdata:cadence>84</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.787725" lon="-2.5217869">
+        <ele>158.2</ele>
+        <time>2022-05-13T12:06:53Z</time>
+        <extensions>
+          <gpxdata:cadence>87</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.78913" lon="-2.520895">
+        <ele>165.0</ele>
+        <time>2022-05-13T12:07:59Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.790768" lon="-2.520603">
+        <ele>168.8</ele>
+        <time>2022-05-13T12:09:36Z</time>
+        <extensions>
+          <gpxdata:cadence>86</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7915009" lon="-2.519997">
+        <ele>174.2</ele>
+        <time>2022-05-13T12:10:37Z</time>
+        <extensions>
+          <gpxdata:cadence>61</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.793562" lon="-2.519153">
+        <ele>179.2</ele>
+        <time>2022-05-13T12:13:01Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.794067" lon="-2.518763">
+        <ele>181.0</ele>
+        <time>2022-05-13T12:13:30Z</time>
+        <extensions>
+          <gpxdata:cadence>66</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.795139" lon="-2.518613">
+        <ele>181.6</ele>
+        <time>2022-05-13T12:14:18Z</time>
+        <extensions>
+          <gpxdata:cadence>55</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.795882" lon="-2.517818">
+        <ele>182.6</ele>
+        <time>2022-05-13T12:16:00Z</time>
+        <extensions>
+          <gpxdata:cadence>79</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.798138" lon="-2.516425">
+        <ele>187.2</ele>
+        <time>2022-05-13T12:18:25Z</time>
+        <extensions>
+          <gpxdata:cadence>59</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.798538" lon="-2.515957">
+        <ele>188.8</ele>
+        <time>2022-05-13T12:20:57Z</time>
+        <extensions>
+          <gpxdata:cadence>48</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.800931" lon="-2.517503">
+        <ele>173.6</ele>
+        <time>2022-05-13T12:23:28Z</time>
+        <extensions>
+          <gpxdata:cadence>53</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.802256" lon="-2.51909">
+        <ele>174.8</ele>
+        <time>2022-05-13T12:26:19Z</time>
+        <extensions>
+          <gpxdata:cadence>60</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.801894" lon="-2.519498">
+        <ele>174.0</ele>
+        <time>2022-05-13T12:27:31Z</time>
+        <extensions>
+          <gpxdata:cadence>57</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.800858" lon="-2.520103">
+        <ele>170.2</ele>
+        <time>2022-05-13T12:28:24Z</time>
+        <extensions>
+          <gpxdata:cadence>90</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.798726" lon="-2.5220379">
+        <ele>163.2</ele>
+        <time>2022-05-13T12:30:46Z</time>
+        <extensions>
+          <gpxdata:cadence>87</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.798288" lon="-2.522253">
+        <ele>161.4</ele>
+        <time>2022-05-13T12:31:03Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.798214" lon="-2.5224669">
+        <ele>160.8</ele>
+        <time>2022-05-13T12:31:20Z</time>
+        <extensions>
+          <gpxdata:cadence>56</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.79679" lon="-2.523415">
+        <ele>156.4</ele>
+        <time>2022-05-13T12:32:57Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.796045" lon="-2.524232">
+        <ele>155.0</ele>
+        <time>2022-05-13T12:33:29Z</time>
+        <extensions>
+          <gpxdata:cadence>89</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7944" lon="-2.52537">
+        <ele>148.8</ele>
+        <time>2022-05-13T12:34:40Z</time>
+        <extensions>
+          <gpxdata:cadence>61</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.794173" lon="-2.5252849">
+        <ele>148.8</ele>
+        <time>2022-05-13T12:34:51Z</time>
+        <extensions>
+          <gpxdata:cadence>57</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.794189" lon="-2.525448">
+        <ele>148.6</ele>
+        <time>2022-05-13T12:35:02Z</time>
+        <extensions>
+          <gpxdata:cadence>55</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7937439" lon="-2.525825">
+        <ele>147.2</ele>
+        <time>2022-05-13T12:35:25Z</time>
+        <extensions>
+          <gpxdata:cadence>88</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.79304" lon="-2.526058">
+        <ele>145.8</ele>
+        <time>2022-05-13T12:36:21Z</time>
+        <extensions>
+          <gpxdata:cadence>61</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.792426" lon="-2.526623">
+        <ele>142.8</ele>
+        <time>2022-05-13T12:37:16Z</time>
+        <extensions>
+          <gpxdata:cadence>90</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.789616" lon="-2.52731">
+        <ele>135.2</ele>
+        <time>2022-05-13T12:39:51Z</time>
+        <extensions>
+          <gpxdata:cadence>87</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.788666" lon="-2.526668">
+        <ele>129.6</ele>
+        <time>2022-05-13T12:40:37Z</time>
+        <extensions>
+          <gpxdata:cadence>80</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.786906" lon="-2.5278">
+        <ele>118.0</ele>
+        <time>2022-05-13T12:41:50Z</time>
+        <extensions>
+          <gpxdata:cadence>90</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785962" lon="-2.527507">
+        <ele>116.0</ele>
+        <time>2022-05-13T12:42:46Z</time>
+        <extensions>
+          <gpxdata:cadence>61</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785475" lon="-2.527603">
+        <ele>119.0</ele>
+        <time>2022-05-13T12:43:23Z</time>
+        <extensions>
+          <gpxdata:cadence>60</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.785213" lon="-2.529058">
+        <ele>121.4</ele>
+        <time>2022-05-13T12:44:34Z</time>
+        <extensions>
+          <gpxdata:cadence>60</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784794" lon="-2.529793">
+        <ele>123.2</ele>
+        <time>2022-05-13T12:45:22Z</time>
+        <extensions>
+          <gpxdata:cadence>63</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.784355" lon="-2.531302">
+        <ele>126.0</ele>
+        <time>2022-05-13T12:46:14Z</time>
+        <extensions>
+          <gpxdata:cadence>63</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.783853" lon="-2.53173">
+        <ele>128.4</ele>
+        <time>2022-05-13T12:46:45Z</time>
+        <extensions>
+          <gpxdata:cadence>86</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.783318" lon="-2.531797">
+        <ele>129.4</ele>
+        <time>2022-05-13T12:47:19Z</time>
+        <extensions>
+          <gpxdata:cadence>65</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.782813" lon="-2.532347">
+        <ele>134.0</ele>
+        <time>2022-05-13T12:48:04Z</time>
+        <extensions>
+          <gpxdata:cadence>60</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.783315" lon="-2.533182">
+        <ele>134.6</ele>
+        <time>2022-05-13T12:48:56Z</time>
+        <extensions>
+          <gpxdata:cadence>61</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7863619" lon="-2.535778">
+        <ele>137.4</ele>
+        <time>2022-05-13T12:51:42Z</time>
+        <extensions>
+          <gpxdata:cadence>59</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.786602" lon="-2.535893">
+        <ele>136.6</ele>
+        <time>2022-05-13T12:53:10Z</time>
+        <extensions>
+          <gpxdata:cadence>51</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.786429" lon="-2.535653">
+        <ele>135.4</ele>
+        <time>2022-05-13T12:54:31Z</time>
+        <extensions>
+          <gpxdata:cadence>59</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.789414" lon="-2.538557">
+        <ele>139.0</ele>
+        <time>2022-05-13T13:00:01Z</time>
+        <extensions>
+          <gpxdata:cadence>70</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.791386" lon="-2.540037">
+        <ele>141.0</ele>
+        <time>2022-05-13T13:03:26Z</time>
+        <extensions>
+          <gpxdata:cadence>91</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.792371" lon="-2.54016">
+        <ele>144.0</ele>
+        <time>2022-05-13T13:05:04Z</time>
+        <extensions>
+          <gpxdata:cadence>62</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.794659" lon="-2.541652">
+        <ele>146.2</ele>
+        <time>2022-05-13T13:08:51Z</time>
+        <extensions>
+          <gpxdata:cadence>56</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.7982749" lon="-2.53841">
+        <ele>165.6</ele>
+        <time>2022-05-13T13:14:44Z</time>
+        <extensions>
+          <gpxdata:cadence>59</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.79911" lon="-2.53967">
+        <ele>165.8</ele>
+        <time>2022-05-13T13:15:37Z</time>
+        <extensions>
+          <gpxdata:cadence>89</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.803811" lon="-2.54929">
+        <ele>166.4</ele>
+        <time>2022-05-13T13:23:01Z</time>
+        <extensions>
+          <gpxdata:cadence>63</gpxdata:cadence>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
