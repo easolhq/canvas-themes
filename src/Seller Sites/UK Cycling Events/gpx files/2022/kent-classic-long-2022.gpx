@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
   <metadata>
-    <name>Long - Kent Classic - 2021</name>
+    <name>Long - Kent Classic - 2022</name>
     <link href="https://ridewithgps.com/routes/34474089">
-      <text>Long - Kent Classic - 2021</text>
+      <text>Long - Kent Classic - 2022</text>
     </link>
     <time>2020-10-21T14:05:23Z</time>
   </metadata>
   <trk>
-    <name>Long - Kent Classic - 2021</name>
+    <name>Long - Kent Classic - 2022</name>
     <trkseg>
       <trkpt lat="51.17152" lon="-0.00722">
         <ele>53.2</ele>
@@ -511,14 +511,20 @@
       <trkpt lat="51.24273" lon="0.27352">
         <ele>61.6</ele>
       </trkpt>
-      <trkpt lat="51.24347" lon="0.2758399">
-        <ele>59.0</ele>
+      <trkpt lat="51.24397" lon="0.27884">
+        <ele>59.8</ele>
       </trkpt>
-      <trkpt lat="51.24583" lon="0.29042">
-        <ele>55.0</ele>
+      <trkpt lat="51.24694" lon="0.27973">
+        <ele>70.5</ele>
       </trkpt>
-      <trkpt lat="51.24461" lon="0.29564">
-        <ele>53.2</ele>
+      <trkpt lat="51.24729" lon="0.28642">
+        <ele>69.8</ele>
+      </trkpt>
+      <trkpt lat="51.24612" lon="0.289">
+        <ele>58.7</ele>
+      </trkpt>
+      <trkpt lat="51.24458" lon="0.29522">
+        <ele>52.4</ele>
       </trkpt>
       <trkpt lat="51.24603" lon="0.29908">
         <ele>59.9</ele>
@@ -892,17 +898,14 @@
       <trkpt lat="51.21401" lon="0.19913">
         <ele>45.1</ele>
       </trkpt>
-      <trkpt lat="51.21351" lon="0.19641">
-        <ele>42.4</ele>
-      </trkpt>
-      <trkpt lat="51.21296" lon="0.19546">
-        <ele>38.6</ele>
+      <trkpt lat="51.2134799" lon="0.19633">
+        <ele>42.0</ele>
       </trkpt>
       <trkpt lat="51.21217" lon="0.19489">
         <ele>38.1</ele>
       </trkpt>
-      <trkpt lat="51.21024" lon="0.19467">
-        <ele>37.4</ele>
+      <trkpt lat="51.21014" lon="0.19455">
+        <ele>37.5</ele>
       </trkpt>
       <trkpt lat="51.20758" lon="0.191">
         <ele>39.9</ele>
@@ -910,23 +913,26 @@
       <trkpt lat="51.20641" lon="0.1879599">
         <ele>41.1</ele>
       </trkpt>
-      <trkpt lat="51.20367" lon="0.18629">
-        <ele>47.5</ele>
+      <trkpt lat="51.20377" lon="0.18645">
+        <ele>47.1</ele>
       </trkpt>
-      <trkpt lat="51.20223" lon="0.18269">
+      <trkpt lat="51.20229" lon="0.18289">
+        <ele>52.1</ele>
+      </trkpt>
+      <trkpt lat="51.2002499" lon="0.18405">
+        <ele>51.9</ele>
+      </trkpt>
+      <trkpt lat="51.19742" lon="0.18648">
         <ele>52.3</ele>
       </trkpt>
-      <trkpt lat="51.20252" lon="0.17972">
-        <ele>53.3</ele>
+      <trkpt lat="51.19871" lon="0.18162">
+        <ele>51.1</ele>
       </trkpt>
-      <trkpt lat="51.2016" lon="0.17438">
-        <ele>53.1</ele>
+      <trkpt lat="51.19756" lon="0.1738599">
+        <ele>43.8</ele>
       </trkpt>
-      <trkpt lat="51.19944" lon="0.16993">
-        <ele>40.2</ele>
-      </trkpt>
-      <trkpt lat="51.19928" lon="0.16861">
-        <ele>37.4</ele>
+      <trkpt lat="51.1993" lon="0.16849">
+        <ele>37.2</ele>
       </trkpt>
       <trkpt lat="51.2006" lon="0.16041">
         <ele>45.6</ele>
