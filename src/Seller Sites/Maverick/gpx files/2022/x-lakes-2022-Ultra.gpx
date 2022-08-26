@@ -2,10 +2,10 @@
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
   <metadata>
     <name>Maverick Adidas TERREX X-Series Lake District 2022 - Ultra</name>
-    <link href="https://ridewithgps.com/routes/40241459">
+    <link href="https://ridewithgps.com/routes/40708179">
       <text>Maverick Adidas TERREX X-Series Lake District 2022 - Ultra</text>
     </link>
-    <time>2022-07-18T15:46:37Z</time>
+    <time>2022-08-25T09:41:18Z</time>
   </metadata>
   <trk>
     <name>Maverick Adidas TERREX X-Series Lake District 2022 - Ultra</name>
@@ -187,6 +187,9 @@
       <trkpt lat="54.4666334" lon="-3.0720455">
         <ele>298.8</ele>
       </trkpt>
+      <trkpt lat="54.466501" lon="-3.0731179">
+        <ele>297.0</ele>
+      </trkpt>
       <trkpt lat="54.4665172" lon="-3.075678">
         <ele>305.2</ele>
       </trkpt>
@@ -244,29 +247,17 @@
       <trkpt lat="54.4702682" lon="-3.0997488">
         <ele>700.9</ele>
       </trkpt>
-      <trkpt lat="54.4703386" lon="-3.1005538">
-        <ele>703.8</ele>
-      </trkpt>
-      <trkpt lat="54.47111" lon="-3.102331">
-        <ele>720.6</ele>
+      <trkpt lat="54.470706" lon="-3.101674">
+        <ele>712.3</ele>
       </trkpt>
       <trkpt lat="54.4705556" lon="-3.1027591">
         <ele>714.0</ele>
       </trkpt>
-      <trkpt lat="54.4717824" lon="-3.1055126">
-        <ele>732.0</ele>
+      <trkpt lat="54.470822" lon="-3.106545">
+        <ele>724.7</ele>
       </trkpt>
-      <trkpt lat="54.4740009" lon="-3.1095373">
-        <ele>755.8</ele>
-      </trkpt>
-      <trkpt lat="54.47249" lon="-3.110927">
-        <ele>740.2</ele>
-      </trkpt>
-      <trkpt lat="54.47149" lon="-3.111178">
-        <ele>724.5</ele>
-      </trkpt>
-      <trkpt lat="54.469377" lon="-3.112284">
-        <ele>691.1</ele>
+      <trkpt lat="54.469903" lon="-3.111694">
+        <ele>699.7</ele>
       </trkpt>
       <trkpt lat="54.468832" lon="-3.113171">
         <ele>683.3</ele>
@@ -457,9 +448,6 @@
       <trkpt lat="54.4372651" lon="-3.0654397">
         <ele>117.3</ele>
       </trkpt>
-      <trkpt lat="54.4367369" lon="-3.0646564">
-        <ele>114.7</ele>
-      </trkpt>
       <trkpt lat="54.4359311" lon="-3.0633472">
         <ele>115.4</ele>
       </trkpt>
@@ -477,9 +465,6 @@
       </trkpt>
       <trkpt lat="54.4339196" lon="-3.0575234">
         <ele>110.8</ele>
-      </trkpt>
-      <trkpt lat="54.4331275" lon="-3.0557465">
-        <ele>124.0</ele>
       </trkpt>
       <trkpt lat="54.4321751" lon="-3.0531856">
         <ele>131.6</ele>
