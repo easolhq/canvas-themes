@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
   <metadata>
-    <name>Middle - Mendips Classic - 2022</name>
+    <name>Middle - Mendips Classic - 2023</name>
     <link href="https://ridewithgps.com/routes/34524608">
-      <text>Middle - Mendips Classic - 2022</text>
+      <text>Middle - Mendips Classic - 2023</text>
     </link>
     <time>2020-10-27T17:42:59Z</time>
   </metadata>
   <trk>
-    <name>Middle - Mendips Classic - 2022</name>
+    <name>Middle - Mendips Classic - 2023</name>
     <trkseg>
-      <trkpt lat="51.131246" lon="-2.7319779">
+      <trkpt lat="51.13129" lon="-2.73218">
         <ele>12.2</ele>
       </trkpt>
-      <trkpt lat="51.131278" lon="-2.732199">
-        <ele>12.3</ele>
+      <trkpt lat="51.1308999" lon="-2.73256">
+        <ele>12.9</ele>
       </trkpt>
-      <trkpt lat="51.13155" lon="-2.7321019">
-        <ele>11.7</ele>
+      <trkpt lat="51.13097" lon="-2.73396">
+        <ele>12.1</ele>
       </trkpt>
-      <trkpt lat="51.13202" lon="-2.73288">
-        <ele>10.7</ele>
+      <trkpt lat="51.13007" lon="-2.73582">
+        <ele>12.8</ele>
       </trkpt>
-      <trkpt lat="51.13221" lon="-2.73589">
-        <ele>8.0</ele>
-      </trkpt>
-      <trkpt lat="51.1327" lon="-2.73595">
-        <ele>6.8</ele>
+      <trkpt lat="51.13256" lon="-2.73586">
+        <ele>6.9</ele>
       </trkpt>
       <trkpt lat="51.13301" lon="-2.73662">
         <ele>6.4</ele>
@@ -289,20 +286,17 @@
       <trkpt lat="51.2343" lon="-2.64776">
         <ele>225.1</ele>
       </trkpt>
-      <trkpt lat="51.23484" lon="-2.64655">
-        <ele>236.6</ele>
+      <trkpt lat="51.23475" lon="-2.64681">
+        <ele>235.9</ele>
       </trkpt>
-      <trkpt lat="51.2359" lon="-2.64312">
-        <ele>259.1</ele>
+      <trkpt lat="51.23597" lon="-2.64297">
+        <ele>260.0</ele>
       </trkpt>
       <trkpt lat="51.23625" lon="-2.64269">
         <ele>262.0</ele>
       </trkpt>
-      <trkpt lat="51.2366699" lon="-2.64259">
+      <trkpt lat="51.23677" lon="-2.64258">
         <ele>263.9</ele>
-      </trkpt>
-      <trkpt lat="51.23934" lon="-2.64337">
-        <ele>263.3</ele>
       </trkpt>
       <trkpt lat="51.25244" lon="-2.64797">
         <ele>265.7</ele>
@@ -805,35 +799,32 @@
       <trkpt lat="51.25285" lon="-2.7719999">
         <ele>8.5</ele>
       </trkpt>
-      <trkpt lat="51.25214" lon="-2.7731">
+      <trkpt lat="51.25214" lon="-2.77317">
         <ele>8.3</ele>
       </trkpt>
       <trkpt lat="51.25295" lon="-2.77525">
         <ele>8.1</ele>
       </trkpt>
-      <trkpt lat="51.2531" lon="-2.7769">
-        <ele>9.4</ele>
+      <trkpt lat="51.2531" lon="-2.77712">
+        <ele>9.3</ele>
       </trkpt>
-      <trkpt lat="51.2525" lon="-2.77948">
-        <ele>11.5</ele>
+      <trkpt lat="51.25222" lon="-2.78026">
+        <ele>11.0</ele>
       </trkpt>
-      <trkpt lat="51.25213" lon="-2.78041">
-        <ele>11.1</ele>
+      <trkpt lat="51.25122" lon="-2.78151">
+        <ele>8.7</ele>
       </trkpt>
-      <trkpt lat="51.25081" lon="-2.78181">
-        <ele>7.7</ele>
-      </trkpt>
-      <trkpt lat="51.25021" lon="-2.78197">
-        <ele>8.8</ele>
+      <trkpt lat="51.25066" lon="-2.78186">
+        <ele>8.0</ele>
       </trkpt>
       <trkpt lat="51.24946" lon="-2.78189">
         <ele>8.8</ele>
       </trkpt>
-      <trkpt lat="51.2485799" lon="-2.7814">
-        <ele>7.8</ele>
+      <trkpt lat="51.24866" lon="-2.7814199">
+        <ele>8.1</ele>
       </trkpt>
-      <trkpt lat="51.2483" lon="-2.7816">
-        <ele>6.1</ele>
+      <trkpt lat="51.24839" lon="-2.7814899">
+        <ele>6.7</ele>
       </trkpt>
       <trkpt lat="51.24622" lon="-2.78724">
         <ele>5.5</ele>
@@ -934,14 +925,14 @@
       <trkpt lat="51.2125" lon="-2.79779">
         <ele>59.7</ele>
       </trkpt>
-      <trkpt lat="51.20963" lon="-2.79774">
-        <ele>47.9</ele>
+      <trkpt lat="51.20997" lon="-2.79766">
+        <ele>50.6</ele>
       </trkpt>
       <trkpt lat="51.2083299" lon="-2.79841">
         <ele>33.7</ele>
       </trkpt>
-      <trkpt lat="51.20735" lon="-2.79966">
-        <ele>22.2</ele>
+      <trkpt lat="51.20765" lon="-2.79944">
+        <ele>25.4</ele>
       </trkpt>
       <trkpt lat="51.20558" lon="-2.80064">
         <ele>7.3</ele>
@@ -1099,19 +1090,16 @@
       <trkpt lat="51.1328" lon="-2.73583">
         <ele>6.6</ele>
       </trkpt>
-      <trkpt lat="51.13221" lon="-2.73588">
-        <ele>8.0</ele>
+      <trkpt lat="51.13018" lon="-2.73579">
+        <ele>12.5</ele>
       </trkpt>
-      <trkpt lat="51.13201" lon="-2.7328199">
-        <ele>10.8</ele>
+      <trkpt lat="51.131" lon="-2.73386">
+        <ele>12.2</ele>
       </trkpt>
-      <trkpt lat="51.13157" lon="-2.73196">
-        <ele>11.5</ele>
+      <trkpt lat="51.13093" lon="-2.73246">
+        <ele>12.9</ele>
       </trkpt>
-      <trkpt lat="51.1312799" lon="-2.73219">
-        <ele>12.3</ele>
-      </trkpt>
-      <trkpt lat="51.131245" lon="-2.731971">
+      <trkpt lat="51.13129" lon="-2.73218">
         <ele>12.2</ele>
       </trkpt>
     </trkseg>
