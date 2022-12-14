@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
   <metadata>
-    <name>2023 Maverick Adidas Terrex Original West Sussex Long</name>
-    <link href="https://ridewithgps.com/routes/38176920">
-      <text>2023 Maverick Adidas Terrex Original West Sussex Long</text>
+    <name>The Maverick Adidas Terrex Original West Sussex 2023 Long Route</name>
+    <link href="https://ridewithgps.com/routes/41455762">
+      <text>The Maverick Adidas Terrex Original West Sussex 2023 Long Route</text>
     </link>
-    <time>2021-12-13T14:31:07Z</time>
+    <time>2022-11-17T11:29:27Z</time>
   </metadata>
   <trk>
-    <name>2023 Maverick Adidas Terrex Original West Sussex Long</name>
+    <name>The Maverick Adidas Terrex Original West Sussex 2023 Long Route</name>
     <trkseg>
       <trkpt lat="50.898803" lon="-0.538683">
         <ele>9.5</ele>
@@ -69,6 +69,30 @@
       </trkpt>
       <trkpt lat="50.892366" lon="-0.516397">
         <ele>103.4</ele>
+      </trkpt>
+      <trkpt lat="50.8919425" lon="-0.5186345">
+        <ele>96.2</ele>
+      </trkpt>
+      <trkpt lat="50.8912258" lon="-0.5204141">
+        <ele>88.0</ele>
+      </trkpt>
+      <trkpt lat="50.8903885" lon="-0.5226234">
+        <ele>77.2</ele>
+      </trkpt>
+      <trkpt lat="50.8902647" lon="-0.5214426">
+        <ele>76.4</ele>
+      </trkpt>
+      <trkpt lat="50.8897931" lon="-0.5193143">
+        <ele>77.5</ele>
+      </trkpt>
+      <trkpt lat="50.8886376" lon="-0.5143157">
+        <ele>97.6</ele>
+      </trkpt>
+      <trkpt lat="50.8895999" lon="-0.51345">
+        <ele>101.1</ele>
+      </trkpt>
+      <trkpt lat="50.8902049" lon="-0.512749">
+        <ele>104.2</ele>
       </trkpt>
       <trkpt lat="50.891682" lon="-0.510717">
         <ele>111.9</ele>
