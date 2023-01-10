@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
   <metadata>
-    <name>2022 Maverick Adidas Terrex X Peaks - ULTRA</name>
-    <link href="https://ridewithgps.com/routes/38151319">
-      <text>2022 Maverick Adidas Terrex X Peaks - ULTRA</text>
+    <name>2023 Maverick Adidas Terrex X  Peaks - ULTRA</name>
+    <link href="https://ridewithgps.com/routes/41727937">
+      <text>2023 Maverick Adidas Terrex X  Peaks - ULTRA</text>
     </link>
-    <time>2021-12-08T13:14:13Z</time>
+    <time>2023-01-06T16:20:17Z</time>
   </metadata>
   <trk>
-    <name>2022 Maverick Adidas Terrex X Peaks - ULTRA</name>
+    <name>2023 Maverick Adidas Terrex X  Peaks - ULTRA</name>
     <trkseg>
       <trkpt lat="53.2080675" lon="-1.6644515">
         <ele>120.0</ele>
@@ -223,53 +223,62 @@
       <trkpt lat="53.2221454" lon="-1.6165921">
         <ele>115.4</ele>
       </trkpt>
-      <trkpt lat="53.2229429" lon="-1.6165288">
-        <ele>110.8</ele>
-      </trkpt>
-      <trkpt lat="53.2248876" lon="-1.6167923">
-        <ele>111.4</ele>
-      </trkpt>
       <trkpt lat="53.2262809" lon="-1.6167798">
         <ele>113.2</ele>
       </trkpt>
       <trkpt lat="53.2278414" lon="-1.6164101">
         <ele>114.2</ele>
       </trkpt>
-      <trkpt lat="53.2282666" lon="-1.6158259">
+      <trkpt lat="53.2282579" lon="-1.61728">
+        <ele>117.8</ele>
+      </trkpt>
+      <trkpt lat="53.229109" lon="-1.618225">
+        <ele>123.3</ele>
+      </trkpt>
+      <trkpt lat="53.231832" lon="-1.61801">
+        <ele>122.6</ele>
+      </trkpt>
+      <trkpt lat="53.232221" lon="-1.617326">
+        <ele>116.3</ele>
+      </trkpt>
+      <trkpt lat="53.233446" lon="-1.6180779">
+        <ele>115.4</ele>
+      </trkpt>
+      <trkpt lat="53.233461" lon="-1.617614">
         <ele>113.9</ele>
       </trkpt>
-      <trkpt lat="53.2287953" lon="-1.6160271">
+      <trkpt lat="53.234195" lon="-1.617853">
+        <ele>111.0</ele>
+      </trkpt>
+      <trkpt lat="53.234651" lon="-1.617631">
+        <ele>112.0</ele>
+      </trkpt>
+      <trkpt lat="53.2365769" lon="-1.618131">
+        <ele>111.4</ele>
+      </trkpt>
+      <trkpt lat="53.238043" lon="-1.619017">
         <ele>114.0</ele>
       </trkpt>
-      <trkpt lat="53.2296938" lon="-1.615888">
-        <ele>112.1</ele>
+      <trkpt lat="53.238237" lon="-1.618471">
+        <ele>113.2</ele>
       </trkpt>
-      <trkpt lat="53.2336346" lon="-1.6149539">
-        <ele>111.6</ele>
+      <trkpt lat="53.239382" lon="-1.61955">
+        <ele>113.5</ele>
       </trkpt>
-      <trkpt lat="53.2369007" lon="-1.6153363">
-        <ele>114.2</ele>
+      <trkpt lat="53.2398359" lon="-1.618647">
+        <ele>112.4</ele>
       </trkpt>
-      <trkpt lat="53.2381685" lon="-1.6147631">
-        <ele>115.0</ele>
+      <trkpt lat="53.241174" lon="-1.619044">
+        <ele>112.5</ele>
       </trkpt>
-      <trkpt lat="53.2403927" lon="-1.6145934">
-        <ele>116.0</ele>
+      <trkpt lat="53.244117" lon="-1.61886">
+        <ele>112.0</ele>
       </trkpt>
-      <trkpt lat="53.2415037" lon="-1.6141526">
-        <ele>119.3</ele>
+      <trkpt lat="53.2450649" lon="-1.61956">
+        <ele>117.0</ele>
       </trkpt>
-      <trkpt lat="53.2432793" lon="-1.614249">
-        <ele>119.6</ele>
-      </trkpt>
-      <trkpt lat="53.2439099" lon="-1.6146742">
-        <ele>118.4</ele>
-      </trkpt>
-      <trkpt lat="53.2449515" lon="-1.6171374">
-        <ele>117.2</ele>
-      </trkpt>
-      <trkpt lat="53.2455615" lon="-1.6181435">
-        <ele>120.3</ele>
+      <trkpt lat="53.2453519" lon="-1.617841">
+        <ele>119.1</ele>
       </trkpt>
       <trkpt lat="53.2459219" lon="-1.6184025">
         <ele>122.2</ele>
