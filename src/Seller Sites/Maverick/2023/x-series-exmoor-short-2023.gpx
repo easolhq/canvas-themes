@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
   <metadata>
-    <name>2023 Maverick Adidas Terrex X-Series Exmoor - Short</name>
-    <link href="https://ridewithgps.com/routes/40932756">
-      <text>2023 Maverick Adidas Terrex X-Series Exmoor - Short</text>
+    <name>2023 Maverick Adidas Terrex Exmoor X Series Short</name>
+    <link href="https://ridewithgps.com/routes/41873512">
+      <text>2023 Maverick Adidas Terrex Exmoor X Series Short</text>
     </link>
-    <time>2022-09-14T17:07:02Z</time>
+    <time>2023-01-27T09:57:30Z</time>
   </metadata>
   <trk>
-    <name>2023 Maverick Adidas Terrex X-Series Exmoor - Short</name>
+    <name>2023 Maverick Adidas Terrex Exmoor X Series Short</name>
     <trkseg>
       <trkpt lat="51.2178931" lon="-3.8760577">
         <ele>248.5</ele>
@@ -226,8 +226,11 @@
       <trkpt lat="51.230766" lon="-3.830957">
         <ele>27.0</ele>
       </trkpt>
-      <trkpt lat="51.2302003" lon="-3.8297529">
-        <ele>15.7</ele>
+      <trkpt lat="51.230936" lon="-3.83037">
+        <ele>12.4</ele>
+      </trkpt>
+      <trkpt lat="51.230308" lon="-3.828843">
+        <ele>16.7</ele>
       </trkpt>
       <trkpt lat="51.2299739" lon="-3.8291352">
         <ele>18.4</ele>
